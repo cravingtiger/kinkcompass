@@ -1,0 +1,43 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Gentle sensation play |
+#GRP | haut | Hands, nails and light touch
+#GRP | materialien | Materials on the skin
+#GRP | oel-massage | Oil and massage
+#GRP | temperatur | Light temperature play
+#GRP | rhythmus | Anticipation and contrast
+#GRP | stimme-duft | Voice, sound and scent
+#GRP | bemalung | Texture and body paint
+streicheln| Stroking | Langsame, flächige Berührung. | Slow, broad touch.
+fingernaegel-sanft-einsetzen| Light use of fingernails | Nägel als feiner, spitzer Reiz. | Nails as a fine, pointed sensation.
+kratzen-leicht| Light scratching | Kratzen ohne bleibende Spuren. | Scratching without leaving marks.
+kitzeln| Tickling | Kann von lustig in unerträglich kippen; ein Abbruchsignal ist wichtig. | Can flip from funny to unbearable; a stop signal matters.
+feder| Feather | Sehr leichter, kaum greifbarer Reiz. | A very light, barely graspable sensation.
+fell| Fur | Weiche, flächige Textur auf der Haut. | Soft, broad texture on the skin.
+seide| Silk | Glatt und kühl auf der Haut. | Smooth and cool on the skin.
+satin| Satin | Glatt, etwas schwerer als Seide. | Smooth, a little heavier than silk.
+samt| Velvet | Weich mit Widerstand, je nach Strichrichtung. | Soft with resistance, depending on the direction.
+leder| Leather | Glatt, fest und warm werdend. | Smooth, firm and warming to the touch.
+latex| Latex | Glatt und eng anliegend, mit eigenem Geruch. | Smooth and close-fitting, with its own smell.
+gummi| Rubber | Schwerer und griffiger als Latex. | Heavier and grippier than latex.
+wolle| Wool | Kratzig bis weich, je nach Qualität. | Scratchy to soft depending on quality.
+buersten| Brushes | Von weich bis stechend, je nach Borste. | From soft to prickling depending on the bristles.
+make-up-pinsel| Make-up brushes | Sehr feine, kitzelnde Berührung. | Very fine, ticklish touch.
+massagegeraet| Massage device | Vibration oder Druck als gleichmäßiger Reiz. | Vibration or pressure as an even stimulus.
+massageoel| Massage oil | Verändert Gleitverhalten und Wärmeempfinden; nicht latexverträglich. | Changes glide and warmth; not compatible with latex.
+duftoel-bei-hautvertraeglichkeit| Scented oil, if the skin tolerates it | Duft als zusätzlicher Kanal; vorher an einer kleinen Stelle testen. | Scent as an extra channel; test on a small patch first.
+eiswuerfel| Ice cubes | Kälte als scharfer, kurzer Reiz. | Cold as a sharp, brief sensation.
+kalte-metallgegenstaende| Cold metal objects | Metall hält Kälte länger als Eis. | Metal holds cold longer than ice.
+warme-handtuecher| Warm towels | Flächige Wärme, entspannend. | Broad warmth, relaxing.
+warme-steine | Warm stones | Wärme mit Gewicht. Die Temperatur immer erst selbst prüfen. | Warmth with weight. Always test the temperature yourself first. | Warme Steine
+luftzug| Airflow | Pusten oder Fächeln als kaum greifbarer Reiz. | Blowing or fanning as a barely graspable sensation.
+foehn | Hairdryer | Warme Luft aus Abstand. Zu nah verbrennt. | Warm air from a distance. Too close burns. | Föhn
+warten-auf-beruehrung| Waiting for touch | Die Erwartung wirkt stärker als die Berührung selbst. | The anticipation works more strongly than the touch.
+wechsel-von-sanft-und-intensiv| Alternating gentle and intense | Kontrast macht beides deutlicher spürbar. | Contrast makes both far more noticeable.
+asmr-artige-geraeusche| ASMR-like sounds | Leise, gezielte Geräusche als körperlicher Reiz. | Quiet, deliberate sounds as a physical sensation.
+fluestern| Whispering | Nähe und Ton wirken unabhängig vom Inhalt. | Closeness and tone work regardless of the words.
+stimme-als-reiz| Voice as a stimulus | Klang und Rhythmus der Stimme selbst. | The sound and rhythm of the voice itself.
+musik-als-szenenbestandteil| Music as part of the scene | Musik setzt Tempo und Stimmung. | Music sets the pace and the mood.
+duefte-als-szenenbestandteil| Scent as part of the scene | Gerüche prägen Erinnerung besonders stark. | Smells shape memory especially strongly.
+texturvergleich| Comparing textures | Mehrere Materialien nacheinander, mit verbundenen Augen. | Several materials one after another, blindfolded.
+koerperbemalung| Body painting | Farbe auf der Haut als Reiz und als Bild. | Paint on skin as sensation and as image.
+abwaschbare-koerperbeschriftung| Washable body writing | Schrift auf der Haut, die wieder verschwindet. | Writing on skin that washes off again.

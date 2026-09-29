@@ -1,0 +1,33 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Sexual orientation | Pick as many as you like, or none. The terms overlap; choose only what fits you.
+#GRP | haeufig | Common terms
+#GRP | ace-spektrum | Asexual spectrum
+#GRP | geschlechtsbezogen | Gender-related
+#GRP | weitere | Further terms
+#GRP | offen | Open
+heterosexuell | Heterosexual | | Sexual attraction to people of another gender.
+homosexuell-schwul-lesbisch | Homosexual / gay / lesbian | | Sexual attraction to people of the same gender.
+bisexuell | Bisexual | | Attraction to more than one gender.
+pansexuell | Pansexual | | Attraction regardless of the other person's gender.
+omnisexuell | Omnisexual | | Attraction to all genders, with gender still being noticed and mattering.
+queer | Queer | | An umbrella term for non-heteronormative sexuality, often deliberately left open.
+asexuell | Asexual | | Little or no sexual attraction to other people.
+demisexuell | Demisexual | | Sexual attraction arises only after a close emotional bond.
+graysexuell-grau-asexuell | Graysexual / grey-asexual | | Sexual attraction only rarely, weakly, or under particular circumstances.
+skoliosexuell | Skoliosexual | | Attraction mainly to non-binary or genderqueer people.
+androsexuell | Androsexual | | Attraction to masculinity or to people read as male.
+gynosexuell | Gynosexual | | Attraction to femininity or to people read as female.
+polysexuell | Polysexual | | Attraction to several, but not all, genders.
+sapiosexuell | Sapiosexual | | Intelligence and ways of thinking as the central trigger of attraction.
+abrosexuell | Abrosexual | | Your own orientation shifts over time.
+lithsexuell-akiosexuell | Lithsexual / akiosexual | | Attraction is present, but having it returned is not wanted.
+fraysexuell | Fraysexual | | Attraction mainly to strangers; it fades as familiarity grows.
+reciprosexuell | Reciprosexual | | Attraction arises only once the other person shows interest.
+aegosexuell-autochorissexuell | Aegosexual / autochorissexual | | Erotic fantasies without any wish to take part yourself.
+cupiosexuell | Cupiosexual | | No sexual attraction, but a wish for a sexual relationship.
+placiosexuell | Placiosexual | | A wish to give sexual acts without receiving them.
+bellussexuell | Bellusexual | | Interest in romantic and sensual aspects without wanting a relationship.
+fictosexuell | Fictosexual | | Attraction mainly to fictional characters.
+objektsexuell | Objectum sexual | | Attraction to objects or materials.
+unsicher-in-erkundung | Unsure / still exploring | | Still open, in the process of finding out.
+keine-bezeichnung-passend | No label fits | | None of these terms describes me accurately.

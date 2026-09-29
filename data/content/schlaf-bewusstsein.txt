@@ -1,0 +1,22 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Sleep, consciousness and subspace |
+#GRP | schlaf | Sleep-related themes
+#GRP | hypnose | Hypnosis and trance
+#GRP | meditation | Meditation
+#GRP | spaces | Subspace, domspace, check-in
+gespielter-schlaf | Pretend sleep | Schlaf wird gespielt. Beide sind wach und einwilligungsfähig. | Sleep is acted. Both are awake and able to consent. | Gespielter Schlaf
+schlafende-person-beobachten-mit-vorheriger-zustimmung| Watching someone sleep, with prior consent | Vorher verabredet, nicht spontan. | Agreed beforehand rather than spontaneously.
+kuscheln-mit-schlafender-person-nach-alltagsvereinbarung| Cuddling someone asleep, by everyday agreement | Eine im Alltag getroffene Absprache über Nähe im Schlaf. | An everyday agreement about closeness while asleep.
+fotografieren-im-schlaf | Photographing someone asleep | Rechtlich besonders heikel. Braucht eine eigene, vorher erteilte und fortbestehende Freigabe. | Legally delicate. It needs its own consent, given beforehand and still standing. | Fotografieren im Schlaf
+sleep-play-als-rechtlich-besonders-sensibles-interesse| Sleep play, a legally sensitive interest | Wer schläft, kann nicht zustimmen; das lässt sich nur über eine vorherige, sehr genaue Vereinbarung auffangen. | Someone asleep cannot consent; only a very precise prior agreement can address that.
+somnophilie-als-fantasie| Somnophilia as fantasy | Als Fantasie, ausdrücklich ohne Umsetzung an einer schlafenden Person. | As a fantasy, expressly without enacting it on a sleeping person.
+hypnosefantasie| Hypnosis fantasy | Die Vorstellung von Beeinflussung, ohne echte Trance. | The idea of being influenced, without real trance.
+hypnose-mit-zustimmung | Hypnosis with consent | Tatsächliche Trance. Suggestionen können nachwirken. | Real trance. Suggestions can linger. | Hypnose mit Zustimmung
+trance-rollenspiel| Trance role play | Trance wird gespielt, nicht herbeigeführt. | Trance is played rather than induced.
+meditation-vor-einer-szene| Meditation before a scene | Gemeinsames Ankommen, bevor es losgeht. | Arriving together before things begin.
+atemmeditation-ohne-atemrestriktion| Breath meditation without restricting breathing | Atem als Fokus, ohne jede Einschränkung. | Breath as a focus, with no restriction at all.
+subspace-erkunden| Exploring subspace | Der veränderte Zustand der empfangenden Seite; danach braucht es Nachsorge. | The altered state on the receiving side; it needs aftercare afterwards.
+domspace-erkunden| Exploring domspace | Der veränderte Zustand der führenden Seite; auch er kann einen Drop nach sich ziehen. | The altered state on the leading side; it too can be followed by a drop.
+endorphinorientierte-szene| A scene aimed at endorphins | Ziel ist der körpereigene Rausch. | The aim is the body's own high.
+dissoziationsaehnliche-zustaende-als-warnzeichen | Dissociation-like states treated as a warning sign | Ausdrücklich nicht gewünscht; wird als Warnzeichen behandelt. | Expressly not wanted; treated as a warning sign. | Dissoziationsähnliche Zustände als Warnzeichen
+check-in-ohne-worte | Check-in without words | Ein vereinbartes Zeichen für den Fall, dass Sprechen nicht mehr geht. | An agreed sign for when speaking is no longer possible. | Check-in ohne Worte

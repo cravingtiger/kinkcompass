@@ -1,0 +1,31 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Rope and shibari |
+#GRP | harness | Rope ties and harnesses
+#GRP | suspension | Floor work and suspension
+#GRP | predicament | Predicament and photography
+#GRP | stil | Style and meaning of rope
+#GRP | spezialformen | Self-bondage and performance
+einfache-seilfesselung| Simple rope tie | Grundlegende Bindungen ohne Muster oder Last. | Basic ties without patterns or load.
+dekoratives-rope-harness| Decorative rope harness | Ein Seilmuster, das vor allem schön aussehen soll. | A rope pattern meant mainly to look beautiful.
+brustharness| Chest harness | Ein Seilgeschirr um den Oberkörper. | A rope harness around the upper body.
+hueftharness| Hip harness | Ein Seilgeschirr um Hüfte und Becken. | A rope harness around hips and pelvis.
+beinbondage| Leg bondage | Fesselungen an Ober- und Unterschenkel. | Ties on thighs and lower legs.
+armbondage| Arm bondage | Fesselungen der Arme, einzeln oder zusammen. | Ties on the arms, separately or together.
+futomomo-artige-beinfaltung| Futomomo-style leg fold | Unterschenkel an Oberschenkel gebunden; auf Durchblutung achten. | Calf bound to thigh; watch circulation.
+ebi-artige-kompakte-position| Ebi-style compact position | Eine stark zusammengezogene Sitzposition; nur kurz und unter Aufsicht. | A strongly compressed sitting position; only briefly and supervised.
+karada-seilkoerpernetz| Karada / rope body net | Ein Rautenmuster über den ganzen Rumpf. | A diamond pattern across the whole torso.
+mattenbondage| Mat work | Bodenarbeit auf einer Matte, ohne Hängen. | Floor work on a mat, without suspension.
+bodenbasierte-shibari-szene| Floor-based shibari scene | Eine ganze Szene am Boden, ohne Gewicht auf dem Seil. | A whole scene on the floor, with no weight on the rope.
+teilweise-gewichtsuebernahme| Partial suspension | Ein Teil des Körpergewichts hängt im Seil. | Part of the body weight hangs in the rope.
+suspension | Suspension | Vollständiges Hängen. Nervenschäden und Stürze sind reale Risiken und erfordern Ausbildung. | Full suspension. Nerve damage and falls are real risks and require training. | Suspension
+inversion | Inversion | Kopfüber hängen. Kreislauf und Augeninnendruck sind betroffen. | Hanging head down. Circulation and eye pressure are affected. | Inversion
+predicament-bondage-mit-klarer-abbruchmoeglichkeit| Predicament bondage with a clear way out | Eine Fesselung, bei der jede Haltung unangenehm ist; braucht ein sofort wirksames Abbruchsignal. | A tie in which every position is uncomfortable; it needs an immediately effective stop signal.
+kuenstlerische-seilfotografie-mit-separater-aufnahmefreigabe| Artistic rope photography, with separate consent to record | Aufnahmen brauchen eine eigene Zustimmung, getrennt von der zum Fesseln. | Recording needs its own consent, separate from consent to be tied.
+langsames-meditatives-fesseln| Slow, meditative tying | Das Fesseln selbst ist die Szene, nicht das Ergebnis. | The tying itself is the scene, not the result.
+schnelles-funktionales-fesseln| Fast, functional tying | Zügig und zweckmäßig, ohne Zeremonie. | Quick and practical, without ceremony.
+seil-als-dominanzsymbol| Rope as a symbol of dominance | Das Seil steht für Führung, nicht für Technik. | The rope stands for authority rather than technique.
+seil-als-sensorisches-erlebnis| Rope as a sensory experience | Textur, Druck und Geruch des Seils stehen im Vordergrund. | Texture, pressure and smell of the rope are what matter.
+rope-flow-freie-seilbewegung| Rope flow | Freies Bewegen mit dem Seil, ohne feste Bindung. | Moving freely with the rope, without a fixed tie.
+selbstbondage | Self-bondage | Allein gefesselt. Ohne unabhängige Absicherung lebensgefährlich. | Tied alone. Without independent backup this is life-threatening. | Selbstbondage
+mehrpersonen-seilperformance| Multi-person rope performance | Mehrere Personen fesseln oder werden gemeinsam gefesselt. | Several people tie or are tied together.
+buehnenperformance | Stage performance | Seilarbeit vor Publikum, in einem dafür zugelassenen Rahmen. | Rope work before an audience, in a setting licensed for it. | Bühnenperformance

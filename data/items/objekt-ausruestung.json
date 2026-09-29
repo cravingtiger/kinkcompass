@@ -1,0 +1,839 @@
+{
+ "section": "objekt-ausruestung",
+ "type": "scale",
+ "items": [
+  {
+   "id": "objekt-ausruestung/seile",
+   "n": 1,
+   "group": "bondage-objekte",
+   "de": "Seile",
+   "en": "Rope",
+   "expl_de": "Das Material selbst als Reiz, unabhängig vom Fesseln.",
+   "expl_en": "The material itself as an appeal, independent of tying.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n1",
+   "de_src": "Seile",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/ketten",
+   "n": 2,
+   "group": "bondage-objekte",
+   "de": "Ketten",
+   "en": "Chains",
+   "expl_de": "Gewicht und Klang von Metall.",
+   "expl_en": "The weight and sound of metal.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n2",
+   "de_src": "Ketten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/schloesser",
+   "n": 3,
+   "group": "bondage-objekte",
+   "de": "Schlösser",
+   "en": "Locks",
+   "expl_de": "Das Schloss als Zeichen von Verschluss.",
+   "expl_en": "The lock as a sign of being closed in.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n3",
+   "de_src": "Schlösser",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/schluessel",
+   "n": 4,
+   "group": "bondage-objekte",
+   "de": "Schlüssel",
+   "en": "Keys",
+   "expl_de": "Der Schlüssel als Zeichen der Verfügung.",
+   "expl_en": "The key as a sign of who decides.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n4",
+   "de_src": "Schlüssel",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/halsbaender",
+   "n": 5,
+   "group": "bondage-objekte",
+   "de": "Halsbänder",
+   "en": "Collars",
+   "expl_de": "Das Halsband als Objekt, unabhängig vom Tragen.",
+   "expl_en": "The collar as an object, independent of wearing it.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n5",
+   "de_src": "Halsbänder",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/leinen",
+   "n": 6,
+   "group": "bondage-objekte",
+   "de": "Leinen",
+   "en": "Leashes",
+   "expl_de": "Die Leine als Objekt und als Zeichen.",
+   "expl_en": "The leash as an object and as a sign.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n6",
+   "de_src": "Leinen",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/harnesses",
+   "n": 7,
+   "group": "bondage-objekte",
+   "de": "Harnesses",
+   "en": "Harnesses",
+   "expl_de": "Gurtwerk als Ästhetik.",
+   "expl_en": "Strapwork as an aesthetic.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n7",
+   "de_src": "Harnesses",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/manschetten",
+   "n": 8,
+   "group": "bondage-objekte",
+   "de": "Manschetten",
+   "en": "Cuffs",
+   "expl_de": "Manschetten als Objekt und als Anblick.",
+   "expl_en": "Cuffs as an object and as a sight.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n8",
+   "de_src": "Manschetten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/handschellen",
+   "n": 9,
+   "group": "bondage-objekte",
+   "de": "Handschellen",
+   "en": "Handcuffs",
+   "expl_de": "Metallschellen als Symbol und Objekt.",
+   "expl_en": "Metal cuffs as symbol and object.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n9",
+   "de_src": "Handschellen",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/kaefige",
+   "n": 10,
+   "group": "moebel",
+   "de": "Käfige",
+   "en": "Cages",
+   "expl_de": "Der Käfig als Objekt und als Raum.",
+   "expl_en": "The cage as object and as space.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n10",
+   "de_src": "Käfige",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/pranger",
+   "n": 11,
+   "group": "moebel",
+   "de": "Pranger",
+   "en": "Pillory",
+   "expl_de": "Der Pranger als historisch aufgeladenes Möbel.",
+   "expl_en": "The pillory as a historically loaded piece of furniture.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n11",
+   "de_src": "Pranger",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/andreaskreuz",
+   "n": 12,
+   "group": "moebel",
+   "de": "Andreaskreuz",
+   "en": "St Andrew's cross",
+   "expl_de": "Das Kreuz als zentrales Möbelstück.",
+   "expl_en": "The cross as a central piece of furniture.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n12",
+   "de_src": "Andreaskreuz",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/fesselbaenke",
+   "n": 13,
+   "group": "moebel",
+   "de": "Fesselbänke",
+   "en": "Spanking benches",
+   "expl_de": "Bänke mit Fixierungspunkten.",
+   "expl_en": "Benches with attachment points.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n13",
+   "de_src": "Fesselbänke",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/medizinische-untersuchungsliegen",
+   "n": 14,
+   "group": "moebel",
+   "de": "Medizinische Untersuchungsliegen",
+   "en": "Medical examination tables",
+   "expl_de": "Kliniknähe als Teil der Ästhetik.",
+   "expl_en": "The clinical look as part of the aesthetic.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n14",
+   "de_src": "Medizinische Untersuchungsliegen",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/spiegel",
+   "n": 15,
+   "group": "spiegel-kamera",
+   "de": "Spiegel",
+   "en": "Mirrors",
+   "expl_de": "Sich selbst sehen als eigener Reiz.",
+   "expl_en": "Seeing yourself as an appeal in itself.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n15",
+   "de_src": "Spiegel",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/kameras",
+   "n": 16,
+   "group": "spiegel-kamera",
+   "de": "Kameras",
+   "en": "Cameras",
+   "expl_de": "Die Kamera als Objekt. Aufnahmen brauchen eine eigene Zustimmung.",
+   "expl_en": "The camera as an object. Recording needs its own consent.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n16",
+   "de_src": "Kameras bei gesonderter Einwilligung",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/stative-und-beleuchtung",
+   "n": 17,
+   "group": "spiegel-kamera",
+   "de": "Stative und Beleuchtung",
+   "en": "Tripods and lighting",
+   "expl_de": "Technische Ausrüstung als Teil der Inszenierung.",
+   "expl_en": "Technical gear as part of the staging.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n17",
+   "de_src": "Stative und Beleuchtung",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/stiefel-und-schuhwerk",
+   "n": 18,
+   "group": "kleidungsobjekte",
+   "de": "Stiefel und Schuhwerk",
+   "en": "Boots and footwear",
+   "expl_de": "Schuhwerk als Ausrüstungsfetisch.",
+   "expl_en": "Footwear as an equipment fetish.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n18",
+   "de_src": "Stiefel und Schuhwerk",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/handschuhe",
+   "n": 19,
+   "group": "kleidungsobjekte",
+   "de": "Handschuhe",
+   "en": "Gloves",
+   "expl_de": "Handschuhe als Material und als Distanz.",
+   "expl_en": "Gloves as material and as distance.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "objekt-ausruestung|n19",
+   "de_src": "Handschuhe",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/masken",
+   "n": 20,
+   "group": "kleidungsobjekte",
+   "de": "Masken",
+   "en": "Masks",
+   "expl_de": "Masken als Verwandlung und Verhüllung.",
+   "expl_en": "Masks as transformation and concealment.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "objekt-ausruestung|n20",
+   "de_src": "Masken",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/gasmaskenoptik",
+   "n": 21,
+   "group": "kleidungsobjekte",
+   "de": "Gasmaskenoptik",
+   "en": "Gas mask look",
+   "expl_de": "Nur das Aussehen. Die Atemluft wird nicht verändert.",
+   "expl_en": "The look only. The air supply is not altered.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n21",
+   "de_src": "Gasmasken nur als optische Requisite ohne Atemmanipulation",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/uniformen",
+   "n": 22,
+   "group": "kleidungsobjekte",
+   "de": "Uniformen",
+   "en": "Uniforms",
+   "expl_de": "Uniform als Objekt und als Rollenzeichen.",
+   "expl_en": "The uniform as object and as role marker.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "objekt-ausruestung|n22",
+   "de_src": "Uniformen",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/schreibgeraete-fuer-body-writing",
+   "n": 23,
+   "group": "requisiten",
+   "de": "Schreibgeräte für Body Writing",
+   "en": "Pens for body writing",
+   "expl_de": "Nur hautverträgliche Stifte verwenden.",
+   "expl_en": "Use only skin-safe markers.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n23",
+   "de_src": "Schreibgeräte für Body Writing",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/moebel-mit-befestigungspunkten",
+   "n": 24,
+   "group": "requisiten",
+   "de": "Möbel mit Befestigungspunkten",
+   "en": "Furniture with anchor points",
+   "expl_de": "Alltagsmöbel mit eingebauten Ringen oder Ösen.",
+   "expl_en": "Everyday furniture with built-in rings or loops.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n24",
+   "de_src": "Möbel mit Befestigungspunkten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/geraeuschvolle-instrumente",
+   "n": 25,
+   "group": "requisiten",
+   "de": "Geräuschvolle Instrumente",
+   "en": "Loud implements",
+   "expl_de": "Instrumente, die vor allem durch Klang wirken.",
+   "expl_en": "Implements that work mainly through sound.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n25",
+   "de_src": "Geräuschvolle Instrumente",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/antike-oder-historische-requisiten",
+   "n": 26,
+   "group": "requisiten",
+   "de": "Antike oder historische Requisiten",
+   "en": "Antique or historical props",
+   "expl_de": "Requisiten, die eine Epoche aufrufen.",
+   "expl_en": "Props that evoke a period.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n26",
+   "de_src": "Antike oder historische Requisiten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/sci-fi-requisiten",
+   "n": 27,
+   "group": "requisiten",
+   "de": "Sci-Fi-Requisiten",
+   "en": "Sci-fi props",
+   "expl_de": "Futuristische Ausstattung.",
+   "expl_en": "Futuristic equipment.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n27",
+   "de_src": "Sci-Fi-Requisiten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/roboter-oder-maschinenaesthetik",
+   "n": 28,
+   "group": "requisiten",
+   "de": "Roboter- oder Maschinenästhetik",
+   "en": "Robot or machine aesthetics",
+   "expl_de": "Das Maschinelle als Reiz.",
+   "expl_en": "The mechanical as an appeal.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n28",
+   "de_src": "Roboter- oder Maschinenästhetik",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/waffenattrappen",
+   "n": 29,
+   "group": "attrappen-zeit",
+   "de": "Waffenattrappen",
+   "en": "Replica weapons",
+   "expl_de": "Nur eindeutige Attrappen. In der Öffentlichkeit rechtlich heikel.",
+   "expl_en": "Unmistakable replicas only. In public this is legally delicate.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n29",
+   "de_src": "Harmloses Waffenattrappen-Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/messeraesthetik-mit-stumpfen-requisiten",
+   "n": 30,
+   "group": "attrappen-zeit",
+   "de": "Messerästhetik mit stumpfen Requisiten",
+   "en": "Blade aesthetics with blunt props",
+   "expl_de": "Die Optik der Klinge, ohne Schneide.",
+   "expl_en": "The look of a blade, without an edge.",
+   "ap": true,
+   "level": "v",
+   "risk": "mittel",
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n30",
+   "de_src": "Messerästhetik mit stumpfen Requisiten",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/uhren-timer-und-countdowns",
+   "n": 31,
+   "group": "attrappen-zeit",
+   "de": "Uhren, Timer und Countdowns",
+   "en": "Watches, timers and countdowns",
+   "expl_de": "Zeit als Druckmittel und als Requisite.",
+   "expl_en": "Time as pressure and as a prop.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n31",
+   "de_src": "Uhren, Timer und Countdowns",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  },
+  {
+   "id": "objekt-ausruestung/schluesselverwaltung-als-symbol",
+   "n": 32,
+   "group": "attrappen-zeit",
+   "de": "Schlüsselverwaltung als Symbol",
+   "en": "Keeping the keys as a symbol",
+   "expl_de": "Wer die Schlüssel hat, ist das Zeichen.",
+   "expl_en": "Who holds the keys is the sign.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "objekt-ausruestung|n32",
+   "de_src": "Schlüsselverwaltung als Symbol",
+   "roles": {
+    "a": {
+     "de": "setzt es ein",
+     "en": "uses it"
+    },
+    "p": {
+     "de": "bekommt es zu spüren",
+     "en": "it is used on them"
+    }
+   }
+  }
+ ],
+ "dropped": []
+}

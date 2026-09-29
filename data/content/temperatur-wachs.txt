@@ -1,0 +1,26 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Temperature, wax and materials |
+#GRP | warm-kalt | Hot and cold contrast
+#GRP | wachs | Candle wax
+#GRP | gel-wasser | Gel, warmth and water
+#GRP | messy-material | Mud, paint and textures
+#GRP | nass | Water and wet fabric
+warm-kalt-wechsel| Alternating hot and cold | Der Wechsel wirkt stärker als jede Temperatur für sich. | The alternation works more strongly than either temperature alone.
+eisplay| Ice play | Kälte gezielt eingesetzt; nicht zu lange an einer Stelle. | Cold used deliberately; not too long in one place.
+warmes-massageoel| Warm massage oil | Öl auf Körpertemperatur oder leicht darüber. | Oil at body temperature or slightly above.
+kerzenwachs-mit-dafuer-geeigneten-niedrigtemperaturprodukten| Candle wax, using low-temperature products made for it | Nur Kerzen mit niedrigem Schmelzpunkt; normale Kerzen verbrennen die Haut. | Only low-melting-point candles; ordinary candles burn skin.
+wachs-aus-verschiedener-fallhoehe | Wax from different heights | Je höher, desto kühler kommt das Wachs an. | The higher the drop, the cooler the wax lands. | Wachs aus verschiedener Fallhöhe
+kuehlgel| Cooling gel | Erzeugt anhaltende Kälte ohne Eis. | Creates lasting cold without ice.
+waermendes-gleitmittel| Warming lubricant | Wärmeempfinden ohne echte Hitze; auf Schleimhautverträglichkeit achten. | A sensation of warmth without real heat; check mucous membrane tolerance.
+metalltemperaturspiel| Metal temperature play | Metall als Träger von Wärme oder Kälte. | Metal as a carrier of warmth or cold.
+warme-dusche-oder-bad-als-szene| Warm shower or bath as a scene | Wasser als flächiger, warmer Reiz. | Water as a broad, warm sensation.
+kalte-dusche-als-vereinbarter-reiz| Cold shower as an agreed stimulus | Kälte als Schock oder als Konsequenz. | Cold as a shock or as a consequence.
+schlamm| Mud | Schwer, kühl und bedeckend. | Heavy, cool and covering.
+tonerde| Clay | Trocknet auf der Haut und spannt. | Dries on the skin and tightens.
+koerperfarbe| Body paint | Farbe als Bild und als Textur. | Paint as image and as texture.
+glitzer-oder-kosmetische-materialien| Glitter or cosmetic materials | Dekorative Materialien auf der Haut. | Decorative materials on the skin.
+schleim-oder-geltexturen| Slime or gel textures | Zähflüssige Texturen mit eigenem Gefühl. | Viscous textures with a feel of their own.
+schaum| Foam | Leicht, flächig und verdeckend. | Light, broad and concealing.
+wasserplay-ohne-atembeeintraechtigung| Water play without affecting breathing | Wasser als Reiz, ohne dass die Atmung betroffen ist. | Water as a sensation, with breathing unaffected.
+wetlook-kleidung| Wetlook clothing | Nasse oder nass wirkende Kleidung als Ästhetik. | Wet or wet-looking clothing as an aesthetic.
+nasse-stoffe-ohne-atem-oder-kreislaufgefaehrdung| Wet fabrics, without risk to breathing or circulation | Nasse Kleidung kühlt schnell aus; auf Temperatur achten. | Wet clothing cools you fast; watch the temperature.

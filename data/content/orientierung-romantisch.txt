@@ -1,0 +1,22 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Romantic orientation | Romantic and sexual attraction can diverge, which is why they are asked separately.
+#GRP | haeufig | Common terms
+#GRP | aro-spektrum | Aromantic spectrum
+#GRP | weitere | Further terms
+#GRP | offen | Open
+heteroromantisch | Heteroromantic | | Romantic attraction to another gender.
+homoromantisch | Homoromantic | | Romantic attraction to the same gender.
+biromantisch | Biromantic | | Romantic attraction to more than one gender.
+panromantisch | Panromantic | | Romantic attraction regardless of gender.
+omniromantisch | Omniromantic | | Romantic attraction to all genders, with gender still being noticed.
+aromantisch | Aromantic | | Little or no romantic attraction.
+demiromantisch | Demiromantic | | Romantic attraction only after a close bond.
+grayromantisch | Greyromantic | | Romantic attraction only rarely or weakly.
+polyromantisch | Polyromantic | | Romantic attraction to several, but not all, genders.
+androromantisch | Androromantic | | Romantic attraction to masculinity.
+gynoromantisch | Gynoromantic | | Romantic attraction to femininity.
+quoiromantisch | Quoiromantic | | The line between friendship and romance is unclear to me.
+akoiromantisch-lithromantisch | Akoiromantic / lithromantic | | Romantic attraction without wanting it returned.
+reciproromantisch | Reciproromantic | | Romantic attraction only once the other person shows interest.
+unsicher-in-erkundung | Unsure / still exploring | | Still open, in the process of finding out.
+keine-bezeichnung-passend | No label fits | | None of these terms describes me accurately.

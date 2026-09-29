@@ -1,0 +1,995 @@
+{
+ "section": "service-hingabe",
+ "type": "scale",
+ "items": [
+  {
+   "id": "service-hingabe/hausarbeit-als-service",
+   "n": 1,
+   "group": "haushalt",
+   "de": "Hausarbeit als Service",
+   "en": "Housework as service",
+   "expl_de": "Alltägliche Hausarbeit, die bewusst als Dienst getan wird. Ausführend heißt: du machst sie.",
+   "expl_en": "Everyday housework done deliberately as service. Doing means: you do it.",
+   "ap": true,
+   "level": "e",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n1",
+   "de_src": "Hausarbeit als Service",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/kochen",
+   "n": 2,
+   "group": "haushalt",
+   "de": "Kochen",
+   "en": "Cooking",
+   "expl_de": "Kochen als Dienst, oft nach Vorgabe.",
+   "expl_en": "Cooking as service, often to instruction.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n2",
+   "de_src": "Kochen",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/backen",
+   "n": 3,
+   "group": "haushalt",
+   "de": "Backen",
+   "en": "Baking",
+   "expl_de": "Backen als Dienst oder als Geschenk.",
+   "expl_en": "Baking as service or as a gift.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n3",
+   "de_src": "Backen",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/fruehstueck-ans-bett",
+   "n": 4,
+   "group": "haushalt",
+   "de": "Frühstück ans Bett",
+   "en": "Breakfast in bed",
+   "expl_de": "Versorgung am Morgen als wiederkehrender Dienst.",
+   "expl_en": "Morning care as a recurring service.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n4",
+   "de_src": "Frühstück ans Bett",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/getraenke-bringen",
+   "n": 5,
+   "group": "haushalt",
+   "de": "Getränke bringen",
+   "en": "Fetching drinks",
+   "expl_de": "Auf Zuruf oder vorausschauend Getränke bringen.",
+   "expl_en": "Bringing drinks on request or in anticipation.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n5",
+   "de_src": "Getränke bringen",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/aufraeumen",
+   "n": 6,
+   "group": "haushalt",
+   "de": "Aufräumen",
+   "en": "Tidying up",
+   "expl_de": "Ordnung schaffen als Teil des Dienstes.",
+   "expl_en": "Creating order as part of service.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n6",
+   "de_src": "Aufräumen",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/waeschepflege",
+   "n": 7,
+   "group": "haushalt",
+   "de": "Wäschepflege",
+   "en": "Laundry",
+   "expl_de": "Waschen, bügeln und einräumen.",
+   "expl_en": "Washing, ironing and putting away.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n7",
+   "de_src": "Wäschepflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/schuhpflege",
+   "n": 8,
+   "group": "haushalt",
+   "de": "Schuhpflege",
+   "en": "Shoe care",
+   "expl_de": "Reinigen, polieren und pflegen von Schuhen.",
+   "expl_en": "Cleaning, polishing and caring for shoes.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n8",
+   "de_src": "Schuhpflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/lederpflege",
+   "n": 9,
+   "group": "haushalt",
+   "de": "Lederpflege",
+   "en": "Leather care",
+   "expl_de": "Pflege von Lederkleidung und Lederausrüstung.",
+   "expl_en": "Caring for leather clothing and gear.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n9",
+   "de_src": "Lederpflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/latexpflege",
+   "n": 10,
+   "group": "haushalt",
+   "de": "Latexpflege",
+   "en": "Latex care",
+   "expl_de": "Reinigen, trocknen und pudern von Latex.",
+   "expl_en": "Cleaning, drying and powdering latex.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n10",
+   "de_src": "Latexpflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/spielzeugpflege",
+   "n": 11,
+   "group": "haushalt",
+   "de": "Spielzeugpflege",
+   "en": "Toy care",
+   "expl_de": "Reinigen und Desinfizieren des Spielzeugs.",
+   "expl_en": "Cleaning and disinfecting toys.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n11",
+   "de_src": "Spielzeugpflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/raumvorbereitung",
+   "n": 12,
+   "group": "haushalt",
+   "de": "Raumvorbereitung",
+   "en": "Preparing the room",
+   "expl_de": "Den Spielraum herrichten, bevor es losgeht.",
+   "expl_en": "Setting up the play space before things start.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n12",
+   "de_src": "Raumvorbereitung",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/bettvorbereitung",
+   "n": 13,
+   "group": "haushalt",
+   "de": "Bettvorbereitung",
+   "en": "Preparing the bed",
+   "expl_de": "Das Bett vorbereiten, beziehen, auslegen.",
+   "expl_en": "Making and preparing the bed.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n13",
+   "de_src": "Bettvorbereitung",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/bad-vorbereiten",
+   "n": 14,
+   "group": "haushalt",
+   "de": "Bad vorbereiten",
+   "en": "Running the bath",
+   "expl_de": "Bad oder Dusche vorbereiten und bereithalten.",
+   "expl_en": "Preparing a bath or shower and having it ready.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n14",
+   "de_src": "Bad vorbereiten",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/massage",
+   "n": 15,
+   "group": "koerperpflege",
+   "de": "Massage",
+   "en": "Massage",
+   "expl_de": "Massage als Dienst, nicht als gemeinsame Aktivität.",
+   "expl_en": "Massage as service rather than a shared activity.",
+   "ap": true,
+   "level": "e",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n15",
+   "de_src": "Massage",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/fussmassage",
+   "n": 16,
+   "group": "koerperpflege",
+   "de": "Fußmassage",
+   "en": "Foot massage",
+   "expl_de": "Fußmassage als Dienst, oft mit Verehrungscharakter.",
+   "expl_en": "Foot massage as service, often with a worshipful quality.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n16",
+   "de_src": "Fußmassage",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/haarpflege",
+   "n": 17,
+   "group": "koerperpflege",
+   "de": "Haarpflege",
+   "en": "Hair care",
+   "expl_de": "Bürsten, waschen, frisieren als Dienst.",
+   "expl_en": "Brushing, washing and styling as service.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n17",
+   "de_src": "Haarpflege",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/rasurservice",
+   "n": 18,
+   "group": "koerperpflege",
+   "de": "Rasurservice",
+   "en": "Shaving service",
+   "expl_de": "Rasur durch die andere Person, mit dem nötigen Vertrauen.",
+   "expl_en": "Being shaved by the other person, which takes trust.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n18",
+   "de_src": "Rasurservice",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/make-up-service",
+   "n": 19,
+   "group": "koerperpflege",
+   "de": "Make-up-Service",
+   "en": "Make-up service",
+   "expl_de": "Schminken als Dienst oder als Teil einer Verwandlung.",
+   "expl_en": "Applying make-up as service or as part of a transformation.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n19",
+   "de_src": "Make-up-Service",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/ankleidehilfe",
+   "n": 20,
+   "group": "koerperpflege",
+   "de": "Ankleidehilfe",
+   "en": "Help getting dressed",
+   "expl_de": "Beim Anziehen assistieren, oft ritualisiert.",
+   "expl_en": "Assisting with dressing, often in ritual form.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n20",
+   "de_src": "Ankleidehilfe",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/auskleidehilfe",
+   "n": 21,
+   "group": "koerperpflege",
+   "de": "Auskleidehilfe",
+   "en": "Help getting undressed",
+   "expl_de": "Beim Ausziehen assistieren, oft ritualisiert.",
+   "expl_en": "Assisting with undressing, often in ritual form.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n21",
+   "de_src": "Auskleidehilfe",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/persoenliche-assistenz",
+   "n": 22,
+   "group": "assistenz",
+   "de": "Persönliche Assistenz",
+   "en": "Personal assistance",
+   "expl_de": "Alltägliche Assistenz über Haushalt hinaus.",
+   "expl_en": "Everyday assistance beyond the household.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n22",
+   "de_src": "Persönliche Assistenz",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/termin-oder-kalenderhilfe",
+   "n": 23,
+   "group": "assistenz",
+   "de": "Termin- oder Kalenderhilfe",
+   "en": "Calendar and appointment help",
+   "expl_de": "Termine verwalten und erinnern.",
+   "expl_en": "Managing and reminding about appointments.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n23",
+   "de_src": "Termin- oder Kalenderhilfe",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/chauffeurservice",
+   "n": 24,
+   "group": "assistenz",
+   "de": "Chauffeurservice",
+   "en": "Driving service",
+   "expl_de": "Fahren als Dienst, mit oder ohne Form.",
+   "expl_en": "Driving as service, with or without formality.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n24",
+   "de_src": "Chauffeurservice",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/butler-oder-maid-rollenspiel",
+   "n": 25,
+   "group": "assistenz",
+   "de": "Butler- oder Maid-Rollenspiel",
+   "en": "Butler or maid role play",
+   "expl_de": "Dienst in einer klar markierten Rolle mit Kleidung und Form. Ausführend heißt: du spielst den Butler oder das Maid.",
+   "expl_en": "Service in a clearly marked role with clothing and form. Doing means: you play the butler or the maid.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n25",
+   "de_src": "Butler- oder Maid-Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/tischdienst",
+   "n": 26,
+   "group": "assistenz",
+   "de": "Tischdienst",
+   "en": "Table duty",
+   "expl_de": "Bedienen bei Tisch, oft schweigend und in fester Form.",
+   "expl_en": "Waiting at table, often silently and in set form.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n26",
+   "de_src": "Tischdienst",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/knien-beim-servieren",
+   "n": 27,
+   "group": "praesentation",
+   "de": "Knien beim Servieren",
+   "en": "Kneeling while serving",
+   "expl_de": "Servieren aus kniender Haltung.",
+   "expl_en": "Serving from a kneeling position.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n27",
+   "de_src": "Knien beim Servieren",
+   "roles": {
+    "a": {
+     "de": "serviert kniend",
+     "en": "serves kneeling"
+    },
+    "p": {
+     "de": "wird kniend bedient",
+     "en": "is served by someone kneeling"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/handtuch-decken-oder-kissenservice",
+   "n": 28,
+   "group": "praesentation",
+   "de": "Handtuch-, Decken- oder Kissenservice",
+   "en": "Towel, blanket or cushion service",
+   "expl_de": "Vorausschauendes Bereitstellen von Komfort.",
+   "expl_en": "Anticipating and providing comfort.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n28",
+   "de_src": "Handtuch-, Decken- oder Kissenservice",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/menschliches-moebel-als-zeitlich-begrenzte-rolle",
+   "n": 29,
+   "group": "praesentation",
+   "de": "Menschliches Möbel als zeitlich begrenzte Rolle",
+   "en": "Human furniture, for a limited time",
+   "expl_de": "Als Möbelstück dienen, mit klarer Zeitgrenze wegen Kreislauf und Gelenken. Ausführend heißt: du bist das Möbel.",
+   "expl_en": "Serving as furniture, with a clear time limit because of circulation and joints. Doing means: you are the furniture.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n29",
+   "de_src": "Menschliches Möbel als zeitlich begrenzte Rolle",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/fussbank-rollenspiel",
+   "n": 30,
+   "group": "praesentation",
+   "de": "Fußbank-Rollenspiel",
+   "en": "Footstool role play",
+   "expl_de": "Als Fußablage dienen.",
+   "expl_en": "Serving as a footrest.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n30",
+   "de_src": "Fußbank-Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/dekoratives-posieren",
+   "n": 31,
+   "group": "praesentation",
+   "de": "Dekoratives Posieren",
+   "en": "Decorative posing",
+   "expl_de": "Als Teil der Einrichtung posieren.",
+   "expl_en": "Posing as part of the setting.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n31",
+   "de_src": "Dekoratives Posieren",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/als-kunstobjekt-praesentieren",
+   "n": 32,
+   "group": "praesentation",
+   "de": "Als Kunstobjekt präsentieren",
+   "en": "Presenting as an art object",
+   "expl_de": "Wie ein Ausstellungsstück inszeniert werden.",
+   "expl_en": "Being staged like an exhibit.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n32",
+   "de_src": "Als Kunstobjekt präsentiert werden",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/koerperverehrung-als-dienst",
+   "n": 33,
+   "group": "verehrung",
+   "de": "Körperverehrung als Dienst",
+   "en": "Body worship as service",
+   "expl_de": "Verehrung des Körpers als dienende Handlung. Ausführend heißt: du verehrst.",
+   "expl_en": "Worshipping the body as an act of service. Doing means: you do the worshipping.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n33",
+   "de_src": "Körperverehrung als Dienst",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/schuh-oder-stiefelverehrung",
+   "n": 34,
+   "group": "verehrung",
+   "de": "Schuh- oder Stiefelverehrung",
+   "en": "Shoe or boot worship",
+   "expl_de": "Schuhe oder Stiefel als Gegenstand der Verehrung.",
+   "expl_en": "Shoes or boots as the object of worship.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n34",
+   "de_src": "Schuh- oder Stiefelverehrung",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/kleidung-oder-ausruestung-bereitlegen",
+   "n": 35,
+   "group": "verehrung",
+   "de": "Kleidung oder Ausrüstung bereitlegen",
+   "en": "Laying out clothing or gear",
+   "expl_de": "Vorausschauend bereitlegen, was gebraucht wird.",
+   "expl_en": "Laying out in advance what will be needed.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n35",
+   "de_src": "Kleidung oder Ausrüstung bereitlegen",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/nachsorge-als-service",
+   "n": 36,
+   "group": "verehrung",
+   "de": "Nachsorge als Service",
+   "en": "Aftercare as service",
+   "expl_de": "Nachsorge als bewusst übernommene Aufgabe.",
+   "expl_en": "Aftercare as a task deliberately taken on.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n36",
+   "de_src": "Nachsorge als Service",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/nichtsexueller-gehorsam",
+   "n": 37,
+   "group": "gehorsam",
+   "de": "Nichtsexueller Gehorsam",
+   "en": "Non-sexual obedience",
+   "expl_de": "Gehorsam ohne sexuellen Bezug, als eigener Wert.",
+   "expl_en": "Obedience without a sexual element, as a value in itself.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n37",
+   "de_src": "Nichtsexueller Gehorsam",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  },
+  {
+   "id": "service-hingabe/sexueller-service",
+   "n": 38,
+   "group": "gehorsam",
+   "de": "Sexueller Service",
+   "en": "Sexual service",
+   "expl_de": "Begrenzt auf das, was ausdrücklich vereinbart wurde. Ausführend heißt: du leistest den Dienst.",
+   "expl_en": "Limited to what has been expressly agreed. Doing means: you perform the service.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "service-hingabe|n38",
+   "de_src": "Sexueller Service innerhalb konkreter Zustimmung",
+   "roles": {
+    "a": {
+     "de": "leistet es",
+     "en": "provides it"
+    },
+    "p": {
+     "de": "empfängt es",
+     "en": "receives it"
+    }
+   }
+  }
+ ],
+ "dropped": []
+}

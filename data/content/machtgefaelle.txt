@@ -1,0 +1,43 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Power imbalance and control |
+#GRP | befehle | Orders and permission
+#GRP | alltagskontrolle | Control in everyday life
+#GRP | koerper-erlaubnis | Body, speech and permission
+#GRP | aufgaben | Tasks and consequences
+#GRP | umfang | Extent of power exchange
+#GRP | aktivierung | Activation and boundaries
+befehle-geben | Giving orders | Anweisungen aussprechen, die befolgt werden sollen. | Issuing instructions that are meant to be followed.
+befehle-befolgen | Following orders | Anweisungen ausführen, ohne sie zu verhandeln. | Carrying out instructions without negotiating them.
+um-erlaubnis-bitten | Asking permission | Vor bestimmten Handlungen ausdrücklich um Erlaubnis bitten. | Expressly asking permission before certain acts.
+ueber-bitten-entscheiden | Deciding on requests | Erlaubnis geben oder verweigern — die Entscheidung liegt bei dir. | Granting or refusing permission; the decision rests with you. | Über Bitten entscheiden
+entscheidungen-delegieren | Delegating decisions | Alltagsentscheidungen bewusst abgeben. | Deliberately handing over everyday decisions.
+kleidungswahl | Choosing the clothing | Wer bestimmt, was getragen wird. | Who decides what gets worn. | Kleidungswahl
+tagesablauf-bestimmen | Shaping the day | Der Tagesablauf wird ganz oder teilweise vorgegeben. | The daily schedule is set, wholly or partly. | Tagesablauf bestimmen
+schlafenszeit-vereinbaren | An agreed bedtime | Eine feste Zeit, zu der Schluss ist. | A fixed time at which the day ends.
+essensauswahl-vereinbaren | Agreeing what gets eaten | Die Essensauswahl wird abgesprochen oder vorgegeben. | Food choices are agreed or prescribed.
+trainings-oder-sportziele-gemeinsam-kontrollieren | Jointly tracking training goals | Sportliche Ziele werden gemeinsam gesetzt und überprüft. | Fitness goals are set and reviewed together.
+medienkonsum-regeln | Regulating media consumption | Was und wie viel konsumiert wird, ist geregelt. | What and how much gets consumed is regulated.
+handyzeiten-regeln | Regulating phone time | Wann und wie lange das Telefon benutzt wird. | When and for how long the phone gets used. | Handyzeiten regeln
+freizeitplanung-uebertragen | Handing over free-time planning | Die andere Person plant die freie Zeit. | The other person plans your free time.
+platz-zuweisen | Assigning a place | Wo jemand sitzt oder steht, wird bestimmt. | Where someone sits or stands is decided. | Platz zuweisen
+koerperhaltung-bestimmen | Prescribing posture | Wie man steht, sitzt oder kniet, wird bestimmt. | How you stand, sit or kneel is prescribed.
+blickkontakt-regeln | Regulating eye contact | Blickkontakt braucht Erlaubnis oder ist untersagt. | Eye contact needs permission, or is forbidden. | Blickkontakt regeln
+sprechregeln | Rules about speaking | Wann und wie gesprochen werden darf. | When and how you may speak.
+schweigeregeln-fuer-begrenzte-szenen | Silence rules for limited scenes | Schweigen als Regel für einen begrenzten Zeitraum. | Silence as a rule for a limited period.
+erlaubnis-zum-bewegen | Permission to move | Sitzen, Aufstehen, Gehen — jede Bewegung setzt eine Erlaubnis voraus. | Sitting, standing, walking: every movement requires permission. | Erlaubnis zum Bewegen
+erlaubnis-zum-beruehren | Permission to touch | Berührung setzt eine Erlaubnis voraus. | Touching requires permission.
+erlaubnis-zum-sexuellen-handeln | Permission for sexual acts | Sexuelle Handlungen setzen eine ausdrückliche Erlaubnis voraus. | Sexual acts require express permission.
+aufgaben-mit-frist | Tasks with a deadline | Eine Aufgabe mit festem Termin, zu dem sie erledigt sein muss. | A task with a fixed time by which it must be done. | Aufgaben mit Frist
+berichtspflichten | Duty to report | Regelmäßige Rückmeldung über Erledigtes oder Erlebtes. | Regular reporting on what has been done or experienced.
+feste-routinen | Fixed routines | Wiederkehrende Abläufe, deren Einhaltung überprüft wird. | Recurring routines whose observance is checked. | Feste Routinen
+belohnungssystem | Reward system | Vereinbarte Belohnungen für erfülltes Verhalten. | Agreed rewards for meeting expectations.
+konsequenzensystem | System of consequences | Vereinbarte Folgen für nicht erfülltes Verhalten. | Agreed consequences for not meeting expectations.
+symbolische-besitzuebergabe | Symbolic handing over of ownership | Eine Geste oder ein Ritual, das Zugehörigkeit ausdrückt. | A gesture or ritual expressing belonging.
+zeitlich-begrenzte-kontrollabgabe | Time-limited surrender of control | Kontrolle wird für einen festgelegten Zeitraum abgegeben. | Control is handed over for a defined period.
+loslassen-ohne-alltagsmacht | Letting go without everyday power | Loslassen in der Szene, ohne dass sich im Alltag etwas ändert. | Letting go in the scene without anything changing in daily life. | Loslassen ohne Alltagsmacht
+alltagstaugliches-low-protocol | Low protocol for everyday life | Wenige, unauffällige Regeln, die im Alltag tragen. | Few, unobtrusive rules that work in everyday life.
+formelles-high-protocol | Formal high protocol | Strenge Form mit Anrede, Haltung und festgelegtem Ablauf. | Strict form with address, posture and a set sequence.
+machtgefaelle-an-feste-raeume-gebunden | Power tied to defined rooms | Die Dynamik gilt an bestimmten Orten und sonst nicht. | The dynamic applies in certain places and nowhere else. | Machtgefälle an feste Räume gebunden
+machtgefaelle-per-signal-aktivieren | Power switched on by a signal | Ein Wort oder eine Geste schaltet die Dynamik ein und wieder aus. | A word or gesture switches the dynamic on and off again. | Machtgefälle per Signal aktivieren
+wechselnde-machtverteilung | Shifting distribution of power | Wer führt, wechselt je nach Situation oder Absprache. | Who leads changes depending on the situation or agreement.
+ueberraschung-im-festgelegten-rahmen | Surprise within a set frame | Überraschung ist erwünscht, aber nur aus der vorher freigegebenen Liste. | Surprise is wanted, but only from the list released beforehand. | Überraschung im festgelegten Rahmen

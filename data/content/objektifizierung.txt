@@ -1,0 +1,27 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Objectification and ownership symbols |
+#GRP | symbole | Ownership symbols and marks
+#GRP | praesentation | Display and furniture roles
+#GRP | verleih | Wrapping, gifting and lending
+halsband| Collar | Das verbreitetste Zeichen der Zugehörigkeit. | The most common sign of belonging.
+ring-der-o| Ring of O | Ein Ring als diskretes Szene-Symbol. | A ring as a discreet scene symbol.
+armband-oder-fusskettchen| Bracelet or anklet | Unauffälliger Schmuck mit Bedeutung. | Unobtrusive jewellery with a meaning.
+schluessel-als-symbol| Key as a symbol | Der getragene Schlüssel steht für Verfügung. | A worn key stands for who decides.
+namensschild| Name tag | Ein vergebener Name, sichtbar getragen. | A given name, worn visibly.
+anhaenger| Pendant | Ein Anhänger mit persönlicher Bedeutung. | A pendant with a personal meaning.
+temporaere-markierung| Temporary marking | Eine Markierung, die wieder verschwindet. | A mark that fades again.
+abwaschbare-besitzbeschriftung| Washable ownership writing | Schrift auf der Haut, die Zugehörigkeit ausdrückt. | Writing on skin expressing belonging.
+fotografie-als-kunstobjekt-mit-einwilligung| Photography as an art object, with consent | Aufnahmen brauchen eine eigene, ausdrückliche Zustimmung. | Recording needs its own express consent.
+posieren-als-statue| Posing as a statue | Regungslos verharren wie ein Objekt. | Holding still like an object.
+human-furniture| Human furniture | Als Möbelstück dienen; wegen Kreislauf und Gelenken zeitlich begrenzt. | Serving as furniture; time-limited because of circulation and joints.
+fussbank| Footstool | Als Fußablage dienen. | Serving as a footrest.
+tisch| Table | Als Ablagefläche dienen. | Serving as a surface to put things on.
+kleiderstaender-rollenspiel| Clothes rack role play | Als Ständer für Kleidung dienen. | Serving as a rack for clothing.
+als-servierflaeche-dienen | Serving as a surface | Als Tablett dienen. Nichts Heißes und nichts Zerbrechliches. | Serving as a tray. Nothing hot and nothing breakable. | Als Servierfläche dienen
+dekoratives-ausstellen-im-privaten-rahmen| Decorative display in private | Wie ein Ausstellungsstück gezeigt werden. | Being displayed like an exhibit.
+einwickeln | Wrapping | Eingepackt werden wie ein Gegenstand. | Being packaged like an object. | Einwickeln
+geschenk-rollenspiel| Gift role play | Als Geschenk überreicht werden. | Being presented as a gift.
+auktion-als-inszenierung | Auction as staging | Privat oder als Wohltätigkeitsaktion. Es wechselt niemand den Besitzer. | Private or for charity. Nobody actually changes hands. | Auktion als Inszenierung
+verleihen-als-rollenspiel | Lending as role play | Nur mit ausdrücklicher Zustimmung jeder beteiligten Person. | Only with the express consent of every person involved. | Verleihen als Rollenspiel
+free-use-fantasie | Free use fantasy | Die Fantasie lautet „jederzeit verfügbar". Die Zustimmung bleibt trotzdem jederzeit widerruflich. | The fantasy is „available at any time". Consent nonetheless stays revocable at any time. | „Free Use"-Fantasie
+eigentumsvertrag-als-symbol | Ownership contract as a symbol | Ein Dokument mit Bedeutung, ohne rechtliche Wirkung. | A document with meaning but no legal force. | Eigentumsvertrag als Symbol

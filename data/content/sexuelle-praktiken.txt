@@ -1,0 +1,61 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | General sexual practices |
+#GRP | kuessen | Kissing
+#GRP | manuell-oral | Manual and oral stimulation
+#GRP | penetration | Penetration and rubbing
+#GRP | toys | Toys
+#GRP | spezialgeraete | Specialist interests and machines
+#GRP | rahmen-nackt | Framing, clothing and nudity
+kuessen| Kissing | Küssen als eigener Wunsch, nicht nur als Vorspiel. | Kissing as a wish in itself, not just foreplay.
+intensives-kuessen| Deep kissing | Langes, intensives Küssen. | Long, intense kissing.
+nacken-kuessen| Kissing the neck | Nacken und Hals als empfindliche Zone. | Neck and throat as a sensitive area.
+koerperkuessen| Kissing the body | Küsse über den ganzen Körper verteilt. | Kisses spread across the whole body.
+gegenseitige-masturbation| Mutual masturbation | Sich gegenseitig oder nebeneinander befriedigen. | Pleasuring each other, or alongside each other.
+manuelle-stimulation-geben| Giving manual stimulation | Mit Hand und Fingern stimulieren. | Stimulating with hand and fingers.
+manuelle-stimulation-empfangen| Receiving manual stimulation | Mit Hand und Fingern stimuliert werden. | Being stimulated with hand and fingers.
+oralverkehr-geben| Giving oral sex | Mit Mund und Zunge stimulieren. | Stimulating with mouth and tongue.
+oralverkehr-empfangen| Receiving oral sex | Mit Mund und Zunge stimuliert werden. | Being stimulated with mouth and tongue.
+vaginalverkehr| Vaginal intercourse | Penetration der Vagina. | Penetration of the vagina.
+analverkehr-aktiv| Anal intercourse, active | Die penetrierende Seite. | The penetrating side.
+analverkehr-passiv| Anal intercourse, receptive | Die empfangende Seite; braucht Gleitmittel und Zeit. | The receiving side; it needs lubricant and time.
+pegging| Pegging | Anale Penetration mit einem umgeschnallten Toy. | Anal penetration with a strap-on toy.
+rimming-geben| Giving rimming | Orale Stimulation des Anus; auf Hygiene achten. | Oral stimulation of the anus; mind hygiene.
+rimming-empfangen| Receiving rimming | Orale Stimulation des eigenen Anus. | Oral stimulation of your own anus.
+tribadie-reiben| Tribbing | Aneinanderreiben der Genitalien. | Rubbing genitals together.
+frottage-zwischen-einwilligenden| Frottage between consenting people | Reiben am Körper der anderen Person. | Rubbing against the other person's body.
+dry-humping| Dry humping | Reiben in Kleidung, ohne Penetration. | Rubbing with clothes on, without penetration.
+sexspielzeug-gemeinsam-verwenden| Using sex toys together | Toys als Teil des gemeinsamen Sex. | Toys as part of sex together.
+dildo| Dildo | Penetrationstoy ohne Vibration. | A penetration toy without vibration.
+vibrator| Vibrator | Vibrierendes Toy für innen oder außen. | A vibrating toy for internal or external use.
+wand-vibrator| Wand vibrator | Kräftiges Auflegetoy mit starker Vibration. | A powerful external toy with strong vibration.
+auflegevibrator| External vibrator | Kleines Toy für äußere Stimulation. | A small toy for external stimulation.
+saugtoy| Suction toy | Erzeugt Unterdruck statt Vibration. | Creates suction rather than vibration.
+plug| Plug | Analplug mit Rückhaltekragen. | An anal plug with a flared base.
+analketten | Anal beads | Nur Produkte mit Rückholschlaufe verwenden. | Use only products with a retrieval loop. | Analketten
+strap-on| Strap-on | Umgeschnalltes Toy mit Harness. | A strapped-on toy with a harness.
+harness| Harness | Das Geschirr, das ein Toy hält. | The harness that holds a toy.
+penisring| Cock ring | Ring zur Stauung; nur begrenzte Tragezeit. | A ring that restricts flow; only for a limited time.
+sleeve| Sleeve | Hülle zur Stimulation des Penis. | A sleeve for stimulating the penis.
+masturbator| Masturbator | Toy für die Selbstbefriedigung des Penis. | A toy for masturbating the penis.
+remote-gesteuertes-toy| Remote-controlled toy | Steuerung liegt bei der anderen Person. | Control lies with the other person.
+app-gesteuertes-toy| App-controlled toy | Steuerung per App, auch über Distanz. | Controlled by app, including at a distance.
+doppelpenetration | Double penetration | Zwei gleichzeitige Penetrationen. Braucht Zeit und viel Gleitmittel. | Two simultaneous penetrations. It takes time and plenty of lubricant. | Doppelpenetration
+vaginales-fisting | Vaginal fisting | Braucht sehr langsame Steigerung, Handschuhe und Erfahrung. | Requires very slow progression, gloves and experience. | Vaginales Fisting
+anales-fisting | Anal fisting | Verletzungsrisiko am Darm. Nur mit Erfahrung und viel Zeit. | Risk of bowel injury. Only with experience and plenty of time. | Anales Fisting
+dehnungsspiel | Stretching play | Schrittweise Weitung über längere Zeit. | Gradual stretching over a longer period. | Dehnungsspiel
+grosse-toys | Large toys | Toys über dem üblichen Maß. Langsam herantasten. | Toys beyond the usual size. Work up slowly. | Große Toys
+kleine-toys| Small toys | Toys für feine, gezielte Stimulation. | Toys for fine, targeted stimulation.
+toys-mit-ungewoehnlicher-form| Unusually shaped toys | Formen jenseits des Gewöhnlichen. | Shapes beyond the ordinary.
+fantasy-toys-fuer-erwachsene| Fantasy toys for adults | Toys mit fantastischen Formen. | Toys with fantastical shapes.
+ovipositor-fantasy-toy| Ovipositor fantasy toy | Ein Toy, das weiche Gelkugeln absetzt. | A toy that deposits soft gel spheres.
+sexmaschinen | Sex machines | Maschinelle Penetration mit einstellbarem Tempo. | Mechanical penetration at an adjustable pace. | Sexmaschinen
+sybian-artige-geraete| Sybian-style devices | Sitzgeräte mit Vibration und Rotation. | Ride-on devices with vibration and rotation.
+sexmoebel | Sex furniture | Möbel und Schaukeln, die Haltungen ermöglichen oder tragen. | Furniture and slings that make positions possible or take the weight. | Sexmöbel
+erotik-ohne-penetration| Eroticism without penetration | Sexualität, die ohne Eindringen auskommt. | Sexuality that works without penetration.
+kink-ohne-genitalkontakt| Kink without genital contact | Kink, der Genitalien ganz ausspart. | Kink that leaves genitals out entirely.
+kleidung-vollstaendig-anbehalten| Staying fully clothed | Die Szene findet angezogen statt. | The scene happens with clothes on.
+teilweise-bekleidet-bleiben| Staying partly clothed | Teilweise Bekleidung als eigener Reiz. | Partial clothing as its own appeal.
+nacktheit-im-privaten-rahmen| Nudity in private | Nacktheit ohne Publikum. | Nudity without an audience.
+entkleiden-auf-anweisung | Undressing on instruction | Das Ausziehen wird angeleitet. | The undressing is directed. | Entkleiden auf Anweisung
+striptease| Striptease | Ausziehen als Vorführung. | Undressing as a performance.
+erotischer-tanz | Erotic dance | Tanz als erotische Darbietung, privat oder in einem zugelassenen Rahmen. | Dance as an erotic performance, in private or a licensed setting. | Erotischer Tanz

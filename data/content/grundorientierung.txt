@@ -1,0 +1,40 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Basic orientation and relationship |
+#GRP | stellenwert | How much space kink takes
+#GRP | reichweite | Reach of the dynamic
+#GRP | beziehungsform | Relationship form
+#GRP | szene-community | Scene and community
+#GRP | sichtbarkeit | Visibility
+kink-als-fantasie | Kink as fantasy | Kink findet im Kopf statt und soll nicht umgesetzt werden. | Kink happens in your head and is not meant to be acted out. | Kink als Fantasie
+kink-allein | Kink on your own | Kink wird für sich ausgelebt, ohne andere Beteiligte. | Kink is lived out alone, without anyone else involved. | Kink allein
+kink-als-gelegentliche-paaraktivitaet | Kink as an occasional couple activity | Ab und zu, als Abwechslung, ohne festen Platz im Alltag. | Now and then, as variety, without a fixed place in daily life.
+kink-als-regelmaessiger-teil-der-sexualitaet | Kink as a regular part of sex | Kink gehört fest zur gemeinsamen Sexualität. | Kink is a fixed part of your sex life together.
+kink-als-ueberwiegend-nichtsexuelle-aktivitaet | Kink as a mostly non-sexual activity | Der Reiz liegt in Macht, Sinnlichkeit oder Struktur, nicht in Sex. | The appeal lies in power, sensation or structure rather than sex.
+kink-als-lebensstil | Kink as a way of life | Kink prägt Alltag, Selbstbild und Umfeld, nicht nur einzelne Szenen. | Kink shapes daily life, self-image and surroundings, not just individual scenes.
+szenenbezogene-dynamik | Scene-based dynamic | Das Machtgefälle gilt nur innerhalb einer Szene. | The power imbalance applies only within a scene.
+schlafzimmer-dynamik | Bedroom dynamic | Die Dynamik bleibt auf sexuelle Situationen beschränkt. | The dynamic stays confined to sexual situations.
+teilzeit-d-s | Part-time D/s | Die Dynamik gilt zu vereinbarten Zeiten, sonst nicht. | The dynamic applies at agreed times and not otherwise.
+24-7-dynamik | 24/7 dynamic | Die Dynamik gilt durchgehend, auch im Alltag. | The dynamic applies continuously, including in daily life.
+total-power-exchange | Total power exchange | Weitreichende Machtabgabe als Beziehungskonzept. Rechtlich bleiben beide voll geschäftsfähig und jederzeit widerrufsberechtigt. | Far-reaching transfer of power as a relationship concept. Legally both remain fully capable and free to withdraw at any time. | Total Power Exchange
+monogame-dynamik | Monogamous dynamic | Sexuell und romantisch ausschließlich miteinander. | Sexually and romantically exclusive with each other.
+offene-beziehung | Open relationship | | Sexual contact with other people is agreed and allowed.
+polyamore-dynamik | Polyamorous dynamic | Mehrere gleichzeitige romantische Beziehungen, für alle transparent. | Several romantic relationships at the same time, transparent to everyone.
+mehrere-tops-oder-dominante | Several tops or dominants | Mehr als eine führende Person in der Konstellation. | More than one leading person in the constellation.
+mehrere-bottoms-oder-submissive | Several bottoms or submissives | Mehr als eine empfangende oder dienende Person. | More than one receiving or serving person.
+feste-spielpartnerschaft | A fixed play partnership | Kink mit einer festen Person, auch ohne Beziehung. | Kink with one steady person, with or without a relationship.
+wechselnde-spielpartnerschaften | Changing play partners | Kink mit wechselnden Personen. | Kink with different people over time.
+kink-ohne-romantische-beziehung | Kink without a romantic relationship | Kink als eigene Verbindung, getrennt von Romantik. | Kink as its own connection, separate from romance.
+kink-mit-romantischer-beziehung | Kink within a romantic relationship | Kink und Beziehung gehören für dich zusammen. | For you kink and relationship belong together.
+nur-privat | Private only | Kink findet zu Hause statt, ohne Szene und ohne Veranstaltungen. | Kink happens at home, without scene or events. | Nur privat
+teilnahme-an-stammtischen | Going to munches | Ungezwungene Treffen an öffentlichen Orten, ohne Spiel. | Casual meet-ups in public places, without play.
+teilnahme-an-workshops | Going to workshops | Lernveranstaltungen zu Technik, Sicherheit oder Kommunikation. | Learning events about technique, safety or communication.
+teilnahme-an-playpartys | Going to play parties | Private oder halböffentliche Veranstaltungen, auf denen gespielt wird. | Private or semi-public events where people play.
+teilnahme-an-conventions-oder-festivals | Going to conventions or festivals | Mehrtägige Veranstaltungen mit Programm und Community. | Multi-day events with a programme and community.
+zugehoerigkeit-zur-leder-latex-oder-fetischszene | Belonging to the leather, latex or fetish scene | Zugehörigkeit zu einer konkreten Subkultur mit eigenen Codes. | Belonging to a specific subculture with its own codes.
+kinkfreundliche-freundschaften-und-community | Kink-friendly friendships and community | Freundschaften, in denen Kink kein Geheimnis ist. | Friendships in which kink is not a secret.
+diskrete-nicht-oeffentliche-identitaet | A discreet, non-public identity | Kink bleibt getrennt von Beruf, Familie und Öffentlichkeit. | Kink stays separate from work, family and the public.
+offen-gelebte-kink-identitaet | An openly lived kink identity | Kink ist im Umfeld bekannt und wird nicht versteckt. | Kink is known in your surroundings and not hidden.
+gemeinsame-fantasiegespraeche-ohne-umsetzung | Shared fantasy talk without acting it out | Über Fantasien sprechen, die ausdrücklich nicht umgesetzt werden. | Talking about fantasies that are expressly not going to be acted out.
+solo-polyamorie | Solo polyamory | Mehrere Beziehungen, aber ohne gemeinsamen Haushalt und ohne Primärpartnerschaft. Die eigene Autonomie steht im Mittelpunkt. | Several relationships, but without a shared household or a primary partner. Your own autonomy is central.
+beziehungsanarchie | Relationship anarchy | Keine feste Rangordnung zwischen Beziehungen. Jede Verbindung wird einzeln ausgehandelt, statt einem vorgegebenen Muster zu folgen. | No fixed ranking between relationships. Each connection is negotiated on its own terms rather than following a set pattern.
+polyamorie-ohne-rangordnung | Polyamory without ranking | Mehrere Beziehungen ohne Haupt- und Nebenrang, aber mit gemeinsamen Absprachen. | Several relationships without primary and secondary status, but with shared agreements.

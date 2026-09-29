@@ -1,0 +1,25 @@
+#! Englische Titel der Themenbereiche und der Antwortsätze
+#THEME | rahmen-sicherheit | Framework and safety
+#THEME | grundlagen | Basics and self-image
+#THEME | macht-kontrolle | Power and control
+#THEME | lifecoaching | Life coaching, monitoring and health | Guidance in everyday life: daily check-ins, tasks with proof, a camera during agreed hours, agreements about food, exercise and weight.
+#THEME | bondage | Bondage and restriction of movement
+#THEME | sinne | Senses and sensation | What happens on the skin: stroking, tickling, feather and silk, ice and warm wax, pinching, biting, hair pulling, clamps. This is not sensory deprivation — blindfold and hood are under Bondage.
+#THEME | schmerz-impact | Pain and impact
+#THEME | psyche-sprache | Mind, language and altered states
+#THEME | sexualitaet | Sexuality
+#THEME | fetische | Fetishes | Objects and body parts that are arousing in themselves: leather, latex, lingerie, shoes and boots, feet, rope, collars.
+#THEME | rollenspiel | Role play and changing identity | Slipping into a role: boss and employee, teacher and adult student, pet play such as puppy or kitten, caring caregiver dynamics, wrestling and chase games.
+#THEME | oeffentlichkeit-medien | Visibility, media and groups | Who else is present and what gets recorded: watching and being watched, photos and video, sexting, more than two people, D/s at a distance, gifts and money.
+#THEME | koerper-medizin | Body, food and medical | Food, body fluids and doctor play: feeding and being fed, food off the body, saliva, examination scenarios.
+#THEME | hochrisiko | High risk
+#THEME | fantasie | Fantasy and imagination | What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised.
+#THEME | atmosphaere-aftercare | Atmosphere, aftercare and gear
+
+#CHOICE | leitmodell | ssc=Safe, Sane, Consensual (SSC)::The oldest of the formulas, from the US scene of the 1980s. A practice should be safe, undertaken with a clear mind, and consensual. The criticism is that „safe" and „sane" are judgements made from outside — many established practices are never entirely safe. ; rack=Risk-Aware Consensual Kink (RACK)::The answer to that criticism. Not „safe", but: the specific risk is known, named and knowingly carried. It asks you to inform yourself beforehand rather than define the risk away. ; prick=Personal Responsibility, Informed, Consensual Kink (PRICK)::Like RACK, but additionally stressing each person's own responsibility. Nobody hands responsibility for themselves over entirely, including the following side. ; ccc=Committed, Compassionate, Consensual (CCC)::Puts the relationship above the single scene: commitment and care apply afterwards too. Less a risk formula than a stance on how you treat each other. ; eigen=my own framework::None of the models fits — you describe your own stance. ; unklar=not settled yet::You have not decided — an honest answer, and a usable one in conversation.
+#CHOICE | spuren | nie=never::Nothing anyone could see, not even under clothing. ; vereinbart=only when expressly agreed::Marks are possible, but agreed each time beforehand. ; egal=not a problem::Visible marks are not an issue for you.
+#CHOICE | spuren-bleibend | nie=never::Nothing that stays: no scars, no brands. ; vereinbart=only when expressly agreed::Permanent marks are conceivable, but only under their own express agreement.
+#CHOICE | herabsetzung | nie=never::This category does not come up, in any form and in no word. ; whitelist=only from the agreed word list::Only the words you expressly released above. ; offen=open::You set no category boundary here — the word lists above still apply.
+#CHOICE | genderrollen | verstaerken=reinforce them::The dynamic picks up common gender images and sharpens them. ; umkehren=playfully invert them::The appeal lies in reversing the expected distribution. ; irrelevant=irrelevant::Gender images play no part in your play. ; unklar=I don't know::You have no position on this yet — that is an answer too.
+#CHOICE | aufwertung | aufwertung=as elevation::Meant as something beautiful, desired, elevating. ; herabsetzung=as degradation::Meant as degradation — that is exactly where the appeal lies. ; beides=depends on the framing::Either is possible — the meaning arises in the scene. ; nicht=not part of my play::It does not come up for you.
+#CHOICE | wer | ich=me::This work sits with you. ; gegenueber=my counterpart::This work sits with the other person. ; geteilt=shared::You share the work. ; offen=still open::Unsettled — and therefore something to talk about.

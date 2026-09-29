@@ -1,0 +1,50 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Setting and atmosphere preferences |
+#GRP | stimmung | Mood
+#GRP | aesthetik | Aesthetics and style
+#GRP | orte | Places
+#GRP | sinnesrahmen | Light, sound, scent and camera
+#GRP | ablauf | Pacing and structure
+romantisch| Romantic | Zärtlichkeit und Zuwendung prägen die Stimmung. | Tenderness and attention set the mood.
+zaertlich| Tender | Sanft und behutsam. | Gentle and careful.
+spielerisch| Playful | Leicht, neckisch, ohne Schwere. | Light, teasing, without weight.
+humorvoll| Funny | Lachen gehört ausdrücklich dazu. | Laughter expressly belongs.
+streng| Strict | Klar, fordernd und ohne Nachgiebigkeit. | Clear, demanding and unyielding.
+formell| Formal | Form und Höflichkeit bestimmen den Ton. | Form and politeness set the tone.
+zeremoniell| Ceremonial | Rituelle Form mit festem Ablauf. | Ritual form with a set sequence.
+roh-primal| Raw / primal | Instinktiv, körperlich, ohne Worte. | Instinctive, physical, without words.
+klinisch| Clinical | Sachlich, kühl und präzise. | Matter-of-fact, cool and precise.
+duester| Dark | Schwer, ernst und bedrohlich. | Heavy, serious and looming.
+luxurioes| Luxurious | Aufwand und Qualität als Teil der Stimmung. | Effort and quality as part of the mood.
+minimalistisch| Minimal | Wenig Ausstattung, klarer Raum. | Little equipment, a clear space.
+historisch| Historical | Eine vergangene Epoche als Rahmen. | A past era as the frame.
+futuristisch| Futuristic | Zukunftsästhetik als Rahmen. | A future aesthetic as the frame.
+gothic| Gothic | Dunkle Romantik als Stil. | Dark romance as a style.
+lederbar-aesthetik| Leather bar aesthetic | Leder, Metall und gedämpftes Licht. | Leather, metal and low light.
+latex-aesthetik| Latex aesthetic | Glanz, Enge und klare Linien. | Shine, tightness and clean lines.
+dungeon-aesthetik| Dungeon aesthetic | Möbel, Ketten und Stein als Kulisse. | Furniture, chains and stone as the setting.
+schlafzimmer| Bedroom | Der vertraute Ort. | The familiar place.
+wohnzimmer-privat| Living room, private | Der Alltagsraum als Szenenort. | The everyday room as a scene space.
+hotel| Hotel | Ein fremder Ort ohne Alltagsspuren. | An unfamiliar place with no traces of everyday life.
+ferienhaus| Holiday house | Ein Ort mit Zeit und Abgeschiedenheit. | A place with time and seclusion.
+professionelles-studio| Professional studio | Ein ausgestatteter Raum zum Mieten. | An equipped room you can hire.
+club-dungeon| Club / dungeon | Ein öffentlicher Spielort mit Regeln. | A public play venue with rules.
+outdoor-auf-privatem-gelaende | Outdoors on private land | Draußen, aber ohne unbeteiligte Zuschauende. | Outdoors, but with no uninvolved onlookers. | Outdoor auf privatem Gelände
+helles-licht| Bright light | Alles ist sichtbar. | Everything is visible.
+gedimmtes-licht| Dimmed light | Weiches Licht, weniger Blöße. | Soft light, less exposure.
+kerzenoptik-ohne-brandgefahr| Candle look without fire risk | LED statt offener Flamme. | LEDs instead of an open flame.
+musik| Music | Musik als Taktgeber und Stimmungsträger. | Music as pace-setter and mood-carrier.
+stille| Silence | Kein Ton außer dem, was geschieht. | No sound except what is happening.
+geraeuschkulisse| Ambient sound | Hintergrundgeräusche als Atmosphäre. | Background noise as atmosphere.
+duefte| Scents | Gerüche als Teil der Erinnerung. | Smells as part of the memory.
+spiegel| Mirrors | Sich selbst sehen als eigener Reiz. | Seeing yourself as an appeal in itself.
+kamerafreier-raum | A camera-free space | Keine Aufnahmen, auch nicht privat. | No recording, not even privately. | Kamerafreier Raum
+geplanter-ablauf| A planned sequence | Der Ablauf steht vorher fest. | The sequence is settled beforehand.
+improvisation-aus-der-whitelist | Improvisation from the whitelist | Frei, aber nur aus dem, was freigegeben wurde. | Free, but only from what has been released. | Improvisation aus der Whitelist
+kurze-szene| Short scene | Kurz und konzentriert. | Short and concentrated.
+lange-szene| Long scene | Zeit für Aufbau, Höhepunkt und Ausklang. | Time for build-up, peak and wind-down.
+serien-mehrerer-kurzer-szenen| A series of short scenes | Mehrere kurze Einheiten hintereinander. | Several short units in a row.
+slow-build| Slow build | Langsame Steigerung über die ganze Szene. | A slow build across the whole scene.
+intensiver-beginn| Intense start | Direkt mitten hinein, ohne Aufwärmen. | Straight in, without a warm-up.
+sanftes-ende| Gentle ending | Ein weicher Ausklang. | A soft wind-down.
+abruptes-ende | An abrupt ending | Ein harter Schnitt, vorher vereinbart und von der Nachsorge aufgefangen. | A hard cut, agreed beforehand and caught by aftercare. | Abruptes Ende

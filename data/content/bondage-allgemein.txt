@@ -1,0 +1,52 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Bondage in general |
+#GRP | positionen | Tie positions
+#GRP | fixierungsorte | Anchor points and furniture
+#GRP | manschetten | Cuffs, chains and armbinders
+#GRP | material-ganzkoerper | Materials and full body
+#GRP | vorrichtungen | Furniture and frames
+#GRP | spielarten | Variants and framing
+haende-vor-dem-koerper-fesseln| Hands tied in front | Die einfachste Fesselung, bequem und gut zu lösen. | The simplest tie, comfortable and easy to release.
+haende-hinter-dem-koerper-fesseln| Hands tied behind the back | Wirkt stärker, belastet aber Schultern und Arme. | Feels stronger but puts strain on shoulders and arms.
+handgelenke-aneinander-fixieren| Wrists fixed together | Nur die Handgelenke verbunden, ohne weiteren Ankerpunkt. | Only the wrists joined, without any further anchor.
+fussgelenke-aneinander-fixieren| Ankles fixed together | Die Beine werden verbunden, das Gehen eingeschränkt. | The legs are joined, restricting walking.
+haende-und-fuesse-getrennt-fixieren| Hands and feet fixed separately | Vier einzelne Fixierungen statt einer Verbindung. | Four separate points instead of one connection.
+spreizposition| Spread position | Arme oder Beine werden auseinandergehalten. | Arms or legs are held apart.
+hogtie | Hogtie | Hände und Füße hinter dem Rücken verbunden. Belastet Atmung und Schultern, daher nur kurz. | Hands and feet joined behind the back. It strains breathing and shoulders, so only briefly. | Hogtie
+bettbondage| Bed bondage | Fesselung an Bettpfosten oder einem Untergurt. | Tying to bedposts or an under-bed strap.
+stuhl-bondage| Chair bondage | Fesselung an einen Stuhl, sitzend. | Being tied to a chair, seated.
+boden-bondage| Floor bondage | Fesselung am Boden, ohne Gewicht auf den Seilen. | Tying on the floor, with no weight on the rope.
+stehende-fixierung| Standing restraint | Fesselung im Stehen; auf Kreislauf und Dauer achten. | Being tied standing; watch circulation and duration.
+wandfixierung| Wall restraint | Fixierung an Ringen oder Haken an der Wand. | Fixing to rings or hooks on a wall.
+tuerrahmen-oder-moebelpunkt-bondage| Door frame or furniture anchor bondage | Vorhandene Möbel und Rahmen als Ankerpunkte. | Using existing furniture and frames as anchors.
+unterbett-fesselsystem| Under-bed restraint system | Ein Gurtsystem unter der Matratze mit vier Anschlüssen. | A strap system under the mattress with four attachment points.
+manschetten-aus-leder| Leather cuffs | Breite Lederfesseln, druckverteilend und gut lösbar. | Wide leather cuffs that spread pressure and release easily.
+gepolsterte-manschetten| Padded cuffs | Gepolstert für längere Tragezeit. | Padded for longer wear.
+metallhandschellen| Metal handcuffs | Schmal und hart; Nervenschäden möglich, deshalb nur kurz und mit doppelter Sicherung. | Narrow and hard; nerve damage is possible, so only briefly and double-locked.
+fussfesseln| Ankle restraints | Manschetten oder Schellen für die Fußgelenke. | Cuffs or shackles for the ankles.
+ketten| Chains | Ketten als Verbindung oder als Fesselung selbst. | Chains as a connection or as the restraint itself.
+verbindungsketten| Connecting chains | Kurze Ketten, die einzelne Fesseln verbinden. | Short chains joining separate restraints.
+bondageguertel| Bondage belt | Ein Gürtel mit Ringen als zentraler Ankerpunkt. | A belt with rings as a central anchor.
+armbinder| Armbinder | Eine Hülle, die beide Arme hinter dem Rücken zusammenführt; stark einschränkend. | A sleeve bringing both arms together behind the back; highly restrictive.
+monoglove| Monoglove | Enge Variante des Armbinders; Schultern und Nerven besonders belastet. | A tight version of the armbinder; especially hard on shoulders and nerves.
+koerpergeschirr| Body harness | Ein Gurtwerk um den Rumpf, mit Ringen zum Anschließen. | A set of straps around the torso with rings to attach to.
+lederharness| Leather harness | Ein Harness aus Leder, oft auch als Ästhetik getragen. | A harness in leather, often worn for the look alone.
+latex-oder-gummifesselung| Latex or rubber bondage | Fesselung mit Latexbändern oder -hüllen. | Restraint with latex bands or sleeves.
+bondagetape | Bondage tape | Nur das dafür gemachte Tape verwenden — es klebt an sich selbst, nicht an der Haut. | Use only purpose-made tape; it sticks to itself, not to skin. | Bondagetape
+stoff-oder-schalbondage| Fabric or scarf bondage | Weiche Stoffe; ziehen sich leicht fest und sind schwerer zu lösen. | Soft fabrics; they tighten easily and are harder to release.
+stretchmaterial| Stretch material | Elastisches Material, das nachgibt. | Elastic material that gives.
+bondagesack| Bondage sack | Ein Sack, der den ganzen Körper umschließt. | A sack enclosing the whole body.
+vakuumbett | Vacuum bed | Vollständige Umhüllung unter Unterdruck. Braucht durchgehende Aufsicht und gesicherte Atmung. | Complete enclosure under vacuum. Needs constant supervision and secured breathing. | Vakuumbett
+kaefig-als-szenenmoebel| Cage as scene furniture | Ein Käfig als Ort des Aufenthalts in der Szene. | A cage as a place to be within the scene.
+abgeschlossener-spielraum | A locked play room | Ein abschließbarer Raum, der sich jederzeit von innen oder sofort von außen öffnen lässt. | A lockable room that can be opened from inside or immediately from outside at any time. | Abgeschlossener Spielraum
+pranger| Pillory | Ein Holzrahmen, der Kopf und Hände fixiert. | A wooden frame holding head and hands.
+stocks| Stocks | Ein Rahmen, der die Fußgelenke fixiert. | A frame holding the ankles.
+fesselbank| Spanking bench | Eine Bank mit Fixierungspunkten, oft gepolstert. | A bench with attachment points, usually padded.
+andreaskreuz| St Andrew's cross | Ein X-förmiges Kreuz mit Anschlusspunkten an allen vier Enden. | An X-shaped cross with attachment points at all four ends.
+fixiert-werden-und-zusehen| Being tied and made to watch | Gefesselt sein und dabei etwas beobachten müssen. | Being tied and having to watch something.
+fixiert-werden-und-warten| Being tied and left to wait | Gefesselt sein, während nichts geschieht. | Being tied while nothing happens.
+selbstbefreiungs-oder-escape-play| Escape play | Der Reiz liegt im Versuch, sich selbst zu befreien. | The appeal lies in trying to get yourself free.
+teilbondage | Partial bondage | Nur ein Körperbereich wird gefesselt, der Rest bleibt frei. | Only one area is tied; the rest stays free. | Teilbondage
+dekorative-bondage-ohne-starke-bewegungseinschraenkung| Decorative bondage without real restriction | Das Muster zählt, nicht die Einschränkung. | The pattern matters, not the restriction.
+kleidung-mit-eingebauten-fesseloptionen| Clothing with built-in restraint points | Kleidungsstücke mit Ringen oder Schlaufen. | Garments with rings or loops built in.
+bondage-unter-alltagskleidung-ohne-einbeziehung-dritter| Bondage under everyday clothing, with no one else involved | Unsichtbar getragen, ohne dass Unbeteiligte etwas mitbekommen. | Worn invisibly, with no uninvolved person noticing.

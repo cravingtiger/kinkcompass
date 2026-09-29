@@ -1,0 +1,16 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Gender-related preferences | Who are you drawn to? Pick as many as apply.
+#GRP | konkret | Specific attraction
+#GRP | uebergreifend | Across genders
+#GRP | keine | None or situational
+anziehung-zu-frauen | Attraction to women | | Cis and/or trans women.
+anziehung-zu-maennern | Attraction to men | | Cis and/or trans men.
+anziehung-zu-nichtbinaeren-personen | Attraction to non-binary people | | People outside the categories of man and woman.
+anziehung-zu-trans-frauen | Attraction to trans women | | Named explicitly, in case that is relevant.
+anziehung-zu-trans-maennern | Attraction to trans men | | Named explicitly, in case that is relevant.
+anziehung-unabhaengig-vom-geschlecht | Attraction regardless of gender | | Gender is not a criterion.
+anziehung-ueberwiegend-zu-einem-geschlecht | Attraction mainly to one gender | | A clear leaning, but not exclusive.
+anziehung-zu-mehreren-geschlechtern | Attraction to several genders | | More than one gender comes into question.
+geschlecht-spielt-kaum-eine-rolle | Gender barely matters | | Other qualities matter more to me.
+keine-sexuelle-anziehung | No sexual attraction | | I do not experience sexual attraction.
+keine-praeferenz-situationsabhaengig | No preference / depends on the situation | | It depends on the person and the situation.

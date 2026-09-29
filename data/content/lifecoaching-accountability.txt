@@ -1,0 +1,24 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Life coaching and accountability |
+#GRP | rahmen-begleitung | Scope of the coaching
+#GRP | meldung | Reporting and review
+#GRP | ziele | Goals and progress
+#GRP | rueckfall | Slips and consequences
+dominante-begleitung-im-alltag-lifecoaching | Dominant everyday coaching | Eine dominante Person begleitet den Alltag mit Zielen, Struktur und Rückmeldung, nicht nur Szenen. | A dominant person guides everyday life with goals, structure and feedback, not only scenes.
+accountability-partnerschaft | Accountability partnership | Gegenseitige Verbindlichkeit für selbstgesetzte Ziele, ohne notwendig ein Machtgefälle. | Mutual commitment to self-set goals, not necessarily with a power imbalance.
+zielvereinbarung-schriftlich | Goals agreed in writing | Ziele stehen schriftlich fest, damit sie nicht stillschweigend wachsen. | Goals are written down so they cannot quietly expand.
+festgelegte-bereiche-in-denen-begleitet-wird | Defined areas that are coached | Festgelegt, welche Lebensbereiche begleitet werden — und welche ausdrücklich nicht. | Settled which areas of life are coached, and which expressly are not.
+begleitung-ohne-sexuellen-bezug | Coaching without a sexual element | Die Begleitung steht für sich und ist nicht mit Sexualität verknüpft. | The coaching stands on its own and is not tied to sex. | Begleitung ohne sexuellen Bezug
+taegliche-meldung | Daily report | Eine kurze tägliche Rückmeldung, ob und wie die Vereinbarungen eingehalten wurden. | A brief daily report on whether and how the agreements were kept.
+wochenrueckblick | Weekly review | Ein längeres Gespräch am Wochenende über Verlauf, Hindernisse und nächste Schritte. | A longer conversation at the weekend about progress, obstacles and next steps.
+monatliche-zielpruefung | Monthly goal review | Die Ziele selbst kommen auf den Prüfstand, nicht nur ihre Erfüllung. | The goals themselves get reviewed, not just whether they were met.
+morgenroutine-begleitet | Morning routine coached | Aufstehen, erste Schritte in den Tag, mit Absprache oder Meldung. | Getting up and starting the day, with agreement or a check-in.
+abendroutine-begleitet | Evening routine coached | Tagesabschluss, Bildschirmzeit, Zubettgehen, mit Absprache oder Meldung. | Winding down, screen time, going to bed, with agreement or a check-in.
+belohnung-bei-zielerreichung | Reward on reaching a goal | Eine vorher vereinbarte Belohnung, wenn ein Ziel erreicht ist. | A reward agreed in advance when a goal is reached.
+arbeits-oder-lernziele-begleitet | Work or study goals coached | Begleitung bei beruflichen Zielen, Prüfungen oder Weiterbildung. | Support with work goals, exams or further training.
+aufschieben-gemeinsam-angehen | Tackling procrastination together | Liegengebliebenes wird gemeinsam angegangen statt nur angemahnt. | What has been put off gets tackled together rather than just chased up.
+streak-ununterbrochene-erfuellung | Streak: an unbroken run | Eine Zählung ununterbrochener Erfüllung; sie motiviert, kann aber auch Druck erzeugen. | A count of unbroken compliance; motivating, but it can also build pressure.
+punktesystem-fuer-alltagsziele | Points system for everyday goals | Punkte oder Token für erfüllte Alltagsziele, mit vereinbarter Einlösung. | Points or tokens for everyday goals met, redeemable as agreed.
+konsequenz-bei-versaeumnis | Consequence for a missed commitment | Eine vorher vereinbarte Folge, wenn etwas nicht eingehalten wurde. | A previously agreed consequence when something was not kept to.
+rueckfall-ohne-beschaemung-besprechen | Talking about a slip without shaming | Ein Rückfall wird besprochen, nicht beschämt — sonst wird er künftig verschwiegen. | A slip gets talked through, not shamed; otherwise it will be hidden next time.
+nachsicht-bei-krankheit | Leniency when ill | Bei Krankheit gelten die Ziele nicht, und das ist vorher geklärt. | When ill the goals do not apply, and that is settled in advance. | Nachsicht bei Krankheit

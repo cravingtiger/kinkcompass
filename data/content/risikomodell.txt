@@ -1,0 +1,14 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Risk model and stance |
+#GRP | leitbild | Guiding framework
+#GRP | voraussetzungen | Prerequisites and stance
+#GRP | spuren | Marks
+nach-welchem-modell-arbeitest-du | Which framework do you work by? | Verbreitete Modelle für den Umgang mit Risiko; sie ersetzen weder Fachkunde noch das Recht. | Common frameworks for handling risk; they replace neither expertise nor the law.
+eigenes-modell-in-eigenen-worten | My own framework, in my own words | Freitext, falls keines der Modelle passt oder du es anders formulierst. | Free text if none of the models fits or you would put it differently.
+nuechtern-bleiben | Staying sober | Kein Alkohol und keine anderen Substanzen bei allen Beteiligten, vor und während einer Szene. | No alcohol or other substances for anyone involved, before and during a scene. | Nüchtern bleiben
+abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit | Stopping when consent capacity is impaired | Keine Szene, wenn jemand berauscht, übermüdet oder im Ausnahmezustand ist. | No scene when someone is intoxicated, exhausted or in crisis. | Abbruch bei eingeschränkter Einwilligungsfähigkeit
+erste-hilfe-beherrschen | Being able to give first aid | Mindestens eine beteiligte Person kann Erste Hilfe leisten. | At least one person involved can give first aid. | Erste Hilfe beherrschen
+bereitschaft-bei-unsicherheit-sofort-abzubrechen | Willing to stop immediately when unsure | Im Zweifel wird abgebrochen, ohne dass das als Versagen gilt. | When in doubt the scene stops, and that does not count as failure.
+abbruch-und-debrief-nach-einem-fehler | Stopping and debriefing after a mistake | Wenn etwas schiefgeht, endet die Szene und wird danach besprochen. | If something goes wrong the scene ends and is talked through afterwards. | Abbruch und Debrief nach einem Fehler
+sichtbare-spuren | Visible marks | Röte, Abdrücke oder blaue Flecken, die andere sehen könnten. | Redness, marks or bruises that other people might see.
+bleibende-spuren | Permanent marks | Narben, Tätowierungen, Brandzeichen: alles, was nicht von selbst verschwindet. | Scars, tattoos, brands: anything that does not fade by itself.

@@ -1,0 +1,13 @@
+#! Änderungen an der Item-Liste ab dem ersten Release.
+#! Diese Datei wird nur ergänzt, nie umgeschrieben. Sie sorgt dafür, dass ältere
+#! Exporte weiterhin gelesen und verglichen werden können.
+#!
+#!   REMOVE | <alte id>             | <Begründung>
+#!   RENAME | <alte id> | <neue id> | <Begründung>
+#!
+#! Node-Ids (Themen, Sektionen, Gruppen) mit Präfix:  T:<theme>  S:<sektion>  G:<sektion>.<gruppe>
+#!
+#! Vor dem ersten Release stand hier die Entwicklungsgeschichte. Sie ist nach
+#! data/entfernte-items.md gewandert, weil die Neuvergabe der Ids (tools/lockids.py)
+#! ohnehin jeden älteren Export unbrauchbar gemacht hat — Einträge stehen zu
+#! lassen, die eine Kompatibilität nur noch behaupten, wäre irreführend.

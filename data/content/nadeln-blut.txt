@@ -1,0 +1,29 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Needles, blood and marking | These points are **high-risk interests**, not instructions. Infection, damage to vessels or nerves, scarring and the legal limits of consent all call for particular expertise; a concrete danger to life is not legitimised by consent.[^4][^5]
+#GRP | nadeln | Needles and blood
+#GRP | schneiden | Cutting and scratching
+#GRP | markierung | Temporary marks
+#GRP | dauerhaft | Permanent modification
+play-piercing| Play piercing | Sterile Einmalnadeln durch Hautfalten; Handschuhe und sichere Entsorgung sind Pflicht. | Sterile single-use needles through skin folds; gloves and safe disposal are essential.
+temporaere-nadeln| Temporary needles | Nadeln, die nach der Szene wieder entfernt werden. | Needles removed again after the scene.
+nadelmuster-als-aesthetisches-interesse| Needle patterns as an aesthetic interest | Das entstehende Muster ist das Ziel. | The resulting pattern is the point.
+blutstropfen-als-fantasie| Drops of blood as fantasy | Die Vorstellung von Blut, ohne Umsetzung. | The idea of blood, without enacting it.
+blutspiel| Blood play | Jeder Blutkontakt überträgt Infektionen; Teststatus und Barrieren sind entscheidend. | Any blood contact transmits infection; test status and barriers are decisive.
+blood-drinking | Blood drinking | Aufnahme von Blut birgt erhebliche Infektionsrisiken. | Ingesting blood carries substantial infection risk. | Blood Drinking
+sterile-medizinische-aesthetik| Sterile medical aesthetics | Die klinische Reinheit als Teil des Reizes. | Clinical cleanliness as part of the appeal.
+lanzetten-fantasie| Lancet fantasy | Kleine Einmalklingen als Motiv. | Small single-use blades as a motif.
+cutting | Cutting | Schnitte hinterlassen Narben. Infektion und Blutung sind reale Risiken. | Cuts leave scars. Infection and bleeding are real risks. | Cutting
+knife-play-mit-stumpfer-requisite| Knife play with a blunt prop | Die Optik und das Gefühl der Klinge, ohne Schneide. | The look and feel of a blade, without an edge.
+scharfes-knife-play | Sharp knife play | Eine echte Klinge auf der Haut. Kleinste Bewegungen schneiden. | A real blade on skin. The slightest movement cuts. | Scharfes Knife Play
+oberflaechliches-abrasion-play| Surface abrasion play | Aufrauen der Haut ohne Schnitt. | Roughening the skin without cutting.
+scratching-mit-voruebergehenden-spuren| Scratching with temporary marks | Kratzer, die nach Stunden oder Tagen verschwinden. | Scratches that fade within hours or days.
+temporaere-hautmarkierung| Temporary skin marking | Markierungen, die wieder verschwinden. | Marks that disappear again.
+body-writing| Body writing | Schrift auf der Haut; nur hautverträgliche Stifte. | Writing on skin; use only skin-safe markers.
+stempel| Stamps | Ein Stempelabdruck als Markierung. | A stamped impression as a mark.
+abwaschbare-farbe| Washable paint | Farbe, die sich rückstandslos entfernen lässt. | Paint that comes off without residue.
+henna-oder-hautgeeignete-temporaere-farbe| Henna or skin-safe temporary dye | Hält Tage bis Wochen; schwarzes Henna kann allergisch reagieren. | Lasts days to weeks; black henna can cause allergic reactions.
+saugnapf-oder-cupping-spuren| Cupping marks | Runde Blutergüsse durch Unterdruck. | Round bruises created by suction.
+dauerhafte-tattoos-als-beziehungssymbol| Permanent tattoos as a relationship symbol | Dauerhaft; die Beziehung ist es nicht zwingend. | Permanent; the relationship is not necessarily so.
+piercing-als-beziehungssymbol| Piercing as a relationship symbol | Ein Piercing mit Bedeutung für die Dynamik. | A piercing with meaning for the dynamic.
+scarification | Scarification | Bleibende Narben. Heilung und Infektionsrisiko sind erheblich. | Lasting scars. Healing and infection risk are substantial. | Scarification
+branding | Branding | Verbrennung dritten Grades mit bleibender Narbe. | A third-degree burn leaving a permanent scar. | Branding

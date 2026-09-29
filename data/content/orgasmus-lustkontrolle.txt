@@ -1,0 +1,46 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Orgasm and pleasure control |
+#GRP | erlaubnis | Masturbation and permission
+#GRP | edging | Edging and orgasm control
+#GRP | keuschheit | Abstinence and chastity
+#GRP | tease | Tease, denial and reward
+#GRP | konsumkontrolle | Control over consumption and display
+#GRP | pensum | Quotas and sustained states
+masturbation-auf-kommando | Masturbation on command | Selbstbefriedigung auf Anweisung, Beginn und Ende werden bestimmt. | Masturbating on instruction, with start and end decided for you.
+masturbation-beobachten | Watching masturbation | Dabei zusehen, wie sich die andere Person selbst befriedigt. | Watching the other person masturbate.
+masturbationsverbot | Ban on masturbation | Selbstbefriedigung ist für einen vereinbarten Zeitraum untersagt. | Masturbation is forbidden for an agreed period.
+erlaubnis-vor-masturbation | Permission before masturbating | Vor jeder Selbstbefriedigung wird um Erlaubnis gebeten. | Permission is asked before each time.
+orgasmuserlaubnis | Orgasm permission | Ein Orgasmus setzt eine ausdrückliche Erlaubnis voraus. | An orgasm requires express permission.
+orgasmusverbot | Orgasm denial | Orgasmen sind für einen vereinbarten Zeitraum untersagt. | Orgasms are forbidden for an agreed period.
+orgasmusverzoegerung-edging | Edging | Erregung wird bis kurz vor den Orgasmus geführt und dann zurückgenommen. | Arousal is taken to just before orgasm and then pulled back.
+mehrfaches-edging | Repeated edging | Mehrere Runden Edging hintereinander, ohne Auflösung. | Several rounds of edging in a row without release.
+ruinierter-orgasmus-als-vereinbartes-spiel | Ruined orgasm, as an agreed game | Die Stimulation endet im Moment des Orgasmus, sodass er unbefriedigend verläuft. | Stimulation stops at the moment of orgasm so that it is unsatisfying.
+erzwungener-orgasmus | Forced orgasm | Fortgesetzte Stimulation über den Punkt hinaus, an dem man aufhören würde. Vorher verhandelt. | Continued stimulation past the point where you would stop. Negotiated in advance. | Erzwungener Orgasmus
+mehrfachorgasmus-spiel | Multiple orgasm play | Mehrere Orgasmen in Folge als vereinbartes Ziel. | Several orgasms in a row as an agreed goal.
+orgasmustraining | Orgasm training | Gezieltes Üben, den eigenen Orgasmus zu steuern, zu verzögern oder auszulösen. | Deliberate practice at controlling, delaying or triggering your own orgasm.
+orgasmus-auf-kommando | Orgasm on command | Der Orgasmus soll auf ein Signal hin kommen. | The orgasm is meant to come on a cue.
+orgasmus-zaehlen | Counting orgasms | Orgasmen werden gezählt und gemeldet. | Orgasms are counted and reported.
+zeitlich-begrenzte-abstinenz | Time-limited abstinence | Ein festgelegter Zeitraum ohne Orgasmus. | A set period without orgasm.
+langzeit-abstinenz-mit-regelmaessigen-check-ins | Long-term abstinence with regular check-ins | Längere Abstinenz, bei der regelmäßig nachgefragt wird, wie es geht. | Longer abstinence with regular check-ins on how it is going.
+keuschheit-ohne-geraet | Chastity without a device | Keuschheit allein durch Vereinbarung und Selbstkontrolle. | Chastity through agreement and self-control alone.
+keuschheitskaefig | Chastity cage | Ein Gerät, das Erektion und Stimulation verhindert. | A device that prevents erection and stimulation.
+keuschheitsguertel | Chastity belt | Ein umschließendes Gerät, das den Zugang zu den Genitalien sperrt. | An enclosing device that blocks access to the genitals.
+keyholding | Keyholding | Eine andere Person verwahrt den Schlüssel und entscheidet über die Freigabe. | Another person keeps the key and decides about release.
+remote-keyholding | Remote keyholding | Keyholding über Distanz, oft über ein Schloss mit Code oder App. | Keyholding at a distance, often via a coded or app-controlled lock.
+tease-and-denial | Tease and denial | Gezieltes Anheizen mit anschließender Verweigerung. | Deliberate arousal followed by refusal.
+sexuelle-frustration-als-spielreiz | Sexual frustration as part of the appeal | Nicht die Befriedigung, sondern das ungestillte Verlangen ist der Reiz. | The appeal lies in the unmet desire rather than in satisfaction.
+belohnung-durch-freigabe | Release as a reward | Der Orgasmus wird als Belohnung für etwas anderes freigegeben. | Orgasm is released as a reward for something else.
+privilegienbasierte-lustkontrolle | Pleasure as a privilege | Zugang zu Lust hängt an Privilegien, die verdient oder entzogen werden. | Access to pleasure depends on privileges that are earned or withdrawn.
+toys-verbot | A ban on toys | Der Gebrauch von Toys wird zeitweise untersagt. | Use of toys is forbidden for a time. | Toys-Verbot
+kontrolle-ueber-pornografie-oder-erotikkonsum | Control over porn or erotica consumption | Was, wie viel und wann konsumiert wird, ist geregelt. | What, how much and when is consumed is regulated.
+kontrolle-ueber-erotische-kleidung | Control over erotic clothing | Was an Unterwäsche oder Fetischkleidung getragen wird, wird bestimmt. | What underwear or fetish clothing is worn is decided for you.
+anzeige-der-erregung-wird-bestimmt | How arousal is shown is decided | Auf Anweisung sichtbar machen oder gerade verbergen. | On instruction, made visible or deliberately hidden. | Anzeige der Erregung wird bestimmt
+erregungstest-als-rollenspiel | Arousal test as role play | Eine inszenierte Prüfung, wie erregt jemand ist. | A staged test of how aroused someone is.
+verordnetes-masturbationspensum | Prescribed masturbation quota | Nicht Verbot, sondern Pflicht: eine vorgegebene Häufigkeit. | Not a ban but an obligation: a prescribed frequency.
+gooning-langer-trance-artiger-edging-zustand | Gooning: a long, trance-like edging state | Stundenlanges Edging bis in einen benommenen, trance-artigen Zustand. Kann Wundreiben, Zeitverlust und Zwanghaftigkeit begünstigen. | Hours of edging into a dazed, trance-like state. It can promote chafing, loss of time and compulsive patterns.
+mindestfrequenz | Minimum frequency | Eine Untergrenze, wie oft masturbiert wird. | A lower limit on how often you masturbate. | Mindestfrequenz
+hoechstfrequenz | Maximum frequency | Eine Obergrenze, wie oft masturbiert wird. | An upper limit on how often you masturbate. | Höchstfrequenz
+gooning-session-auf-anweisung | Gooning session on instruction | Eine Gooning-Sitzung wird angeordnet, mit Rahmen und Ende. | A gooning session is ordered, with a framework and an end.
+zeitvorgabe-fuer-edging-sessions | Time target for edging sessions | Eine Dauer wird vorgegeben, etwa dreißig Minuten ohne Auflösung. | A duration is set, for instance thirty minutes without release.
+gemeinsames-edging-ueber-distanz | Edging together at a distance | Gemeinsames Edging per Telefon, Video oder Chat. | Edging together by phone, video or chat.
+nachweis-der-sitzung | Proof of the session | Beleg, dass die Sitzung stattgefunden hat, etwa per Nachricht oder Aufnahme. | Evidence that the session took place, by message or recording.

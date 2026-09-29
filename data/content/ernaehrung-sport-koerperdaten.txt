@@ -1,0 +1,26 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Food, exercise and body data | Health-related control works slowly and is hard to see from outside. Control over food and weight can reinforce or conceal an eating disorder, and the dynamic supplies the justification along with it. Reported values such as blood pressure or blood sugar do not replace medical treatment and can delay it. The counterparts are in **Framework and safety** under *Health, data and self-determination*, and they are never shortened.
+#GRP | ernaehrung | Food
+#GRP | bewegung | Exercise and sleep
+#GRP | messwerte-melden | Reporting measurements
+#GRP | rahmen-gesundheit | Framing
+ernaehrungsprotokoll-fuehren | Keeping a food log | Aufschreiben, was gegessen wurde, und es weitergeben. | Writing down what was eaten and passing it on.
+mahlzeiten-freigeben | Approving meals | Was gegessen wird, wird vorher abgestimmt. | What gets eaten is agreed beforehand. | Mahlzeiten freigeben
+kalorien-oder-makrovorgabe | Calorie or macro targets | Zahlenvorgaben für Energie oder Nährstoffe; ohne ärztliche Untergrenze riskant. | Numeric targets for energy or nutrients; risky without a medically set lower limit.
+verzichtsvereinbarung-etwa-alkohol-oder-zucker | Agreement to abstain from something | Ein vereinbarter Verzicht, etwa auf Alkohol oder Zucker, für einen Zeitraum. | An agreed abstention, for instance from alcohol or sugar, for a period.
+essenszeiten-vorgegeben | Set meal times | Wann gegessen wird, ist vorgegeben. | When you eat is prescribed.
+wasseraufnahme-begleitet | Water intake tracked | Trinkmenge wird gemeldet oder erinnert. | Fluid intake is reported or reminded.
+einkaufsliste-freigeben | Shopping list approved | Der Einkauf wird vorher abgestimmt. | Shopping is agreed beforehand.
+trainingsplan-vorgegeben | Training plan set | Ein vorgegebener Plan für Art, Umfang und Häufigkeit des Trainings. | A prescribed plan for the type, amount and frequency of training.
+trainingsnachweis | Proof of training | Beleg, dass trainiert wurde, etwa über App oder Foto. | Evidence that training happened, via an app or a photo.
+schrittziel | Step goal | Eine tägliche Schrittzahl als vereinbartes Ziel. | A daily step count as an agreed goal.
+schlafzeiten-begleitet | Sleep times coached | Zubettgeh- und Aufstehzeiten als Teil der Vereinbarung. | Bedtime and waking time as part of the agreement.
+schlafdaten-teilen | Sharing sleep data | Schlafdauer und -qualität aus einer App oder Uhr weitergeben. | Passing on sleep duration and quality from an app or watch.
+gewicht-regelmaessig-melden | Reporting weight regularly | Das Gewicht wird regelmäßig gemeldet; ohne ärztliche Untergrenze und ohne Straffreiheit ein bekannter Risikofaktor. | Weight is reported regularly; without a medical lower limit and freedom from punishment this is a known risk factor.
+blutdruck-melden | Reporting blood pressure | Blutdruckwerte werden weitergegeben. Werte sind Behandlungsfragen und ersetzen keine ärztliche Versorgung. | Blood pressure readings are passed on. Readings are treatment matters and do not replace medical care.
+blutzucker-melden | Reporting blood sugar | Blutzuckerwerte werden weitergegeben. Bei Diabetes gehört die Steuerung in ärztliche Hände, nicht in die Dynamik. | Blood sugar readings are passed on. With diabetes, management belongs in medical hands, not in the dynamic.
+koerpermasse-melden | Reporting body measurements | Umfänge und Maße werden gemeldet. | Circumferences and measurements are reported.
+ruhepuls-melden | Reporting resting heart rate | Der Ruhepuls wird als Verlaufswert gemeldet. | Resting heart rate is reported as a trend value.
+laborwerte-besprechen | Discussing lab results | Befunde werden besprochen; die Deutung bleibt ärztlich. | Findings are discussed; interpreting them stays with a doctor.
+ziele-gemeinsam-festlegen-statt-vorgeben | Goals set together rather than imposed | Ziele entstehen im Gespräch, nicht als Vorgabe von einer Seite. | Goals come out of conversation rather than being set by one side.
+fortschritt-ohne-vergleich-mit-anderen | Progress without comparison to others | Bewertet wird die eigene Entwicklung, nicht der Abstand zu anderen. | What is measured is your own development, not the gap to other people.

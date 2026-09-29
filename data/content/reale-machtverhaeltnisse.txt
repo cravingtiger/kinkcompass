@@ -1,0 +1,10 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Safeguards for far-reaching power exchange | These are personal conditions, not statements about one particular relationship: what do you need before you enter into a far-reaching transfer of power? They apply regardless of who with.
+#GRP | absicherung | Safeguards
+ansprechperson-ausserhalb-benennen | Naming a contact outside the dynamic | Jemand außerhalb, der eingeweiht ist und dem man sich melden kann. | Someone outside who knows about it and can be turned to. | Ansprechperson außerhalb benennen
+ausstiegsplan-schriftlich-festhalten | Writing down an exit plan | Bevor etwas Dauerhaftes beginnt, steht schriftlich fest, wie es endet und was dann gilt. | Before anything lasting begins, it is written down how it ends and what applies then. | Ausstiegsplan schriftlich festhalten
+dynamik-befristen-oder-ueberpruefen | Setting a term or review date | Die Dynamik läuft nicht unbefristet, sondern wird zu einem festen Termin überprüft. | The dynamic does not run indefinitely but is reviewed at a set date. | Dynamik befristen oder überprüfen
+eigene-finanzielle-unabhaengigkeit | Your own financial independence | Du bleibst in der Lage, ohne die andere Person finanziell weiterzuleben. | You remain able to go on living financially without the other person. | Eigene finanzielle Unabhängigkeit
+eigene-wohnmoeglichkeit-sichern | Securing your own housing option | Eine Wohnmöglichkeit, die nicht an der Dynamik hängt. | Somewhere to live that does not depend on the dynamic. | Eigene Wohnmöglichkeit sichern
+nuechtern-verhandeln | Negotiating sober | Verhandelt wird nüchtern und ohne akuten Druck, nicht mitten in einer Szene. | Negotiation happens sober and without acute pressure, not mid-scene. | Nüchtern verhandeln
+auf-augenhoehe-verhandeln | Negotiating as equals | Beim Verhandeln gilt die Dynamik nicht; hier sprechen zwei Gleiche. | The dynamic does not apply while negotiating; there you speak as equals. | Auf Augenhöhe verhandeln

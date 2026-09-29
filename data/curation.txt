@@ -1,0 +1,986 @@
+#! KinkCompass Kuratierung — Themenbereiche, Sektionen, Gruppen, Flags
+#! Format siehe tools/curate.py. Indizes sind 1-basiert und beziehen sich auf die Quellsektion.
+#! level: e=Einstieg  s=Standard  v=Vollstaendig   ap=rollengetrennt  noap=eine Bewertung
+
+#! ==================================================================
+#! Antwortsaetze fuer § 3
+#! ==================================================================
+CHOICE | leitmodell | ssc=Safe, Sane, Consensual (SSC)::Die älteste der Formeln, aus der US-Szene der 1980er. Eine Praktik soll sicher, bei klarem Verstand und einvernehmlich sein. Kritisiert wird, dass „sicher" und „vernünftig" Urteile von außen sind — viele etablierte Praktiken sind nie vollständig sicher. ; rack=Risk-Aware Consensual Kink (RACK)::Die Antwort auf diese Kritik. Nicht „sicher", sondern: das konkrete Risiko ist bekannt, benannt und bewusst getragen. Verlangt, sich vorher kundig zu machen, statt Risiko wegzudefinieren. ; prick=Personal Responsibility, Informed, Consensual Kink (PRICK)::Wie RACK, betont zusätzlich die Eigenverantwortung jeder beteiligten Person. Niemand gibt die Verantwortung für sich vollständig ab, auch nicht die folgende Seite. ; ccc=Committed, Compassionate, Consensual (CCC)::Stellt die Beziehung über die einzelne Szene: Verbindlichkeit und Fürsorge gelten auch danach. Weniger Risikoformel als Haltung zum Miteinander. ; eigen=eigenes Modell::Keines der Modelle trifft es — du beschreibst deine Haltung selbst. ; unklar=noch nicht festgelegt::Du hast dich noch nicht entschieden — eine ehrliche und im Gespräch brauchbare Angabe.
+CHOICE | spuren | nie=nie::Nichts, was jemand sehen könnte — auch nicht unter Kleidung. ; vereinbart=nur ausdrücklich vereinbart::Spuren sind möglich, aber jedes Mal vorher abgesprochen. ; egal=unproblematisch::Sichtbare Spuren sind für dich kein Thema.
+CHOICE | spuren-bleibend | nie=nie::Nichts, was dauerhaft bleibt: keine Narben, keine Brandzeichen. ; vereinbart=nur ausdrücklich vereinbart::Dauerhafte Spuren sind denkbar, aber nur nach eigener, ausdrücklicher Vereinbarung.
+CHOICE | herabsetzung | nie=nie::Diese Kategorie kommt nicht vor, in keiner Form und in keinem Wort. ; whitelist=nur nach Wort-Whitelist::Nur die Worte, die du oben ausdrücklich freigegeben hast. ; offen=offen::Du setzt hier keine Kategoriegrenze — die Wortlisten oben gelten trotzdem.
+CHOICE | genderrollen | verstaerken=verstärken::Die Dynamik greift gängige Geschlechterbilder auf und spitzt sie zu. ; umkehren=spielerisch umkehren::Der Reiz liegt darin, die erwartete Verteilung umzudrehen. ; irrelevant=irrelevant::Geschlechterbilder spielen in deinem Spiel keine Rolle. ; unklar=weiß ich nicht::Du hast dazu noch keine Haltung — auch das ist eine Antwort.
+CHOICE | aufwertung | aufwertung=als Aufwertung::Gemeint als etwas Schönes, Begehrtes, Erhebendes. ; herabsetzung=als Herabsetzung::Gemeint als Erniedrigung — der Reiz liegt genau darin. ; beides=je nach Rahmen::Beides möglich — die Bedeutung entsteht erst in der Szene. ; nicht=nicht Teil des Spiels::Kommt bei dir nicht vor.
+CHOICE | wer | ich=ich::Diese Arbeit liegt bei dir. ; gegenueber=Gegenüber::Diese Arbeit liegt bei der anderen Person. ; geteilt=geteilt::Ihr teilt euch die Arbeit. ; offen=noch offen::Ungeklärt — und damit ein Gesprächspunkt.
+
+#! ==================================================================
+THEME | rahmen-sicherheit | Rahmen und Sicherheit | 1
+#! Nie gekuerzt, von Vererbung ausgenommen, im Einstieg zuerst (SPEC § 3, § 6.1)
+#! ==================================================================
+
+SEC | new | risikomodell | Risikomodell und Haltung | vereinbarung
+GRPDEF | leitbild | Leitmodell
+ITEM | leitmodell | Nach welchem Modell arbeitest du? | noap | e | leitbild | leitmodell
+ITEM | leitmodell-eigen | Eigenes Modell, in eigenen Worten | noap | e | leitbild | text
+GRPDEF | voraussetzungen | Voraussetzungen und Haltung
+ITEM | nuechternheit | Vollständige Nüchternheit als Bedingung | noap | e | voraussetzungen
+ITEM | keine-szene-ohne-einwilligungsfaehigkeit | Keine Szene bei eingeschränkter Einwilligungsfähigkeit | noap | e | voraussetzungen
+ITEM | erste-hilfe-kenntnisse | Erste-Hilfe-Kenntnisse vorhanden | noap | e | voraussetzungen
+ITEM | abbruch-bei-unsicherheit | Bereitschaft, bei Unsicherheit sofort abzubrechen | noap | e | voraussetzungen
+ITEM | fehler-abbruch-debrief | Fehler in der Szene: sofortiger Abbruch und Debrief | noap | e | voraussetzungen
+GRPDEF | spuren | Spuren
+ITEM | sichtbare-spuren | Sichtbare Spuren | noap | e | spuren | spuren
+ITEM | bleibende-spuren | Bleibende Spuren | noap | e | spuren | spuren-bleibend
+
+FLAG | erste-hilfe-kenntnisse | ap
+SEC | new | reale-machtverhaeltnisse | Absicherung bei starker Machtabgabe | vereinbarung
+NOTE | Diese Punkte sind persönliche Bedingungen, keine Angaben über eine bestimmte Beziehung: Was brauchst du, bevor du dich auf eine weitreichende Machtabgabe einlässt? Sie gelten unabhängig davon, mit wem.
+GRPDEF | absicherung | Absicherungen
+ITEM | ansprechperson-ausserhalb | Ansprechperson außerhalb der Dynamik | noap | e | absicherung
+ITEM | ausstiegsplan | Schriftlicher Ausstiegsplan, bevor eine dauerhafte Dynamik beginnt | noap | e | absicherung
+ITEM | befristung | Befristung der Dynamik oder fester Überprüfungstermin | noap | e | absicherung
+ITEM | finanzielle-trennbarkeit | Eigene finanzielle Unabhängigkeit bleibt gewahrt | noap | e | absicherung
+ITEM | wohnsituation-bei-ende | Eigene Wohnmöglichkeit unabhängig von der Dynamik | noap | e | absicherung
+ITEM | verhandlung-nuechtern | Verhandlung nur in nüchternem, unbelastetem Zustand | noap | e | absicherung
+ITEM | kein-gefaelle-bei-verhandlung | Kein Machtgefälle während der Verhandlung selbst | noap | e | absicherung
+
+FLAG | ansprechperson-ausserhalb,ausstiegsplan,befristung,finanzielle-trennbarkeit,wohnsituation-bei-ende | ap
+SEC | new | sprache-wortliste | Sprache und Wort-Whitelist | vereinbarung
+GRPDEF | listen | Wortlisten
+ITEM | anrede-belohnend | Belohnende Ansprache: Worte, die anerkennen und guttun | noap | e | listen | text
+ITEM | anrede-herabsetzend | Herabsetzende Ansprache: Worte, die treffen sollen und dafür freigegeben sind | noap | e | listen | text
+ITEM | ausgeschlossene-worte | Absolut ausgeschlossene Worte | noap | e | listen | text
+GRPDEF | kategorien | Kategorien der Herabsetzung
+ITEM | sexistisch | Sexistische Herabsetzung | noap | e | kategorien | herabsetzung
+ITEM | rassistisch | Rassistische oder ethnisch bezogene Herabsetzung | noap | e | kategorien | herabsetzung
+ITEM | herkunft-sprache | Herabsetzung mit Bezug auf Herkunft oder Sprache | noap | e | kategorien | herabsetzung
+ITEM | koerper-gewicht | Körper- und gewichtsbezogene Herabsetzung | noap | e | kategorien | herabsetzung
+ITEM | behinderung-krankheit | Behinderungs- oder krankheitsbezogene Herabsetzung | noap | e | kategorien | herabsetzung
+ITEM | gender-orientierung | Herabsetzung mit Bezug auf Gender oder Orientierung | noap | e | kategorien | herabsetzung
+ITEM | religion | Herabsetzung mit Bezug auf Religion | noap | e | kategorien | herabsetzung
+ITEM | intelligenz-leistung | Intelligenz- und leistungsbezogene Herabsetzung | noap | e | kategorien | herabsetzung
+ITEM | sexuelle-herabsetzung | Sexuelle Herabsetzung | noap | e | kategorien | herabsetzung
+GRPDEF | geltung | Geltung
+ITEM | nur-in-der-szene | Gilt ausschließlich innerhalb der Szene, nie außerhalb | noap | e | geltung
+ITEM | freigabe-vor-ergaenzung | Worte nur nach vorheriger ausdrücklicher Freigabe ergänzen | noap | e | geltung
+ITEM | abbruch-bei-fremdwort | Abbruch bei nicht freigegebenem Wort, ohne Diskussion | noap | e | geltung
+
+SEC | new | gender-alltag | Gender und Alltagsverhältnis | vereinbarung
+GRPDEF | rollenbilder | Rollenbilder im Spiel
+ITEM | genderrollen-im-spiel | Genderrollen im Spiel | noap | e | rollenbilder | genderrollen
+ITEM | feminisierung-bedeutung | Feminisierung ist für mich | noap | e | rollenbilder | aufwertung
+ITEM | maskulinisierung-bedeutung | Maskulinisierung ist für mich | noap | e | rollenbilder | aufwertung
+ITEM | diskrepanz-gewuenscht | Diskrepanz zwischen Spieldynamik und Alltag ausdrücklich gewünscht | noap | e | rollenbilder
+ITEM | alltag-gleichberechtigt | Alltag gleichberechtigt, unabhängig von der Szenendynamik | noap | e | rollenbilder
+GRPDEF | arbeitsteilung | Verteilung der Arbeit
+ITEM | planung-organisation | Planung und Organisation der Szenen | noap | e | arbeitsteilung | wer
+ITEM | aftercare-nacharbeit | Aftercare und emotionale Nacharbeit | noap | e | arbeitsteilung | wer
+ITEM | verhandlung-initiative | Verhandlung und Initiative | noap | e | arbeitsteilung | wer
+ITEM | bildung-recherche | Bildung und Recherche | noap | e | arbeitsteilung | wer
+GRPDEF | reflexion | Reflexion
+ITEM | nicht-reproduzieren | Rollenbilder, die ich ausdrücklich nicht reproduzieren will | noap | e | reflexion | text
+
+SEC | new | gesundheit-selbstbestimmung | Gesundheit, Daten und Selbstbestimmung | vereinbarung
+NOTE | Die Gegenstücke zu **Lifecoaching, Überwachung und Gesundheit**. Diese Punkte sind Vereinbarungen, keine Vorlieben: sie werden in keinem Modus gekürzt, nicht vererbt und lassen sich nicht überspringen.
+GRPDEF | medizin | Medizinische Zuständigkeit
+ITEM | behandlung-bleibt-aerztlich | Medizinische Behandlung bleibt ärztlich und ist nicht Teil der Dynamik | noap | e | medizin
+ITEM | keine-medikamentenkontrolle | Keine Kontrolle über Medikamente oder Therapie | noap | e | medizin
+ITEM | aerztliche-rueckkopplung | Gesundheitsziele werden ärztlich rückgekoppelt | noap | e | medizin
+GRPDEF | grenzwerte | Grenzwerte und Vorgeschichte
+ITEM | untergrenzen-aerztlich | Untergrenzen für Gewicht und Kalorien ärztlich festgelegt | noap | e | grenzwerte
+ITEM | essstoerung-vorgeschichte | Essstörung in der Vorgeschichte: Ernährungs- und Gewichtskontrolle ausgeschlossen | noap | e | grenzwerte
+ITEM | ziele-duerfen-sinken | Ziele werden regelmäßig überprüft und dürfen sinken | noap | e | grenzwerte
+GRPDEF | messwerte | Umgang mit Messwerten
+ITEM | messwerte-nicht-bestrafen | Messwerte werden gemeldet, nicht bewertet oder bestraft | noap | e | messwerte
+ITEM | konsequenz-nur-fuer-verhalten | Konsequenzen nur für vereinbartes Verhalten, nie für Zahlen | noap | e | messwerte
+GRPDEF | ueberwachungsgrenzen | Grenzen der Überwachung
+ITEM | ueberwachung-abschaltbar | Überwachung jederzeit abschaltbar, ohne Begründung und ohne Sanktion | noap | e | ueberwachungsgrenzen
+ITEM | loeschfrist-nachweise | Löschfrist für Nachweise und Aufzeichnungen | noap | e | ueberwachungsgrenzen
+ITEM | keine-fremde-cloud | Keine Speicherung von Gesundheitsdaten in fremder Cloud | noap | e | ueberwachungsgrenzen
+ITEM | kein-zugriff-auf-konten | Kein Zugriff auf Gesundheits- oder Versicherungskonten | noap | e | ueberwachungsgrenzen
+GRPDEF | auszeit | Auszeit
+ITEM | auszeit-bei-krankheit | Auszeit von der Begleitung bei Krankheit oder Belastung | noap | e | auszeit
+
+FLAG | behandlung-bleibt-aerztlich,keine-medikamentenkontrolle,aerztliche-rueckkopplung,untergrenzen-aerztlich,essstoerung-vorgeschichte,ziele-duerfen-sinken | ap
+FLAG | messwerte-nicht-bestrafen,konsequenz-nur-fuer-verhalten,ueberwachung-abschaltbar,loeschfrist-nachweise,keine-fremde-cloud,kein-zugriff-auf-konten,auszeit-bei-krankheit | ap
+SEC | md:Sicherheit, Verhandlung und Grenzen | sicherheit-verhandlung | Sicherheit, Verhandlung und Grenzen | vereinbarung
+DROP | 20 | deckungsgleich mit risikomodell/nuechternheit („Nüchtern bleiben") — dieselbe Zusage zweimal abzufragen erzeugt Scheinübereinstimmung
+DROP | 28 | als Dauerbedingung überzogen und doppelt abgedeckt: die fürsorgliche Seite steht in aftercare/check-in-am-naechsten-tag, die fortlaufende Zustimmung in „Neuverhandlung langfristiger Regeln"
+DROP | 33 | entfernt: ein Safe Call wirkt nur, solange die andere Person Zeitpunkt und Ablauf nicht kennt — in einem Dokument, das man ihr gibt, hebt er sich selbst auf
+GRP | 1-5   | verhandlung        | Vorbesprechung und Grenzen      | noap | e
+GRP | 6-10  | gesundheit         | Gesundheit offenlegen           | noap | e
+GRP | 11-14 | stoppsignale       | Stoppsignale und Check-ins      | noap | e
+GRP | 15-19 | notfall            | Notfall und Ausrüstung          | noap | e
+GRP | 21-24 | rahmen-grenzen     | Rahmen, Spuren und Daten        | noap | e
+GRP | 25-26 | sexuelle-gesundheit| Sexuelle Gesundheit             | noap | e
+GRP | 27,29-32 | nachbereitung   | Nachbereitung und Widerruf      | noap | e
+GRP | 34-36 | neue-kontakte      | Neue Kontakte                   | noap | e
+
+FLAG | orts-und-zeitgrenzen,sichtbare-spuren-grenze,notfallkontakt,erste-hilfe-material,telefon-erreichbar,loesewerkzeug-erreichbar | ap
+FLAG | identitaet-und-alter-real-verifizieren,oeffentliche-erstbegegnung,referenzen-oder-community-einbindung | ap
+SEC | old:Grenzen, Gesundheit und Notizen | grenzen-gesundheit | Grenzen, Gesundheit und Notizen | text
+GRP | 1-5   | grenzen   | Grenzen                    | noap | e
+GRP | 6-9   | risiken   | Risiken und Vorgeschichte  | noap | e
+GRP | 10-12 | wuensche  | Bedingungen und Wünsche    | noap | e
+
+#! ==================================================================
+THEME | grundlagen | Grundlagen und Selbstbild | 2
+#! ==================================================================
+
+SEC | old:Sexuelle Orientierung | orientierung-sexuell | Sexuelle Orientierung | multi
+GRP | 1-6   | haeufig            | Häufige Begriffe        | noap | e
+GRP | 7-9   | ace-spektrum       | Asexuelles Spektrum     | noap | e
+GRP | 10-13 | geschlechtsbezogen | Geschlechtsbezogen      | noap | s
+GRP | 14-24 | weitere            | Weitere Begriffe        | noap | v
+GRP | 25-26 | offen              | Offen                   | noap | e
+
+SEC | old:Romantische Orientierung | orientierung-romantisch | Romantische Orientierung | multi
+GRP | 1-5   | haeufig            | Häufige Begriffe        | noap | s
+GRP | 6-8   | aro-spektrum       | Aromantisches Spektrum  | noap | s
+GRP | 9-14  | weitere            | Weitere Begriffe        | noap | v
+GRP | 15-16 | offen              | Offen                   | noap | s
+
+SEC | old:Geschlechterbezogene Präferenzen | geschlechterpraeferenzen | Geschlechterbezogene Präferenzen | multi
+GRP | 1-5   | konkret      | Konkrete Anziehung             | noap | e
+GRP | 6-9   | uebergreifend| Übergreifend                   | noap | e
+GRP | 10-11 | keine        | Keine oder situationsabhängig  | noap | e
+
+SEC | md:Grundorientierung und Beziehung | grundorientierung | Grundorientierung und Beziehung | scale
+NOINHERIT | die Punkte sind Alternativen, keine gleichartige Menge — eine Bewertung für alle auf einmal wäre sinnlos
+GRP | 1-6   | stellenwert     | Stellenwert von Kink      | noap | s
+SET | 3,4,6 | e
+SET | 1,5   | v
+GRP | 7-11  | reichweite      | Reichweite der Dynamik    | noap | s
+SET | 7,8,9,10 | e
+SET | 11    | v
+GRP | 12-20 | beziehungsform  | Beziehungsform            | noap | s
+SET | 12,13,14 | e
+SET | 15,16,19,20 | v
+GRP | 21-27 | szene-community | Szene und Community       | noap | s
+SET | 21,24 | e
+SET | 22,23,25,26 | v
+GRP | 28-30 | sichtbarkeit    | Sichtbarkeit              | noap | s
+SET | 28,29 | e
+
+ITEM | solo-polyamorie | Solo-Polyamorie | noap | s | beziehungsform
+ITEM | beziehungsanarchie | Beziehungsanarchie | noap | s | beziehungsform
+ITEM | hierarchiefreie-poly | Polyamorie ohne Rangordnung | noap | v | beziehungsform
+SEC | md:Rollen und Identitäten | rollen-identitaeten | Rollen und Identitäten | scale
+NOINHERIT | Rollen sind Identitäten, keine abstufbare Menge — man ist eine Rolle oder nicht
+#! Rollen tragen die Richtung bereits im Namen, daher durchgehend noap
+GRP | 1-10  | kernrollen       | Kernrollen                          | noap | s
+SET | 1,2,3,4,5,8,9 | e
+GRP | 11-14 | besitz           | Besitz- und Eigentumsrollen         | noap | v
+SET | 11,12 | s
+GRP | 15-22 | betreuung        | Betreuung, Training und Führung     | noap | v
+SET | 16    | e
+SET | 21,22 | s
+GRP | 23-26 | brat-primal      | Brat und Primal                     | noap | v
+SET | 23    | e
+GRP | 27-30 | seil-keuschheit  | Seil und Keuschheit                 | noap | v
+SET | 27,28 | e
+GRP | 31-34 | material         | Materialrollen                      | noap | v
+GRP | 35-38 | gender           | Genderbezogene Dominanz             | noap | v
+SET | 35,36 | s
+GRP | 39-42 | weitere-rollen   | Weitere Rollenformen                | noap | v
+
+GRPDEF | begleitung | Begleitende Rollen
+ITEM | lifecoach | Lifecoach / dominante Alltagsbegleitung | noap | e | begleitung
+ITEM | coachee | Coachee / begleitete Person | noap | e | begleitung
+ITEM | accountability-partner | Accountability-Partner | noap | s | begleitung
+
+#! ==================================================================
+THEME | macht-kontrolle | Macht und Kontrolle | 3
+#! ==================================================================
+
+SEC | md:Machtgefälle und Kontrolle | machtgefaelle | Machtgefälle und Kontrolle | scale
+GRP | 1-5   | befehle           | Befehle und Erlaubnis          | noap | s
+SET | 1,2,3,4 | e
+GRP | 6-13  | alltagskontrolle  | Kontrolle im Alltag            | ap   | s
+SET | 6     | e
+SET | 10,11,12,13 | v
+GRP | 14-21 | koerper-erlaubnis | Körper, Sprache und Erlaubnis  | ap   | s
+SET | 15,17 | e
+SET | 14,18,19 | v
+GRP | 22-26 | aufgaben          | Aufgaben und Konsequenzen      | ap   | s
+SET | 22,25,26 | e
+GRP | 27-31 | umfang            | Umfang der Machtabgabe         | ap   | s
+SET | 30    | e
+SET | 27    | v
+GRP | 32-35 | aktivierung       | Aktivierung und Begrenzung     | noap | s
+SET | 32    | e
+SET | 35    | v
+
+SEC | md:Protokolle und Rituale | protokolle-rituale | Protokolle und Rituale | scale
+GRP | 1-3   | anrede           | Anrede und Begrüßung        | ap | s
+SET | 1     | e
+GRP | 4-9   | haltungen        | Haltungen                   | ap | s
+SET | 4     | e
+SET | 6,9   | v
+GRP | 10-17 | service-protokoll| Service-Protokolle          | ap | v
+SET | 13    | s
+GRP | 18-23 | halsband         | Halsband und Leine          | ap | s
+SET | 18,21 | e
+SET | 20,22 | v
+GRP | 24-25 | signale          | Signalprotokolle            | noap | v
+GRP | 26-30 | berichte         | Berichte und Aufgaben       | ap | s
+SET | 28    | e
+SET | 26,27 | v
+GRP | 31-35 | zeremonien       | Zeremonien und Codes        | noap | v
+GRP | 36-39 | kommandos        | Kommandos und Formeln       | ap | s
+SET | 37    | e
+SET | 39    | v
+
+SEC | md:Service und Hingabe | service-hingabe | Service und Hingabe | scale
+GRP | 1-14  | haushalt      | Haushalt und Versorgung         | ap | s
+SET | 1,2   | e
+SET | 3,7,8,9,10,11 | v
+GRP | 15-21 | koerperpflege | Körperpflege und Ankleiden      | ap | s
+SET | 15    | e
+SET | 18,19 | v
+GRP | 22-26 | assistenz     | Assistenz und Rollenservice     | ap | s
+SET | 25    | e
+SET | 23,24 | v
+GRP | 27-32 | praesentation | Präsentation und Möbelrollen    | ap | v
+GRP | 33-36 | verehrung     | Verehrung und Nachsorge         | ap | s
+SET | 36    | e
+GRP | 37-38 | gehorsam      | Gehorsam                        | ap | e
+
+SEC | md:Disziplin und Training | disziplin-training | Disziplin und Training | scale
+GRP | 1-9   | training      | Training und Übung                     | ap | s
+SET | 1,2   | e
+SET | 3,6,9 | v
+GRP | 10-13 | schreibaufgaben| Schreib- und Wiederholungsaufgaben    | ap | v
+GRP | 14-19 | konsequenzen  | Konsequenzen ohne Körperlichkeit       | ap | s
+SET | 15    | e
+SET | 14,19 | v
+GRP | 20-22 | koerperlich   | Körperliche und ernste Konsequenzen    | ap | e
+GRP | 23-28 | rahmen-stufen | Rollenspielrahmen und Stufen           | ap | v
+
+#! ==================================================================
+THEME | lifecoaching | Lifecoaching, Überwachung und Gesundheit | 4
+#! ==================================================================
+
+SEC | new | lifecoaching-accountability | Lifecoaching und Accountability | scale
+GRPDEF | rahmen-begleitung | Rahmen der Begleitung
+ITEM | dominante-alltagsbegleitung | Dominante Begleitung im Alltag (Lifecoaching) | ap | e | rahmen-begleitung
+ITEM | accountability-partnerschaft | Accountability-Partnerschaft | ap | e | rahmen-begleitung
+ITEM | zielvereinbarung-schriftlich | Zielvereinbarung schriftlich | ap | s | rahmen-begleitung
+ITEM | feste-zustaendigkeitsbereiche | Festgelegte Bereiche, in denen begleitet wird | ap | s | rahmen-begleitung
+ITEM | begleitung-ohne-sexuellen-bezug | Begleitung ausdrücklich ohne sexuellen Bezug | ap | s | rahmen-begleitung
+GRPDEF | meldung | Meldung und Rückblick
+ITEM | taegliche-meldung | Tägliche Meldung | ap | e | meldung
+ITEM | wochenrueckblick | Wochenrückblick | ap | s | meldung
+ITEM | monatliche-zielpruefung | Monatliche Zielprüfung | ap | v | meldung
+ITEM | morgenroutine-begleitet | Morgenroutine begleitet | ap | s | meldung
+ITEM | abendroutine-begleitet | Abendroutine begleitet | ap | v | meldung
+GRPDEF | ziele | Ziele und Fortschritt
+ITEM | belohnung-bei-zielerreichung | Belohnung bei Zielerreichung | ap | s | ziele
+ITEM | arbeits-oder-lernziele | Arbeits- oder Lernziele begleitet | ap | s | ziele
+ITEM | aufschieben-gemeinsam-angehen | Aufschieben gemeinsam angehen | ap | s | ziele
+ITEM | streak | Streak: ununterbrochene Erfüllung | ap | v | ziele
+ITEM | punktesystem-alltagsziele | Punktesystem für Alltagsziele | ap | v | ziele
+GRPDEF | rueckfall | Rückfall und Konsequenz
+ITEM | konsequenz-bei-versaeumnis | Konsequenz bei Versäumnis | ap | s | rueckfall
+ITEM | rueckfall-ohne-beschaemung | Rückfall ohne Beschämung besprechen | ap | e | rueckfall
+ITEM | nachsicht-bei-krankheit | Nachsicht bei Krankheit ausdrücklich vereinbart | ap | e | rueckfall
+
+SEC | new | ueberwachung-nachweis | Überwachung und Nachweis | scale
+NOTE | Laufende Überwachung ist etwas anderes als eine Szene: sie endet nicht von selbst. Aufzeichnung, Speicherung, Weitergabe und Löschung brauchen getrennte, konkrete Vereinbarungen; unbefugte Intimaufnahmen können strafbar sein.[^7][^8] Die Grenzen dazu stehen in **Rahmen und Sicherheit**.
+GRPDEF | laufend | Laufende Überwachung
+ITEM | videoueberwachung-zeitfenster | Videoüberwachung während vereinbarter Zeitfenster | ap | e | laufend
+ITEM | kamera-im-vereinbarten-raum | Dauerhafte Kamera in einem vereinbarten Raum | ap | s | laufend
+ITEM | livebild-auf-anforderung | Livebild auf Anforderung | ap | s | laufend
+ITEM | raumton-auf-anforderung | Mikrofon oder Raumton auf Anforderung | ap | v | laufend
+ITEM | bildschirmfreigabe | Bildschirmfreigabe | ap | s | laufend
+ITEM | bildschirmzeit-auswertung | Auswertung der Bildschirmzeit | ap | v | laufend
+ITEM | anwesenheitsnachweis | Anwesenheitsnachweis zu festen Zeiten | ap | v | laufend
+GRPDEF | nachweise | Nachweise
+ITEM | nachweisfoto-auf-anforderung | Nachweisfoto auf Anforderung | ap | e | nachweise
+ITEM | mahlzeitenfoto | Mahlzeitenfoto | ap | s | nachweise
+ITEM | trainingsnachweis-foto | Trainingsfoto oder -video | ap | s | nachweise
+ITEM | koerperfoto-verlauf | Körperfoto zur Verlaufsdokumentation | ap | v | nachweise
+ITEM | tagesbericht-schriftlich | Schriftlicher Tagesbericht | ap | s | nachweise
+ITEM | spontane-kontrollabfrage | Spontane Kontrollabfrage | ap | v | nachweise
+GRPDEF | ortdaten | Ort und Gerätedaten
+ITEM | standort-zeitfenster | Standortfreigabe während vereinbarter Zeiten | ap | v | ortdaten
+ITEM | tracking-app-einsicht | Tracking-App mit Einsicht | ap | v | ortdaten
+GRPDEF | grenzen-ueberwachung | Grenzen der Überwachung
+ITEM | nur-live-keine-speicherung | Überwachung nur live, keine Speicherung | ap | e | grenzen-ueberwachung
+ITEM | aufzeichnung-ausgeschlossen | Aufzeichnung ausdrücklich ausgeschlossen | ap | e | grenzen-ueberwachung
+ITEM | ueberwachungsfreie-zeiten | Ausdrücklich überwachungsfreie Zeiten | ap | e | grenzen-ueberwachung
+ITEM | ueberwachungsfreie-raeume | Ausdrücklich überwachungsfreie Räume | ap | s | grenzen-ueberwachung
+FLAG | kamera-im-vereinbarten-raum,koerperfoto-verlauf,tracking-app-einsicht | risk:mittel
+
+SEC | new | ernaehrung-sport-koerperdaten | Ernährung, Sport und Körperdaten | scale
+NOTE | Gesundheitsbezogene Kontrolle wirkt langsam und ist von außen schwer zu erkennen. Ernährungs- und Gewichtskontrolle kann eine Essstörung verstärken oder verdecken, und die Dynamik liefert die Rechtfertigung gleich mit. Gemeldete Werte wie Blutdruck oder Blutzucker ersetzen keine ärztliche Behandlung und können sie verzögern. Die Gegenstücke dazu stehen in **Rahmen und Sicherheit** unter *Gesundheit, Daten und Selbstbestimmung* und werden in keinem Modus gekürzt.
+GRPDEF | ernaehrung | Ernährung
+ITEM | ernaehrungsprotokoll | Ernährungsprotokoll führen | ap | e | ernaehrung
+ITEM | mahlzeiten-vorab-freigeben | Mahlzeiten vorab freigeben lassen | ap | s | ernaehrung
+ITEM | kalorien-oder-makrovorgabe | Kalorien- oder Makrovorgabe | ap | s | ernaehrung
+ITEM | verzichtsvereinbarung | Verzichtsvereinbarung, etwa Alkohol oder Zucker | ap | s | ernaehrung
+ITEM | essenszeiten-vorgegeben | Essenszeiten vorgegeben | ap | v | ernaehrung
+ITEM | wasseraufnahme-begleitet | Wasseraufnahme begleitet | ap | v | ernaehrung
+ITEM | einkaufsliste-freigeben | Einkaufsliste freigeben | ap | v | ernaehrung
+GRPDEF | bewegung | Bewegung und Schlaf
+ITEM | trainingsplan-vorgegeben | Trainingsplan vorgegeben | ap | e | bewegung
+ITEM | trainingsnachweis | Trainingsnachweis | ap | s | bewegung
+ITEM | schrittziel | Schrittziel | ap | s | bewegung
+ITEM | schlafzeiten-begleitet | Schlafzeiten begleitet | ap | s | bewegung
+ITEM | schlafdaten-teilen | Schlafdaten teilen | ap | v | bewegung
+GRPDEF | messwerte-melden | Messwerte melden
+ITEM | gewicht-melden | Gewicht regelmäßig melden | ap | e | messwerte-melden
+ITEM | blutdruck-melden | Blutdruck melden | ap | s | messwerte-melden
+ITEM | blutzucker-melden | Blutzucker melden | ap | s | messwerte-melden
+ITEM | koerpermasse-melden | Körpermaße melden | ap | v | messwerte-melden
+ITEM | ruhepuls-melden | Ruhepuls melden | ap | v | messwerte-melden
+ITEM | laborwerte-besprechen | Laborwerte besprechen | ap | v | messwerte-melden
+GRPDEF | rahmen-gesundheit | Rahmen
+ITEM | ziele-gemeinsam-festlegen | Ziele gemeinsam festlegen statt vorgeben | ap | e | rahmen-gesundheit
+ITEM | fortschritt-ohne-vergleich | Fortschritt ohne Vergleich mit anderen | ap | v | rahmen-gesundheit
+FLAG | kalorien-oder-makrovorgabe,gewicht-melden,koerpermasse-melden | risk:mittel
+FLAG | blutdruck-melden,blutzucker-melden,laborwerte-besprechen | risk:hoch
+
+#! ==================================================================
+THEME | bondage | Bondage und Bewegungseinschränkung | 5
+#! ==================================================================
+
+SEC | md:Bondage allgemein | bondage-allgemein | Bondage allgemein | scale
+GRP | 1-7   | positionen           | Fesselpositionen                  | ap | s
+SET | 1,2   | e
+SET | 7     | v
+GRP | 8-14  | fixierungsorte       | Fixierungsorte und Möbelpunkte    | ap | s
+SET | 13,14 | v
+GRP | 15-23 | manschetten          | Manschetten, Ketten und Armbinder | ap | s
+SET | 15    | e
+SET | 20,22,23 | v
+GRP | 24-31 | material-ganzkoerper | Material und Ganzkörper           | ap | s
+SET | 26,29,30,31 | v
+SET | 31    | risk:mittel
+GRP | 32-37 | vorrichtungen        | Möbel und Vorrichtungen           | ap | v
+GRP | 38-44 | spielarten           | Spielarten und Rahmen             | ap | v
+SET | 38,39,41,42 | s
+
+FLAG | fixiert-werden-und-zusehen,fixiert-werden-und-warten | noap
+SEC | md:Seil und Shibari | seil-shibari | Seil und Shibari | scale
+GRP | 1-9   | harness      | Seilfesselung und Harness         | ap | s
+SET | 1,2   | e
+SET | 7,8,9 | v
+GRP | 10-14 | suspension   | Bodenszene und Suspension         | ap | s
+SET | 13,14 | v
+SET | 13,14 | risk:hoch
+GRP | 15-16 | predicament  | Predicament und Aufnahmen         | ap | v
+GRP | 17-21 | stil         | Stil und Bedeutung des Seils      | ap | s
+SET | 20,21 | v
+GRP | 22-24 | spezialformen| Selbstbondage und Performance     | ap | v
+SET | 22    | risk:mittel
+
+SEC | md:Bewegung und Immobilisierung | bewegung-immobilisierung | Bewegung und Immobilisierung | scale
+GRP | 1-2   | koerperlich  | Mit dem eigenen Körper festhalten | ap | e
+GRP | 3-7   | einwickeln   | Einwickeln und Cocooning          | ap | v
+SET | 3     | s
+SET | 4,6   | risk:mittel
+GRP | 8-10  | posen        | Posen halten                      | ap | s
+GRP | 11-15 | verbote      | Bewegungs- und Sprechverbote      | ap | s
+SET | 13    | v
+GRP | 16-19 | fuehrung     | Geführt und getragen werden       | ap | s
+SET | 16    | v
+GRP | 20-23 | kampf        | Ringen, Fangen und Capture        | ap | v
+
+SEC | md:Sinnesentzug | sinnesentzug | Sinnesentzug | scale
+GRP | 1-3   | sicht        | Sicht                             | ap | s
+SET | 1     | e
+GRP | 4-7   | gehoer       | Gehör                             | ap | s
+GRP | 8-9   | weitere-sinne| Weitere Sinne                     | ap | v
+GRP | 10-14 | kombination  | Kombination und Ungewissheit      | ap | s
+SET | 13    | v
+
+#! ==================================================================
+THEME | sinne | Sinne und Empfindung | 6
+#! ==================================================================
+
+SEC | md:Sanftes Sensation Play | sanftes-sensation-play | Sanftes Sensation Play | scale
+GRP | 1-6   | haut          | Hände, Nägel und leichte Reize   | ap | s
+SET | 1,4   | e
+GRP | 7-15  | materialien   | Materialien auf der Haut         | ap | s
+SET | 13,15 | v
+GRP | 16-18 | oel-massage   | Öl und Massage                   | ap | s
+SET | 18    | v
+GRP | 19-24 | temperatur    | Leichte Temperaturreize          | ap | s
+SET | 22,24 | v
+GRP | 25-26 | rhythmus      | Erwartung und Wechsel            | ap | s
+GRP | 27-31 | stimme-duft   | Stimme, Geräusch und Duft        | ap | s
+SET | 27    | v
+GRP | 32-34 | bemalung      | Textur und Bemalung              | ap | v
+
+SEC | md:Temperatur, Wachs und Materialien | temperatur-wachs | Temperatur, Wachs und Materialien | scale
+GRP | 1-3   | warm-kalt     | Warm-kalt-Wechsel                | ap | s
+SET | 2     | e
+GRP | 4-5   | wachs         | Kerzenwachs                      | ap | s
+SET | 5     | v
+SET | 4,5   | risk:mittel
+GRP | 6-10  | gel-wasser    | Gel, Wärme und Wasser            | ap | s
+SET | 10    | v
+GRP | 11-16 | messy-material| Schlamm, Farbe und Texturen      | ap | v
+GRP | 17-19 | nass          | Wasser und nasse Stoffe          | ap | v
+
+SEC | md:Druck, Klemmen und körpernahe Reize | druck-klemmen | Druck, Klemmen und körpernahe Reize | scale
+GRP | 1-6   | hand          | Kneifen, Beißen und Ziehen       | ap | s
+SET | 1,6   | e
+SET | 3     | v
+GRP | 7-13  | griff-druck   | Griff, Gewicht und Druck         | ap | s
+SET | 9,12  | v
+GRP | 14-18 | klemmen       | Klemmen und Gewichte             | ap | s
+SET | 16    | e
+SET | 17,18 | v
+GRP | 19-22 | werkzeuge     | Werkzeuge mit Nervenreiz         | ap | v
+GRP | 23-25 | fuss-impact   | Fußsohlen und Trampling          | ap | v
+SET | 25    | risk:hoch
+
+FLAG | gewichte-an-dafuer-geeigneten-klemmen-als-spezialinteresse,zipper-aus-klammern-als-spezialinteresse,druckpunkte-als-vorsichtiges-spezialinteresse,bastinado-fusssohlen-impact-als-spezialinteresse | risk:mittel
+#! ==================================================================
+THEME | schmerz-impact | Schmerz und Impact | 7
+#! ==================================================================
+
+SEC | md:Impact Play | impact-play | Impact Play | scale
+GRP | 1-5   | spanking      | Spanking                         | ap | s
+SET | 1     | e
+SET | 3,5   | v
+GRP | 6-13  | paddel-strap  | Paddel, Strap und Gürtel         | ap | s
+SET | 6     | e
+SET | 9,10,11 | v
+GRP | 14-22 | flogger-gerte | Flogger, Gerte und Peitsche      | ap | s
+SET | 14    | e
+SET | 18,19,20,21,22 | v
+SET | 21,22 | risk:hoch
+GRP | 23-31 | dramaturgie   | Ablauf und Dramaturgie           | ap | s
+SET | 30,31 | v
+SET | 31    | risk:hoch
+GRP | 32-36 | spuren-zonen  | Spuren und Körperzonen           | noap | s
+SET | 35,36 | e
+SET | 34    | v
+
+FLAG | rohrstock-cane-als-spezialinteresse,peitsche-als-spezialinteresse | risk:mittel
+SEC | md:Schmerz und Masochismus | schmerz-masochismus | Schmerz und Masochismus | scale
+GRP | 1-3   | intensitaet   | Intensität                       | ap | s
+SET | 1     | e
+SET | 3     | v
+GRP | 4-9   | qualitaet     | Qualität des Reizes              | ap | v
+SET | 4,5   | s
+GRP | 10-13 | funktion      | Funktion des Schmerzes           | ap | s
+SET | 13    | v
+GRP | 14-18 | verknuepfung  | Verknüpfung mit Emotion          | ap | s
+SET | 15    | v
+GRP | 19-20 | richtung      | Richtung                         | noap | e
+GRP | 21-24 | reaktion      | Reaktion und Ausdruck            | ap | s
+SET | 22    | v
+GRP | 25-28 | steuerung     | Steuerung der Intensität         | ap | s
+SET | 25    | v
+
+#! ==================================================================
+THEME | psyche-sprache | Psyche, Sprache und Bewusstsein | 8
+#! ==================================================================
+
+SEC | md:Verbale Dominanz und Demütigung | verbale-dominanz | Verbale Dominanz und Demütigung | scale
+GRP | 1-3   | ton               | Ton und Ansprache                       | ap | s
+SET | 1     | e
+GRP | 4-6   | lob               | Lob und Anerkennung                     | ap | s
+SET | 4     | e
+GRP | 7-11  | sprache           | Dirty Talk und Besitzsprache            | ap | s
+SET | 9     | e
+GRP | 12-16 | neckerei          | Necknamen, Spott und Teasing            | ap | s
+#! 13 und 14 verweisen auf die Wort-Whitelist aus § 3.4 — daher im Einstieg
+SET | 13,14 | e
+GRP | 17-21 | koerper-leistung  | Körper- und leistungsbezogene Demütigung| ap | s
+SET | 20,21 | v
+GRP | 22-27 | blossstellung     | Bloßstellung und Bewertung              | ap | v
+SET | 26    | s
+GRP | 28-32 | ignorieren-bitte  | Ignorieren und Bittrituale              | ap | s
+SET | 28,29 | v
+GRP | 33-35 | rahmen-demuetigung| Rahmen und Grenzen der Demütigung       | noap | s
+SET | 35    | e
+
+SEC | md:Psychologisches und Fear Play | psychologisches-fear | Psychologisches und Fear Play | scale
+GRP | 1-4   | spannung          | Erwartung und Ungewissheit              | ap | s
+SET | 1     | e
+GRP | 5-11  | gefangenschaft    | Gefangenschaft und Erpressung           | ap | v
+SET | 6,7   | s
+SET | 10,11 | risk:mittel
+GRP | 12-17 | bedrohung-horror  | Bedrohung, Jagd und Horror              | ap | v
+SET | 12    | s
+SET | 13    | risk:mittel
+GRP | 18-22 | autoritaet        | Autorität und Mindfuck                  | ap | s
+SET | 20,21,22 | v
+GRP | 23-26 | hypnose-kontrolle | Hypnose und Kontrollverlust             | ap | v
+SET | 24    | risk:mittel
+GRP | 27-30 | mutproben         | Mutproben und peinliche Aufgaben        | ap | v
+SET | 29    | s
+
+SEC | new | manipulation-spielmittel | Manipulation als Spielmittel | scale
+NOTE | Diese Techniken stammen aus der Forschung zu Zwangskontrolle, narzisstischem Missbrauch und Hochkontroll-Gruppen. Als Spielmittel sind sie verhandelbar — sie unterscheiden sich aber grundsätzlich von anderen Praktiken: **sie richten sich gegen die Fähigkeit, die eigene Lage zu beurteilen.** Wer nicht bemerkt, dass etwas geschieht, kann kein Safeword sagen. Ein Safeword allein reicht hier also nicht; es braucht Nachbesprechung, zeitlichen Abstand und möglichst jemanden außerhalb. Die Grenzen dazu stehen am Ende dieser Sektion und werden im Einstiegsmodus immer gezeigt. Sie hier zu benennen hat zwei Zwecke: sie verhandelbar zu machen — und sie beim Namen zu kennen, falls sie einem außerhalb einer Szene begegnen.
+GRPDEF | wahrnehmung | Wahrnehmung und Erinnerung
+ITEM | gaslighting | Gaslighting | ap | s | wahrnehmung
+ITEM | bestrittene-erinnerung | Bestrittene Erinnerung | ap | v | wahrnehmung
+ITEM | widerspruechliche-darstellung | Widersprüchliche Darstellung | ap | v | wahrnehmung
+ITEM | gedankenstopp | Gedankenstopp-Formel | ap | v | wahrnehmung
+GRPDEF | bindung | Bindung durch Unberechenbarkeit
+ITEM | intermittierende-verstaerkung | Intermittierende Verstärkung | ap | s | bindung
+ITEM | love-bombing | Love Bombing | ap | s | bindung
+ITEM | idealisierung-abwertung | Idealisierung und Abwertung im Wechsel | ap | v | bindung
+ITEM | hoovering | Hoovering | ap | v | bindung
+ITEM | breadcrumbing | Breadcrumbing | ap | v | bindung
+ITEM | future-faking | Future Faking | ap | v | bindung
+GRPDEF | massstaebe | Unerreichbare Maßstäbe
+ITEM | moving-the-goalposts | Verschobene Maßstäbe | ap | s | massstaebe
+ITEM | eingebautes-scheitern | Eingebautes Scheitern | ap | s | massstaebe
+ITEM | unerfuellbarer-massstab | Unerfüllbarer Maßstab | ap | v | massstaebe
+ITEM | wechselnde-kriterien | Wechselnde Bewertungskriterien | ap | v | massstaebe
+GRPDEF | dritte | Dritte Personen
+ITEM | triangulation | Triangulation | ap | s | dritte
+ITEM | eifersucht-erzeugen | Gezielt erzeugte Eifersucht | ap | v | dritte
+ITEM | rangordnung-unter-beteiligten | Rangordnung unter Beteiligten | ap | v | dritte
+ITEM | dritte-ueben-druck-aus | Dritte üben Druck aus | ap | v | dritte
+GRPDEF | gruppe | Gruppe, Sprache und Zugehörigkeit
+ITEM | loading-the-language | Eigene Gruppensprache | ap | v | gruppe
+ITEM | milieu-control | Kontrollierte Informationsumgebung | ap | v | gruppe
+ITEM | oeffentliches-bekenntnis | Öffentliches Bekenntnis vor der Gruppe | ap | v | gruppe
+ITEM | beichte-mit-verwendung | Beichte, die später verwendet wird | ap | v | gruppe
+ITEM | zugehoerigkeit-als-belohnung | Zugehörigkeit als Belohnung | ap | v | gruppe
+ITEM | ausschluss-als-drohung | Ausschluss als Drohung | ap | v | gruppe
+ITEM | regel-schlaegt-empfinden | Die Regel schlägt das eigene Empfinden | ap | v | gruppe
+ITEM | abschirmung-von-aussen | Zeitweise Abschirmung von außen | ap | v | gruppe
+GRPDEF | verpflichtung | Verpflichtung und Eskalation
+ITEM | kleine-zusage-als-einstieg | Kleine Zusage als Einstieg | ap | v | verpflichtung
+ITEM | eskalierende-selbstverpflichtung | Eskalierende Selbstverpflichtung | ap | v | verpflichtung
+ITEM | das-investierte-als-argument | Das Investierte als Argument | ap | v | verpflichtung
+ITEM | kuenstliche-dringlichkeit | Künstliche Dringlichkeit | ap | v | verpflichtung
+ITEM | scheinwahl | Scheinwahl zwischen zwei Optionen | ap | v | verpflichtung
+ITEM | good-cop-bad-cop | Good Cop / Bad Cop | ap | v | verpflichtung
+ITEM | schuldumkehr | Schuldumkehr | ap | v | verpflichtung
+GRPDEF | grenzen-manipulation | Grenzen
+ITEM | techniken-vorher-benennen | Techniken vorher benennen | noap | e | grenzen-manipulation
+ITEM | einsatz-endet-mit-der-szene | Einsatz endet mit der Szene | noap | e | grenzen-manipulation
+ITEM | debrief-nach-jeder-szene | Debrief nach jeder Szene | noap | e | grenzen-manipulation
+ITEM | nachwirkung-spaeter-besprechen | Nachwirkung nach Tagen besprechen | noap | e | grenzen-manipulation
+ITEM | aussenstehende-person | Außenstehende Person kennt den Rahmen | noap | e | grenzen-manipulation
+ITEM | aussetzen-bei-belastung | Aussetzen bei psychischer Belastung | noap | e | grenzen-manipulation
+FLAG | gaslighting,intermittierende-verstaerkung,milieu-control,beichte-mit-verwendung,regel-schlaegt-empfinden,abschirmung-von-aussen | risk:hoch
+FLAG | love-bombing,idealisierung-abwertung,moving-the-goalposts,triangulation,dritte-ueben-druck-aus,ausschluss-als-drohung,eskalierende-selbstverpflichtung,das-investierte-als-argument,schuldumkehr | risk:mittel
+
+SEC | new | blackmail-blossstellung | Blackmail und Bloßstellung | scale
+NOTE | Einvernehmliches Blackmail-Spiel lebt von einer Drohung. Das macht es zu einem Sonderfall: **die Drohung richtet sich gegen die Möglichkeit, das Spiel zu beenden.** Wer erpresst wird, kann schlecht abbrechen — genau darin liegt der Reiz, und genau darin liegt die Gefahr. Ein Safeword allein trägt hier nicht; es braucht Regeln darüber, was überhaupt gehalten wird, und jemanden außerhalb. Die Grenzen dazu stehen am Ende der Sektion. Rechtlich: eine vorher erteilte Zustimmung macht eine später ernst gemeinte Drohung nicht zulässig (Erpressung § 253 StGB, Nötigung § 240 StGB), und intime Aufnahmen weiterzugeben ist auch dann strafbar, wenn ihre Entstehung einvernehmlich war (§ 201a StGB). Keine Rechtsberatung.
+GRPDEF | material | Was gehalten wird
+ITEM | ohne-material | Reine Fiktion ohne Material | ap | s | material
+ITEM | requisite-beweis | Erfundenes Beweisstück als Requisite | ap | s | material
+ITEM | eigens-erstelltes-material | Eigens für dieses Spiel erstelltes Material | ap | v | material
+ITEM | echtes-material-vereinbart | Echtes Material nach ausdrücklicher Vereinbarung | ap | v | material
+ITEM | material-bleibt-bei-mir | Material bleibt auf dem eigenen Gerät | ap | v | material
+GRPDEF | drohung | Womit gedroht wird
+ITEM | drohung-eingeweihte-person | Angedrohte Bloßstellung vor einer eingeweihten Person | ap | v | drohung
+ITEM | drohung-erfundene-oeffentlichkeit | Angedrohte Bloßstellung vor einer erfundenen Öffentlichkeit | ap | s | drohung
+ITEM | drohung-veroeffentlichung | Angedrohte Veröffentlichung, die nie stattfindet | ap | v | drohung
+ITEM | drohung-geldforderung | Geldforderung als Druckmittel | ap | v | drohung
+ITEM | drohung-aufgaben | Erzwungene Aufgaben als Preis für das Schweigen | ap | v | drohung
+ITEM | drohung-eskalierend | Eskalierende Forderungen | ap | v | drohung
+ITEM | drohung-frist | Frist als Druckmittel | ap | v | drohung
+GRPDEF | spielformen | Spielformen
+ITEM | blackmail-drehbuch | Blackmail-Rollenspiel nach Drehbuch | ap | s | spielformen
+ITEM | ich-weiss-etwas | „Ich weiß etwas über dich" als Spielrahmen | ap | s | spielformen
+ITEM | erpressung-durch-dritte-rolle | Erpressung durch eine dritte, gespielte Rolle | ap | v | spielformen
+ITEM | erpresste-person-steuert | Die erpresste Person steuert das Tempo | ap | v | spielformen
+ITEM | blackmail-ohne-sexuellen-bezug | Blackmail ohne sexuellen Bezug | ap | v | spielformen
+GRPDEF | reichweite | Reichweite
+ITEM | auf-eine-szene-begrenzt | Auf eine Szene begrenzt | ap | s | reichweite
+ITEM | ueber-mehrere-tage | Über mehrere Tage laufend | ap | v | reichweite
+ITEM | dauerhafte-dynamik-blackmail | Dauerhafte Dynamik | ap | v | reichweite
+GRPDEF | grenzen-blackmail | Grenzen
+ITEM | kein-echtes-material | Es bleibt bei erfundenem Material | noap | s | grenzen-blackmail
+ITEM | loeschung-auf-verlangen | Löschung auf Verlangen | noap | s | grenzen-blackmail
+ITEM | loeschfrist-blackmail | Vereinbarte Löschfrist | noap | s | grenzen-blackmail
+ITEM | drohung-wird-nie-ausgefuehrt | Die Drohung wird nie ausgeführt | noap | s | grenzen-blackmail
+ITEM | safeword-steht-ueber-dem-spiel | Safeword steht über dem Spiel | noap | s | grenzen-blackmail
+ITEM | keine-echten-geldforderungen | Geld bleibt Teil der Erzählung | noap | s | grenzen-blackmail
+ITEM | nichts-mit-realem-schaden | Folgenloses Druckmittel | noap | s | grenzen-blackmail
+ITEM | keine-weitergabe-an-dritte | Material bleibt im Kreis der Beteiligten | noap | s | grenzen-blackmail
+ITEM | aussenstehende-person-blackmail | Außenstehende Person kennt den Rahmen | noap | s | grenzen-blackmail
+ITEM | debrief-blackmail | Nachbesprechung nach jeder Szene | noap | s | grenzen-blackmail
+ITEM | aussetzen-bei-belastung-blackmail | Aussetzen bei psychischer Belastung | noap | s | grenzen-blackmail
+FLAG | echtes-material-vereinbart,drohung-geldforderung,drohung-eskalierend,dauerhafte-dynamik-blackmail | risk:hoch
+FLAG | eigens-erstelltes-material,drohung-veroeffentlichung,drohung-eingeweihte-person,erpressung-durch-dritte-rolle,ueber-mehrere-tage,drohung-frist | risk:mittel
+
+SEC | md:Objektifizierung und Besitzsymbolik | objektifizierung | Objektifizierung und Besitzsymbolik | scale
+GRP | 1-8   | symbole       | Besitzsymbole und Markierungen          | ap | s
+SET | 1     | e
+SET | 2,5,6 | v
+GRP | 9-16  | praesentation | Präsentation und Möbelrollen            | ap | v
+SET | 11,12 | s
+GRP | 17-22 | verleih       | Verpackung, Geschenk und Verleih        | ap | v
+SET | 19,20,21 | risk:mittel
+
+SEC | md:Schlaf, Bewusstsein und Subspace | schlaf-bewusstsein | Schlaf, Bewusstsein und Subspace | scale
+DROP | 16,17 | wörtlich identisch mit risikomodell/nuechternheit und risikomodell/keine-szene-ohne-einwilligungsfaehigkeit (§ 3.2)
+GRP | 1-6      | schlaf      | Schlafbezogene Themen        | ap | v
+SET | 4,5,6    | risk:hoch
+GRP | 7-9      | hypnose     | Hypnose und Trance           | ap | v
+GRP | 10-11    | meditation  | Meditation                   | ap | s
+GRP | 12-15,18 | spaces      | Subspace, Domspace, Check-in | ap | s
+SET | 12,13    | e
+
+#! ==================================================================
+THEME | sexualitaet | Sexualität | 9
+#! ==================================================================
+
+SEC | md:Orgasmus- und Lustkontrolle | orgasmus-lustkontrolle | Orgasmus- und Lustkontrolle | scale
+GRP | 1-6   | erlaubnis     | Masturbation und Erlaubnis         | ap | s
+SET | 5     | e
+GRP | 7-14  | edging        | Edging und Orgasmussteuerung       | ap | s
+SET | 7     | e
+SET | 9,10,11 | v
+GRP | 15-21 | keuschheit    | Abstinenz und Keuschheit           | ap | s
+SET | 19,21 | v
+GRP | 22-25 | tease         | Tease, Denial und Belohnung        | ap | s
+SET | 22    | e
+GRP | 26-30 | konsumkontrolle| Kontrolle über Konsum und Zeigen  | ap | v
+SET | 28    | s
+
+GRPDEF | pensum | Pensum und Dauerzustände
+ITEM | verordnetes-pensum | Verordnetes Masturbationspensum | ap | s | pensum
+ITEM | gooning | Gooning: langer, trance-artiger Edging-Zustand | ap | s | pensum
+ITEM | mindestfrequenz | Mindestfrequenz vereinbart | ap | v | pensum
+ITEM | hoechstfrequenz | Höchstfrequenz vereinbart | ap | v | pensum
+ITEM | gooning-auf-anweisung | Gooning-Session auf Anweisung | ap | v | pensum
+ITEM | zeitvorgabe-edging | Zeitvorgabe für Edging-Sessions | ap | v | pensum
+ITEM | edging-ueber-distanz | Gemeinsames Edging über Distanz | ap | v | pensum
+ITEM | nachweis-der-sitzung | Nachweis der Sitzung | ap | v | pensum
+FLAG | gooning,gooning-auf-anweisung,verordnetes-pensum | risk:mittel
+
+SEC | md:Allgemeine sexuelle Praktiken | sexuelle-praktiken | Allgemeine sexuelle Praktiken | scale
+GRP | 1-4   | kuessen        | Küssen                            | ap | s
+SET | 1     | e
+#! 6-9 und 11,12,14,15 tragen die Richtung im Namen -> noap
+GRP | 5-9   | manuell-oral   | Manuelle und orale Stimulation    | noap | s
+SET | 8,9   | e
+GRP | 10-18 | penetration    | Penetration und Reiben            | noap | s
+SET | 10    | e
+SET | 17,18 | v
+GRP | 19-33 | toys           | Toys                              | ap | s
+SET | 23,24,26,30,31,33 | v
+GRP | 34-45 | spezialgeraete | Spezialinteressen und Geräte      | ap | v
+SET | 35,36 | risk:hoch
+GRP | 46-53 | rahmen-nackt   | Rahmen, Bekleidung und Nacktheit  | ap | s
+SET | 52,53 | v
+
+FLAG | dehnungsspiel-als-spezialinteresse | risk:mittel
+SEC | md:Genital- und Intimfokus | genital-intimfokus | Genital- und Intimfokus | scale
+GRP | 1-6   | verehrung      | Genital- und Brustverehrung       | ap | s
+SET | 6     | e
+GRP | 7-13  | genital-play   | Genital- und Brustspiel           | ap | v
+SET | 9,10  | s
+SET | 12    | risk:hoch
+GRP | 14-19 | koerperpflege  | Inspektion, Rasur und Piercings   | ap | s
+SET | 15,18,19 | v
+GRP | 20-22 | fortpflanzung  | Flüssigkeits- und Breeding-Fantasien | ap | v
+
+FLAG | brustbondage-als-spezialinteresse,genitalbondage-als-spezialinteresse,genitalklemmen-als-spezialinteresse,brust-impact-als-spezialinteresse | risk:mittel
+#! ==================================================================
+THEME | fetische | Fetische | 10
+#! ==================================================================
+
+SEC | md:Körperverehrung und Körperteilfetische | koerperverehrung | Körperverehrung und Körperteilfetische | scale
+GRP | 1     | ganzkoerper    | Ganzkörper                        | ap | e
+GRP | 2-10  | fuesse         | Füße und Schuhwerk                | ap | s
+SET | 2     | e
+SET | 8,9,10| v
+GRP | 11-17 | beine-rumpf    | Beine, Gesäß und Bauch            | ap | s
+SET | 13,15,17 | v
+GRP | 18-23 | oberkoerper    | Brust und Rücken                  | ap | s
+SET | 22,23 | v
+GRP | 24-28 | arme-haende    | Achseln, Arme und Hände           | ap | v
+SET | 26    | s
+GRP | 29-37 | kopf           | Haare, Gesicht und Mund           | ap | s
+SET | 30,32,36 | v
+GRP | 38-40 | stimme-geruch  | Stimme, Duft und Schweiß          | ap | v
+GRP | 41-49 | koerperbild    | Körperbau und Körperbild          | ap | v
+SET | 43,44,48 | s
+
+SEC | md:Kleidung und Materialfetische | kleidung-material | Kleidung und Materialfetische | scale
+GRP | 1-16  | materialien       | Materialien                    | ap | s
+SET | 1,3   | e
+SET | 7,14,15,16 | v
+GRP | 17-26 | kleidungsstuecke  | Kleidungsstücke und Ganzkörper | ap | s
+SET | 20    | e
+SET | 24,25,26 | v
+GRP | 27-30 | masken-handschuhe | Masken und Handschuhe          | ap | s
+SET | 30    | v
+GRP | 31-35 | schuhe            | Schuhe                         | ap | s
+SET | 33    | e
+SET | 34,35 | v
+GRP | 36-44 | uniformen         | Uniformen und Kostüme          | ap | v
+SET | 42    | s
+GRP | 45-56 | transformation    | Präsentation und Transformation| ap | v
+SET | 47,50 | s
+GRP | 57-60 | inszenierung      | Rahmen und Inszenierung        | ap | s
+SET | 59,60 | v
+
+SEC | md:Objekt- und Ausrüstungsfetische | objekt-ausruestung | Objekt- und Ausrüstungsfetische | scale
+GRP | 1-9   | bondage-objekte | Seile, Ketten und Fesselwerk     | ap | s
+SET | 1     | e
+SET | 3,4   | v
+GRP | 10-14 | moebel          | Möbel und Vorrichtungen          | ap | v
+GRP | 15-17 | spiegel-kamera  | Spiegel, Kamera und Licht        | ap | s
+SET | 17    | v
+GRP | 18-22 | kleidungsobjekte| Schuhwerk, Masken und Uniformen  | ap | s
+SET | 21    | v
+GRP | 23-28 | requisiten      | Requisiten und Ästhetik          | ap | v
+GRP | 29-32 | attrappen-zeit  | Attrappen, Messerästhetik, Zeit  | ap | v
+SET | 30    | risk:mittel
+
+#! ==================================================================
+THEME | rollenspiel | Rollenspiel und Identitätswechsel | 11
+#! ==================================================================
+
+SEC | md:Rollenspiele allgemein | rollenspiele | Rollenspiele allgemein | scale
+GRP | 1-5   | beruf-bildung   | Beruf und Ausbildung              | ap | s
+SET | 2     | e
+SET | 5     | v
+GRP | 6-9   | medizinisch     | Medizinisch und forschend         | ap | s
+SET | 8,9   | v
+GRP | 10-14 | autoritaet-staat| Autorität, Recht und Militär      | ap | v
+SET | 10,11 | s
+GRP | 15-19 | historisch-macht| Historische Machtverhältnisse     | ap | v
+SET | 17    | s
+GRP | 20-25 | mythisch        | Gottheiten, Kult und Kreaturen    | ap | v
+GRP | 26-31 | maschine-kunst  | Maschine, Puppe und Modell        | ap | v
+SET | 30    | s
+GRP | 32-40 | begegnung       | Begegnungen und Dienstrollen      | ap | s
+SET | 32,36,37,38 | v
+GRP | 41-43 | inszenierung    | Auktion, Initiation und Bund      | ap | v
+GRP | 44-51 | genre           | Genre und Szenario                | ap | v
+SET | 44,48 | s
+
+SEC | md:Adult Ageplay und Caregiver-Dynamiken | ageplay-caregiver | Adult Ageplay und Caregiver-Dynamiken | scale
+GRP | 1-6   | rollen-ageplay | Rollen                        | ap | s
+SET | 1     | e
+GRP | 7-12  | rituale        | Rituale und Routinen          | ap | v
+SET | 7     | s
+GRP | 13-17 | requisiten     | Requisiten                    | ap | v
+SET | 16,17 | risk:mittel
+GRP | 18-19 | betreuung      | Betreuungsstil                | ap | s
+GRP | 20-22 | fantasien      | Altersdifferenz-Fantasien     | ap | v
+
+SEC | md:Pet Play und Tierrollen | pet-play | Pet Play und Tierrollen | scale
+GRP | 1-10  | tierarten     | Tierarten                      | ap | s
+SET | 1,2   | e
+SET | 5,7,8,9,10 | v
+GRP | 11-13 | dynamik       | Handler-, Owner- und Trainerrolle | ap | s
+GRP | 14-16 | ausstattung   | Halsband, Geschirr und Namen   | ap | s
+GRP | 17-23 | verhalten     | Verhalten, Tricks und Pflege   | ap | s
+SET | 19,20,23 | v
+GRP | 24-26 | kulisse       | Kulisse und Vorführung         | ap | v
+GRP | 27-30 | pony-gear     | Pony Gear und Dressur          | ap | v
+
+SEC | md:Primal, Kampf und Jagd | primal-kampf | Primal, Kampf und Jagd | scale
+GRP | 1-4   | primal        | Primal und Raufen              | ap | s
+SET | 1     | e
+GRP | 5-8   | dominieren    | Körperlich dominieren          | ap | s
+GRP | 9-12  | jagd          | Jagd und Beute                 | ap | s
+SET | 12    | v
+GRP | 13-17 | tierisch      | Knurren, Beißen und Geruch     | ap | s
+SET | 16,17 | v
+GRP | 18-22 | kampf-technik | Capture, Widerstand und Technik| ap | v
+SET | 19    | s
+SET | 22    | risk:mittel
+
+SEC | md:Consensual Non-Consent und Widerstandsrollen | cnc | Consensual Non-Consent und Widerstandsrollen | scale
+#! Gesamte Sektion im Einstieg ausgeblendet (SPEC § 6.4)
+GRP | 1-5   | widerstand    | Gespielter Widerstand          | ap | v
+SET | 1,2   | s
+SET | 1,2,3,4,5 | risk:hoch
+GRP | 6-11  | inszenierungen| Inszenierte Szenarien          | ap | v
+SET | 6,7,8,9,10,11 | risk:hoch
+GRP | 12-16 | rahmen-cnc    | Rahmen und Aktivierung         | ap | v
+SET | 12,13,14 | s
+GRP | 17-20 | sleep-free-use| Sleep-Play und Free Use        | ap | v
+SET | 17,18,19,20 | risk:hoch
+
+#! ==================================================================
+THEME | oeffentlichkeit-medien | Öffentlichkeit, Medien und Gruppe | 12
+#! ==================================================================
+
+SEC | md:Voyeurismus, Exhibition und Öffentlichkeit | voyeurismus-oeffentlichkeit | Voyeurismus, Exhibition und Öffentlichkeit | scale
+GRP | 1-6   | beobachten      | Beobachten und beobachtet werden   | ap | s
+SET | 1,2   | e
+GRP | 7-9   | zeigen          | Sich zeigen                        | ap | s
+GRP | 10-13 | veranstaltung   | Veranstaltungen und Playpartys     | ap | v
+SET | 12    | s
+GRP | 14-16 | kulisse         | Öffentlichkeitsfantasie in privater Kulisse | ap | v
+GRP | 17-19 | alltag-diskret  | Diskretes im Alltag                | ap | s
+GRP | 20-22 | buehne          | Clubs, Bühne und Modeling          | ap | v
+
+FLAG | partner-beobachten,vom-partner-beobachtet-werden,oeffentlich-erwischt-werden-fantasie-in-privater-kulisse | noap
+SEC | md:Foto, Video und Audio | foto-video-audio | Foto, Video und Audio | scale
+GRP | 1-7   | aufnahmen     | Arten von Aufnahmen              | ap | s
+SET | 1     | e
+SET | 5,7   | v
+GRP | 8-13  | live-text     | Live, Text und Audio             | ap | s
+SET | 10    | e
+SET | 8,9,12| v
+GRP | 14-16 | sichtbarkeit  | Sichtbarkeit und Anonymität      | noap | s
+#! Aufbewahrung und Freigabe sind Einwilligungsfragen, nicht Vorlieben -> Einstieg
+GRP | 17-23 | datenschutz   | Aufbewahrung und Freigabe        | noap | e
+GRP | 24-25 | professionell | Professionelle Produktion        | ap | v
+
+SEC | md:Gruppen- und Community-Konstellationen | gruppen-konstellationen | Gruppen- und Community-Konstellationen | scale
+GRP | 1-8   | konstellationen | Konstellationen                  | ap | s
+SET | 1     | e
+SET | 5,6   | v
+GRP | 9-11  | mehrpersonenhaushalt | Harem und Mehrpersonenhaushalt | ap | v
+GRP | 12-13 | teilnahme       | Zusehen und Mitmachen            | noap | s
+SET | 13    | e
+GRP | 14-18 | lehren          | Demo, Workshop und Mentoring     | ap | v
+GRP | 19-22 | orte            | Partys, Clubs und Dungeon Monitor| ap | v
+SET | 19    | s
+GRP | 23-25 | gruppennachsorge| Gruppennachsorge und Ritual      | ap | v
+
+SEC | md:Digital, Fernsteuerung und Kommunikation | digital-fernsteuerung | Digital, Fernsteuerung und Kommunikation | scale
+GRP | 1-7   | fern-ds          | D/s über Distanz                | ap | s
+SET | 1     | e
+SET | 4,6,7 | v
+GRP | 8-12  | remote-toys      | Remote Toys und Keuschheit      | ap | s
+SET | 11,12 | v
+GRP | 13-15 | gemeinsam-digital| Tagebuch, Wunschliste, Check-ins| ap | s
+SET | 14    | e
+GRP | 16-18 | standortdaten    | Standort- und Aktivitätsdaten   | noap | v
+SET | 16,17,18 | risk:mittel
+GRP | 19-26 | virtuell         | Online, VR und Games            | ap | v
+SET | 20    | s
+#! Digitale Selbstschutzregeln -> Einstieg
+GRP | 27-29 | digitale-sicherheit | Digitale Sicherheit          | noap | e
+
+SEC | md:Geld, Geschenke und FinDom | geld-findom | Geld, Geschenke und FinDom | scale
+GRP | 1-7   | geschenke     | Geschenke und Tribute            | ap | s
+SET | 1,2   | e
+SET | 5,7   | v
+GRP | 8-14  | findom        | FinDom und Budgetspiele          | ap | v
+SET | 8     | s
+GRP | 15-18 | bezahlt       | Bezahlte Angebote                | ap | v
+SET | 17    | risk:mittel
+#! Finanzielle Schutzgrenzen -> Einstieg
+GRP | 19-22 | schutzgrenzen | Finanzielle Schutzgrenzen        | noap | e
+
+FLAG | geschenke-machen,geschenke-empfangen | noap
+#! ==================================================================
+THEME | koerper-medizin | Körper, Nahrung und Medizinisches | 13
+#! ==================================================================
+
+SEC | md:Food, Wet and Messy | food-wet-messy | Food, Wet and Messy | scale
+GRP | 1-5   | fuettern      | Essen und Füttern                | ap | s
+SET | 2,3   | e
+GRP | 6-16  | lebensmittel  | Lebensmittel auf der Haut        | ap | v
+SET | 6,7   | s
+GRP | 17-22 | messy         | Wasser, Schaum und Schlamm       | ap | v
+GRP | 23-26 | nass          | Nasse Kleidung und Bad           | ap | v
+SET | 25,26 | s
+GRP | 27-29 | rahmen-food   | Rahmen und Verträglichkeit       | noap | s
+SET | 29    | e
+
+FLAG | fuettern,gefuettert-werden | noap
+SEC | md:Körperflüssigkeiten und Ausscheidungen | koerperfluessigkeiten | Körperflüssigkeiten und Ausscheidungen | scale
+GRP | 1-6   | koerpereigen  | Speichel, Schweiß und Tränen     | ap | s
+SET | 1     | e
+SET | 3     | v
+GRP | 7-8   | sekrete       | Ejakulat und Sekret              | ap | s
+GRP | 9-12  | urin-windel   | Urin und Windeln                 | ap | v
+SET | 9     | risk:mittel
+GRP | 13-16 | invasiv-blut  | Einlauf, Scat und Blut           | ap | v
+SET | 13,14,15,16 | risk:hoch
+GRP | 17-19 | barriere      | Barriere und sterile Ästhetik    | ap | v
+
+SEC | md:Medizinisches und klinisches Rollenspiel | medizinisches | Medizinisches und klinisches Rollenspiel | scale
+GRP | 1-8   | untersuchung  | Untersuchungssituation           | ap | s
+SET | 1     | e
+SET | 7,8   | v
+GRP | 9-14  | ausstattung   | Ausstattung und Kulisse          | ap | s
+SET | 10    | v
+GRP | 15-20 | invasiv-med   | Invasive Spezialinteressen       | ap | v
+SET | 15,16,17,18,19,20 | risk:hoch
+GRP | 21-24 | rollenspiel-med | Rollenspielrahmen              | ap | v
+SET | 22    | s
+GRP | 25-27 | fantasien-med | Intim- und Hilflosigkeitsfantasien | ap | v
+
+#! ==================================================================
+THEME | hochrisiko | Hochrisiko | 14
+#! Vollstaendig im Einstieg ausgeblendet (SPEC § 6.4) — kein Item auf level e
+#! ==================================================================
+
+SEC | md:Nadeln, Blut und Markierungen | nadeln-blut | Nadeln, Blut und Markierungen | scale
+GRP | 1-8   | nadeln        | Nadeln und Blut                  | ap | v
+SET | 1,2,5,6,8 | risk:hoch
+GRP | 9-13  | schneiden     | Schneiden und Kratzen            | ap | v
+SET | 9,11  | risk:hoch
+SET | 10,12,13 | s
+GRP | 14-19 | markierung    | Temporäre Markierungen           | ap | s
+GRP | 20-23 | dauerhaft     | Dauerhafte Eingriffe             | ap | v
+SET | 22,23 | risk:hoch
+
+SEC | md:Elektro, Feuer und Atemkontrolle | elektro-feuer-atem | Elektro, Feuer und Atemkontrolle | scale
+GRP | 1-6   | elektro       | Elektro                          | ap | v
+SET | 1,6   | s
+SET | 2,3,4 | risk:mittel
+SET | 5     | risk:hoch
+GRP | 7-11  | feuer         | Feuer und Hitze                  | ap | v
+SET | 7     | s
+SET | 8,9,10 | risk:hoch
+GRP | 12-13 | rauch         | Rauch und Zigarrenästhetik       | ap | v
+GRP | 14-21 | atem          | Atemkontrolle                    | ap | v
+SET | 14,15,18,19,21 | s
+SET | 16,17,20 | risk:hoch
+
+FLAG | heisswachs-als-temperaturabhaengiges-spezialinteresse | risk:mittel
+#! ==================================================================
+THEME | fantasie | Fantasie und Imagination | 15
+#! ==================================================================
+
+SEC | md:Reine Fantasie ohne Umsetzung | reine-fantasie | Reine Fantasie ohne Umsetzung | scale
+GRP | 1-7   | medien         | Fantasie in Medien               | ap | s
+SET | 1,2   | e
+GRP | 8-11  | macht-fantasie | Macht und Kontrollverlust        | ap | s
+GRP | 12-18 | szenarien      | Imaginierte Szenarien            | ap | v
+GRP | 19-24 | genre-fantasie | Transformation und Genre         | ap | v
+GRP | 25    | grenze         | Grenze zur Umsetzung             | noap | e
+
+#! ==================================================================
+THEME | atmosphaere-aftercare | Atmosphäre, Aftercare und Ausrüstung | 16
+#! ==================================================================
+
+SEC | md:Aftercare und Recovery | aftercare | Aftercare und Recovery | scale
+GRP | 1-3   | naehe          | Nähe und Distanz                 | ap | e
+GRP | 4-8   | versorgung     | Wärme, Trinken und Essen         | ap | s
+SET | 4,6   | e
+GRP | 9-13  | pflege-after   | Körperpflege und Wundversorgung  | ap | s
+SET | 13    | e
+GRP | 14-18 | beruhigung     | Musik, Humor und Zuspruch        | ap | s
+SET | 17    | e
+GRP | 19-22 | rueckkehr      | Rückkehr in den Alltag           | ap | s
+SET | 22    | e
+GRP | 23-28 | nachkontakt    | Nachkontakt und Debrief          | ap | s
+SET | 24,26 | e
+#! Drop-Praevention ist Fuersorgepflicht, nicht Vorliebe -> Einstieg
+GRP | 29-32 | drop           | Drop-Prävention und Hilfe        | noap | e
+
+SEC | md:Rahmen- und Atmosphärenvorlieben | rahmen-atmosphaere | Rahmen- und Atmosphärenvorlieben | scale
+GRP | 1-11  | stimmung       | Stimmung                         | noap | s
+SET | 1,5   | e
+GRP | 12-18 | aesthetik      | Ästhetik und Stil                | noap | s
+SET | 13,14,15 | v
+GRP | 19-25 | orte           | Orte                             | noap | s
+SET | 19    | e
+SET | 22,23 | v
+GRP | 26-34 | sinnesrahmen   | Licht, Ton, Duft und Kamera      | noap | s
+SET | 27,34 | e
+SET | 31,32 | v
+GRP | 35-43 | ablauf         | Ablauf und Dramaturgie           | noap | s
+SET | 37,42 | e
+SET | 39,43 | v
+
+SEC | old:Toys und Ausrüstung | toys | Toys und Ausrüstung | toys

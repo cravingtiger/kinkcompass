@@ -1,0 +1,38 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Pet play and animal roles | Pet play means human role play between adults; real animals are never sexually involved.
+#GRP | tierarten | Animal types
+#GRP | dynamik | Handler, owner and trainer
+#GRP | ausstattung | Collar, harness and names
+#GRP | verhalten | Behaviour, tricks and grooming
+#GRP | kulisse | Setting and showing
+#GRP | pony-gear | Pony gear and dressage
+puppy-play| Puppy play | Die verbreitetste Tierrolle: verspielt, anhänglich, gehorsam. | The most common animal role: playful, affectionate, eager.
+kitten-play| Kitten play | Eigensinniger und unabhängiger als Puppy Play. | More wilful and independent than puppy play.
+pony-play| Pony play | Haltung, Gang und Geschirr stehen im Mittelpunkt. | Posture, gait and tack are at the centre.
+horse-play| Horse play | Wie Pony Play, oft mit größerem Kraftbezug. | Like pony play, often with more emphasis on strength.
+fox-play| Fox play | Listig und scheu als Charakter. | Cunning and shy as a character.
+bunny-play| Bunny play | Sanft und schreckhaft als Charakter. | Gentle and skittish as a character.
+wolf-play| Wolf play | Wild und rudelbezogen. | Wild and pack-oriented.
+bear-play| Bear play | Groß, ruhig und kräftig. | Large, calm and strong.
+dragon-play| Dragon play | Fantasiewesen mit eigenem Charakter. | A fantasy creature with a character of its own.
+fantasietier-rolle| Invented animal role | Ein selbst erfundenes Wesen. | A creature you invent yourself.
+handler-pet| Handler / pet | Die betreuende Seite führt und versorgt. | The handling side guides and provides.
+owner-pet| Owner / pet | Eine Besitzdynamik statt Betreuung. | An ownership dynamic rather than caretaking.
+trainer-tierrolle| Trainer / animal role | Das Tier lernt Kommandos und Verhalten. | The animal learns commands and behaviour.
+halsband-und-leine| Collar and leash | Die klassische Ausstattung der Rolle. | The classic gear for the role.
+geschirr-harness| Harness | Geschirr statt Halsband, oft bei Pony Play. | A harness instead of a collar, often in pony play.
+pet-namen| Pet names | Ein eigener Name für die Tierrolle. | A separate name for the animal role.
+krabbeln-oder-auf-allen-vieren-gehen| Crawling or moving on all fours | Die Fortbewegung der Rolle; Knie schonen. | The role's way of moving; protect the knees.
+tricks-ausfuehren| Performing tricks | Kommandos ausführen wie ein Tier. | Carrying out commands like an animal.
+apportieren | Fetching | Nur Spielzeug, das nicht splittert und nicht zu klein ist. | Only toys that will not splinter and are not too small. | Apportieren
+fuettern-aus-einem-dafuer-vorgesehenen-gefaess| Being fed from a purpose-made bowl | Sauberes, dafür vorgesehenes Geschirr verwenden. | Use clean, purpose-made dishes.
+grooming-buersten| Grooming | Gebürstet und gepflegt werden. | Being brushed and cared for.
+streicheln| Being petted | Berührung als Belohnung und Zuwendung. | Touch as reward and attention.
+belohnungsleckerlis-fuer-menschen| Treats made for humans | Nur Lebensmittel für Menschen, nie Tierfutter. | Only human food, never animal feed.
+pet-bed-oder-kaefig-als-kulisse| Pet bed or crate as a setting | Ein eigener Platz als Teil der Rolle. | A place of your own as part of the role.
+pet-show | Pet show | Eine Vorführung vor Publikum, das eingeweiht ist und zugestimmt hat. | A performance before an audience that knows and has agreed. | Pet Show
+geraeusche-und-nonverbale-kommunikation| Sounds and non-verbal communication | Bellen, Schnurren, Knurren statt Worten; ein Abbruchsignal bleibt nötig. | Barking, purring, growling instead of words; a stop signal is still needed.
+pony-gear| Pony gear | Zaumzeug, Geschirr und Federschweif. | Bridle, tack and plume.
+bit-gag | Bit gag | Trensengebiss. Speichelfluss und Kiefer beachten. | A bit gag. Mind the drooling and the jaw. | Bit Gag
+sulky-oder-wagenaesthetik-ohne-gefaehrliche-last| Sulky or cart aesthetics, without dangerous loads | Nur die Optik; keine tatsächliche schwere Last. | The look only; no genuinely heavy load.
+dressur-oder-agility-rollenspiel| Dressage or agility role play | Übungen mit Haltung, Takt und Parcours. | Exercises with posture, rhythm and a course.

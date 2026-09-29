@@ -1,0 +1,43 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Safety, negotiation and limits | SSC, RACK and PRICK are common frameworks stressing safe, or risk-aware, informed and consensual practice. They replace neither expertise nor your own risk assessment nor the law.[^16][^17][^18]
+#GRP | verhandlung | Negotiation and limits
+#GRP | gesundheit | Disclosing health
+#GRP | stoppsignale | Stop signals and check-ins
+#GRP | notfall | Emergency and equipment
+#GRP | rahmen-grenzen | Setting, marks and data
+#GRP | sexuelle-gesundheit | Sexual health
+#GRP | nachbereitung | Debrief and withdrawal
+#GRP | neue-kontakte | New contacts
+vorbesprechung-fuehren | Holding a negotiation | Das Gespräch vor der Szene, in dem Wünsche, Grenzen und Ablauf geklärt werden. | The conversation before a scene in which wishes, limits and the plan are settled. | Vorbesprechung führen
+aktivitaetsliste-vorher-festlegen | Agreeing an activity list beforehand | Eine konkrete Liste dessen, was vorkommen darf. Alles andere bleibt draußen. | A concrete list of what may happen. Anything else stays out. | Aktivitätsliste vorher festlegen
+hard-limits-benennen | Naming hard limits | Beide sagen vorher, was unter keinen Umständen stattfindet. | Both say beforehand what does not happen under any circumstances. | Hard Limits benennen
+soft-limits-benennen | Naming soft limits | Beide sagen vorher, was nur unter Bedingungen möglich ist. | Both say beforehand what is possible only under conditions. | Soft Limits benennen
+trigger-vorher-benennen | Naming triggers beforehand | Vor der Szene wird ausgetauscht, was eine starke unwillkürliche Reaktion auslösen kann, damit es vermieden werden kann. | Before the scene you exchange what can set off a strong involuntary reaction, so it can be avoided. | Trigger vorher benennen
+medizinische-besonderheiten-besprechen | Discuss medical conditions | Vorerkrankungen, Operationen oder Einschränkungen, die im Spiel eine Rolle spielen. | Prior conditions, surgeries or limitations that matter during play.
+allergien-besprechen | Discuss allergies | Latex, Metalle, Öle, Duftstoffe, Lebensmittel: alles, was Kontakt hat. | Latex, metals, oils, fragrances, food: anything that comes into contact.
+medikamente-besprechen | Discuss medication | Was eingenommen wird und wie es auf Kreislauf, Schmerzempfinden oder Wachheit wirkt. | What is being taken and how it affects circulation, pain perception or alertness.
+mobilitaets-oder-kreislaufprobleme-besprechen | Discuss mobility or circulation problems | Gelenke, Rücken, Kreislauf: was an Haltung und Dauer machbar ist. | Joints, back, circulation: what is feasible in terms of position and duration.
+psychische-belastungen-besprechen | Discuss mental health strain | Belastungen, die eine Szene auslösen oder verstärken könnte. | Strains that a scene could trigger or intensify.
+safeword-vereinbaren | Agreeing a safeword | Ein Wort, das die Szene sofort beendet, ohne Nachfrage. | A word that ends the scene immediately, no questions asked. | Safeword vereinbaren
+ampelsystem-vereinbaren | Agreeing a traffic light system | Grün heißt weiter, Gelb heißt langsamer oder nachfragen, Rot beendet alles sofort. | Green keeps going, yellow means slow down or check in, red stops everything at once. | Ampelsystem vereinbaren
+nonverbales-abbruchsignal-vereinbaren | Agreeing a non-verbal stop signal | Ein Zeichen für den Fall, dass Sprechen nicht möglich ist, etwa ein fallengelassener Gegenstand. | A sign for when speaking is not possible, such as dropping an object. | Nonverbales Abbruchsignal vereinbaren
+waehrend-der-szene-nachfragen | Checking in during the scene | Kurze Nachfragen mitten in der Szene, wie es gerade geht. | Brief questions during the scene about how it is going. | Während der Szene nachfragen
+aftercare-vorher-besprechen | Agreeing aftercare beforehand | Vorher klären, was danach gebraucht wird, statt es im Zustand danach herauszufinden. | Settle in advance what is needed afterwards, rather than working it out while coming down. | Aftercare vorher besprechen
+notfallkontakt-benennen | Naming an emergency contact | Eine Person, die im Notfall erreichbar ist und weiß, was zu tun ist. | Someone reachable in an emergency who knows what to do. | Notfallkontakt benennen
+erste-hilfe-material-bereithalten | Keeping first aid supplies ready | Verbandmaterial und Desinfektion griffbereit, nicht im Keller. | Dressings and disinfectant within reach, not in the basement. | Erste-Hilfe-Material bereithalten
+telefon-in-reichweite | Phone within reach | Ein geladenes Telefon in Reichweite, nicht im anderen Zimmer. | A charged phone within reach, not in another room. | Telefon in Reichweite
+loesewerkzeug-in-reichweite | Safety cutters within reach | Sicherheitsschere oder Rettungsmesser direkt am Ort, bei jeder Fesselung. | Safety shears or a rescue hook right at hand, for any tie. | Lösewerkzeug in Reichweite
+orts-und-zeitgrenzen-festlegen | Setting limits of place and time | Wo gespielt wird und wann Schluss ist, vorher festgelegt. | Where play happens and when it ends, settled in advance. | Orts- und Zeitgrenzen festlegen
+grenze-fuer-sichtbare-spuren-festlegen | Setting a limit on visible marks | Wo am Körper Spuren bleiben dürfen und wo nicht. | Where on the body marks may be left and where not. | Grenze für sichtbare Spuren festlegen
+aufnahmen-ausschliessen | Ruling out recordings | Keine Fotos und keine Videos, auch nicht für den privaten Gebrauch. | No photos and no video, not even for private use. | Aufnahmen ausschließen
+umgang-mit-daten-vereinbaren | Agreeing how data is handled | Was über die Szene gespeichert, geteilt oder gelöscht wird. | What about the scene gets stored, shared or deleted. | Umgang mit Daten vereinbaren
+sti-status-und-schutzbarrieren-besprechen | Discuss STI status and barriers | Teststatus, Zeitpunkt des letzten Tests und welche Barrieren benutzt werden. | Test status, date of the last test and which barriers are used.
+verhuetung-besprechen | Discuss contraception | Welche Methode gilt und wer sich worum kümmert. | Which method applies and who is responsible for what.
+nachbesprechung-fuehren | Holding a debrief | Das Gespräch nach der Szene: was gut war, was nicht, was beim nächsten Mal anders. | The conversation after the scene: what worked, what did not, what changes next time. | Nachbesprechung führen
+neuverhandlung-langfristiger-regeln | Renegotiating standing rules | Dauerhafte Regeln werden zu festen Terminen überprüft, nicht stillschweigend fortgeschrieben. | Standing rules are reviewed at set dates rather than quietly carried on. | Neuverhandlung langfristiger Regeln
+widerruf-ohne-rechtfertigung | Withdrawal without justification | Zustimmung kann jederzeit zurückgenommen werden, ohne Begründung. | Consent can be withdrawn at any time, without giving reasons. | Widerruf ohne Rechtfertigung
+sanktionsfreiheit-fuer-safeword-und-abbruch | No penalty for safeword or stopping | Abbrechen zieht nie eine Konsequenz nach sich, auch keine stillschweigende. | Stopping never carries a consequence, not even an unspoken one. | Sanktionsfreiheit für Safeword und Abbruch
+kontakt-nach-der-szene-vereinbaren | Agreeing contact after the scene | Wie viel Kontakt danach gewünscht ist, über welchen Kanal und in welchem Zeitraum. | How much contact afterwards is wanted, through which channel and over what period. | Kontakt nach der Szene vereinbaren
+identitaetspruefung-vor-dem-treffen | Identity check before meeting | Tatsächlich prüfen, wer die Person ist, einschließlich des Alters. | Actually checking who the person is, including their age. | Identitätsprüfung vor dem Treffen
+erstes-treffen-in-der-oeffentlichkeit | First meeting in public | Das erste Treffen findet an einem öffentlichen Ort statt. | The first meeting takes place somewhere public. | Erstes Treffen in der Öffentlichkeit
+referenzen-einholen | Asking for references | Ob die Person in der Szene bekannt ist und jemand für sie bürgen kann. | Whether the person is known in the scene and someone can vouch for them. | Referenzen einholen

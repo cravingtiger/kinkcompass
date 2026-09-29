@@ -1,0 +1,17 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Limits, health and notes | Free text. This is the most important part of the questionnaire.
+#GRP | grenzen | Limits
+#GRP | risiken | Risks and history
+#GRP | wuensche | Conditions and wishes
+absolute-no-gos | Absolute no-gos | | What is out of the question under any circumstances.
+koerperliche-grenzen | Physical limits | | Body areas, resilience, mobility, pain tolerance.
+emotionale-grenzen | Emotional limits | | Themes, words or dynamics that would cause real harm.
+gesundheitsbezogene-grenzen | Health-related limits | | Conditions, medication, allergies, latex, circulation, heart.
+beziehungsbezogene-grenzen | Relationship-related limits | | What the relationship framework allows and what it does not.
+datenschutz-und-diskretion | Privacy and discretion | | Photos, names, platforms, storage, deletion.
+alkohol-und-andere-substanzen | Alcohol and other substances | | What is acceptable in what amount, and what is not.
+schwangerschafts-und-sti-risiken | Pregnancy and STI risks | | Contraception, test status, accepted residual risk.
+fruehere-negative-erfahrungen | Earlier bad experiences | | What should be taken into account, without having to explain the details.
+gewuenschte-form-von-aftercare | The kind of aftercare you want | | What helps afterwards: closeness, quiet, food, talking, a blanket, being alone.
+bedingungen-fuer-ein-ja | Conditions for a yes | | Under what circumstances a maybe turns into a yes.
+individuelle-wuensche | Your own wishes | | Anything the list is missing.

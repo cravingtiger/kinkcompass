@@ -1,0 +1,26 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Consensual non-consent and resistance roles | This section means **role play between adults, negotiated in detail beforehand**, and nothing else. A safeword or unambiguous non-verbal signal must end the scene at once; a genuine, recognisable unwillingness is not part of the play.[^3]
+#GRP | widerstand | Played resistance
+#GRP | inszenierungen | Staged scenarios
+#GRP | rahmen-cnc | Framing and activation
+#GRP | sleep-free-use | Sleep play and free use
+gespielter-widerstand| Played resistance | Gegenwehr als Teil der Szene, mit sofort wirksamem Safeword. | Resisting as part of the scene, with an immediately effective safeword.
+gespieltes-nein-bei-separatem-safeword| A played "no", with a separate safeword | „Nein" gehört zur Szene, ein anderes Wort beendet sie sofort. | "No" belongs to the scene; a different word ends it at once.
+ueberwaeltigungsfantasie| Fantasy of being overpowered | Die Vorstellung, überwältigt zu werden. | The idea of being overpowered.
+ravishment-fantasie| Ravishment fantasy | Die verbreitetste Form dieser Fantasie; vollständig inszeniert. | The most common form of this fantasy; entirely staged.
+capture-fantasie| Capture fantasy | Gefangengenommen werden als Motiv. | Being captured as the motif.
+entfuehrungsinszenierung| Staged abduction | Vollständig vorher verhandelt; nie eine echte Überraschung. | Negotiated entirely in advance; never a real surprise.
+gefangeneninszenierung| Staged captivity | Gefangenschaft als durchgeplante Szene. | Captivity as a fully planned scene.
+verhoerinszenierung| Staged interrogation | Befragung unter Druck als Szene. | Questioning under pressure as a scene.
+gespielte-erpressung| Played blackmail | Erpressung als Motiv, ohne reales Material. | Blackmail as a motif, with no real material.
+gespielte-drohung| Played threat | Drohung im Ton, nicht in der Absicht. | Threat in tone, not in intent.
+gespielte-bestrafung| Played punishment | Strafe als Teil der Inszenierung. | Punishment as part of the staging.
+ueberraschungsszene | Surprise scene | Der Zeitpunkt überrascht, der Inhalt ist vorher freigegeben. | The timing surprises; the content was released beforehand. | Überraschungsszene
+vereinbarter-szenenstart | An agreed scene start | Ein Codewort oder ein festgelegtes Zeitfenster schaltet die Szene ein. | A code word or a defined time window switches the scene on. | Vereinbarter Szenenstart
+widerstand-mit-erlaubten-mitteln | Resistance with permitted means | Was an Gegenwehr erlaubt ist, steht vorher fest. | What counts as permitted resistance is settled beforehand. | Widerstand mit erlaubten Mitteln
+rollenspiel-mit-mehreren-personen | Role play with several people | Jede beteiligte Person hat einzeln und vorher zugestimmt. | Every person involved consented individually and in advance. | Rollenspiel mit mehreren Personen
+vorgetaeuschte-fremdenbegegnung| A faked encounter with a stranger | Inszeniertes Fremdsein zwischen Vertrauten. | Staged strangeness between people who know each other.
+gespielter-schlaf | Pretend sleep | Beide sind wach; der Schlaf wird gespielt. | Both are awake; the sleep is acted. | Gespielter Schlaf
+sleep-play-nach-vorabvereinbarung | Pre-agreed sleep play | Wer schläft, kann nicht zustimmen. Das lässt sich nur über eine sehr genaue vorherige Vereinbarung auffangen und bleibt rechtlich heikel. | Someone asleep cannot consent. Only a very precise prior agreement addresses that, and it stays legally delicate. | Sleep-Play nach Vorabvereinbarung
+free-use-fantasie-mit-jederzeitiger-widerrufbarkeit| Free use fantasy, revocable at any time | Die Fantasie lautet „jederzeit verfügbar"; die Zustimmung bleibt trotzdem widerruflich. | The fantasy is "available at any time"; consent nonetheless stays revocable.
+somnophilie-als-rollenspiel | Somnophilia as role play | Gespielt mit wachen Beteiligten. Die Anziehung gilt dem Bild, nicht einer tatsächlich schlafenden Person. | Played out with everyone awake. The attraction is to the image, not to an actually sleeping person. | Somnophilie als Rollenspiel

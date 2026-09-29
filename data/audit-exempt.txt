@@ -1,0 +1,101 @@
+#! Formulierungen, die der Audit meldet, die aber bewusst so bleiben.
+#! Format:  <sektion>/<slug> | <Grund>
+#! Ohne Begründung wird kein Eintrag akzeptiert.
+
+#! --- „und"/„oder" verbindet Teile EINES Begriffs, nicht zwei Fragen ---
+aftercare/abstand-und-ruhe | ein Zustand, nicht zwei Wünsche
+aftercare/film-oder-serie | ein Bedürfnis, zwei Formate
+aftercare/humor-und-normalisierung | ein Vorgang
+aftercare/lob-und-bestaetigung | ein Vorgang
+ageplay-caregiver/malen-oder-basteln | eine Tätigkeit, zwei Beispiele
+ageplay-caregiver/regeln-und-routinen | ein Strukturbegriff
+ageplay-caregiver/erwachsenen-pyjamas-oder-onesies | ein Kleidungsstück, zwei Namen
+ageplay-caregiver/fuersorge-und-beruhigung | ein Vorgang
+bewegung-immobilisierung/tragen | eine Erfahrung, zwei Formen
+bondage-allgemein/haende-und-fuesse-getrennt-fixieren | eine Fesselart
+bondage-allgemein/fixiert-werden-und-zusehen | eine Szenenform
+bondage-allgemein/fixiert-werden-und-warten | eine Szenenform
+digital-fernsteuerung/avatare-und-vr-kink | ein Feld
+digital-fernsteuerung/digitale-regeln-und-aufgaben | ein Regelwerk
+disziplin-training/pruefung-oder-abnahme | ein Vorgang, zwei Namen
+disziplin-training/leistungsabzeichen-oder-stufen | ein System
+druck-klemmen/gesicht-beruehren-oder-fuehren | eine Handlung
+ernaehrung-sport-koerperdaten/verzichtsvereinbarung-etwa-alkohol-oder-zucker | „Alkohol oder Zucker" sind Beispiele
+foto-video-audio/gemeinsame-auswahl-und-loeschung | eine gemeinsame Verfügung
+gender-alltag/unterschied-zwischen-spiel-und-alltag | eine Aussage
+gender-alltag/planung-und-organisation-der-szenen | ein Aufgabenbereich
+gender-alltag/aftercare-und-emotionale-nacharbeit | ein Aufgabenbereich
+gender-alltag/verhandlung-und-initiative | ein Aufgabenbereich
+gender-alltag/bildung-und-recherche | ein Aufgabenbereich
+genital-intimfokus/zug-und-druck-an-genitalien | ein Reizbereich
+gesundheit-selbstbestimmung/eigene-entscheidung-ueber-medikamente | „Medikamente und Therapie" ist ein Zuständigkeitsbereich
+gesundheit-selbstbestimmung/aerztlich-festgelegte-untergrenzen | „Gewicht und Kalorien" ist ein Grenzwertbereich
+gesundheit-selbstbestimmung/straffreiheit-fuer-messwerte | eine Regel
+gesundheit-selbstbestimmung/loeschfrist-fuer-nachweise-und-aufzeichnungen | ein Datenbestand
+gesundheit-selbstbestimmung/auszeit-bei-krankheit-oder-belastung | „Krankheit oder Belastung" ist ein Anlass
+grundorientierung/mehrere-tops-oder-dominante | zwei Namen für dieselbe Rolle
+grundorientierung/mehrere-bottoms-oder-submissive | zwei Namen für dieselbe Rolle
+grundorientierung/teilnahme-an-conventions-oder-festivals | ein Veranstaltungstyp
+grundorientierung/kinkfreundliche-freundschaften-und-community | ein soziales Umfeld
+medizinisches/waage-oder-koerpermasse | ein Messvorgang
+medizinisches/kittel-oder-uniform | ein Kleidungsstück
+medizinisches/liege-und-lagerung | ein Kulissenelement
+nadeln-blut/henna-oder-hautgeeignete-temporaere-farbe | ein Material
+objekt-ausruestung/stative-und-beleuchtung | eine Ausrüstungsgruppe
+objekt-ausruestung/stiefel-und-schuhwerk | eine Objektgruppe
+objekt-ausruestung/antike-oder-historische-requisiten | zwei Worte für dasselbe
+objekt-ausruestung/uhren-timer-und-countdowns | eine Objektgruppe
+objektifizierung/armband-oder-fusskettchen | ein Schmuckstück
+objektifizierung/einwickeln | eine Handlung
+pet-play/halsband-und-leine | eine Ausstattung
+pet-play/krabbeln-oder-auf-allen-vieren-gehen | dieselbe Fortbewegung
+pet-play/pet-bed-oder-kaefig-als-kulisse | ein Platz
+pet-play/geraeusche-und-nonverbale-kommunikation | eine Ausdrucksform
+primal-kampf/geruch-und-schweiss | ein Sinnesreiz
+protokolle-rituale/titel-und-anredeformen | eine Anredeform
+protokolle-rituale/tagebuch-oder-reflexionsbericht | ein Schreibformat
+psychologisches-fear/kulisse-und-requisiten | eine Requisitengruppe
+reale-machtverhaeltnisse/dynamik-befristen-oder-ueberpruefen | ein Mechanismus, zwei Formen
+risikomodell/abbruch-und-debrief-nach-einem-fehler | eine Regel mit zwei Schritten
+rollen-identitaeten/zeremonielle-oder-protokollarische-rolle | zwei Worte für dieselbe Rolle
+sanftes-sensation-play/wechsel-von-sanft-und-intensiv | der Kontrast ist der Punkt
+service-hingabe/kleidung-oder-ausruestung-bereitlegen | ein Dienst
+sicherheit-verhandlung/sti-status-und-schutzbarrieren-besprechen | ein Gespräch
+sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch | eine Regel
+sicherheit-verhandlung/referenzen-einholen | eine Absicherung
+sprache-wortliste/rassistische-oder-ethnisch-bezogene-herabsetzung | Kategoriename
+sprache-wortliste/herabsetzung-mit-bezug-auf-herkunft-oder-sprache | Kategoriename
+sprache-wortliste/herabsetzung-mit-bezug-auf-gender-oder-orientierung | Kategoriename
+temperatur-wachs/warme-dusche-oder-bad-als-szene | ein Ort, zwei Formen
+temperatur-wachs/glitzer-oder-kosmetische-materialien | eine Materialgruppe
+ueberwachung-nachweis/mikrofon-oder-raumton-auf-anforderung | zwei Worte für dieselbe Sache
+verbale-dominanz/erroeten-oder-verlegenheit-provozieren | eine Wirkung
+verbale-dominanz/bewertung-oder-benotung | zwei Worte für dieselbe Sache
+voyeurismus-oeffentlichkeit/diskretes-halsband-oder-symbol-im-alltag | ein Zeichen
+voyeurismus-oeffentlichkeit/adult-club-swingerclub-oder-fetischveranstaltung | ein Ortstyp
+
+#! --- Der Vorbehalt IST das Item; ohne ihn wäre es eine andere Aussage ---
+geld-findom/ausgaben-bleiben-im-rahmen-vorhandener-mittel | „im Rahmen" ist die Grenze selbst
+gesundheit-selbstbestimmung/konsequenzen-nur-fuer-verhalten | „nur" ist die Regel
+grundorientierung/nur-privat | „nur" ist die Aussage
+sprache-wortliste/geltung-nur-innerhalb-der-szene | „nur" ist die Geltungsgrenze
+sprache-wortliste/neue-worte-vorher-freigeben | „nur nach Freigabe" ist die Regel
+ueberwachung-nachweis/nur-live-ohne-speicherung | „nur live" ist die Zusicherung
+
+#! --- Verneinung als Listenüberschrift, keine Bewertungsfrage ---
+sprache-wortliste/absolut-ausgeschlossene-worte | Überschrift einer Ausschlussliste
+
+#! --- Länge: die Präzision wiegt schwerer als die Kürze ---
+gesundheit-selbstbestimmung/ernaehrung-und-gewicht-ausserhalb-der-dynamik | sicherheitsrelevante Aussage, Kürzung verlöre den Sinn
+
+#! --- „vorher"/„nur" bezeichnet den Kern der Zusicherung ---
+gesundheit-selbstbestimmung/gesundheitsdaten-nur-auf-eigenen-geraeten | „nur auf eigenen Geräten" ist die Zusicherung
+sicherheit-verhandlung/aktivitaetsliste-vorher-festlegen | das Timing ist der Punkt
+sicherheit-verhandlung/trigger-vorher-benennen | das Timing ist der Punkt
+sicherheit-verhandlung/aftercare-vorher-besprechen | das Timing ist der Punkt
+sprache-wortliste/neue-worte-vorher-freigeben | „vorher" ist die Regel
+
+#! --- Manipulation als Spielmittel ---
+manipulation-spielmittel/techniken-vorher-benennen | „vorher" ist der Kern der Zusicherung
+manipulation-spielmittel/kontrollierte-informationsumgebung | „kontrolliert" beschreibt hier den Mechanismus, es ist keine Wertung
+manipulation-spielmittel/idealisierung-und-abwertung-im-wechsel | der Wechsel zwischen beiden ist das Muster, nicht zwei Praktiken

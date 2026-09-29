@@ -1,0 +1,43 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Blackmail and exposure | Consensual blackmail play lives off a threat. That makes it a special case: **the threat is aimed at your ability to end the game.** Someone being blackmailed can hardly call it off — that is exactly the appeal, and exactly the danger. A safeword alone does not carry it here; it needs rules about what is held at all, and someone outside. The limits are at the end of this section. Legally: consent given beforehand does not make a threat meant in earnest lawful (extortion § 253, coercion § 240 German Criminal Code), and passing on intimate recordings is punishable even when they were made consensually (§ 201a). Not legal advice.
+#GRP | material | What is held
+#GRP | drohung | What is threatened
+#GRP | spielformen | Forms of play
+#GRP | reichweite | Reach
+#GRP | grenzen-blackmail | Limits
+
+ohne-material | Pure fiction, nothing held | Es gibt kein Material — die Drohung ist ausgesprochen, aber leer. Die sicherste Form. | There is no material; the threat is spoken but empty. The safest form.
+requisite-beweis | Invented evidence as a prop | Ein sichtbar erfundenes „Beweisstück", das niemanden belasten kann. | A visibly invented piece of "evidence" that cannot incriminate anyone.
+eigens-erstelltes-material | Material made for this game only | Aufnahmen, die genau dafür entstehen — und nur dafür. Löschung gehört zur Vereinbarung. | Recordings made precisely for this and nothing else. Deletion is part of the agreement.
+echtes-material-vereinbart | Real material by explicit agreement | Vorhandenes, echtes Material wird einbezogen. Das schafft ein reales Risiko, das über das Spiel hinausreicht. | Existing, real material is drawn in. That creates a real risk reaching beyond the game.
+material-bleibt-bei-mir | Material stays on your own device | Die andere Seite sieht es, bekommt es aber nicht. | The other side sees it but never holds a copy.
+
+drohung-eingeweihte-person | Exposure to someone who is in on it | Gedroht wird mit einer bestimmten Person, die den Rahmen kennt und mitspielt. | The threat names a specific person who knows the setup and plays along.
+drohung-erfundene-oeffentlichkeit | Exposure to an invented audience | Die „Öffentlichkeit" existiert nur in der Erzählung. | The "public" exists only inside the story.
+drohung-veroeffentlichung | Threatened publication that never happens | Die Drohung gehört zum Spiel, die Veröffentlichung ist ausgeschlossen. | The threat belongs to the game; publication is ruled out.
+drohung-geldforderung | Money demanded as leverage | Geld als Preis für das Schweigen. Überschneidet sich mit FinDom und braucht dieselben Schutzgrenzen. | Money as the price of silence. Overlaps with findom and needs the same protective limits.
+drohung-aufgaben | Tasks as the price of silence | Aufgaben oder Gehorsam statt Geld. | Tasks or obedience instead of money.
+drohung-eskalierend | Escalating demands | Die Forderungen wachsen. Ohne vereinbarte Obergrenze ist das die Form, die am ehesten aus dem Spiel herausführt. | The demands grow. Without an agreed ceiling this is the form most likely to leave the game behind.
+drohung-frist | A deadline as leverage | Zeitdruck als Teil der Drohung. | Time pressure as part of the threat.
+
+blackmail-drehbuch | Scripted blackmail role play | Der Ablauf steht vorher fest, einschließlich des Endes. | The course is fixed in advance, including how it ends.
+ich-weiss-etwas | "I know something about you" | Das Wissen selbst ist der Reiz, ohne konkrete Forderung. | The knowing itself is the appeal, without a concrete demand.
+erpressung-durch-dritte-rolle | Blackmail by a third, played character | Die erpressende Figur ist nicht die Partnerperson, sondern eine Rolle. | The blackmailing figure is a character, not the partner.
+erpresste-person-steuert | The blackmailed person sets the pace | Wer erpresst wird, bestimmt verdeckt Tempo und Eskalation. | The person being blackmailed quietly controls pace and escalation.
+blackmail-ohne-sexuellen-bezug | Blackmail without sexual content | Das Druckmittel hat nichts mit Sexualität zu tun. | The leverage has nothing to do with sexuality.
+
+auf-eine-szene-begrenzt | Limited to one scene | Beginnt und endet an einem Abend. | Begins and ends in one evening.
+ueber-mehrere-tage | Running over several days | Die Drohung wirkt zwischen den Treffen weiter. | The threat keeps working between meetings.
+dauerhafte-dynamik-blackmail | An ongoing dynamic | Kein Ende in Sicht — dadurch am schwersten zu verlassen. | No end in sight, and therefore the hardest to leave.
+
+kein-echtes-material | Invented material only | Nichts, was außerhalb des Spiels Wirkung hätte. | Nothing that would have any effect outside the game.
+loeschung-auf-verlangen | Deletion on request | Sofort, auf ein Wort, ohne dass eine Begründung nötig wäre. | One word is enough; no reason is owed.
+loeschfrist-blackmail | An agreed deletion deadline | Ein Datum, zu dem alles gelöscht wird, auch ohne Aufforderung. | A date by which everything is deleted, even unasked.
+drohung-wird-nie-ausgefuehrt | The threat is never carried out | Sie bleibt Teil der Erzählung, unter allen Umständen. | It stays part of the story, under all circumstances.
+safeword-steht-ueber-dem-spiel | The safeword overrides the game | Die Erpressung darf das Safeword nicht aushebeln — sonst ist es keines mehr. | The blackmail must not disable the safeword; otherwise it is not one.
+keine-echten-geldforderungen | Money stays part of the story | Geld bleibt Teil der Erzählung. | Money stays part of the story.
+nichts-mit-realem-schaden | Consequence-free leverage | Nichts, was Arbeit, Familie, Sorgerecht oder Aufenthaltsstatus berühren könnte. | Nothing that could touch work, family, custody or residence status.
+keine-weitergabe-an-dritte | Material stays among those involved | Kein Material verlässt den Kreis der Beteiligten, auch nicht andeutungsweise. | No material leaves the people involved, not even in hints.
+aussenstehende-person-blackmail | Someone outside knows the setup | Eine Person außerhalb weiß, dass gespielt wird — und wäre ansprechbar. | A person outside knows this is play and could be approached.
+debrief-blackmail | A debrief after every scene | Danach wird gesprochen, jedes Mal. | Afterwards you talk, every time.
+aussetzen-bei-belastung-blackmail | Pause when it weighs on you | Bei Belastung wird ausgesetzt, ohne Verhandlung. | If it weighs on you, it pauses — no negotiation.

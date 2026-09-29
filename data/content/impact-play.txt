@@ -1,0 +1,43 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Impact play |
+#GRP | spanking | Spanking
+#GRP | paddel-strap | Paddles, straps and belts
+#GRP | flogger-gerte | Floggers, crops and whips
+#GRP | dramaturgie | Pacing and structure
+#GRP | spuren-zonen | Marks and body areas
+handspanking| Hand spanking | Mit der flachen Hand; gibt die beste Rückmeldung über die Härte. | With the flat hand; gives the best feedback about how hard it lands.
+over-the-knee-spanking| Over-the-knee spanking | Übers Knie gelegt; die Position ist selbst Teil des Reizes. | Across the knee; the position is itself part of the appeal.
+ritualisiertes-spanking| Ritualised spanking | Fester Ablauf mit Ankündigung, Zählen und Abschluss. | A set sequence with announcement, counting and closure.
+erotisches-spanking| Erotic spanking | Als Teil der Erregung, nicht als Konsequenz. | As part of arousal rather than as a consequence.
+disziplinarisches-rollenspiel-spanking| Disciplinary spanking role play | In eine Disziplinarszene eingebettet. | Embedded in a disciplinary scene.
+paddel| Paddle | Flächiger, dumpfer Schlag mit großer Auflage. | A broad, thuddy blow with a large surface.
+lederpaddel| Leather paddle | Weicher und wärmender als Holz. | Softer and warmer than wood.
+holzpaddel| Wooden paddle | Hart und dumpf, mit schnellem Blauwerden. | Hard and thuddy, bruises quickly.
+gummipaddel| Rubber paddle | Stechender als Leder, weniger dumpf als Holz. | Stingier than leather, less thuddy than wood.
+haarbuerste-als-spielinstrument| Hairbrush as an implement | Improvisiertes Instrument mit harter Fläche. | An improvised implement with a hard surface.
+slapper| Slapper | Zwei Lederlagen; laut, aber vergleichsweise mild. | Two layers of leather; loud but comparatively mild.
+strap| Strap | Breiter Lederriemen mit flächigem Aufschlag. | A wide leather strap with a broad impact.
+guertel-als-vereinbartes-instrument| Belt, as an agreed implement | Schwer zu dosieren; die Schnalle bleibt immer in der Hand. | Hard to control; the buckle always stays in your hand.
+flogger| Flogger | Viele Riemen; je nach Material dumpf oder stechend. | Many falls; thuddy or stingy depending on the material.
+weicher-flogger| Soft flogger | Wildleder oder Fell, überwiegend streichend. | Suede or fur, mostly caressing.
+schwerer-flogger| Heavy flogger | Viel Masse, tief und dumpf. | Plenty of mass, deep and thuddy.
+reitgerte| Riding crop | Kleine Fläche, scharf und gut zielbar. | A small surface, sharp and easy to aim.
+rohrstock-cane | Cane | Sehr scharf, hinterlässt typische Striemen. Braucht Zielsicherheit. | Very sharp, leaves characteristic welts. Requires accuracy. | Rohrstock / Cane
+birkenrute | Birch rod | Ein Bündel Ruten, kratzend und flächig. | A bundle of rods, scratchy and broad. | Birkenrute
+peitsche | Whip | Braucht Übung und Abstand. Fehlschläge treffen unkontrolliert. | Needs practice and space. A miss lands uncontrolled. | Peitsche
+signalwhip| Signal whip | Kurze, sehr präzise Peitsche mit scharfem Schlag. | A short, very precise whip with a sharp strike.
+single-tail | Single tail | Kann Haut öffnen und Augen gefährden. Nur mit Ausbildung. | Can break skin and endanger eyes. Only with training. | Single Tail
+rhythmisches-impact-play| Rhythmic impact play | Gleichmäßiger Takt, der in einen Zustand trägt. | A steady beat that carries you into a state.
+langsamer-intensitaetsaufbau| Slow build of intensity | Beginnt leicht und steigert sich; der Körper kann mitgehen. | Starts light and builds; the body can keep up.
+ueberraschende-schlaege | Unexpected strikes | Kein Aufwärmen, aber innerhalb der vorher freigegebenen Liste. | No warm-up, but within the list released beforehand. | Überraschende Schläge
+zaehlen-der-schlaege| Counting the strokes | Laut mitzählen, oft mit Dank. | Counting aloud, often with thanks.
+schlaege-nach-kommando| Strikes on command | Position und Zeitpunkt werden angesagt. | Position and timing are called out.
+schlaege-als-belohnung| Strikes as a reward | Schläge, die als Geschenk gemeint sind. | Strikes meant as a gift.
+schlaege-als-funishment| Strikes as funishment | Als Strafe gerahmt, aber beidseitig genossen. | Framed as punishment but enjoyed by both.
+geraeuschbetontes-aber-koerperlich-mildes-impact-play| Loud but physically mild impact play | Klingt härter, als es ist. | It sounds harder than it is.
+intensives-schmerzspiel | Intense pain play | Nahe an der Belastungsgrenze. Braucht Erfahrung und genaue Absprache. | Close to the limit of what the body takes. Needs experience and precise agreement. | Intensives Schmerzspiel
+sichtbare-roetung-gewuenscht| Visible redness wanted | Röte als gewolltes Ergebnis. | Redness as a wanted result.
+voruebergehende-abdruecke-gewuenscht| Temporary marks wanted | Abdrücke, die nach Stunden verschwinden. | Marks that fade within hours.
+blaue-flecken-als-ergebnis | Bruises as a result | Sie bleiben tagelang. Das gehört ausdrücklich verhandelt. | They last for days. That needs to be expressly negotiated. | Blaue Flecken als Ergebnis
+spurenfrei-bleiben | Staying free of visible marks | Keine Spuren, die andere sehen könnten. | No marks that other people could see. | Spurenfrei bleiben
+koerperstellen-mit-individueller-freigabe-festlegen| Defining which body areas are released | Festlegen, wo getroffen werden darf; Nieren, Wirbelsäule und Gelenke bleiben grundsätzlich aus. | Defining where strikes may land; kidneys, spine and joints stay out as a rule.

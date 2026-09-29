@@ -1,0 +1,54 @@
+#! KinkCompass — Rollenbezeichnungen je Item
+#!
+#! Vorgabe ist „ausführend" / „empfangend": wer die Handlung ausführt, wer sie
+#! erfährt. Das ist präzise, solange ein Item eine Handlung von A an B ist.
+#! Es gibt aber vier Klassen von Items, und nur bei einer trifft es:
+#!
+#!   transitiv        Handspanking, Fesseln        -> Vorgabe passt
+#!   Haltung/Zustand  Knien, Pose halten           -> es gibt nur eine Seite
+#!   wechselseitig    Küssen, Kuscheln             -> beide tun dasselbe
+#!   Gegenstand       Leder, Seile, Decke          -> es gibt gar keine Handlung
+#!
+#! „Knien" ist der Fall, an dem es auffällt: die kniende Person FÜHRT AUS, also
+#! steht die submissive Seite unter „ausführend". Das liest sich verkehrt herum.
+#!
+#! Kein anderes Wortpaar repariert das — Top/Bottom meint dasselbe wie
+#! ausführend/empfangend (deshalb gibt es den „Service Top"), und Dom/Sub wäre
+#! eine andere Achse und bei Leder, Wasser oder Küssen schlicht sinnlos.
+#! Deshalb: wo die Vorgabe in die Irre führt, benennt das Item seine Seiten selbst.
+#!
+#! Wortwahl: dritte Person, ohne Subjekt („kniet selbst", „wird verehrt").
+#! Grund: dieselbe Bezeichnung erscheint als Beschriftung im Bogen UND in der
+#! Vergleichsansicht, die ueber zwei Menschen spricht — dort steht
+#! „Anna <a> / Ben <p>". Mit „ich kniee" stuende da „Anna ich kniee".
+#!
+#! Format (deutsch und englisch zusammen, weil ein Paar nur als Paar stimmt):
+#!   SEKTION | <sektion-id>        | <DE a> | <DE p> | <EN a> | <EN p>
+#!   ITEM    | <sektion>/<slug>    | <DE a> | <DE p> | <EN a> | <EN p>
+#! ITEM schlägt SEKTION. Ohne Eintrag gilt die Vorgabe.
+
+#! ------------------------------------------------------------------
+#! Gegenstaende und Material: es gibt keine Handlung, nur „wer hat oder traegt es"
+#! ------------------------------------------------------------------
+SEKTION | kleidung-material  | trägt es selbst | beim Gegenüber | wears it | on the other person
+SEKTION | objekt-ausruestung | setzt es ein | bekommt es zu spüren | uses it | it is used on them
+SEKTION | koerperverehrung   | verehrt | wird verehrt | worships | is worshipped
+SEKTION | service-hingabe    | leistet es | empfängt es | provides it | receives it
+
+#! ------------------------------------------------------------------
+#! Haltungen: eine Haltung nimmt man selbst ein. Die andere Seite erleidet sie
+#! nicht, sie steht davor — das muss dastehen.
+#! ------------------------------------------------------------------
+ITEM | protokolle-rituale/knien | kniet selbst | lässt knien | kneels | has someone kneel
+ITEM | bewegung-immobilisierung/knien-ueber-laengere-vereinbarte-zeit | kniet selbst | lässt knien | kneels | has someone kneel
+ITEM | service-hingabe/knien-beim-servieren | serviert kniend | wird kniend bedient | serves kneeling | is served by someone kneeling
+ITEM | bewegung-immobilisierung/auf-allen-vieren-bleiben | bleibt auf allen vieren | ordnet es an | stays on all fours | asks for it
+ITEM | pet-play/krabbeln-oder-auf-allen-vieren-gehen | krabbelt selbst | ordnet es an | crawls | asks for it
+ITEM | bewegung-immobilisierung/bestimmte-pose-halten | hält die Pose | gibt die Pose vor | holds the pose | sets the pose
+ITEM | bewegung-immobilisierung/stillhalte-spiel | hält still | verlangt Stillhalten | keeps still | asks for stillness
+ITEM | disziplin-training/stillhalten | hält still | verlangt Stillhalten | keeps still | asks for stillness
+ITEM | protokolle-rituale/praesentationshaltung | nimmt sie ein | gibt sie vor | takes it | sets it
+ITEM | protokolle-rituale/inspektionshaltung | nimmt sie ein | gibt sie vor | takes it | sets it
+ITEM | protokolle-rituale/bestimmte-sitzhaltung | nimmt sie ein | gibt sie vor | takes it | sets it
+ITEM | disziplin-training/haltungstraining | leitet das Training | wird trainiert | leads the training | is being trained
+ITEM | machtgefaelle/koerperhaltung-bestimmen | bestimmt die Haltung | bekommt sie vorgegeben | sets the posture | has it set for them

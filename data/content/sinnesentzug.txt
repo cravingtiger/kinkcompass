@@ -1,0 +1,20 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Sensory deprivation |
+#GRP | sicht | Sight
+#GRP | gehoer | Hearing
+#GRP | weitere-sinne | Other senses
+#GRP | kombination | Combination and uncertainty
+augenbinde| Blindfold | Das einfachste und verbreitetste Mittel, den Blick zu nehmen. | The simplest and most common way to take away sight.
+dunkler-raum| Darkened room | Dunkelheit statt Augenbinde, weniger beengend. | Darkness instead of a blindfold, less confining.
+kapuze-mit-freier-atmung| Hood with unobstructed breathing | Eine Haube, die Sicht nimmt, aber die Atmung frei lässt. | A hood that removes sight while leaving breathing clear.
+ohrstoepsel| Ear plugs | Dämpfen Geräusche, ohne sie ganz zu nehmen. | Muffle sound without removing it entirely.
+gehoerschutz| Ear defenders | Stärkere Dämpfung, deutlich isolierender. | Stronger muffling, noticeably more isolating.
+kopfhoerer-mit-musik| Headphones with music | Geräusche werden ersetzt statt genommen. | Sound is replaced rather than removed.
+weisses-rauschen| White noise | Gleichförmiges Rauschen, das Orientierung nimmt. | Uniform noise that removes orientation.
+veraenderte-geruchswahrnehmung| Altered sense of smell | Düfte oder eine Maske verändern den Geruchsraum. | Scents or a mask change the olfactory space.
+handschuhe-zur-reduktion-des-tastsinns| Gloves to dull touch | Der Tastsinn wird gedämpft, nicht genommen. | Touch is dulled rather than removed.
+mehrere-sinne-zugleich | Several senses at once | Mehrere Kanäle gleichzeitig. Die Wirkung verstärkt sich schnell. | Several channels at once. The effect intensifies quickly. | Mehrere Sinne zugleich
+unvorhersehbare-reizfolge | An unpredictable sequence | Die Reihenfolge ist offen, die Liste der Reize nicht. | The order is open, the list of stimuli is not. | Unvorhersehbare Reizfolge
+zeitgefuehl-verlieren | Losing your sense of time | Orientierungsverlust als Ziel, mit Aufsicht von außen. | Losing your bearings as the aim, with supervision from outside. | Zeitgefühl verlieren
+isolation-als-kurzes-rollenspielelement| Isolation as a brief role play element | Kurzes Alleinsein als Teil der Szene, mit klarer Zeitgrenze. | A short time alone as part of the scene, with a clear time limit.
+warten-ohne-zu-wissen-welcher-vereinbarte-reiz-folgt| Waiting without knowing which agreed stimulus comes next | Die Ungewissheit ist der Reiz; die Liste ist trotzdem vorher festgelegt. | The uncertainty is the appeal; the list is still set beforehand.

@@ -1,0 +1,41 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Aftercare and recovery |
+#GRP | naehe | Closeness and distance
+#GRP | versorgung | Warmth, drink and food
+#GRP | pflege-after | Body care and wound care
+#GRP | beruhigung | Music, humour and reassurance
+#GRP | rueckkehr | Returning to everyday life
+#GRP | nachkontakt | Follow-up and debrief
+#GRP | drop | Drop prevention and help
+kuscheln| Cuddling | Körperliche Nähe als Rückweg in den Alltag. | Physical closeness as the way back to everyday life.
+naehe-ohne-gespraech| Closeness without talking | Beieinander sein, ohne zu reden. | Being together without speaking.
+abstand-und-ruhe| Space and quiet | Für sich sein als Form der Nachsorge. | Being by yourself as a form of aftercare.
+decke| Blanket | Wärme und Gewicht wirken beruhigend. | Warmth and weight have a calming effect.
+waermekissen| Heat pad | Gezielte Wärme gegen Zittern und Auskühlen. | Targeted warmth against shivering and chilling.
+wasser| Water | Trinken gegen Kreislaufabfall und Erschöpfung. | Drinking against a drop in circulation and exhaustion.
+elektrolytgetraenk| Electrolyte drink | Bei starkem Schwitzen oder langen Szenen. | For heavy sweating or long scenes.
+snack| Snack | Etwas Süßes gegen den Blutzuckerabfall. | Something sweet against the drop in blood sugar.
+gemeinsames-duschen| Showering together | Duschen als gemeinsame Nachsorge. | Showering as shared aftercare.
+allein-duschen| Showering alone | Duschen als Zeit für sich. | Showering as time for yourself.
+massage| Massage | Berührung, die den Körper wieder zusammenführt. | Touch that brings the body back together.
+hautpflege| Skin care | Creme oder Lotion auf beanspruchter Haut. | Cream or lotion on skin that has been worked.
+wundversorgung | Wound care | Reinigen und abdecken. Alles Weitere gehört zur Ärztin. | Cleaning and covering. Anything beyond that belongs with a doctor. | Wundversorgung
+ruhige-musik| Quiet music | Musik als Übergang zurück. | Music as a transition back.
+film-oder-serie| A film or series | Ablenkung als Weg zurück in den Alltag. | Distraction as a way back to everyday life.
+humor-und-normalisierung| Humour and normalising | Lachen als Entlastung nach Intensität. | Laughter as relief after intensity.
+lob-und-bestaetigung| Praise and reassurance | Ausdrücklich sagen, dass es gut war. | Saying out loud that it was good.
+verbale-rueckversicherung| Verbal reassurance | Die Beziehung ausdrücklich bestätigen. | Explicitly confirming the relationship.
+ohne-beruehrung | Without touch | Nachsorge ohne körperlichen Kontakt. | Aftercare without physical contact. | Ohne Berührung
+kleidung-anziehen| Getting dressed | Sich wieder anziehen als Übergang. | Getting dressed again as a transition.
+schlafen| Sleeping | Schlaf als wichtigster Teil der Erholung. | Sleep as the most important part of recovery.
+heimfahrt-organisieren| Arranging the journey home | Nach einer Szene ist Autofahren oft keine gute Idee. | After a scene, driving is often not a good idea.
+nachricht-am-selben-abend| A message the same evening | Ein kurzes Lebenszeichen am Abend. | A brief sign of life in the evening.
+check-in-am-naechsten-tag| Check-in the next day | Nachfragen, wenn der Rausch weg ist. | Checking in once the high has worn off.
+check-in-nach-mehreren-tagen| Check-in after several days | Ein Drop kann auch verspätet kommen. | A drop can also arrive late.
+debrief-sofort| Debrief straight away | Direkt nach der Szene besprechen. | Talking it through right after the scene.
+debrief-zeitversetzt| Debrief later | Später besprechen, mit Abstand. | Talking it through later, with some distance.
+szene-schriftlich-reflektieren| Writing about the scene | Aufschreiben als eigene Form der Verarbeitung. | Writing as your own way of processing.
+drop-praevention| Drop prevention | Vorher planen, was danach gebraucht wird. | Planning beforehand what will be needed afterwards.
+subdrop-unterstuetzung| Subdrop support | Der Stimmungseinbruch der empfangenden Seite, oft ein bis drei Tage später. | The mood crash on the receiving side, often one to three days later.
+domdrop-unterstuetzung| Domdrop support | Auch die führende Seite kann einbrechen; das wird oft übersehen. | The leading side can crash too, and that is often overlooked.
+professionelle-hilfe-bei-anhaltender-belastung| Professional help if strain persists | Wenn es nicht vorbeigeht, gehört es nicht in die Dynamik, sondern in Therapie. | If it does not pass, it belongs in therapy rather than in the dynamic.

@@ -1,0 +1,32 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Pure fantasy, not to be enacted | This section lets you separate arousing thoughts from real wishes. Even with lawful fantasies, acting them out can be unwanted, unsafe or unlawful; treating fantasy as its own category is therefore a meaningful preference in its own right.
+#GRP | medien | Fantasy in media
+#GRP | macht-fantasie | Power and loss of control
+#GRP | szenarien | Imagined scenarios
+#GRP | genre-fantasie | Transformation and genre
+#GRP | grenze | The line to enactment
+fantasie-lesen| Reading fantasy | Erotische Texte lesen. | Reading erotic texts.
+fantasie-erzaehlen| Telling a fantasy | Eine Fantasie laut erzählen. | Telling a fantasy out loud.
+fantasie-aufschreiben| Writing a fantasy down | Eigene Fantasien schriftlich festhalten. | Putting your own fantasies into writing.
+audio-erotik| Erotic audio | Erotik als Hörerlebnis. | Eroticism as something heard.
+erwachsenenliteratur| Adult fiction | Erotische Literatur in längerer Form. | Erotic fiction in longer form.
+erwachsenencomics| Adult comics | Erotik in gezeichneter Form. | Eroticism in drawn form.
+erwachsenenrollenspiel-im-chat| Adult role play in chat | Eine Szene gemeinsam schreiben. | Writing a scene together.
+imaginierte-dominanz| Imagined dominance | Führen als Vorstellung, nicht als Handlung. | Leading as an idea, not as an act.
+imaginierte-submission| Imagined submission | Folgen als Vorstellung, nicht als Handlung. | Following as an idea, not as an act.
+imaginierter-kontrollverlust| Imagined loss of control | Die Vorstellung, nichts mehr zu bestimmen. | The idea of no longer deciding anything.
+imaginierte-gefangenschaft| Imagined captivity | Gefangensein als Vorstellung. | Being captive as an idea.
+imaginierte-entfuehrung| Imagined abduction | Entführung ausschließlich als Fantasie. | Abduction purely as fantasy.
+imaginiertes-verhoer| Imagined interrogation | Befragung unter Druck als Fantasie. | Questioning under pressure as fantasy.
+imaginierter-widerstand| Imagined resistance | Gegenwehr als Vorstellung. | Fighting back as an idea.
+imaginierte-oeffentliche-blossstellung| Imagined public exposure | Bloßgestellt werden als Fantasie, nie in der Realität. | Being exposed as fantasy, never in reality.
+imaginierte-ueberwaeltigung| Imagined being overpowered | Überwältigt werden als reine Vorstellung. | Being overpowered as pure imagination.
+imaginierte-objektifizierung| Imagined objectification | Zum Gegenstand werden als Vorstellung. | Becoming an object as an idea.
+imaginierte-besitzdynamik| Imagined ownership dynamic | Besitz und Zugehörigkeit als Fantasie. | Ownership and belonging as fantasy.
+imaginierte-transformation| Imagined transformation | Verwandlung als Fantasie. | Transformation as fantasy.
+imaginierte-medizinische-szene| Imagined medical scene | Untersuchung als Fantasie. | Examination as fantasy.
+imaginierte-monster-oder-fantasy-szene| Imagined monster or fantasy scene | Fantastische Wesen als Motiv. | Fantastical creatures as the motif.
+imaginierte-science-fiction-szene| Imagined science fiction scene | Zukunftswelten als Motiv. | Future worlds as the motif.
+imaginierte-historische-szene| Imagined historical scene | Eine vergangene Epoche als Motiv. | A past era as the motif.
+imaginierte-gruppen-oder-zuschauerszene| Imagined group or audience scene | Mehrere Personen als Fantasie, nicht als Vorhaben. | Several people as fantasy, not as a plan.
+fantasie-bleibt-unverwirklicht | The fantasy stays unrealised | Die ausdrückliche Feststellung, dass es beim Denken bleibt. | The express statement that it stays in your head. | Fantasie bleibt unverwirklicht

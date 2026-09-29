@@ -1,0 +1,1281 @@
+{
+ "section": "koerperverehrung",
+ "type": "scale",
+ "items": [
+  {
+   "id": "koerperverehrung/ganzkoerperverehrung",
+   "n": 1,
+   "group": "ganzkoerper",
+   "de": "Ganzkörperverehrung",
+   "en": "Whole-body worship",
+   "expl_de": "Verehrung, die dem ganzen Körper gilt, nicht einem Teil.",
+   "expl_en": "Worship directed at the whole body rather than one part.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n1",
+   "de_src": "Ganzkörperverehrung",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/fuesse",
+   "n": 2,
+   "group": "fuesse",
+   "de": "Füße",
+   "en": "Feet",
+   "expl_de": "Der verbreitetste Körperteilfetisch überhaupt.",
+   "expl_en": "The most common body part fetish of all.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n2",
+   "de_src": "Füße",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/zehen",
+   "n": 3,
+   "group": "fuesse",
+   "de": "Zehen",
+   "en": "Toes",
+   "expl_de": "Zehen als eigener Fokus, oft oral.",
+   "expl_en": "Toes as a focus in their own right, often orally.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n3",
+   "de_src": "Zehen",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/fusssohlen",
+   "n": 4,
+   "group": "fuesse",
+   "de": "Fußsohlen",
+   "en": "Soles",
+   "expl_de": "Sohlen als besonders empfindliche Fläche.",
+   "expl_en": "Soles as an especially sensitive surface.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n4",
+   "de_src": "Fußsohlen",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/schuhe",
+   "n": 5,
+   "group": "fuesse",
+   "de": "Schuhe",
+   "en": "Shoes",
+   "expl_de": "Der Schuh selbst als Objekt, nicht der Fuß darin.",
+   "expl_en": "The shoe itself as the object, not the foot inside.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n5",
+   "de_src": "Schuhe",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/stiefel",
+   "n": 6,
+   "group": "fuesse",
+   "de": "Stiefel",
+   "en": "Boots",
+   "expl_de": "Stiefel als eigenes Fetischobjekt, oft mit Machtbezug.",
+   "expl_en": "Boots as a fetish object in their own right, often linked to power.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n6",
+   "de_src": "Stiefel",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/high-heels",
+   "n": 7,
+   "group": "fuesse",
+   "de": "High Heels",
+   "en": "High heels",
+   "expl_de": "Absatz und Form als Reiz.",
+   "expl_en": "Heel and shape as the appeal.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n7",
+   "de_src": "High Heels",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/sneaker",
+   "n": 8,
+   "group": "fuesse",
+   "de": "Sneaker",
+   "en": "Sneakers",
+   "expl_de": "Sportschuhe als Fetischobjekt, oft mit Geruchsbezug.",
+   "expl_en": "Trainers as a fetish object, often involving smell.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n8",
+   "de_src": "Sneaker",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/socken",
+   "n": 9,
+   "group": "fuesse",
+   "de": "Socken",
+   "en": "Socks",
+   "expl_de": "Socken als Objekt, getragen oder frisch.",
+   "expl_en": "Socks as an object, worn or fresh.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n9",
+   "de_src": "Socken",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/struempfe",
+   "n": 10,
+   "group": "fuesse",
+   "de": "Strümpfe",
+   "en": "Stockings",
+   "expl_de": "Strümpfe als Material und als Anblick.",
+   "expl_en": "Stockings as material and as a sight.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n10",
+   "de_src": "Strümpfe",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/beine",
+   "n": 11,
+   "group": "beine-rumpf",
+   "de": "Beine",
+   "en": "Legs",
+   "expl_de": "Beine als Ganzes im Mittelpunkt.",
+   "expl_en": "Legs as a whole at the centre.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n11",
+   "de_src": "Beine",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/oberschenkel",
+   "n": 12,
+   "group": "beine-rumpf",
+   "de": "Oberschenkel",
+   "en": "Thighs",
+   "expl_de": "Oberschenkel als Fläche und als Form.",
+   "expl_en": "Thighs as surface and as shape.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n12",
+   "de_src": "Oberschenkel",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/knie",
+   "n": 13,
+   "group": "beine-rumpf",
+   "de": "Knie",
+   "en": "Knees",
+   "expl_de": "Knie als eigener Fokus.",
+   "expl_en": "Knees as a focus of their own.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n13",
+   "de_src": "Knie",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/gesaess",
+   "n": 14,
+   "group": "beine-rumpf",
+   "de": "Gesäß",
+   "en": "Buttocks",
+   "expl_de": "Das Gesäß als Anblick und als Fläche.",
+   "expl_en": "The buttocks as a sight and as a surface.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n14",
+   "de_src": "Gesäß",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/hueften",
+   "n": 15,
+   "group": "beine-rumpf",
+   "de": "Hüften",
+   "en": "Hips",
+   "expl_de": "Hüften und ihre Linie.",
+   "expl_en": "Hips and their line.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n15",
+   "de_src": "Hüften",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/bauch",
+   "n": 16,
+   "group": "beine-rumpf",
+   "de": "Bauch",
+   "en": "Belly",
+   "expl_de": "Der Bauch als weiche, verletzliche Zone.",
+   "expl_en": "The belly as a soft, vulnerable area.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n16",
+   "de_src": "Bauch",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/bauchnabel",
+   "n": 17,
+   "group": "beine-rumpf",
+   "de": "Bauchnabel",
+   "en": "Navel",
+   "expl_de": "Der Nabel als kleiner, empfindlicher Punkt.",
+   "expl_en": "The navel as a small, sensitive point.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n17",
+   "de_src": "Bauchnabel",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/brustkorb",
+   "n": 18,
+   "group": "oberkoerper",
+   "de": "Brustkorb",
+   "en": "Chest",
+   "expl_de": "Der Brustkorb als Fläche.",
+   "expl_en": "The chest as a surface.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n18",
+   "de_src": "Brustkorb",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/brueste",
+   "n": 19,
+   "group": "oberkoerper",
+   "de": "Brüste",
+   "en": "Breasts",
+   "expl_de": "Brüste als Fokus von Blick und Berührung.",
+   "expl_en": "Breasts as a focus of looking and touching.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n19",
+   "de_src": "Brüste",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/brustwarzen",
+   "n": 20,
+   "group": "oberkoerper",
+   "de": "Brustwarzen",
+   "en": "Nipples",
+   "expl_de": "Brustwarzen als besonders reizempfindliche Stelle.",
+   "expl_en": "Nipples as an especially responsive spot.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n20",
+   "de_src": "Brustwarzen",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/ruecken",
+   "n": 21,
+   "group": "oberkoerper",
+   "de": "Rücken",
+   "en": "Back",
+   "expl_de": "Der Rücken als große, offene Fläche.",
+   "expl_en": "The back as a large, open surface.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n21",
+   "de_src": "Rücken",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/schultern",
+   "n": 22,
+   "group": "oberkoerper",
+   "de": "Schultern",
+   "en": "Shoulders",
+   "expl_de": "Schultern als Form und als Kraftzeichen.",
+   "expl_en": "Shoulders as shape and as a sign of strength.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n22",
+   "de_src": "Schultern",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/nacken",
+   "n": 23,
+   "group": "oberkoerper",
+   "de": "Nacken",
+   "en": "Nape of the neck",
+   "expl_de": "Der Nacken als besonders empfindliche Zone.",
+   "expl_en": "The nape as an especially sensitive area.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n23",
+   "de_src": "Nacken",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/achseln",
+   "n": 24,
+   "group": "arme-haende",
+   "de": "Achseln",
+   "en": "Armpits",
+   "expl_de": "Achseln als Fokus, oft mit Geruchsbezug.",
+   "expl_en": "Armpits as a focus, often involving smell.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n24",
+   "de_src": "Achseln",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/arme",
+   "n": 25,
+   "group": "arme-haende",
+   "de": "Arme",
+   "en": "Arms",
+   "expl_de": "Arme als Form und als Kraft.",
+   "expl_en": "Arms as shape and as strength.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n25",
+   "de_src": "Arme",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/haende",
+   "n": 26,
+   "group": "arme-haende",
+   "de": "Hände",
+   "en": "Hands",
+   "expl_de": "Hände als Werkzeug und als Anblick.",
+   "expl_en": "Hands as tools and as a sight.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n26",
+   "de_src": "Hände",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/finger",
+   "n": 27,
+   "group": "arme-haende",
+   "de": "Finger",
+   "en": "Fingers",
+   "expl_de": "Finger als eigener Fokus.",
+   "expl_en": "Fingers as a focus of their own.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n27",
+   "de_src": "Finger",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/fingernaegel",
+   "n": 28,
+   "group": "arme-haende",
+   "de": "Fingernägel",
+   "en": "Fingernails",
+   "expl_de": "Nägel als Form, Farbe und als Werkzeug.",
+   "expl_en": "Nails as shape, colour and tool.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n28",
+   "de_src": "Fingernägel",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/haare",
+   "n": 29,
+   "group": "kopf",
+   "de": "Haare",
+   "en": "Hair",
+   "expl_de": "Haare als Anblick, Geruch und Griff.",
+   "expl_en": "Hair as a sight, a smell and something to grip.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n29",
+   "de_src": "Haare",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/kopfhaut",
+   "n": 30,
+   "group": "kopf",
+   "de": "Kopfhaut",
+   "en": "Scalp",
+   "expl_de": "Die Kopfhaut als empfindliche Fläche.",
+   "expl_en": "The scalp as a sensitive surface.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n30",
+   "de_src": "Kopfhaut",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/gesicht",
+   "n": 31,
+   "group": "kopf",
+   "de": "Gesicht",
+   "en": "Face",
+   "expl_de": "Das Gesicht als zentraler Ausdrucksort.",
+   "expl_en": "The face as the central site of expression.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n31",
+   "de_src": "Gesicht",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/augen",
+   "n": 32,
+   "group": "kopf",
+   "de": "Augen",
+   "en": "Eyes",
+   "expl_de": "Blick und Augen als Reiz.",
+   "expl_en": "Gaze and eyes as the appeal.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n32",
+   "de_src": "Augen",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/mund",
+   "n": 33,
+   "group": "kopf",
+   "de": "Mund",
+   "en": "Mouth",
+   "expl_de": "Der Mund als Zone und als Öffnung.",
+   "expl_en": "The mouth as an area and as an opening.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n33",
+   "de_src": "Mund",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/lippen",
+   "n": 34,
+   "group": "kopf",
+   "de": "Lippen",
+   "en": "Lips",
+   "expl_de": "Lippen als Form und Berührung.",
+   "expl_en": "Lips as shape and as touch.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n34",
+   "de_src": "Lippen",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/zunge",
+   "n": 35,
+   "group": "kopf",
+   "de": "Zunge",
+   "en": "Tongue",
+   "expl_de": "Die Zunge als Werkzeug und als Anblick.",
+   "expl_en": "The tongue as a tool and as a sight.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n35",
+   "de_src": "Zunge",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/zaehne",
+   "n": 36,
+   "group": "kopf",
+   "de": "Zähne",
+   "en": "Teeth",
+   "expl_de": "Zähne als Reiz und als Drohung.",
+   "expl_en": "Teeth as sensation and as threat.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n36",
+   "de_src": "Zähne",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/bart",
+   "n": 37,
+   "group": "kopf",
+   "de": "Bart",
+   "en": "Beard",
+   "expl_de": "Bart als Textur und als Zeichen.",
+   "expl_en": "A beard as texture and as a sign.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n37",
+   "de_src": "Bart",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/stimme",
+   "n": 38,
+   "group": "stimme-geruch",
+   "de": "Stimme",
+   "en": "Voice",
+   "expl_de": "Die Stimme als eigener erotischer Kanal.",
+   "expl_en": "The voice as an erotic channel in its own right.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n38",
+   "de_src": "Stimme",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/duft-natuerlicher-koerpergeruch",
+   "n": 39,
+   "group": "stimme-geruch",
+   "de": "Duft / natürlicher Körpergeruch",
+   "en": "Natural body scent",
+   "expl_de": "Der eigene Geruch als Reiz, ohne Parfum.",
+   "expl_en": "Someone's own smell as an appeal, without perfume.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n39",
+   "de_src": "Duft / natürlicher Körpergeruch",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/schweiss",
+   "n": 40,
+   "group": "stimme-geruch",
+   "de": "Schweiß",
+   "en": "Sweat",
+   "expl_de": "Schweiß als Geruch und als Zeichen von Anstrengung.",
+   "expl_en": "Sweat as a smell and as a sign of exertion.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n40",
+   "de_src": "Schweiß",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/koerpergroesse",
+   "n": 41,
+   "group": "koerperbild",
+   "de": "Körpergröße",
+   "en": "Height",
+   "expl_de": "Größe als Merkmal, das Anziehung auslöst.",
+   "expl_en": "Height as a feature that triggers attraction.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n41",
+   "de_src": "Körpergröße",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/groessenunterschied",
+   "n": 42,
+   "group": "koerperbild",
+   "de": "Größenunterschied",
+   "en": "Difference in size",
+   "expl_de": "Der Unterschied zwischen zwei Körpern als Reiz.",
+   "expl_en": "The difference between two bodies as the appeal.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n42",
+   "de_src": "Größenunterschied",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/muskelkoerper",
+   "n": 43,
+   "group": "koerperbild",
+   "de": "Muskelkörper",
+   "en": "Muscular body",
+   "expl_de": "Muskulöse Körper als Vorliebe.",
+   "expl_en": "A muscular body as a preference.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n43",
+   "de_src": "Muskelkörper",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/weicher-koerper",
+   "n": 44,
+   "group": "koerperbild",
+   "de": "Weicher Körper",
+   "en": "Soft body",
+   "expl_de": "Weiche Körper als Vorliebe.",
+   "expl_en": "A soft body as a preference.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n44",
+   "de_src": "Weicher Körper",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/koerperbehaarung",
+   "n": 45,
+   "group": "koerperbild",
+   "de": "Körperbehaarung",
+   "en": "Body hair",
+   "expl_de": "Behaarung als Vorliebe.",
+   "expl_en": "Body hair as a preference.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "koerperverehrung|n45",
+   "de_src": "Körperbehaarung",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/glatte-haut",
+   "n": 46,
+   "group": "koerperbild",
+   "de": "Glatte Haut",
+   "en": "Smooth skin",
+   "expl_de": "Glatte, unbehaarte Haut als Vorliebe.",
+   "expl_en": "Smooth, hairless skin as a preference.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n46",
+   "de_src": "Glatte Haut",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/narben-als-aesthetisches-interesse",
+   "n": 47,
+   "group": "koerperbild",
+   "de": "Narben als ästhetisches Interesse",
+   "en": "Scars as an aesthetic interest",
+   "expl_de": "Narben als Teil der Anziehung.",
+   "expl_en": "Scars as part of the attraction.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n47",
+   "de_src": "Narben als ästhetisches Interesse",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/tattoos",
+   "n": 48,
+   "group": "koerperbild",
+   "de": "Tattoos",
+   "en": "Tattoos",
+   "expl_de": "Tätowierungen als Teil der Anziehung.",
+   "expl_en": "Tattoos as part of the attraction.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n48",
+   "de_src": "Tattoos",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  },
+  {
+   "id": "koerperverehrung/piercings",
+   "n": 49,
+   "group": "koerperbild",
+   "de": "Piercings",
+   "en": "Piercings",
+   "expl_de": "Piercings als Teil der Anziehung.",
+   "expl_en": "Piercings as part of the attraction.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "koerperverehrung|n49",
+   "de_src": "Piercings",
+   "roles": {
+    "a": {
+     "de": "verehrt",
+     "en": "worships"
+    },
+    "p": {
+     "de": "wird verehrt",
+     "en": "is worshipped"
+    }
+   }
+  }
+ ],
+ "dropped": []
+}

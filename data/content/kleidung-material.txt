@@ -1,0 +1,69 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Clothing and material fetishes |
+#GRP | materialien | Materials
+#GRP | kleidungsstuecke | Garments and full-body wear
+#GRP | masken-handschuhe | Masks and gloves
+#GRP | schuhe | Shoes
+#GRP | uniformen | Uniforms and costumes
+#GRP | transformation | Presentation and transformation
+#GRP | inszenierung | Framing and staging
+leder| Leather | Geruch, Griff und Gewicht von Leder. | The smell, feel and weight of leather.
+kunstleder| Faux leather | Optik von Leder ohne tierisches Material. | The look of leather without animal material.
+latex| Latex | Eng, glänzend, geruchsintensiv; Allergien sind häufig. | Tight, glossy and strong-smelling; allergies are common.
+gummi| Rubber | Schwerer und dicker als Latex. | Heavier and thicker than latex.
+pvc-vinyl| PVC / vinyl | Glänzend und steifer als Latex. | Glossy and stiffer than latex.
+lack| Patent | Hochglänzende Oberfläche. | A high-gloss surface.
+neopren| Neoprene | Dick, wärmend und eng anliegend. | Thick, warming and close-fitting.
+lycra-spandex| Lycra / spandex | Elastisch und eng, aber atmungsaktiver. | Stretchy and tight, but more breathable.
+nylon| Nylon | Dünn, glatt und leicht glänzend. | Thin, smooth and slightly shiny.
+seide| Silk | Glatt, kühl und leicht. | Smooth, cool and light.
+satin| Satin | Glänzend und fließend. | Shiny and flowing.
+samt| Velvet | Weich mit Richtung im Strich. | Soft with a nap that has direction.
+spitze| Lace | Durchbrochen, verhüllt und zeigt zugleich. | Openwork that conceals and reveals at once.
+pelzimitat| Faux fur | Weiche, flauschige Textur. | Soft, fluffy texture.
+denim| Denim | Robuster Alltagsstoff als Fetisch. | A rugged everyday fabric as a fetish.
+wolle| Wool | Warm, schwer, teils kratzig. | Warm, heavy, sometimes scratchy.
+uniformen| Uniforms | Uniform als Zeichen von Rang und Rolle. | The uniform as a sign of rank and role.
+anzuege| Suits | Formelle Kleidung als Reiz. | Formal clothing as an appeal.
+abendkleidung| Evening wear | Festliche Kleidung als Reiz. | Formal evening clothing as an appeal.
+dessous| Lingerie | Unterwäsche, die zum Zeigen gemacht ist. | Underwear made to be seen.
+korsett| Corset | Schnürung verändert Form und Atmung; nicht zu eng und nicht zu lang. | Lacing changes shape and breathing; not too tight and not too long.
+strapse| Suspenders | Strumpfhalter als Anblick und Ritual. | Suspender belts as a sight and a ritual.
+struempfe| Stockings | Strümpfe als Material und Form. | Stockings as material and shape.
+bodysuit| Bodysuit | Einteiler, der den Rumpf umschließt. | A one-piece enclosing the torso.
+catsuit| Catsuit | Ganzkörperanzug, meist aus Latex oder Lycra. | A full-body suit, usually latex or lycra.
+zentai| Zentai | Vollständige Ganzkörperhülle inklusive Kopf. | A complete full-body covering including the head.
+masken| Masks | Verdecken des Gesichts als Verwandlung. | Covering the face as transformation.
+hoods | Hoods | Kopfhaube. Die Atemöffnungen müssen jederzeit frei bleiben. | A hood. Breathing openings must stay clear at all times. | Hoods
+handschuhe| Gloves | Handschuhe als Material und als Distanz. | Gloves as material and as distance.
+lange-handschuhe| Opera gloves | Handschuhe bis über den Ellenbogen. | Gloves reaching above the elbow.
+stiefel| Boots | Stiefel als zentrales Kleidungsstück. | Boots as a central garment.
+overknee-stiefel| Thigh-high boots | Stiefel über das Knie hinaus. | Boots above the knee.
+high-heels| High heels | Absatzhöhe als Reiz und als Einschränkung. | Heel height as appeal and as restriction.
+plateauschuhe| Platform shoes | Extreme Höhe mit dicker Sohle. | Extreme height on a thick sole.
+sneaker| Sneakers | Sportschuhe als Fetischobjekt. | Trainers as a fetish object.
+arbeitskleidung| Workwear | Berufskleidung als Rollenzeichen. | Work clothing as a role marker.
+sportkleidung| Sportswear | Sportkleidung als Material und Anblick. | Sportswear as material and sight.
+reitkleidung| Riding clothes | Reitkleidung mit Stiefeln und Gerte. | Riding clothes with boots and crop.
+motorradkleidung| Motorcycle gear | Leder und Protektoren als Ästhetik. | Leather and armour as an aesthetic.
+militaerisch-inspirierte-fantasieuniform-ohne-amtsanmassung| Military-inspired fantasy uniform, without impersonating office | Fantasieuniform; echte Dienstabzeichen bleiben außen vor. | A fantasy uniform; real insignia of office stay out of it.
+schuluniform-stil | School uniform style | Ein Kleidungsstil, kein Alter. Ausschließlich an Erwachsenen. | A clothing style, not an age. On adults only. | Schuluniform-Stil
+dienstmaedchen-maid-outfit| Maid outfit | Das Outfit als Rollenzeichen für Dienst. | The outfit as a role marker for service.
+butler-outfit| Butler outfit | Formelles Dienstoutfit. | A formal service outfit.
+arzt-pflegekostuem-als-rollenspiel| Doctor or nurse costume as role play | Kittel und Kulisse als Rollenzeichen. | Coat and setting as role markers.
+fetisch-unterwaesche| Fetish underwear | Unterwäsche mit ausdrücklichem Fetischbezug. | Underwear with an explicit fetish reference.
+kleidung-des-partners-tragen| Wearing your partner's clothes | Die Kleidung der anderen Person als Nähe. | The other person's clothing as closeness.
+crossdressing| Crossdressing | Kleidung, die einem anderen Geschlecht zugeordnet wird. | Clothing associated with another gender.
+androgyne-praesentation| Androgynous presentation | Ein Erscheinungsbild zwischen den Zuschreibungen. | An appearance between the usual ascriptions.
+drag| Drag | Überzeichnete Geschlechterdarstellung als Kunstform. | Exaggerated gender performance as an art form.
+feminisierung | Feminisation | Entscheidend ist, ob sie als Aufwertung oder als Erniedrigung gemeint ist. | What matters is whether it is meant as elevation or as degradation. | Feminisierung
+maskulinisierung | Masculinisation | Entscheidend ist, ob sie als Aufwertung oder als Erniedrigung gemeint ist. | What matters is whether it is meant as elevation or as degradation. | Maskulinisierung
+bimbo-himbo-transformation-als-rollenspiel| Bimbo / himbo transformation as role play | Überzeichnete Verwandlung als Spiel. | An exaggerated transformation as play.
+dollification| Dollification | Verwandlung in eine Puppe, meist mit Maske und glatter Hülle. | Being turned into a doll, usually with a mask and smooth covering.
+mannequin-oder-puppenrolle| Mannequin or doll role | Regungslosigkeit als Rolle. | Stillness as a role.
+vollverhuellung| Full covering | Der ganze Körper wird verhüllt. | The whole body is covered.
+strategische-nacktheit| Strategic nudity | Teilweise Bedeckung, die gezielt zeigt. | Partial covering that reveals deliberately.
+kleidungswahl | Choosing the clothing | Wer bestimmt, was getragen wird. | Who decides what gets worn. | Kleidungswahl
+kleidung-vorfuehren| Modelling clothing | Kleidung wird gezeigt und begutachtet. | Clothing is shown and assessed.
+wetlook| Wetlook | Nasse oder nass wirkende Kleidung. | Wet or wet-looking clothing.
+zerrissene-kleidung-als-vorbereitete-requisite| Torn clothing, prepared as a prop | Vorher präparierte Kleidung, damit nichts Wertvolles zerstört wird. | Clothing prepared in advance so nothing valuable is destroyed.

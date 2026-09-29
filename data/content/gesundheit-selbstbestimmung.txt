@@ -1,0 +1,20 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Health, data and self-determination | The counterparts to **Life coaching, monitoring and health**. These points are agreements, not preferences: they are never shortened in any mode, never inherited and cannot be skipped.
+#GRP | medizin | Medical responsibility
+#GRP | grenzwerte | Limits and history
+#GRP | messwerte | Handling measurements
+#GRP | ueberwachungsgrenzen | Limits of monitoring
+#GRP | auszeit | Time out
+behandlung-in-aerztlicher-hand | Treatment in medical hands | Diagnose und Behandlung gehören zur Ärztin und sind nicht Teil der Dynamik. | Diagnosis and treatment belong with a doctor and are not part of the dynamic. | Behandlung in ärztlicher Hand
+eigene-entscheidung-ueber-medikamente | Your own decision about medication | Niemand entscheidet für die andere Person über Medikamente, Dosis oder Therapie. | Nobody decides for the other person about medication, dosage or therapy. | Eigene Entscheidung über Medikamente
+aerztliche-rueckkopplung-der-gesundheitsziele | Medical review of health goals | Ziele zu Gewicht, Ernährung oder Sport werden ärztlich gegengelesen. | Goals about weight, food or exercise are checked with a doctor. | Ärztliche Rückkopplung der Gesundheitsziele
+aerztlich-festgelegte-untergrenzen | Medically set lower limits | Wo die Untergrenze für Gewicht und Kalorien liegt, entscheidet eine ärztliche Einschätzung, nicht die Dynamik. | Where the lower limit for weight and calories lies is decided medically, not by the dynamic. | Ärztlich festgelegte Untergrenzen
+ernaehrung-und-gewicht-ausserhalb-der-dynamik | Food and weight outside the dynamic | Kontrolle über Essen und Gewicht bleibt draußen. Eine Essstörung in der Vorgeschichte ist ein häufiger und starker Grund dafür — du musst ihn aber nicht angeben. | Control over food and weight stays out. A history of an eating disorder is a common and strong reason, but you do not have to state it. | Ernährung und Gewicht außerhalb der Dynamik
+nach-unten-korrigierbare-ziele | Goals that can be revised downwards | Ziele werden regelmäßig überprüft, und sie zu senken ist ausdrücklich erlaubt und kein Versagen. | Goals are reviewed regularly, and lowering one is expressly allowed and not a failure. | Nach unten korrigierbare Ziele
+straffreiheit-fuer-messwerte | No punishment for measurements | Eine Zahl ist eine Information, kein Anlass für eine Konsequenz. | A number is information, not grounds for a consequence. | Straffreiheit für Messwerte
+konsequenzen-nur-fuer-verhalten | Consequences only for behaviour | Sie knüpfen an vereinbartes Verhalten an, nie an ein Messergebnis. | They attach to agreed behaviour, never to a measurement. | Konsequenzen nur für Verhalten
+ueberwachung-jederzeit-abschaltbar | Monitoring can be switched off at any time | Ohne Begründung und ohne Folgen. | Without giving reasons and without consequences. | Überwachung jederzeit abschaltbar
+loeschfrist-fuer-nachweise-und-aufzeichnungen | Deletion deadline for proof and recordings | Vorher festgelegt, wann Fotos, Videos und Protokolle gelöscht werden. | Agreed in advance when photos, videos and logs get deleted.
+gesundheitsdaten-nur-auf-eigenen-geraeten | Health data on your own devices only | Sie gehen nicht an fremde Anbieter. | It is not handed to outside providers. | Gesundheitsdaten nur auf eigenen Geräten
+private-gesundheits-und-versicherungskonten | Private health and insurance accounts | Kein Zugang zu Patientenportalen, Versicherungskonten oder Befunden. | No access to patient portals, insurance accounts or medical findings. | Private Gesundheits- und Versicherungskonten
+auszeit-bei-krankheit-oder-belastung | Time out when ill or under strain | Die Begleitung pausiert, ohne dass das als Rückfall zählt. | The coaching pauses, and that does not count as a relapse. | Auszeit bei Krankheit oder Belastung

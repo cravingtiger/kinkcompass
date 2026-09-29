@@ -1,0 +1,32 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Pressure, clamps and close contact |
+#GRP | hand | Pinching, biting and pulling
+#GRP | griff-druck | Grip, weight and pressure
+#GRP | klemmen | Clamps and weights
+#GRP | werkzeuge | Nerve-stimulating tools
+#GRP | fuss-impact | Soles and trampling
+kneifen| Pinching | Haut zwischen den Fingern zusammendrücken. | Squeezing skin between the fingers.
+leichtes-beissen| Light biting | Zähne als Druck, ohne Spuren. | Teeth as pressure, without marks.
+intensives-beissen| Hard biting | Hinterlässt Abdrücke; Haut kann aufgehen, dann gilt Blutkontakt. | Leaves marks; skin can break, which makes it blood contact.
+saugen| Sucking | Saugen an der Haut, oft mit Knutschfleck. | Sucking on the skin, often leaving a hickey.
+kratzen| Scratching | Deutlicher als leichtes Kratzen, mit sichtbaren Spuren. | Firmer than light scratching, with visible marks.
+haarziehen| Hair pulling | Immer an der Kopfhaut ansetzen, nie an den Spitzen. | Always take hold at the scalp, never at the ends.
+kinn-festhalten| Holding the chin | Den Kopf führen, ohne den Hals zu belasten. | Guiding the head without straining the neck.
+gesicht-beruehren-oder-fuehren| Touching or guiding the face | Nähe und Kontrolle über eine sehr persönliche Zone. | Closeness and control over a very personal area.
+hand-auf-dem-mund | A hand over the mouth | Die Nase bleibt frei. Alles andere ist Atemkontrolle und gehört in einen anderen Abschnitt. | The nose stays clear. Anything else is breath control and belongs in a different section. | Hand auf dem Mund
+koerpergewicht-spueren| Feeling body weight | Das Gewicht der anderen Person als Druck. | The other person's weight as pressure.
+festes-umklammern| Firm holding | Enges Halten, das Bewegung einschränkt. | Tight holding that restricts movement.
+muskelgriff| Muscle grip | Zugreifen an Muskeln statt an Haut. | Gripping muscle rather than skin.
+druckmassage| Pressure massage | Tiefer, anhaltender Druck statt Streichen. | Deep, sustained pressure rather than stroking.
+waescheklammern| Clothespins | Einfachste Klemmen; der Schmerz kommt vor allem beim Abnehmen. | The simplest clamps; the pain comes mainly on removal.
+spezielle-koerperklemmen| Purpose-made body clamps | Klemmen mit einstellbarem Druck. | Clamps with adjustable pressure.
+brustwarzenklemmen| Nipple clamps | Nicht länger als etwa zwanzig Minuten, wegen der Durchblutung. | Not longer than about twenty minutes, because of circulation.
+gewichte-an-klemmen | Weights on clamps | Zug erhöht den Druck deutlich, die sichere Tragezeit verkürzt sich entsprechend. | Pull increases pressure sharply, so the safe wear time gets shorter. | Gewichte an Klemmen
+zipper-aus-klammern | Clothespin zipper | Eine Reihe Klammern, die nacheinander abgerissen wird. | A row of pins pulled off in sequence. | Zipper aus Klammern
+pinwheel-nervenrad| Pinwheel | Ein Rädchen mit Spitzen für feine Nervenreize. | A spiked wheel for fine nerve stimulation.
+vampire-gloves| Vampire gloves | Handschuhe mit Nägeln für flächige, scharfe Reize. | Gloves with tacks for broad, sharp sensation.
+stumpfe-kratzwerkzeuge| Blunt scratching tools | Werkzeuge, die kratzen, ohne die Haut zu öffnen. | Tools that scratch without breaking skin.
+druckpunkte | Pressure points | Gezielter Druck auf Nervenpunkte. Falsch angewandt sind Schäden möglich. | Targeted pressure on nerve points. Applied wrongly it can cause damage. | Druckpunkte
+bastinado | Bastinado | Schläge auf die Fußsohlen. Sehr schmerzhaft, Gewebe und Knochen sind empfindlich. | Blows to the soles. Very painful, and tissue and bone are sensitive. | Bastinado
+trampling | Trampling | Auf dem Körper stehen. Bauch und Brustkorb sind heikel, die Last wird dosiert. | Standing on the body. Belly and rib cage are delicate; the load is measured. | Trampling
+high-heel-druck | High heel pressure | Sehr kleine Fläche, sehr hoher Druck. Verletzt leicht. | A very small surface with very high pressure. Easily injurious. | High-Heel-Druck

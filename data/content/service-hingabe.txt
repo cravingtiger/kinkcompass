@@ -1,0 +1,46 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Service and devotion |
+#GRP | haushalt | Household and care
+#GRP | koerperpflege | Grooming and dressing
+#GRP | assistenz | Assistance and service roles
+#GRP | praesentation | Display and furniture roles
+#GRP | verehrung | Worship and aftercare
+#GRP | gehorsam | Obedience
+hausarbeit-als-service | Housework as service | Alltägliche Hausarbeit, die bewusst als Dienst getan wird. Ausführend heißt: du machst sie. | Everyday housework done deliberately as service. Doing means: you do it.
+kochen | Cooking | Kochen als Dienst, oft nach Vorgabe. | Cooking as service, often to instruction.
+backen | Baking | Backen als Dienst oder als Geschenk. | Baking as service or as a gift.
+fruehstueck-ans-bett | Breakfast in bed | Versorgung am Morgen als wiederkehrender Dienst. | Morning care as a recurring service.
+getraenke-bringen | Fetching drinks | Auf Zuruf oder vorausschauend Getränke bringen. | Bringing drinks on request or in anticipation.
+aufraeumen | Tidying up | Ordnung schaffen als Teil des Dienstes. | Creating order as part of service.
+waeschepflege | Laundry | Waschen, bügeln und einräumen. | Washing, ironing and putting away.
+schuhpflege | Shoe care | Reinigen, polieren und pflegen von Schuhen. | Cleaning, polishing and caring for shoes.
+lederpflege | Leather care | Pflege von Lederkleidung und Lederausrüstung. | Caring for leather clothing and gear.
+latexpflege | Latex care | Reinigen, trocknen und pudern von Latex. | Cleaning, drying and powdering latex.
+spielzeugpflege | Toy care | Reinigen und Desinfizieren des Spielzeugs. | Cleaning and disinfecting toys.
+raumvorbereitung | Preparing the room | Den Spielraum herrichten, bevor es losgeht. | Setting up the play space before things start.
+bettvorbereitung | Preparing the bed | Das Bett vorbereiten, beziehen, auslegen. | Making and preparing the bed.
+bad-vorbereiten | Running the bath | Bad oder Dusche vorbereiten und bereithalten. | Preparing a bath or shower and having it ready.
+massage | Massage | Massage als Dienst, nicht als gemeinsame Aktivität. | Massage as service rather than a shared activity.
+fussmassage | Foot massage | Fußmassage als Dienst, oft mit Verehrungscharakter. | Foot massage as service, often with a worshipful quality.
+haarpflege | Hair care | Bürsten, waschen, frisieren als Dienst. | Brushing, washing and styling as service.
+rasurservice | Shaving service | Rasur durch die andere Person, mit dem nötigen Vertrauen. | Being shaved by the other person, which takes trust.
+make-up-service | Make-up service | Schminken als Dienst oder als Teil einer Verwandlung. | Applying make-up as service or as part of a transformation.
+ankleidehilfe | Help getting dressed | Beim Anziehen assistieren, oft ritualisiert. | Assisting with dressing, often in ritual form.
+auskleidehilfe | Help getting undressed | Beim Ausziehen assistieren, oft ritualisiert. | Assisting with undressing, often in ritual form.
+persoenliche-assistenz | Personal assistance | Alltägliche Assistenz über Haushalt hinaus. | Everyday assistance beyond the household.
+termin-oder-kalenderhilfe | Calendar and appointment help | Termine verwalten und erinnern. | Managing and reminding about appointments.
+chauffeurservice | Driving service | Fahren als Dienst, mit oder ohne Form. | Driving as service, with or without formality.
+butler-oder-maid-rollenspiel | Butler or maid role play | Dienst in einer klar markierten Rolle mit Kleidung und Form. Ausführend heißt: du spielst den Butler oder das Maid. | Service in a clearly marked role with clothing and form. Doing means: you play the butler or the maid.
+tischdienst | Table duty | Bedienen bei Tisch, oft schweigend und in fester Form. | Waiting at table, often silently and in set form.
+knien-beim-servieren | Kneeling while serving | Servieren aus kniender Haltung. | Serving from a kneeling position.
+handtuch-decken-oder-kissenservice | Towel, blanket or cushion service | Vorausschauendes Bereitstellen von Komfort. | Anticipating and providing comfort.
+menschliches-moebel-als-zeitlich-begrenzte-rolle | Human furniture, for a limited time | Als Möbelstück dienen, mit klarer Zeitgrenze wegen Kreislauf und Gelenken. Ausführend heißt: du bist das Möbel. | Serving as furniture, with a clear time limit because of circulation and joints. Doing means: you are the furniture.
+fussbank-rollenspiel | Footstool role play | Als Fußablage dienen. | Serving as a footrest.
+dekoratives-posieren | Decorative posing | Als Teil der Einrichtung posieren. | Posing as part of the setting.
+als-kunstobjekt-praesentieren | Presenting as an art object | Wie ein Ausstellungsstück inszeniert werden. | Being staged like an exhibit. | Als Kunstobjekt präsentieren
+koerperverehrung-als-dienst | Body worship as service | Verehrung des Körpers als dienende Handlung. Ausführend heißt: du verehrst. | Worshipping the body as an act of service. Doing means: you do the worshipping.
+schuh-oder-stiefelverehrung | Shoe or boot worship | Schuhe oder Stiefel als Gegenstand der Verehrung. | Shoes or boots as the object of worship.
+kleidung-oder-ausruestung-bereitlegen | Laying out clothing or gear | Vorausschauend bereitlegen, was gebraucht wird. | Laying out in advance what will be needed.
+nachsorge-als-service | Aftercare as service | Nachsorge als bewusst übernommene Aufgabe. | Aftercare as a task deliberately taken on.
+nichtsexueller-gehorsam | Non-sexual obedience | Gehorsam ohne sexuellen Bezug, als eigener Wert. | Obedience without a sexual element, as a value in itself.
+sexueller-service | Sexual service | Begrenzt auf das, was ausdrücklich vereinbart wurde. Ausführend heißt: du leistest den Dienst. | Limited to what has been expressly agreed. Doing means: you perform the service. | Sexueller Service

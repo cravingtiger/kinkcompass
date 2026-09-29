@@ -1,0 +1,33 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Group and community constellations |
+#GRP | konstellationen | Constellations
+#GRP | mehrpersonenhaushalt | Harem and multi-person households
+#GRP | teilnahme | Watching and joining in
+#GRP | lehren | Demos, workshops and mentoring
+#GRP | orte | Parties, clubs and dungeon monitors
+#GRP | gruppennachsorge | Group aftercare and ritual
+dreierkonstellation| Threesome | Drei Personen in einer Szene. | Three people in a scene.
+mehrpersonenszene| Multi-person scene | Mehr als drei Beteiligte. | More than three people involved.
+mehrere-tops-mit-einem-bottom| Several tops with one bottom | Mehrere führende Personen, eine empfangende. | Several leading people, one receiving.
+ein-top-mit-mehreren-bottoms| One top with several bottoms | Eine führende Person, mehrere empfangende. | One leading person, several receiving.
+co-topping| Co-topping | Zwei führende Personen stimmen sich ab. | Two leading people coordinating.
+co-bottoming| Co-bottoming | Zwei empfangende Personen gemeinsam. | Two receiving people together.
+paar-spielt-mit-paar| Couple plays with couple | Zwei Paare in einer gemeinsamen Szene. | Two couples in a shared scene.
+poly-d-s| Poly D/s | Machtdynamik in einer polyamoren Struktur. | A power dynamic within a polyamorous structure.
+harem-fantasie-unter-erwachsenen| Harem fantasy between adults | Eine Person mit mehreren zugehörigen Personen. | One person with several people belonging to them.
+haushalt-mit-mehreren-subs| Household with several subs | Eine dauerhafte Struktur mit mehreren dienenden Personen. | A lasting structure with several serving people.
+haushalt-mit-mehreren-dominanten| Household with several dominants | Eine dauerhafte Struktur mit mehreren führenden Personen. | A lasting structure with several leading people.
+zusehen-ohne-mitzumachen| Watching without joining in | Anwesend sein, ohne beteiligt zu sein. | Being present without taking part.
+mitmachen-nach-einzelzustimmung | Joining in after individual consent | Jede Person stimmt für sich zu, nicht die Gruppe. | Each person consents individually, not the group. | Mitmachen nach Einzelzustimmung
+oeffentliche-demo-auf-einer-erwachsenenveranstaltung| Public demo at an adult event | Eine Vorführung mit erklärendem Charakter. | A demonstration with an instructional character.
+workshop-modell-sein| Being a workshop model | Als Demonstrationsperson in einem Workshop. | Serving as the demonstration person in a workshop.
+workshop-anleiten| Leading a workshop | Selbst unterrichten und anleiten. | Teaching and leading yourself.
+mentoring| Mentoring | Längerfristige Begleitung von Einsteigenden. | Longer-term guidance for newcomers.
+peer-learning| Peer learning | Gemeinsames Lernen auf Augenhöhe. | Learning together as equals.
+spielparty-mit-hausregeln| Play party with house rules | Ein Rahmen mit klaren, geltenden Regeln. | A setting with clear rules that apply.
+private-einladungsszene| Private invitation-only scene | Ein geschlossener Kreis auf Einladung. | A closed circle by invitation.
+club-oder-dungeonbesuch| Visiting a club or dungeon | Ein öffentlicher Spielort mit Aufsicht. | A public play venue with supervision.
+szene-mit-dungeon-monitor| Scene with a dungeon monitor | Eine aufsichtführende Person achtet auf Sicherheit. | A supervising person watches over safety.
+gemeinsame-nachsorge-in-der-gruppe| Shared aftercare in a group | Nachsorge, die gemeinsam stattfindet. | Aftercare that happens together.
+ritual-in-einer-eingeweihten-gruppe| Ritual within an initiated group | Ein Gruppenritual mit eigener Bedeutung. | A group ritual with its own meaning.
+service-fuer-mehrere-zustimmende-erwachsene| Service for several consenting adults | Dienen für mehr als eine Person. | Serving more than one person.

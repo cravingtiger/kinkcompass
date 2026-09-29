@@ -1,0 +1,31 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Movement and immobilisation |
+#GRP | koerperlich | Holding with your own body
+#GRP | einwickeln | Wrapping and cocooning
+#GRP | posen | Holding poses
+#GRP | verbote | Movement and speech bans
+#GRP | fuehrung | Being led and carried
+#GRP | kampf | Wrestling, chasing and capture
+festhalten-mit-den-haenden| Holding someone with your hands | Nur mit den Händen festhalten, ohne Hilfsmittel. | Holding someone with your hands alone, without gear.
+mit-dem-koerper-festhalten | Holding with your body | Halten durch das eigene Körpergewicht, ohne Hilfsmittel. | Holding with your own body weight, without gear. | Mit dem Körper festhalten
+unter-einer-decke-einwickeln| Wrapped in a blanket | Fest eingewickelt, mit freiem Kopf. | Wrapped up firmly, head free.
+mummification | Mummification | Vollständige Umwicklung. Die Atemwege bleiben frei und eine Schere liegt griffbereit. | Complete wrapping. Airways stay clear and shears are within reach. | Mummification
+enges-einwickeln-in-dafuer-vorgesehenes-material| Tight wrapping in purpose-made material | Folie oder Bandagen, die für diesen Zweck gemacht sind. | Film or bandages made for the purpose.
+zwangsjacken-rollenspiel | Straitjacket role play | Eine echte Jacke mit Schnellöffnung, nicht improvisiert. | A real jacket with quick release, not improvised. | Zwangsjacken-Rollenspiel
+schlafsack-oder-cocooning-gefuehl| Sleeping bag or cocooning feeling | Umhüllung, die vor allem Geborgenheit erzeugt. | Enclosure that mainly creates a feeling of safety.
+knien-ueber-laengere-vereinbarte-zeit| Kneeling for a longer agreed time | Knien als Ausdauerübung; auf Knie und Kreislauf achten. | Kneeling as an endurance exercise; watch knees and circulation.
+auf-allen-vieren-bleiben| Staying on all fours | Eine Haltung, die über längere Zeit gehalten wird. | A position held over a longer time.
+bestimmte-pose-halten| Holding a set pose | Eine vorgegebene Haltung möglichst unbewegt halten. | Holding a prescribed pose as still as possible.
+sprechverbot | A ban on speaking | Sprechverbot als Regel; das Abbruchsignal bleibt davon unberührt. | A ban on speaking as a rule; the stop signal is unaffected. | Sprechverbot
+beruehrungsverbot | A ban on touching | Berührungsverbot als Regel. | A ban on touching as a rule. | Berührungsverbot
+reaktionsverbot-als-spielregel | A ban on reacting, as a rule of play | Reaktionen sollen unterdrückt werden. | Reactions are to be suppressed. | Reaktionsverbot als Spielregel
+stillhalte-spiel| Stillness game | Bewegungslosigkeit wird zur Aufgabe, oft unter Reizen. | Staying motionless becomes the task, often under stimulation.
+bewegung-auf-kommando | Movement on command | Jede Bewegung setzt eine Anweisung voraus. | Every movement requires an instruction. | Bewegung auf Kommando
+krabbeln-auf-anweisung | Crawling on instruction | Fortbewegung auf allen vieren, angeleitet. Knie schonen. | Moving on all fours, directed. Protect the knees. | Krabbeln auf Anweisung
+fuehrung | Being led | An der Hand, am Arm oder am Nacken geführt werden. | Being led by the hand, arm or neck. | Führung
+fuehrung-an-der-leine | Leading on a leash | Führung über eine Leine, meist am Halsband. | Leading by a leash, usually on a collar. | Führung an der Leine
+tragen | Carrying | Von einem Ort zum anderen getragen werden. | Being carried from one place to another. | Tragen
+ringen-bis-zur-fixierung | Wrestling to a pin | Körperlicher Kampf mit dem Ziel, festzuhalten. | Physical struggle aimed at pinning. | Ringen bis zur Fixierung
+takedown-rollenspiel| Takedown role play | Kontrolliertes Zubodenbringen; braucht Technik und Platz. | Controlled takedown; needs technique and space.
+capture-play| Capture play | Ergreifen und Festsetzen als inszenierte Handlung. | Seizing and securing as a staged act.
+flucht-und-fangspiel| Chase and catch | Weglaufen und Gefangenwerden als Spiel. | Running away and being caught as a game.

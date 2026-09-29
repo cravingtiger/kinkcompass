@@ -1,0 +1,37 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Digital, remote control and communication |
+#GRP | fern-ds | D/s at a distance
+#GRP | remote-toys | Remote toys and chastity
+#GRP | gemeinsam-digital | Journal, wish list, check-ins
+#GRP | standortdaten | Location and activity data
+#GRP | virtuell | Online, VR and games
+#GRP | digitale-sicherheit | Digital safety
+textbasiertes-d-s| Text-based D/s | Die Dynamik läuft über geschriebene Nachrichten. | The dynamic runs through written messages.
+telefon-d-s| D/s by phone | Stimme statt Text, über Distanz. | Voice instead of text, at a distance.
+video-d-s| D/s by video | Bild und Ton über Distanz. | Picture and sound at a distance.
+sprachbefehl-per-audio| Spoken commands by audio | Anweisungen als Sprachnachricht. | Instructions as voice messages.
+aufgaben-per-messenger| Tasks by messenger | Aufgaben kommen über einen Chat. | Tasks arrive through a chat.
+foto-nachweis-einer-aufgabe | Photo proof of a task | Ein Bild als Beleg, dass etwas erledigt wurde. | A photo as evidence that something was done. | Foto-Nachweis einer Aufgabe
+kalender-oder-aufgaben-app| Calendar or task app | Struktur über ein gemeinsames Werkzeug. | Structure through a shared tool.
+remote-toy| Remote toy | Ein Toy, das jemand anderes steuert. | A toy that someone else controls.
+app-gesteuertes-toy| App-controlled toy | Steuerung über eine App, auch über Distanz. | Controlled through an app, including at a distance.
+timer-basierte-aufgabe| Timed task | Eine Aufgabe mit laufender Uhr. | A task with a running clock.
+digitale-keuschheitsverwaltung| Digital chastity management | Ein App-gesteuertes Schloss oder Countdown. | An app-controlled lock or countdown.
+remote-keyholding| Remote keyholding | Der Schlüssel liegt weit weg, real oder digital. | The key is far away, physically or digitally.
+gemeinsames-kink-tagebuch| Shared kink journal | Ein Dokument, in das beide schreiben. | A document both of you write in.
+geteilte-wunschliste| Shared wish list | Eine gemeinsame Liste von Ideen. | A shared list of ideas.
+digitale-check-ins| Digital check-ins | Regelmäßige Rückmeldung über einen Kanal. | Regular check-ins through a channel.
+geofencing | Geofencing | Standortgrenzen, die beide Seiten kennen und die jederzeit endbar sind. | Location boundaries both sides know about, endable at any time. | Geofencing
+standortfreigabe | Location sharing | Lässt sich jederzeit und ohne Diskussion beenden. | Can be ended at any time and without discussion. | Standortfreigabe
+aktivitaetsdaten-teilen | Sharing activity data | Schritte, Puls oder Schlaf aus einer Uhr oder App. | Steps, heart rate or sleep from a watch or app. | Aktivitätsdaten teilen
+online-protokoll| Online protocol | Formvorschriften, die auch im Chat gelten. | Rules of form that apply in chat too.
+virtuelles-rollenspiel| Virtual role play | Eine Szene in einer digitalen Umgebung. | A scene in a digital environment.
+avatare-und-vr-kink| Avatars and VR kink | Kink über Avatare in virtueller Realität. | Kink through avatars in virtual reality.
+erotische-games| Erotic games | Spiele mit erotischem Inhalt. | Games with erotic content.
+ki-gestuetztes-fantasie-rollenspiel | AI-assisted fantasy role play | Privates Schreiben mit einer KI. Reale Personen werden dabei nicht nachgebildet. | Private writing with an AI. No real person is recreated. | KI-gestütztes Fantasie-Rollenspiel
+online-pet-play| Online pet play | Tierrollen über Distanz. | Animal roles at a distance.
+digitale-belohnungen| Digital rewards | Belohnungen, die digital vergeben werden. | Rewards granted digitally.
+digitale-regeln-und-aufgaben| Digital rules and tasks | Regelwerk, das online geführt wird. | A set of rules kept online.
+zugangsdaten-bleiben-persoenlich | Credentials stay personal | Zugangsdaten bleiben persönlich, ausnahmslos. | Credentials stay personal, without exception. | Zugangsdaten bleiben persönlich
+separates-kink-pseudonym| A separate kink alias | Kink-Identität getrennt vom bürgerlichen Namen. | A kink identity kept separate from your legal name.
+ende-zu-ende-verschluesselte-kommunikation| End-to-end encrypted communication | Nachrichten, die nur die Beteiligten lesen können. | Messages only those involved can read.

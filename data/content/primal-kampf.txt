@@ -1,0 +1,29 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Primal, fighting and hunting |
+#GRP | primal | Primal and roughhousing
+#GRP | dominieren | Physically dominating
+#GRP | jagd | Hunt and prey
+#GRP | tierisch | Growling, biting and scent
+#GRP | kampf-technik | Capture, resistance and technique
+primal-play| Primal play | Wortloses, instinktives Spiel ohne Protokoll. | Wordless, instinctive play without protocol.
+raufen| Roughhousing | Spielerisches Balgen ohne Sieger. | Playful tussling without a winner.
+wrestling| Wrestling | Kräftemessen mit Technik. | A contest of strength with technique.
+play-fighting| Play fighting | Kampf als Spiel, nicht als Konflikt. | Fighting as play, not as conflict.
+koerperlich-dominieren| Physically dominating | Überlegenheit durch Körperkraft. | Superiority through physical strength.
+zu-boden-bringen| Taking someone down | Kontrolliertes Zubodenbringen; Platz und Untergrund beachten. | A controlled takedown; mind the space and the surface.
+festhalten| Pinning | Festhalten bis zur Aufgabe. | Holding until submission.
+aus-griffen-entkommen| Escaping holds | Der Reiz liegt im Befreien. | The appeal lies in getting free.
+fangspiel| Chase game | Verfolgen und Gefangenwerden. | Chasing and being caught.
+jagdspiel| Hunting game | Eine Jagd mit Rollen und Regeln. | A hunt with roles and rules.
+hunter-prey| Hunter / prey | Die klassische Rollenverteilung im Primal Play. | The classic role pairing in primal play.
+beute-markieren| Marking the prey | Ein Zeichen setzen, etwa durch Biss oder Kratzer. | Leaving a mark, by bite or scratch.
+knurren| Growling | Laute statt Worte. | Sounds instead of words.
+beissen| Biting | Zähne als Ausdruck; Haut kann aufgehen. | Teeth as expression; skin can break.
+kratzen| Scratching | Nägel als Werkzeug; Spuren bleiben oft tagelang. | Nails as a tool; marks often last for days.
+geruch-und-schweiss| Scent and sweat | Körpergeruch als Teil der Anziehung. | Body scent as part of the attraction.
+kleidung-zerreissen | Tearing clothing | Vorher präparierte Kleidung, damit nichts Wertvolles kaputtgeht. | Clothing prepared beforehand so nothing valuable is ruined. | Kleidung zerreißen
+capture-and-restraint| Capture and restraint | Fangen und anschließend fixieren. | Catching and then restraining.
+widerstand-nach-regeln | Resistance by rules | Gegenwehr ist erlaubt, aber geregelt. | Fighting back is allowed but regulated. | Widerstand nach Regeln
+kraftvergleich| Testing strength | Direkter Vergleich der Kräfte. | A direct comparison of strength.
+ringkampf-mit-abbruchsignal| Wrestling with a stop signal | Ein Signal, das sofort wirkt, auch wortlos. | A signal that works immediately, including without words.
+takedown | Takedown | Ohne Technik und Matte sind Kopf- und Gelenkverletzungen real. | Without technique and a mat, head and joint injuries are real. | Takedown

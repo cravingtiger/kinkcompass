@@ -1,0 +1,20 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Language and word whitelist |
+#GRP | listen | Word lists
+#GRP | kategorien | Categories of degradation
+#GRP | geltung | Scope
+belohnende-ansprache | Rewarding address | Wie klingt Lob, das dich wirklich erreicht? Kosenamen, Titel, Anerkennung. | What does praise sound like when it actually reaches you? Pet names, titles, recognition. | Belohnende Ansprache
+herabsetzende-ansprache | Degrading address | Was ist für dich eine Beschimpfung, die wirkt? Diese Liste ist eine Freigabe, kein Verbot. | What counts as an insult that works on you? This list is a release, not a ban. | Herabsetzende Ansprache
+absolut-ausgeschlossene-worte | Words absolutely excluded | Worte, die nie fallen, auch nicht im Affekt und auch nicht als Zitat. | Words that are never used, not in the heat of the moment and not as a quotation.
+sexistische-herabsetzung | Sexist degradation | Herabsetzung, die an Geschlecht anknüpft. | Degradation that keys on gender.
+rassistische-oder-ethnisch-bezogene-herabsetzung | Racist or ethnicity-based degradation | Herabsetzung, die an Hautfarbe oder ethnische Zuschreibung anknüpft. | Degradation that keys on skin colour or ethnic ascription.
+herabsetzung-mit-bezug-auf-herkunft-oder-sprache | Degradation based on origin or language | Herabsetzung wegen Herkunftsland, Dialekt oder Akzent. | Degradation because of country of origin, dialect or accent.
+koerper-und-gewichtsbezogene-herabsetzung | Body- and weight-based degradation | Herabsetzung, die an Figur, Gewicht oder Körpermerkmale anknüpft. | Degradation that keys on figure, weight or physical features.
+behinderungs-oder-krankheitsbezogene-herabsetzung | Disability- or illness-based degradation | Herabsetzung, die an Behinderung, Diagnose oder Krankheit anknüpft. | Degradation that keys on disability, diagnosis or illness.
+herabsetzung-mit-bezug-auf-gender-oder-orientierung | Degradation based on gender or orientation | Herabsetzung, die an Geschlechtsidentität oder sexuelle Orientierung anknüpft. | Degradation that keys on gender identity or sexual orientation.
+herabsetzung-mit-bezug-auf-religion | Degradation based on religion | Herabsetzung, die an Glauben oder religiöse Zugehörigkeit anknüpft. | Degradation that keys on faith or religious affiliation.
+intelligenz-und-leistungsbezogene-herabsetzung | Intelligence- or performance-based degradation | Herabsetzung als dumm, unfähig oder nutzlos. | Degradation as stupid, incapable or useless.
+sexuelle-herabsetzung | Sexual degradation | Herabsetzung über sexuelles Verhalten, etwa Slut-Shaming. | Degradation about sexual behaviour, such as slut-shaming.
+geltung-nur-innerhalb-der-szene | Applies only within the scene | Die freigegebene Sprache gilt außerhalb nicht, auch nicht andeutungsweise. | The released language does not apply outside, not even as a hint. | Geltung nur innerhalb der Szene
+neue-worte-vorher-freigeben | Releasing new words beforehand | Die Liste wächst im Gespräch davor, nie spontan mitten in der Szene. | The list grows in conversation beforehand, never spontaneously mid-scene. | Neue Worte vorher freigeben
+abbruch-bei-nicht-freigegebenem-wort | Stopping at a non-released word | Fällt ein solches Wort, endet die Szene, ohne dass darüber verhandelt wird. | If such a word is used the scene ends, and that is not up for debate. | Abbruch bei nicht freigegebenem Wort

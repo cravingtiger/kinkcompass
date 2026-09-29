@@ -1,0 +1,56 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Roles and identities |
+#GRP | kernrollen | Core roles
+#GRP | besitz | Ownership roles
+#GRP | betreuung | Care, training and guidance
+#GRP | brat-primal | Brat and primal
+#GRP | seil-keuschheit | Rope and chastity
+#GRP | material | Material roles
+#GRP | gender | Gendered dominance
+#GRP | weitere-rollen | Further role forms
+#GRP | begleitung | Coaching roles
+dominant-dom-domme | Dominant / Dom / Domme | Die führende Rolle: gibt Richtung vor und trägt Verantwortung für den Ablauf. | The leading role: sets direction and carries responsibility for how things go.
+submissive-sub | Submissive / sub | Die folgende Rolle: gibt Kontrolle ab, innerhalb vereinbarter Grenzen. | The following role: hands over control within agreed limits.
+switch | Switch | Wechselt zwischen führender und folgender Rolle, je nach Person oder Situation. | Moves between leading and following depending on person or situation.
+top | Top | Führt die Handlung aus, ohne dass das eine Machtdynamik voraussetzt. | Carries out the action, without that implying a power dynamic.
+bottom | Bottom | Empfängt die Handlung, ohne dass das eine Machtdynamik voraussetzt. | Receives the action, without that implying a power dynamic.
+service-top | Service top | Führt aus, was die empfangende Person sich wünscht; die Führung liegt faktisch unten. | Carries out what the receiving person wants; direction effectively comes from below.
+service-sub | Service sub | Findet Erfüllung im Dienen selbst, weniger im Machtgefälle. | Finds fulfilment in serving itself rather than in the power gap.
+sadistischer-top | Sadistic top | Der Reiz liegt darin, Schmerz oder Not zuzufügen — einvernehmlich. | The appeal lies in inflicting pain or distress, consensually.
+masochistischer-bottom | Masochistic bottom | Der Reiz liegt darin, Schmerz oder Not zu erleben. | The appeal lies in experiencing pain or distress.
+sadomasochist-rollenwechsel | Sadomasochist, switching roles | Beide Seiten reizvoll, je nach Situation. | Both sides appealing, depending on the situation.
+master-mistress | Master / Mistress | Eine Rollenidentität mit umfassendem Führungsanspruch, meist dauerhaft. | A role identity claiming comprehensive authority, usually ongoing.
+slave-als-rollenidentitaet | Slave as a role identity | Eine Rollenidentität mit weitreichender Hingabe. Rechtlich bleibt jede Zustimmung widerruflich. | A role identity of far-reaching surrender. Legally all consent remains revocable. | Slave als Rollenidentität
+owner-eigentuemerrolle | Owner | Die besitzende Rolle in einer symbolischen Eigentumsdynamik. | The owning role in a symbolic ownership dynamic.
+property-besitzrolle | Property | Die besessene Rolle in einer symbolischen Eigentumsdynamik. | The owned role in a symbolic ownership dynamic.
+handler | Handler | Führt und betreut eine Person in einer Tierrolle. | Guides and looks after a person in an animal role.
+pet | Pet | Die Tierrolle selbst, mit eigenem Verhalten und eigener Sprache. | The animal role itself, with its own behaviour and language.
+trainer | Trainer | Bringt Fähigkeiten, Haltung oder Protokoll bei. | Teaches skills, posture or protocol.
+trainee | Trainee | Lernt Fähigkeiten, Haltung oder Protokoll. | Learns skills, posture or protocol.
+mentor | Mentor | Begleitet längerfristig beim Einstieg in Kink. | Accompanies someone longer term as they find their way into kink.
+protege | Protégé | Wird längerfristig beim Einstieg in Kink begleitet. | Is accompanied longer term while finding their way into kink.
+daddy-mommy-caregiver | Daddy / Mommy / caregiver | Die fürsorgende Rolle in einer Caregiver-Dynamik. Ausschließlich zwischen Erwachsenen. | The caring role in a caregiver dynamic. Strictly between adults. | Daddy / Mommy / Caregiver
+adult-little | Adult little | Die umsorgte, regredierende Rolle. Ausschließlich zwischen Erwachsenen. | The cared-for, regressing role. Strictly between adults. | Adult Little
+brat | Brat | | Playfully defies rules in order to provoke a reaction.
+brat-tamer | Brat tamer | Die Rolle, die sich am Widerstand eines Brats erfreut und ihn bändigt. | The role that enjoys a brat's resistance and reins it in.
+primal-hunter | Primal hunter | Die jagende Rolle im wortlosen, körperlichen Spiel. | The hunting role in wordless, physical play.
+primal-prey | Primal prey | Die gejagte Rolle im wortlosen, körperlichen Spiel. | The hunted role in wordless, physical play.
+rope-top-rigger | Rope top / rigger | Die fesselnde Rolle beim Seilbondage. | The one doing the tying in rope bondage.
+rope-bottom-rope-model | Rope bottom / rope model | Die gefesselte Rolle beim Seilbondage. | The one being tied in rope bondage.
+keyholder | Keyholder | Verwahrt den Schlüssel zu einem Keuschheitsgerät und entscheidet über Freigabe. | Keeps the key to a chastity device and decides about release.
+chastity-sub | Chastity sub | Trägt ein Keuschheitsgerät und gibt die Kontrolle darüber ab. | Wears a chastity device and gives up control over it.
+leather-top | Leather top | Die führende Rolle innerhalb der Lederszene und ihrer Codes. | The leading role within leather culture and its codes.
+leather-bottom | Leather bottom | Die folgende Rolle innerhalb der Lederszene und ihrer Codes. | The following role within leather culture and its codes.
+latex-top | Latex top | Die führende Rolle in einer latexzentrierten Ästhetik. | The leading role in a latex-centred aesthetic.
+latex-bottom | Latex bottom | Die folgende Rolle in einer latexzentrierten Ästhetik. | The following role in a latex-centred aesthetic.
+femdom | Femdom | Weibliche Dominanz als ausdrücklicher Teil der Rollenidentität. | Female dominance as an explicit part of the role identity.
+maledom | Maledom | Männliche Dominanz als ausdrücklicher Teil der Rollenidentität. | Male dominance as an explicit part of the role identity.
+genderunabhaengige-dominanz | Gender-independent dominance | Dominanz ohne Bezug auf Geschlecht. | Dominance without reference to gender.
+genderunabhaengige-submission | Gender-independent submission | Submission ohne Bezug auf Geschlecht. | Submission without reference to gender.
+paar-als-dominante-einheit | A couple as a dominant unit | Zwei Personen treten gemeinsam als führende Seite auf. | Two people act together as the leading side.
+paar-als-submissive-einheit | A couple as a submissive unit | Zwei Personen treten gemeinsam als folgende Seite auf. | Two people act together as the following side.
+zeremonielle-oder-protokollarische-rolle | A ceremonial or protocol role | Eine Rolle, die vor allem über Form, Ritual und Protokoll definiert ist. | A role defined mainly through form, ritual and protocol.
+anonyme-rollenfigur | An anonymous character | Eine Figur ohne Namen und Vorgeschichte, die mit der Szene endet. | A character without name or history that ends with the scene. | Anonyme Rollenfigur
+lifecoach-dominante-alltagsbegleitung | Life coach / dominant everyday guidance | Die begleitende Rolle für Alltagsziele, Struktur und Verbindlichkeit. | The guiding role for everyday goals, structure and follow-through.
+coachee-begleitete-person | Coachee / the person being coached | Die begleitete Rolle, die Ziele meldet und Struktur annimmt. | The coached role, reporting on goals and taking on structure.
+accountability-partner | Accountability partner | Gegenseitige Verbindlichkeit auf Augenhöhe, ohne Machtgefälle. | Mutual commitment between equals, without a power gap.

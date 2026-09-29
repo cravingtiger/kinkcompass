@@ -1,0 +1,38 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Psychological and fear play |
+#GRP | spannung | Anticipation and uncertainty
+#GRP | gefangenschaft | Captivity and blackmail
+#GRP | bedrohung-horror | Threat, hunt and horror
+#GRP | autoritaet | Authority and mindfuck
+#GRP | hypnose-kontrolle | Hypnosis and loss of control
+#GRP | mutproben | Dares and embarrassing tasks
+erwartungsspannung| Anticipation | Die Spannung vor etwas wirkt stärker als das Ereignis. | The tension before something works more strongly than the event.
+countdown| Countdown | Ein angesagtes Herunterzählen, das Druck aufbaut. | An announced count-down that builds pressure.
+ungewissheit | Uncertainty | Du weißt nicht, was kommt — der Rahmen steht aber vorher fest. | You do not know what is coming, though the frame is settled beforehand. | Ungewissheit
+ueberraschung-aus-der-aktivitaetsliste | Surprise from the activity list | Überraschen darf nur, was vorher freigegeben wurde. | Only what was released beforehand may come as a surprise. | Überraschung aus der Aktivitätsliste
+kontrollverlust-fantasie| Fantasy of losing control | Die Vorstellung, nichts mehr in der Hand zu haben. | The idea of no longer being in charge.
+verhoer-rollenspiel| Interrogation role play | Eine Befragungssituation als Szene. | An interrogation situation as a scene.
+gefangenen-rollenspiel| Prisoner role play | Gefangenschaft als Rahmen. | Captivity as the frame.
+entfuehrungs-rollenspiel | Abduction role play | Vollständig inszeniert und vorher verhandelt; nie eine echte Überraschung. | Entirely staged and negotiated in advance; never a real surprise. | Entführungs-Rollenspiel
+kidnapping-fantasie | Kidnapping fantasy | Bleibt Fantasie oder Inszenierung; Unbeteiligte kommen nie vor. | Stays fantasy or staging; nobody uninvolved is ever part of it. | Kidnapping-Fantasie
+erpressungs-rollenspiel | Blackmail role play | Gespielt, ohne dass echtes kompromittierendes Material im Spiel ist. | Played out with no genuinely compromising material involved. | Erpressungs-Rollenspiel
+blackmail-fantasie-mit-drehbuch | Blackmail fantasy with a script | Der Ablauf steht vorher fest, damit nichts eskaliert. | The course is fixed beforehand so nothing escalates. | Blackmail-Fantasie mit Drehbuch
+bedrohliche-sprache | Threatening language | Der Ton droht, die Absicht nicht. | The tone threatens, the intent does not. | Bedrohliche Sprache
+stalking-fantasie | Stalking fantasy | Eng begrenzt und ausschließlich zwischen Beteiligten. | Tightly limited and strictly between those involved. | Stalking-Fantasie
+jagd-und-verfolgungsspiel | Chase and pursuit play | Jagen und Gejagtwerden an einem Ort, der dafür hergerichtet ist. | Chasing and being chased in a place prepared for it. | Jagd- und Verfolgungsspiel
+horror-szenario| Horror scenario | Eine Szene mit Horror-Ästhetik. | A scene with a horror aesthetic.
+monster-rollenspiel| Monster role play | Eine nichtmenschliche, bedrohliche Figur. | A non-human, threatening character.
+uebernatuerliches-rollenspiel| Supernatural role play | Übernatürliche Wesen oder Kräfte als Motiv. | Supernatural beings or powers as the motif.
+pruefungssituation| Examination scenario | Geprüft und bewertet werden als Szene. | Being tested and judged as a scene.
+autoritaetsgefaelle| Authority gap | Eine Figur mit Amt oder Rang gegenüber einer ohne. | A character with office or rank facing one without.
+kulisse-und-requisiten | Set dressing and props | Verhörlampe, Geräusche, Einrichtung — alles, was die Atmosphäre trägt. | Interrogation lamp, sounds, furnishings: whatever carries the atmosphere. | Kulisse und Requisiten
+fake-punishment | Fake punishment | Die Strafe wird angekündigt, aber nie ausgeführt. Die Ankündigung tut die Arbeit. | The punishment is announced but never carried out. The announcement does the work. | Fake Punishment
+mindfuck | Mindfuck | Gezielte Verwirrung — nur in Bereichen, die vorher freigegeben wurden. | Deliberate disorientation, only in areas released beforehand. | Mindfuck
+hypnose-als-rollenspiel | Hypnosis as role play | Hypnose wird gespielt, nicht tatsächlich herbeigeführt. | Hypnosis is acted rather than actually induced. | Hypnose als Rollenspiel
+tatsaechliche-hypnose | Actual hypnosis | Echte Trance. Suggestionen können nachwirken, deshalb gehört das in geübte Hände. | Real trance. Suggestions can linger, so this belongs in practised hands. | Tatsächliche Hypnose
+gespielter-gedaechtnisverlust | Played memory loss | Vergessen als Rollenspielelement, nicht als Zustand. | Forgetting as a role play element, not as a state. | Gespielter Gedächtnisverlust
+rausch-als-thema | Intoxication as a theme | Das Thema wird gespielt; tatsächlich ist niemand berauscht. | The theme is played out; in fact nobody is intoxicated. | Rausch als Thema
+abandonment-fantasie-ohne-reales-zuruecklassen-in-gefahr| Abandonment fantasy, never leaving anyone in real danger | Das Gefühl des Verlassenwerdens ohne tatsächliche Gefahr. | The feeling of being left without any real danger.
+pruefung-der-selbstbeherrschung| Testing self-control | Aushalten, ohne zu reagieren. | Enduring without reacting.
+peinliche-aufgaben-im-privaten-rahmen| Embarrassing tasks in private | Aufgaben, die verlegen machen, ohne Dritte. | Tasks that cause embarrassment, with nobody else involved.
+mutproben-ohne-erhebliche-gefahr| Dares without serious danger | Herausforderungen ohne echtes Risiko. | Challenges without real risk.

@@ -1,0 +1,34 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Medical and clinical role play |
+#GRP | untersuchung | Examination
+#GRP | ausstattung | Equipment and setting
+#GRP | invasiv-med | Invasive specialist interests
+#GRP | rollenspiel-med | Role play settings
+#GRP | fantasien-med | Intimate and helplessness fantasies
+untersuchungssituation| Examination scenario | Untersucht werden als Grundsituation. | Being examined as the basic situation.
+anamnese-rollenspiel| Medical history role play | Ausgefragt werden zu Körper und Vorgeschichte. | Being questioned about your body and history.
+koerperinspektion| Body inspection | Begutachtet und beurteilt werden. | Being looked over and assessed.
+temperatur-messen| Taking temperature | Messung als Teil der Szene. | Measuring as part of the scene.
+blutdruck-messen| Taking blood pressure | Manschette und Messung als Requisite. | Cuff and reading as a prop.
+stethoskop| Stethoscope | Abhören als Nähe und Kontrolle. | Listening in as closeness and control.
+reflexhammer| Reflex hammer | Reflexe prüfen als Handlung. | Testing reflexes as an act.
+waage-oder-koerpermasse| Scales or measurements | Vermessen werden als Teil der Szene. | Being measured as part of the scene.
+markierungen-auf-der-haut| Marks on the skin | Einzeichnen wie vor einem Eingriff. | Drawing on the skin as if before a procedure.
+untersuchungsleuchte| Examination lamp | Licht als Mittel der Untersuchung. | Light as a means of examination.
+handschuhe| Gloves | Handschuhe als Klang, Geruch und Distanz. | Gloves as sound, smell and distance.
+mundschutz| Face mask | Verdecktes Gesicht als klinisches Zeichen. | A covered face as a clinical sign.
+kittel-oder-uniform| Coat or uniform | Kleidung als Rollenzeichen. | Clothing as a role marker.
+liege-und-lagerung| Table and positioning | Liege und Position als Teil der Kulisse. | Table and position as part of the setting.
+spekulum | Speculum | Nur mit Erfahrung, Gleitmittel und großer Vorsicht. | Only with experience, lubricant and great care. | Spekulum
+einlauf | Enema | Menge, Temperatur und Häufigkeit sind medizinisch heikel. | Volume, temperature and frequency are medically delicate. | Einlauf
+katheterfantasie | Catheter fantasy | Die Vorstellung. Eine tatsächliche Katheterisierung ist ein medizinischer Eingriff mit Infektionsrisiko. | The idea. Actual catheterisation is a medical procedure with a risk of infection. | Katheterfantasie
+sounding | Sounding | Dehnung der Harnröhre. Verletzung und Infektion sind reale Risiken. | Dilating the urethra. Injury and infection are real risks. | Sounding
+nadeln-play-piercing | Needles / play piercing | Sterile Einmalnadeln, Handschuhe und Entsorgung sind Pflicht. | Sterile single-use needles, gloves and proper disposal are essential. | Nadeln / Play Piercing
+injektionen | Injections | Kein Spiel. Injektionen gehören ausschließlich in ärztliche Hände, mit echter Indikation. | Not play. Injections belong exclusively in medical hands, with a genuine indication. | Injektionen
+gips-bandagen-oder-orthesenfetisch| Cast, bandage or brace fetish | Ruhigstellung als Reiz; auf Durchblutung achten. | Immobilisation as an appeal; watch circulation.
+krankenhaus-rollenspiel| Hospital role play | Die Klinik als umfassende Kulisse. | The hospital as a full setting.
+zahnarzt-rollenspiel-ohne-schaedigende-eingriffe| Dentist role play, without harmful procedures | Nur Kulisse; keine tatsächlichen Eingriffe im Mund. | Setting only; no actual procedures in the mouth.
+labor-oder-experiment-rollenspiel| Laboratory or experiment role play | Untersuchung als Experiment gerahmt. | Examination framed as an experiment.
+fruchtbarkeitsuntersuchungs-fantasie-unter-erwachsenen| Fertility examination fantasy, between adults | Eine Untersuchungsfantasie mit Fortpflanzungsbezug. | An examination fantasy with a reproductive theme.
+intimuntersuchungs-fantasie-unter-erwachsenen| Intimate examination fantasy, between adults | Untersuchung des Intimbereichs als Szene. | Examination of the intimate area as a scene.
+medizinische-hilflosigkeitsfantasie-als-rollenspiel| Medical helplessness fantasy as role play | Ausgeliefertsein als Motiv der Szene. | Being at someone's mercy as the scene's motif.

@@ -1,0 +1,36 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Food, wet and messy |
+#GRP | fuettern | Eating and feeding
+#GRP | lebensmittel | Food on the skin
+#GRP | messy | Water, foam and mud
+#GRP | nass | Wet clothing and bathing
+#GRP | rahmen-food | Framing and tolerance
+essen-vom-koerper| Eating off the body | Der Körper als Teller; auf Hautverträglichkeit achten. | The body as a plate; mind what the skin tolerates.
+fuettern| Feeding someone | Jemanden von Hand füttern. | Feeding someone by hand.
+gefuettert-werden| Being fed | Sich füttern lassen, ohne die Hände zu benutzen. | Being fed without using your own hands.
+blindverkostung| Blind tasting | Mit verbundenen Augen erraten, was man isst. | Guessing what you are eating while blindfolded.
+suessigkeiten-als-belohnung| Sweets as a reward | Kleine Belohnungen mit Geschmack. | Small rewards you can taste.
+sahne| Cream | Leicht, kühl und schnell verlaufend. | Light, cool and quick to run.
+schokolade| Chocolate | Schmilzt auf der Haut, klebt stark. | Melts on the skin and sticks firmly.
+honig| Honey | Sehr klebrig und langsam fließend. | Very sticky and slow-flowing.
+sirup| Syrup | Klebrig, süß und leicht zu verteilen. | Sticky, sweet and easy to spread.
+obst| Fruit | Frisch, kühl und saftig. | Fresh, cool and juicy.
+eiscreme| Ice cream | Kälte und Süße zugleich. | Cold and sweet at once.
+kuchen-oder-tortenmess| Cake or pie messing | Eine Torte als Werkzeug; klassisch und sehr unordentlich. | A cake as an implement; classic and very messy.
+pudding| Pudding | Weiche, gleitende Textur. | A soft, sliding texture.
+joghurt| Yoghurt | Kühl, dünnflüssig und leicht zu verteilen. | Cool, runny and easy to spread.
+oel| Oil | Gleitend und wärmend; nicht latexverträglich. | Slippery and warming; not compatible with latex.
+essbare-koerperfarbe| Edible body paint | Farbe, die auch geschmeckt werden darf. | Paint that can also be tasted.
+wasser| Water | Wasser als einfachster nasser Reiz. | Water as the simplest wet sensation.
+schaum| Foam | Leicht, flächig und verdeckend. | Light, broad and concealing.
+schlamm| Mud | Schwer, kühl und bedeckend. | Heavy, cool and covering.
+tonerde| Clay | Trocknet auf der Haut und spannt. | Dries on the skin and tightens.
+schleim-fuer-koerperanwendung| Slime made for body use | Nur dafür vorgesehene Produkte verwenden. | Use only products made for the purpose.
+pie-throwing| Pie throwing | Werfen statt Auftragen. | Throwing rather than applying.
+wetlook| Wetlook | Nasse oder nass wirkende Kleidung. | Wet or wet-looking clothing.
+kleidung-durchnaessen| Soaking clothing | Kleidung wird bewusst nass gemacht. | Clothing is deliberately soaked.
+dusche-als-szene| Shower as a scene | Die Dusche als Ort der Szene. | The shower as the setting for a scene.
+bad-als-szene| Bath as a scene | Die Wanne als Ort der Szene. | The bathtub as the setting for a scene.
+absichtliches-kleckern | Deliberate mess | Unordnung mit Absicht und Maß. | Mess on purpose and in measure. | Absichtliches Kleckern
+messy-wrestling| Messy wrestling | Ringen in glitschigem Material; Rutschgefahr. | Wrestling in slippery material; watch for slips.
+vertraeglichkeit-als-bedingung | Tolerance as a condition | Allergien vorher klären. Zucker und Säure gehören nicht an Schleimhäute. | Settle allergies beforehand. Sugar and acid do not belong on mucous membranes. | Verträglichkeit als Bedingung

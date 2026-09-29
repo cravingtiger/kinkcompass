@@ -1,0 +1,138 @@
+#! KinkCompass — Einstiegsmodus
+#!
+#! Diese Datei bestimmt allein, was im Einstiegsmodus abgefragt wird.
+#! Ein Item steht im Einstieg genau dann, wenn seine ID hier steht.
+#! Alles andere landet mindestens im Standardmodus — nichts geht verloren.
+#!
+#! Leitgedanke: Der Einstieg richtet sich an Menschen, die sich zum ersten Mal
+#! mit dem Thema befassen. Er soll eine grobe Orientierung geben, nicht einen
+#! Vertrag vorbereiten. Deshalb gelten drei Regeln:
+#!
+#!   1. Kein Item mit Risikoflag. Wer anfaengt, soll nicht zuerst lesen,
+#!      wogegen man sich absichern muss. (Geprueft in tools/audit.py)
+#!   2. Nur Bekanntes. Was hier steht, ist das, was Menschen ohne Vorwissen
+#!      unter BDSM verstehen — Fesseln, Augenbinde, Spanking, Halsband,
+#!      Befehle, Anrede. Spezialisierungen kommen im Standardmodus.
+#!   3. Sicherheit konkret, nicht abstrakt. Alkohol, Safeword, Grenzen,
+#!      Nachbesprechung. Keine Ausstiegsplaene, keine Loeschfristen,
+#!      keine aerztlichen Untergrenzen — das sind Fragen fuer Menschen,
+#!      die bereits in einer dauerhaften Dynamik leben.
+#!
+#! NUR-EINZELN | <sektion-id> | <Begruendung>
+#! Sektionen, die ein Haken auf Themenebene nie erreicht — unabhaengig davon,
+#! ob die einzelnen Items eine Risikoflagge tragen.
+#!
+#! KATEGORIE | <thema-id> | <Beschreibung>
+#! Themenbereiche, die im Einstieg nur als Ganzes bewertet
+#! werden. Die Bewertung vererbt sich auf die Items des Bereichs, auch auf die
+#! hier ausgeblendeten — ein Einstiegsprofil bleibt damit vergleichbar mit einem
+#! vollstaendig ausgefuellten. Ausgenommen sind Items mit Risikoflagge: die
+#! bekommt man nicht mit einem Haken am Themennamen (SPEC § 6.2.1).
+#!
+#! Die Beschreibung ist Pflicht. Ein Themenname allein sagt jemandem ohne
+#! Vorwissen nichts — "Sinne und Empfindung" wird zuverlaessig als Sinnesentzug
+#! gelesen, obwohl Augenbinde und Kapuze unter Fesseln stehen.
+#! Englische Fassung: data/content/_themes.txt, viertes Feld.
+
+#! ------------------------------------------------------------------
+#! Sicherheit — das Mindeste, bevor irgendetwas passiert
+#! ------------------------------------------------------------------
+risikomodell/nach-welchem-modell-arbeitest-du
+risikomodell/nuechtern-bleiben
+risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit
+sicherheit-verhandlung/vorbesprechung-fuehren
+sicherheit-verhandlung/hard-limits-benennen
+sicherheit-verhandlung/soft-limits-benennen
+sicherheit-verhandlung/safeword-vereinbaren
+sicherheit-verhandlung/nonverbales-abbruchsignal-vereinbaren
+sicherheit-verhandlung/loesewerkzeug-in-reichweite
+sicherheit-verhandlung/waehrend-der-szene-nachfragen
+sicherheit-verhandlung/aftercare-vorher-besprechen
+sicherheit-verhandlung/nachbesprechung-fuehren
+sicherheit-verhandlung/widerruf-ohne-rechtfertigung
+sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch
+grenzen-gesundheit/absolute-no-gos
+
+#! ------------------------------------------------------------------
+#! Wo stehst du — Rolle und Stellenwert
+#! ------------------------------------------------------------------
+rollen-identitaeten/dominant-dom-domme
+rollen-identitaeten/submissive-sub
+rollen-identitaeten/switch
+rollen-identitaeten/top
+rollen-identitaeten/bottom
+grundorientierung/kink-als-gelegentliche-paaraktivitaet
+grundorientierung/kink-als-regelmaessiger-teil-der-sexualitaet
+grundorientierung/kink-als-lebensstil
+
+#! ------------------------------------------------------------------
+#! Macht und Kontrolle — die gelaeufigen Formen
+#! ------------------------------------------------------------------
+machtgefaelle/befehle-geben
+machtgefaelle/befehle-befolgen
+machtgefaelle/um-erlaubnis-bitten
+machtgefaelle/kleidungswahl
+protokolle-rituale/titel-und-anredeformen
+protokolle-rituale/knien
+protokolle-rituale/halsband-anlegen
+service-hingabe/hausarbeit-als-service
+service-hingabe/massage
+
+#! ------------------------------------------------------------------
+#! Fesseln und Bewegung
+#! ------------------------------------------------------------------
+bondage-allgemein/haende-vor-dem-koerper-fesseln
+bondage-allgemein/haende-hinter-dem-koerper-fesseln
+bewegung-immobilisierung/festhalten-mit-den-haenden
+sinnesentzug/augenbinde
+
+#! ------------------------------------------------------------------
+#! Schlagen und Schmerz — nur das leichte Ende
+#! ------------------------------------------------------------------
+impact-play/handspanking
+impact-play/paddel
+schmerz-masochismus/leichter-schmerz
+
+#! ------------------------------------------------------------------
+#! Sprache
+#! ------------------------------------------------------------------
+verbale-dominanz/strenger-ton
+verbale-dominanz/lob
+verbale-dominanz/dirty-talk
+
+#! ------------------------------------------------------------------
+#! Sexualitaet
+#! ------------------------------------------------------------------
+orgasmus-lustkontrolle/orgasmuserlaubnis
+orgasmus-lustkontrolle/orgasmusverzoegerung-edging
+
+#! ------------------------------------------------------------------
+#! Danach
+#! ------------------------------------------------------------------
+aftercare/kuscheln
+aftercare/lob-und-bestaetigung
+aftercare/wasser
+
+#! ------------------------------------------------------------------
+#! Nur als Oberkategorie. Thema 14 (Hochrisiko) fehlt hier bewusst:
+#! Nadeln, Blut, Elektro, Feuer und Atemkontrolle gehoeren nicht in den
+#! ersten Kontakt mit dem Thema — auch nicht als Auswahlfeld.
+#! ------------------------------------------------------------------
+KATEGORIE | lifecoaching | Begleitung im Alltag: tägliche Meldung, Aufgaben mit Nachweis, Kamera zu vereinbarten Zeiten, Absprachen über Ernährung, Sport und Gewicht.
+KATEGORIE | sinne | Was auf der Haut passiert: Streicheln, Kitzeln, Feder und Seide, Eis und warmes Wachs, Kneifen, Beißen, Haarziehen, Klemmen. Nicht gemeint ist Sinnesentzug — Augenbinde und Kapuze stehen unter Fesseln.
+KATEGORIE | fetische | Dinge und Körperteile, die für sich erregend sind: Leder, Latex, Dessous, Schuhe und Stiefel, Füße, Seile, Halsbänder.
+KATEGORIE | rollenspiel | In eine Rolle schlüpfen: Chef und Angestellte, Lehrer und erwachsener Schüler, Pet Play wie Puppy oder Kitten, fürsorgliche Caregiver-Dynamiken, Raufen und Jagdspiele.
+KATEGORIE | oeffentlichkeit-medien | Wer noch dabei ist und was festgehalten wird: beobachten und beobachtet werden, Fotos und Videos, Sexting, mehr als zwei Personen, D/s über Distanz, Geschenke und Geld.
+KATEGORIE | koerper-medizin | Essen, Körperflüssigkeiten und Arztspiel: füttern und gefüttert werden, Essen vom Körper, Speichel, Untersuchungssituationen.
+KATEGORIE | fantasie | Was nur im Kopf oder in Worten stattfindet: Geschichten lesen und erzählen, Audio-Erotik, Fantasien, die bewusst nicht umgesetzt werden.
+
+NUR-EINZELN | cnc | Consensual Non-Consent lebt davon, dass die Zustimmung vorher
+  ausdruecklich und im Einzelnen gegeben wurde. Ein Haken am Bereichsnamen
+  „Rollenspiel" ist das Gegenteil davon. Auch die Items ohne Risikoflagge —
+  Ueberraschungsszene, Widerstand mit erlaubten Mitteln — gehoeren dazu.
+
+NUR-EINZELN | blackmail-blossstellung | Eine Drohung richtet sich gegen die
+  Faehigkeit, das Spiel zu beenden. Wer erpresst wird, kann schlecht abbrechen.
+  So etwas mit einem Haken am Themennamen mitzubewerten waere das Gegenteil
+  einer Entscheidung.
+

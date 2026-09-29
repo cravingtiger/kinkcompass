@@ -1,0 +1,25 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Monitoring and proof | Ongoing monitoring is not the same as a scene: it does not end by itself. Recording, storage, sharing and deletion each need their own concrete agreement; unauthorised intimate recordings can be a criminal offence.[^7][^8] The limits for this are in **Framework and safety**.
+#GRP | laufend | Ongoing monitoring
+#GRP | nachweise | Proof
+#GRP | ortdaten | Location and device data
+#GRP | grenzen-ueberwachung | Limits of monitoring
+videoueberwachung-waehrend-vereinbarter-zeitfenster | Video monitoring during agreed time windows | Kamera läuft nur in vorher festgelegten Zeiträumen, nicht dauerhaft. | The camera runs only during agreed periods, not permanently.
+dauerhafte-kamera-in-einem-vereinbarten-raum | A permanent camera in an agreed room | Eine dauerhaft installierte Kamera in genau einem vereinbarten Raum. | A permanently installed camera in exactly one agreed room.
+livebild-auf-anforderung | Live video on request | Auf Aufforderung wird ein Livebild gesendet, ohne Aufzeichnung. | On request a live image is sent, without recording.
+mikrofon-oder-raumton-auf-anforderung | Microphone or room audio on request | Nur Ton statt Bild, etwa um Anwesenheit oder Tätigkeit zu belegen. | Audio only instead of video, for instance to show presence or activity.
+bildschirmfreigabe | Screen sharing | Einsicht in den Bildschirm während vereinbarter Zeiten. | Access to the screen during agreed times.
+auswertung-der-bildschirmzeit | Reviewing screen time | Auswertung, wie viel Zeit womit verbracht wurde. | Reviewing how much time was spent on what.
+anwesenheitsnachweis-zu-festen-zeiten | Proof of presence at set times | Zu festen Zeiten belegen, dass man da ist, etwa per Nachricht. | Showing at fixed times that you are there, for example by message.
+nachweisfoto-auf-anforderung | Proof photo on request | Ein Foto als Beleg für eine erledigte Aufgabe oder einen Zustand. | A photo as evidence of a completed task or a state.
+mahlzeitenfoto | Photo of meals | Jede Mahlzeit wird fotografiert und gezeigt. | Every meal is photographed and shown.
+trainingsfoto-oder-video | Training photo or video | Beleg, dass das vereinbarte Training stattgefunden hat. | Evidence that the agreed training took place.
+koerperfoto-zur-verlaufsdokumentation | Body photo for tracking progress | Regelmäßige Körperfotos zur Dokumentation; heikel, weil sie den Blick auf den Körper verschieben. | Regular body photos for documentation; delicate, because they shift how you see your body.
+schriftlicher-tagesbericht | Written daily report | Ein schriftlicher Bericht statt eines kurzen Häkchens. | A written report rather than a quick tick.
+spontane-kontrollabfrage | Unannounced check | Eine Nachfrage ohne Vorankündigung, jederzeit. | A check without warning, at any time.
+standortfreigabe-waehrend-vereinbarter-zeiten | Location sharing during agreed times | Standort ist nur in vereinbarten Zeiträumen sichtbar. | Location is visible only during agreed periods.
+tracking-app-mit-einsicht | Tracking app with access | Eine App mit Einsicht in Aktivität, Schlaf oder Standort. | An app giving access to activity, sleep or location.
+nur-live-ohne-speicherung | Live only, without storage | Es wird gesehen, aber nichts aufgezeichnet. | It is watched but nothing is recorded. | Nur live, ohne Speicherung
+grundsaetzlich-aufzeichnungsfrei | Recording-free as a rule | Kein Mitschnitt, auch nicht für den privaten Gebrauch. | No recording, not even for private use. | Grundsätzlich aufzeichnungsfrei
+ueberwachungsfreie-zeiten | Times free of monitoring | Feste Zeiträume, in denen niemand mitliest oder mitsieht. | Fixed periods in which nobody reads along or watches. | Überwachungsfreie Zeiten
+ueberwachungsfreie-raeume | Rooms free of monitoring | Räume, in denen grundsätzlich keine Kamera und kein Mikrofon läuft. | Rooms where no camera or microphone runs at all. | Überwachungsfreie Räume

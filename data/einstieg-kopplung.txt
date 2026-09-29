@@ -1,0 +1,67 @@
+#! KinkCompass — Kopplung von Schutz an Risiko im Einstiegsmodus
+#!
+#! Frueher galt: der ganze Abschnitt "Rahmen und Sicherheit" steht in jedem
+#! Modus. Das klang sicher, war es aber nicht: 99 Vereinbarungen am Anfang
+#! werden nicht gelesen, sondern durchgeklickt — und wer beim ersten Kontakt
+#! mit dem Thema "Schriftlicher Ausstiegsplan" und "Eigene Wohnmoeglichkeit
+#! sichern" vorgesetzt bekommt, lernt daraus nichts ueber Sicherheit.
+#!
+#! Es gilt jetzt: eine Schutzvereinbarung muss genau dann im Einstieg stehen,
+#! wenn das Risiko, gegen das sie schuetzt, aus dem Einstieg selbst entstehen
+#! kann. Diese Datei sagt, welche das sind. tools/audit.py prueft es.
+#!
+#! Format:  SCHUTZ | <ziel>[, ...] | WENN | <ausloeser>[, ...] | <Begruendung>
+#! <ziel>/<ausloeser>:  sektion  |  sektion.gruppe  |  sektion/item-slug
+
+SCHUTZ | gesundheit-selbstbestimmung
+      | WENN | lifecoaching-accountability, ueberwachung-nachweis, ernaehrung-sport-koerperdaten
+      | Wer Gewicht, Ernaehrung oder Blutwerte in eine Dynamik gibt, braucht die
+        aerztlichen Untergrenzen und die Abschaltbarkeit im selben Bogen. Ohne den
+        Ausloeser sind es dreizehn Fragen ueber ein Thema, das gar nicht vorkommt.
+
+SCHUTZ | sprache-wortliste
+      | WENN | verbale-dominanz/degradierende-anrede-nach-wort-whitelist, verbale-dominanz/beschimpfung-nach-wort-whitelist
+      | Herabsetzende Ansprache ohne vorher freigegebene Worte ist genau der Fall,
+        in dem niemand merkt, dass eine Grenze gerissen ist.
+
+SCHUTZ | reale-machtverhaeltnisse
+      | WENN | grundorientierung/24-7-dynamik
+      | Ansprechperson, Ausstiegsplan und finanzielle Unabhaengigkeit sind Schutz
+        gegen Abhaengigkeit in einer dauerhaften Dynamik — und nur dort sinnvoll.
+
+SCHUTZ | foto-video-audio.datenschutz
+      | WENN | foto-video-audio.aufnahmen, foto-video-audio.live-text
+      | Sobald Aufnahmen entstehen, gehoeren Aufbewahrung, Loeschung und Freigabe dazu.
+
+SCHUTZ | geld-findom.schutzgrenzen
+      | WENN | geld-findom.findom, geld-findom.bezahlt
+      | Geldfluss ohne Obergrenze und ohne getrennte Bankzugaenge ist der haeufigste
+        Weg, auf dem aus einem Spiel ein Schaden wird.
+
+SCHUTZ | digital-fernsteuerung.digitale-sicherheit
+      | WENN | digital-fernsteuerung.standortdaten, digital-fernsteuerung.fern-ds
+      | Standortfreigabe und Fernsteuerung setzen getrennte Zugaenge und ein eigenes
+        Pseudonym voraus.
+
+SCHUTZ | sicherheit-verhandlung/loesewerkzeug-in-reichweite
+      | WENN | bondage-allgemein, seil-shibari, bewegung-immobilisierung.einwickeln
+      | Auch die einfachste Fesselung kann klemmen. Mit blossen Haenden Festhalten zaehlt
+        nicht dazu — dort loest sich der Griff von selbst.
+        Auch die einfachste Fesselung kann klemmen. Eine Schere in Reichweite ist die
+        eine Vorkehrung, die schon beim ersten Mal zaehlt.
+
+SCHUTZ | sicherheit-verhandlung/sti-status-und-schutzbarrieren-besprechen
+      | WENN | sexuelle-praktiken.penetration
+      | Ein gesundheitliches Risiko, das keine Absprache in der Szene auffaengt.
+
+SCHUTZ | sicherheit-verhandlung/erste-hilfe-material-bereithalten, risikomodell/erste-hilfe-beherrschen
+      | WENN | nadeln-blut, elektro-feuer-atem
+      | Praktiken, bei denen ein Fehler medizinisch wird.
+
+SCHUTZ | blackmail-blossstellung.grenzen-blackmail
+      | WENN | blackmail-blossstellung.material, blackmail-blossstellung.drohung,
+        blackmail-blossstellung.spielformen, blackmail-blossstellung.reichweite
+      | Ohne die Grenzen ist Blackmail-Spiel nicht verhandelt, sondern nur
+        angefangen: was gehalten wird, wann geloescht wird und dass das Safeword
+        ueber dem Spiel steht, muss im selben Bogen stehen.
+

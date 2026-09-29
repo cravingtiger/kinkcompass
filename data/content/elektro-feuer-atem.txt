@@ -1,0 +1,27 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Electricity, fire and breath control | These interests carry an above-average risk of injury or death. Breath control, neck compression, electricity, flames and strong heat are not covered by consent across the board; in particular, an objectively concrete danger to life crosses the line under German case law.[^5]
+#GRP | elektro | Electricity
+#GRP | feuer | Fire and heat
+#GRP | rauch | Smoke and cigar aesthetics
+#GRP | atem | Breath control
+elektroaesthetik-ohne-stromanwendung| Electrical aesthetics without any current | Nur die Optik der Geräte, ohne Strom. | The look of the equipment only, without current.
+tens-geraet | TENS unit | Nur unterhalb der Taille. Niemals über Brustkorb oder Herz. | Below the waist only. Never across chest or heart. | TENS-Gerät
+violet-wand-als-spezialisiertes-elektrointeresse| Violet wand, a specialist electrical interest | Oberflächliche Funken; nicht mit Metall oder Piercings kombinieren. | Surface sparks; do not combine with metal or piercings.
+reizstromgeraete-als-spezialisiertes-elektrointeresse| E-stim units, a specialist electrical interest | Nur Geräte, die für den Körper gebaut sind; niemals Netzstrom. | Only equipment built for the body; never mains electricity.
+elektrisches-halsband | Electric collar | Strom am Hals ist wegen der Nähe zu Herz und Nerven besonders gefährlich. | Current at the neck is especially dangerous because of the proximity to heart and nerves. | Elektrisches Halsband
+funkenoptik| Sparks as a visual | Funken als Anblick, ohne Hautkontakt. | Sparks as a sight, without touching skin.
+kerzenflamme-als-kulisse | Candle flame as setting | Die Flamme bleibt Dekoration und berührt die Haut nicht. | The flame stays decoration and never touches skin. | Kerzenflamme als Kulisse
+fire-play | Fire play | Braucht Löschmittel in Reichweite, kurze Haare und Erfahrung. | Requires extinguishing means within reach, short hair and experience. | Fire Play
+fire-cupping | Fire cupping | Feuer und Unterdruck zugleich. Zwei getrennte Wege, sich zu verbrennen. | Fire and suction at once. Two separate ways to burn. | Fire Cupping
+fire-flogging | Fire flogging | Brennende Riemen auf der Haut. Nur mit Ausbildung. | Burning falls on skin. Only with training. | Fire Flogging
+heisswachs | Hot wax | Über dem Niedrigtemperaturbereich verbrennt Wachs die Haut. | Above the low-temperature range wax burns skin. | Heißwachs
+rauch-oder-zigarrenaesthetik-ohne-unfreiwillige-exposition| Smoke or cigar aesthetics, without exposing anyone unwillingly | Die Optik; niemand wird ungefragt Rauch ausgesetzt. | The look; nobody is exposed to smoke without agreeing.
+rauchritual | Smoking ritual | Nur dort, wo Rauchen erlaubt ist, und ohne dass jemand ungefragt Rauch ausgesetzt wird. | Only where smoking is allowed, and without exposing anyone unwillingly. | Rauchritual
+atemkontrolle-als-fantasie | Breath control as fantasy | Die Vorstellung, ohne dass die Atmung tatsächlich behindert wird. | The idea, without breathing actually being obstructed. | Atemkontrolle als Fantasie
+hand-am-hals-als-symbolische-geste-ohne-druck| Hand on the throat, symbolic and without pressure | Die Geste ohne Druck auf Luftröhre oder Halsschlagadern. | The gesture with no pressure on windpipe or carotid arteries.
+choking-strangulation | Choking | Halskompression kann binnen Sekunden zu Bewusstlosigkeit und Tod führen. Nach BGH-Rechtsprechung deckt Einwilligung eine konkrete Lebensgefahr nicht. | Neck compression can cause unconsciousness and death within seconds. Under German case law consent does not cover a concrete danger to life. | Choking / Strangulation
+breath-play | Breath play | Sauerstoffmangel schädigt das Gehirn, auch ohne erkennbare Anzeichen. | Oxygen deprivation damages the brain, including without visible signs. | Breath Play
+gasmaskenaesthetik-ohne-veraenderung-der-atemluft| Gas mask aesthetics, without altering the air | Nur die Optik; die Atemluft bleibt unverändert. | The look only; the air supply stays unchanged.
+atemmaske-als-requisite-mit-ungehinderter-atmung| Breathing mask as a prop, with unobstructed breathing | Maske als Requisite, Atmung frei. | A mask as a prop, breathing unimpeded.
+unterwasser-fantasie | Underwater fantasy | Ausschließlich Fantasie. Wasser und Atmung werden nie kombiniert. | Fantasy only. Water and breathing are never combined. | Unterwasser-Fantasie
+atemgeraeusche-als-erotischer-reiz| Breathing sounds as an erotic stimulus | Das Geräusch des Atmens selbst. | The sound of breathing itself.

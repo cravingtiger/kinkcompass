@@ -1,0 +1,37 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Pain and masochism |
+#GRP | intensitaet | Intensity
+#GRP | qualitaet | Quality of sensation
+#GRP | funktion | What pain is for
+#GRP | verknuepfung | Linked to emotion
+#GRP | richtung | Direction
+#GRP | reaktion | Reaction and expression
+#GRP | steuerung | Controlling intensity
+leichter-schmerz| Light pain | Spürbar, aber jederzeit gut auszuhalten. | Noticeable but comfortably bearable throughout.
+mittlerer-schmerz| Moderate pain | Erfordert Konzentration, bleibt aber steuerbar. | Requires concentration but stays manageable.
+intensiver-schmerz| Intense pain | An der eigenen Grenze; braucht Erfahrung und Vertrauen. | At your own limit; requires experience and trust.
+oberflaechlicher-scharfer-reiz| Sharp, surface sensation | Stechend an der Hautoberfläche, etwa von Gerte oder Nadel. | Stinging at the skin's surface, as from a crop or needle.
+dumpfer-reiz| Thuddy sensation | Tief und breit, etwa von Paddel oder Faust. | Deep and broad, as from a paddle or fist.
+brennender-reiz| Burning sensation | Anhaltendes Brennen, etwa nach vielen Schlägen. | Lasting burn, as after many strokes.
+ziehender-reiz| Pulling sensation | Zug an Haut, Haaren oder Klemmen. | Pull on skin, hair or clamps.
+druckschmerz| Pressure pain | Schmerz durch anhaltenden Druck statt durch Schlag. | Pain from sustained pressure rather than impact.
+muskelkateraehnlicher-reiz| Ache like sore muscles | Tiefer, nachwirkender Schmerz. | A deep ache that lingers.
+aushalten | Enduring | Der Reiz liegt im Durchhalten. | The appeal lies in holding out. | Aushalten
+schmerz-als-fokusuebung| Pain as a focusing exercise | Schmerz bündelt die Aufmerksamkeit und macht den Kopf still. | Pain concentrates attention and quiets the mind.
+schmerz-als-belohnung| Pain as a reward | Schmerz ist das Gewünschte, nicht das Geduldete. | Pain is the thing wanted, not the thing tolerated.
+schmerz-als-katharsis| Pain as catharsis | Schmerz öffnet einen emotionalen Ausgang, oft mit Tränen. | Pain opens an emotional release, often with tears.
+schmerz-in-verbindung-mit-lob| Pain together with praise | Schmerz und Anerkennung gleichzeitig. | Pain and recognition at the same time.
+schmerz-in-verbindung-mit-demuetigung| Pain together with humiliation | Schmerz und Herabsetzung gleichzeitig. | Pain and degradation at the same time.
+schmerz-in-verbindung-mit-fuersorge| Pain together with care | Schmerz eingebettet in Zuwendung. | Pain embedded in attentiveness.
+schmerz-ohne-sexuelle-komponente| Pain without a sexual element | Schmerz steht für sich, nicht als Vorspiel. | Pain stands on its own, not as foreplay.
+schmerz-mit-sexueller-komponente| Pain with a sexual element | Schmerz und Erregung gehören zusammen. | Pain and arousal belong together.
+schmerz-geben| Giving pain | Die zufügende Seite. | The side that inflicts.
+schmerz-empfangen| Receiving pain | Die empfangende Seite. | The side that receives.
+reaktionen-beobachten| Watching reactions | Der Reiz liegt in der sichtbaren Wirkung. | The appeal lies in the visible effect.
+traenen-als-moegliche-emotionale-reaktion| Tears as a possible emotional reaction | Weinen als erlaubter Teil der Szene, nicht als Abbruchsignal. | Crying as an allowed part of the scene, not as a stop signal.
+laut-sein-duerfen| Being allowed to be loud | Schreien und Fluchen sind ausdrücklich erlaubt. | Shouting and swearing are expressly allowed.
+still-sein-sollen| Being expected to stay quiet | Reaktionen sollen unterdrückt werden. | Reactions are to be suppressed.
+schmerz-zaehlen| Counting through pain | Zählen als Anker, wenn es viel wird. | Counting as an anchor when it gets a lot.
+intensitaet-selbst-mitsteuern| Steering the intensity yourself | Rückmeldung bestimmt mit, wie stark es wird. | Your feedback co-determines how hard it gets.
+intensitaet-bewusst-abgeben| Deliberately giving up control of intensity | Die andere Seite entscheidet allein über die Härte. | The other side alone decides how hard it gets.
+endorphin-oder-subspace-orientierte-szene| A scene aimed at endorphins or subspace | Ziel ist der veränderte Zustand, nicht der Schmerz selbst. | The aim is the altered state rather than the pain itself.

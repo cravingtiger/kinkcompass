@@ -1,0 +1,40 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Object and equipment fetishes |
+#GRP | bondage-objekte | Rope, chain and restraints
+#GRP | moebel | Furniture and frames
+#GRP | spiegel-kamera | Mirrors, cameras and light
+#GRP | kleidungsobjekte | Footwear, masks and uniforms
+#GRP | requisiten | Props and aesthetics
+#GRP | attrappen-zeit | Replicas, blade aesthetics, time
+seile| Rope | Das Material selbst als Reiz, unabhängig vom Fesseln. | The material itself as an appeal, independent of tying.
+ketten| Chains | Gewicht und Klang von Metall. | The weight and sound of metal.
+schloesser| Locks | Das Schloss als Zeichen von Verschluss. | The lock as a sign of being closed in.
+schluessel| Keys | Der Schlüssel als Zeichen der Verfügung. | The key as a sign of who decides.
+halsbaender| Collars | Das Halsband als Objekt, unabhängig vom Tragen. | The collar as an object, independent of wearing it.
+leinen| Leashes | Die Leine als Objekt und als Zeichen. | The leash as an object and as a sign.
+harnesses| Harnesses | Gurtwerk als Ästhetik. | Strapwork as an aesthetic.
+manschetten| Cuffs | Manschetten als Objekt und als Anblick. | Cuffs as an object and as a sight.
+handschellen| Handcuffs | Metallschellen als Symbol und Objekt. | Metal cuffs as symbol and object.
+kaefige| Cages | Der Käfig als Objekt und als Raum. | The cage as object and as space.
+pranger| Pillory | Der Pranger als historisch aufgeladenes Möbel. | The pillory as a historically loaded piece of furniture.
+andreaskreuz| St Andrew's cross | Das Kreuz als zentrales Möbelstück. | The cross as a central piece of furniture.
+fesselbaenke| Spanking benches | Bänke mit Fixierungspunkten. | Benches with attachment points.
+medizinische-untersuchungsliegen| Medical examination tables | Kliniknähe als Teil der Ästhetik. | The clinical look as part of the aesthetic.
+spiegel| Mirrors | Sich selbst sehen als eigener Reiz. | Seeing yourself as an appeal in itself.
+kameras | Cameras | Die Kamera als Objekt. Aufnahmen brauchen eine eigene Zustimmung. | The camera as an object. Recording needs its own consent. | Kameras
+stative-und-beleuchtung| Tripods and lighting | Technische Ausrüstung als Teil der Inszenierung. | Technical gear as part of the staging.
+stiefel-und-schuhwerk| Boots and footwear | Schuhwerk als Ausrüstungsfetisch. | Footwear as an equipment fetish.
+handschuhe| Gloves | Handschuhe als Material und als Distanz. | Gloves as material and as distance.
+masken| Masks | Masken als Verwandlung und Verhüllung. | Masks as transformation and concealment.
+gasmaskenoptik | Gas mask look | Nur das Aussehen. Die Atemluft wird nicht verändert. | The look only. The air supply is not altered. | Gasmaskenoptik
+uniformen| Uniforms | Uniform als Objekt und als Rollenzeichen. | The uniform as object and as role marker.
+schreibgeraete-fuer-body-writing| Pens for body writing | Nur hautverträgliche Stifte verwenden. | Use only skin-safe markers.
+moebel-mit-befestigungspunkten| Furniture with anchor points | Alltagsmöbel mit eingebauten Ringen oder Ösen. | Everyday furniture with built-in rings or loops.
+geraeuschvolle-instrumente| Loud implements | Instrumente, die vor allem durch Klang wirken. | Implements that work mainly through sound.
+antike-oder-historische-requisiten| Antique or historical props | Requisiten, die eine Epoche aufrufen. | Props that evoke a period.
+sci-fi-requisiten| Sci-fi props | Futuristische Ausstattung. | Futuristic equipment.
+roboter-oder-maschinenaesthetik| Robot or machine aesthetics | Das Maschinelle als Reiz. | The mechanical as an appeal.
+waffenattrappen | Replica weapons | Nur eindeutige Attrappen. In der Öffentlichkeit rechtlich heikel. | Unmistakable replicas only. In public this is legally delicate. | Waffenattrappen
+messeraesthetik-mit-stumpfen-requisiten| Blade aesthetics with blunt props | Die Optik der Klinge, ohne Schneide. | The look of a blade, without an edge.
+uhren-timer-und-countdowns| Watches, timers and countdowns | Zeit als Druckmittel und als Requisite. | Time as pressure and as a prop.
+schluesselverwaltung-als-symbol| Keeping the keys as a symbol | Wer die Schlüssel hat, ist das Zeichen. | Who holds the keys is the sign.

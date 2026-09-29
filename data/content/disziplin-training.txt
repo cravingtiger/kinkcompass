@@ -1,0 +1,35 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Discipline and training |
+#GRP | training | Training and practice
+#GRP | schreibaufgaben | Writing and repetition tasks
+#GRP | konsequenzen | Non-physical consequences
+#GRP | koerperlich | Physical and serious consequences
+#GRP | rahmen-stufen | Role play settings and levels
+regeltraining | Rule training | Regeln werden geübt, bis sie sitzen. | Rules are practised until they stick.
+haltungstraining | Posture training | Körperhaltungen werden eingeübt und korrigiert. | Postures are practised and corrected.
+sprachtraining | Speech training | Sprechweise, Wortwahl und Tonfall werden geübt. | Manner of speaking, word choice and tone are practised.
+anredetraining | Address training | Die richtige Anrede wird eingeübt. | The correct form of address is practised.
+servicetraining | Service training | Dienstabläufe werden geübt und verfeinert. | Service routines are practised and refined.
+positionsuebungen | Position drills | Benannte Positionen werden auf Kommando geübt. | Named positions are drilled on command.
+geduldstraining | Patience training | Warten üben, ohne zu drängen. | Practising waiting without pushing.
+stillhalten | Staying still | Über längere Zeit bewegungslos bleiben. | Remaining motionless for a longer time.
+achtsamkeitsaufgaben | Mindfulness tasks | Aufgaben, die Aufmerksamkeit und Präsenz schulen. | Tasks that train attention and presence.
+wiederholungsaufgaben | Repetition tasks | Etwas so oft wiederholen, bis es verinnerlicht ist. | Repeating something until it is internalised.
+schreibaufgaben | Writing tasks | Schriftliche Aufgaben als Übung oder Reflexion. | Written tasks as practice or reflection.
+zeilen-schreiben | Writing lines | Einen Satz vielfach abschreiben. | Copying out a sentence many times.
+ecke-stehen | Standing in the corner | Eine Auszeit im Stehen, abgewandt. | A time out spent standing, facing away.
+time-out-als-rollenspielelement | Time out as a role play element | Eine Pause als markiertes Element der Dynamik. | A pause as a marked element of the dynamic.
+privilegien-zeitweise-entziehen | Temporarily withdrawing privileges | Ein Vorrecht fällt für eine vereinbarte Zeit weg. | A privilege lapses for an agreed time.
+zusaetzliche-hausaufgabe | An extra assignment | Eine zusätzliche Aufgabe als Konsequenz. | An additional task as a consequence.
+belohnungsaufschub | Delaying a reward | Eine verdiente Belohnung wird verschoben. | An earned reward is postponed.
+korrektur-durch-verbale-rueckmeldung | Correction by verbal feedback | Korrektur durch Worte statt durch Konsequenzen. | Correction through words rather than consequences.
+korrektur-durch-ritualisierte-geste | Correction by a ritual gesture | Ein kleines Zeichen genügt, um zu korrigieren. | A small sign is enough to correct.
+koerperliche-disziplin-im-vereinbarten-intensitaetsrahmen | Physical discipline within an agreed intensity | Körperliche Konsequenz innerhalb vorher festgelegter Grenzen. | Physical consequence within previously set limits.
+funishment-spielerische-strafe-die-beide-geniessen | Funishment: a playful punishment both enjoy | Eine Strafe, die eigentlich Spaß macht — sie wirkt nicht abschreckend. | A punishment that is actually fun, so it does not deter.
+ernst-gemeinte-beziehungskonsequenz-ohne-koerperliche-gewalt | A serious relationship consequence without physical force | Eine echte Konsequenz, die ohne Körperlichkeit auskommt. | A real consequence that works without anything physical.
+ausbildungskulisse | Training setting | Akademie, Schule oder Trainingslager als Rahmen. Alle Figuren sind erwachsen. | Academy, school or boot camp as a frame. All characters are adults. | Ausbildungskulisse
+pruefung-oder-abnahme | Examination or assessment | Erlerntes wird geprüft und bewertet. | What has been learned is tested and assessed.
+initiationsritual | Initiation ritual | Ein Übergangsritual in eine Rolle oder Stufe. | A rite of passage into a role or level.
+leistungsabzeichen-oder-stufen | Badges or levels | Sichtbare Stufen, die Fortschritt markieren. | Visible levels marking progress.
+protokollpruefung | Protocol check | Die Einhaltung des Protokolls wird überprüft. | Compliance with the protocol is checked.
+selbstdisziplin-unter-anleitung | Self-discipline under guidance | Eigene Disziplin, die von außen begleitet wird. | Your own discipline, supported from outside.

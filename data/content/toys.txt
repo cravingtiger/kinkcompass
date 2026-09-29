@@ -1,0 +1,2 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Toys and gear | A free list. Add entries with the plus button; they are exported in structured form in both JSON and Markdown.

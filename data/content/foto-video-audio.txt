@@ -1,0 +1,32 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Photo, video and audio | Recording, storage, cloud upload, editing, showing and publishing each need their own concrete agreement. Unauthorised intimate recordings or sharing can be a criminal offence, and publishing someone's likeness generally requires their consent.[^8][^7]
+#GRP | aufnahmen | Kinds of recording
+#GRP | live-text | Live, text and audio
+#GRP | sichtbarkeit | Visibility and anonymity
+#GRP | datenschutz | Storage and release
+#GRP | professionell | Professional production
+erotische-fotografie| Erotic photography | Aufnahmen mit erotischem Inhalt. | Photographs with erotic content.
+fetischfotografie| Fetish photography | Aufnahmen mit Fokus auf Material und Ausrüstung. | Photographs focused on material and gear.
+bondagefotografie| Bondage photography | Fesselungen als Bildmotiv. | Ties as the subject of the image.
+portraet-in-fetischkleidung| Portrait in fetish clothing | Porträts, die die Kleidung ins Zentrum stellen. | Portraits that put the clothing at the centre.
+polaroid | Polaroid | Sofortbild ohne digitale Kopie, nur für die Beteiligten. | An instant photo with no digital copy, only for those involved. | Polaroid
+video-fuer-die-gemeinsame-ansicht | Video for watching together | Eine Aufnahme, die nur gemeinsam angesehen wird. | A recording watched only together. | Video für die gemeinsame Ansicht
+audioaufnahme| Audio recording | Stimme und Geräusche statt Bild. | Voice and sound instead of image.
+livestream-an-einen-bekannten-kreis | Livestream to a known circle | Live, ohne Aufzeichnung, an verifizierte und zustimmende Erwachsene. | Live, without recording, to verified and consenting adults. | Livestream an einen bekannten Kreis
+webcam-szene| Webcam scene | Eine Szene über Kamera, in Echtzeit. | A scene over camera, in real time.
+sexting| Sexting | Erotische Textnachrichten. | Erotic text messages.
+erotische-sprachnachrichten| Erotic voice messages | Stimme, Atem und Beschreibung als Audio. | Voice, breath and description as audio.
+erotische-briefe| Erotic letters | Geschriebene Erotik in längerer Form. | Written eroticism in longer form.
+erotische-rollenspiel-chats| Erotic role play chats | Gemeinsames Schreiben einer Szene. | Writing a scene together.
+anonymisierte-aufnahme-ohne-identifizierende-merkmale| Anonymised recording without identifying features | Gesicht, Tattoos und Umgebung bleiben unkenntlich. | Face, tattoos and surroundings stay unidentifiable.
+gesicht-bewusst-sichtbar| Face deliberately visible | Die Entscheidung, erkennbar zu sein. | The decision to be recognisable.
+gesicht-bewusst-nicht-sichtbar| Face deliberately not visible | Die Entscheidung, nicht erkennbar zu sein. | The decision not to be recognisable.
+gemeinsame-auswahl-und-loeschung| Choosing and deleting together | Beide entscheiden gemeinsam, was bleibt. | Both decide together what stays.
+zeitlich-begrenzte-aufbewahrung| Time-limited storage | Aufnahmen werden nach einer festen Frist gelöscht. | Recordings are deleted after a set period.
+verschluesselte-speicherung| Encrypted storage | Aufnahmen liegen verschlüsselt, nicht offen. | Recordings are stored encrypted, not in the open.
+aufnahmen-bleiben-auf-eigenen-geraeten | Recordings stay on your own devices | Aufnahmen bleiben lokal, ohne automatische Sicherung. | Recordings stay local, with no automatic backup. | Aufnahmen bleiben auf eigenen Geräten
+aufnahmen-bleiben-im-kreis-der-beteiligten | Recordings stay within the circle involved | Aufnahmen verlassen den Kreis der Beteiligten nicht. | Recordings never leave the circle of those involved. | Aufnahmen bleiben im Kreis der Beteiligten
+freigabe-einzelner-aufnahmen-an-konkret-benannte-erwachsene| Releasing single recordings to named adults | Jede Freigabe einzeln und namentlich. | Each release individually and by name.
+veroeffentlichung | Publication | Verlangt eine eigene schriftliche Zustimmung, getrennt von der zur Aufnahme. | Requires its own written consent, separate from consent to record. | Veröffentlichung
+kuenstlerische-fetischperformance| Artistic fetish performance | Performance vor Publikum als Kunstform. | Performance before an audience as an art form.
+professionelle-produktion | Professional production | Mit Verträgen, Nachweisen und rechtlicher Prüfung. | With contracts, documentation and legal review. | Professionelle Produktion

@@ -1,0 +1,62 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Role play in general |
+#GRP | beruf-bildung | Work and education
+#GRP | medizinisch | Medical and research
+#GRP | autoritaet-staat | Authority, law and military
+#GRP | historisch-macht | Historical power relations
+#GRP | mythisch | Deities, cults and creatures
+#GRP | maschine-kunst | Machine, doll and model
+#GRP | begegnung | Encounters and service roles
+#GRP | inszenierung | Auction, initiation and secret orders
+#GRP | genre | Genre and setting
+chef-angestellte| Boss / employee | Berufliches Gefälle als Szene; im echten Arbeitsverhältnis heikel. | A workplace hierarchy as a scene; delicate if you actually work together.
+lehrer-erwachsener-schueler| Teacher / adult student | Ausdrücklich zwischen Erwachsenen. | Expressly between adults.
+professor-erwachsener-student| Professor / adult student | Akademisches Gefälle als Rahmen. | An academic hierarchy as the frame.
+trainer-athlet| Coach / athlete | Sportliches Gefälle mit Anweisung und Leistung. | A sporting hierarchy with instruction and performance.
+therapeutische-kulisse-ohne-vortaeuschung-realer-behandlung| Therapy setting, without pretending to be real treatment | Nur Kulisse; echte therapeutische Arbeit gehört nicht in eine Szene. | Setting only; real therapeutic work does not belong in a scene.
+arzt-erwachsener-patient| Doctor / adult patient | Die verbreitetste medizinische Rollenverteilung. | The most common medical role pairing.
+pflegekraft-erwachsener-patient| Nurse / adult patient | Fürsorge und Kontrolle in einem. | Care and control in one.
+forscher-versuchsperson| Researcher / test subject | Untersuchung und Beobachtung als Szene. | Examination and observation as a scene.
+inspektor-zu-untersuchende-person| Inspector / person being inspected | Begutachtung als Machtausübung. | Assessment as an exercise of power.
+polizei-verhoerfantasie-ohne-echte-amtsausuebung| Police or interrogation fantasy, without real authority | Fantasie; echte Uniformen in der Öffentlichkeit sind rechtlich heikel. | Fantasy; real uniforms in public are legally delicate.
+waechter-gefangener| Guard / prisoner | Gefangenschaft mit klarer Rollenverteilung. | Captivity with a clear division of roles.
+richter-angeklagter| Judge / defendant | Urteil und Strafe als Rahmen. | Judgement and punishment as the frame.
+gefaengnis-rollenspiel| Prison role play | Eine Haftkulisse als Szene. | A prison setting as a scene.
+militaerisches-drill-rollenspiel| Military drill role play | Drill, Gehorsam und Form. | Drill, obedience and form.
+pirat-gefangener| Pirate / captive | Abenteuerkulisse mit Gefangenschaft. | An adventure setting with captivity.
+kapitaen-crewmitglied| Captain / crew | Befehlskette auf See. | A chain of command at sea.
+koenigliche-person-diener| Royal / servant | Höfische Rangordnung. | A courtly order of rank.
+adel-bedienstete| Nobility / household staff | Standesunterschied als Rahmen. | Class difference as the frame.
+herrscher-untertan| Ruler / subject | Absolute Macht als Motiv. | Absolute power as the motif.
+gottheit-verehrer| Deity / worshipper | Anbetung als Dynamik. | Worship as the dynamic.
+religioese-fantasie | Religious fantasy | Religiöse Symbolik als Kulisse, zwischen Erwachsenen. | Religious imagery as a setting, between adults. | Religiöse Fantasie
+kultfantasie | Cult fantasy | Kultkulisse als Fantasie, ohne reale Abhängigkeit. | A cult setting as fantasy, with no real dependency. | Kultfantasie
+daemon-beschworener| Demon / summoned | Übernatürliche Machtverhältnisse. | Supernatural power relations.
+vampir-opfer| Vampire / victim | Biss und Hingabe als Motiv. | Bite and surrender as the motif.
+werwolf-beute| Werewolf / prey | Tierische Verwandlung und Jagd. | Animal transformation and the hunt.
+alien-erwachsene-versuchsperson| Alien / adult test subject | Fremdartige Untersuchung als Fantasie. | An alien examination as fantasy.
+android-besitzer| Android / owner | Künstliches Wesen ohne eigenen Willen. | An artificial being without a will of its own.
+programmierer-roboter| Programmer / robot | Befehle als Code, Gehorsam als Funktion. | Commands as code, obedience as function.
+puppenmacher-puppe| Dollmaker / doll | Formen und Gestalten eines Objekts. | Shaping and forming an object.
+kuenstler-modell| Artist / model | Betrachtet und dargestellt werden. | Being looked at and depicted.
+fotograf-modell-mit-gesonderter-aufnahmefreigabe| Photographer / model, with separate consent to record | Aufnahmen brauchen eine eigene Zustimmung. | Recording needs its own consent.
+kunde-erwachsene-professionelle-rollenfigur| Client / professional character, adult | Eine gespielte Dienstleistungsbeziehung. | A played-out service relationship.
+fremde-in-einer-bar-als-vereinbarte-begegnung| Strangers in a bar, as an agreed encounter | Inszeniertes Kennenlernen zwischen Vertrauten. | A staged first meeting between people who know each other.
+hotel-oder-reise-rollenspiel| Hotel or travel role play | Ein anderer Ort als anderer Rahmen. | A different place as a different frame.
+maskenball| Masked ball | Anonymität durch Maske. | Anonymity through a mask.
+anonyme-begegnung | An anonymous encounter | Anonym in der Szene, überprüft und abgesprochen davor. | Anonymous in the scene, verified and agreed beforehand. | Anonyme Begegnung
+fan-star| Fan / star | Bewunderung als Gefälle. | Admiration as a hierarchy.
+bodyguard-schutzperson| Bodyguard / protectee | Schutz und Nähe als Motiv. | Protection and closeness as the motif.
+butler-herrschaft | Butler / employer | Formeller Dienst in fester Rolle. Ausführend heißt: du spielst den Butler. | Formal service in a fixed role. Doing means: you play the butler.
+maid-herrschaft | Maid / employer | Dienst mit Uniform und Protokoll. Ausführend heißt: du spielst das Maid. | Service with uniform and protocol. Doing means: you play the maid.
+auktion-praesentation-als-inszenierung| Auction or presentation, as staging | Eine Inszenierung ohne realen Besitzwechsel. | A staging without any real change of ownership.
+initiation-in-einen-fiktiven-club| Initiation into a fictional club | Aufnahme in eine erfundene Gruppe. | Being admitted to an invented group.
+geheimbund-rollenspiel| Secret society role play | Verschwiegenheit und Ritual als Rahmen. | Secrecy and ritual as the frame.
+historisches-rollenspiel| Historical role play | Eine bestimmte Epoche als Kulisse. | A particular period as the setting.
+fantasy-mittelalter| Fantasy medieval | Mittelalterliche Fantasywelt. | A medieval fantasy world.
+science-fiction-dystopie| Science fiction dystopia | Zukunftswelt mit harten Regeln. | A future world with hard rules.
+superheld-superschurke| Superhero / supervillain | Comic-Kräfteverhältnis als Rahmen. | A comic-book balance of power as the frame.
+spionage-und-agentenfantasie| Spy and agent fantasy | Verhör, Tarnung und Geheimnis. | Interrogation, cover and secrets.
+flucht-oder-rettungsszenario| Escape or rescue scenario | Entkommen oder gerettet werden. | Escaping or being rescued.
+casting-oder-audition-rollenspiel| Casting or audition role play | Vorsprechen und Beurteiltwerden. | Auditioning and being judged.
+wettbewerbs-oder-gameshow-rollenspiel| Competition or game show role play | Wettkampf mit Regeln und Einsatz. | A contest with rules and stakes.

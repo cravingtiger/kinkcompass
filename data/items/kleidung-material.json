@@ -1,0 +1,1567 @@
+{
+ "section": "kleidung-material",
+ "type": "scale",
+ "items": [
+  {
+   "id": "kleidung-material/leder",
+   "n": 1,
+   "group": "materialien",
+   "de": "Leder",
+   "en": "Leather",
+   "expl_de": "Geruch, Griff und Gewicht von Leder.",
+   "expl_en": "The smell, feel and weight of leather.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n1",
+   "de_src": "Leder",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/kunstleder",
+   "n": 2,
+   "group": "materialien",
+   "de": "Kunstleder",
+   "en": "Faux leather",
+   "expl_de": "Optik von Leder ohne tierisches Material.",
+   "expl_en": "The look of leather without animal material.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n2",
+   "de_src": "Kunstleder",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/latex",
+   "n": 3,
+   "group": "materialien",
+   "de": "Latex",
+   "en": "Latex",
+   "expl_de": "Eng, glänzend, geruchsintensiv; Allergien sind häufig.",
+   "expl_en": "Tight, glossy and strong-smelling; allergies are common.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n3",
+   "de_src": "Latex",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/gummi",
+   "n": 4,
+   "group": "materialien",
+   "de": "Gummi",
+   "en": "Rubber",
+   "expl_de": "Schwerer und dicker als Latex.",
+   "expl_en": "Heavier and thicker than latex.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n4",
+   "de_src": "Gummi",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/pvc-vinyl",
+   "n": 5,
+   "group": "materialien",
+   "de": "PVC / Vinyl",
+   "en": "PVC / vinyl",
+   "expl_de": "Glänzend und steifer als Latex.",
+   "expl_en": "Glossy and stiffer than latex.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n5",
+   "de_src": "PVC / Vinyl",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/lack",
+   "n": 6,
+   "group": "materialien",
+   "de": "Lack",
+   "en": "Patent",
+   "expl_de": "Hochglänzende Oberfläche.",
+   "expl_en": "A high-gloss surface.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n6",
+   "de_src": "Lack",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/neopren",
+   "n": 7,
+   "group": "materialien",
+   "de": "Neopren",
+   "en": "Neoprene",
+   "expl_de": "Dick, wärmend und eng anliegend.",
+   "expl_en": "Thick, warming and close-fitting.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n7",
+   "de_src": "Neopren",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/lycra-spandex",
+   "n": 8,
+   "group": "materialien",
+   "de": "Lycra / Spandex",
+   "en": "Lycra / spandex",
+   "expl_de": "Elastisch und eng, aber atmungsaktiver.",
+   "expl_en": "Stretchy and tight, but more breathable.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n8",
+   "de_src": "Lycra / Spandex",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/nylon",
+   "n": 9,
+   "group": "materialien",
+   "de": "Nylon",
+   "en": "Nylon",
+   "expl_de": "Dünn, glatt und leicht glänzend.",
+   "expl_en": "Thin, smooth and slightly shiny.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n9",
+   "de_src": "Nylon",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/seide",
+   "n": 10,
+   "group": "materialien",
+   "de": "Seide",
+   "en": "Silk",
+   "expl_de": "Glatt, kühl und leicht.",
+   "expl_en": "Smooth, cool and light.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n10",
+   "de_src": "Seide",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/satin",
+   "n": 11,
+   "group": "materialien",
+   "de": "Satin",
+   "en": "Satin",
+   "expl_de": "Glänzend und fließend.",
+   "expl_en": "Shiny and flowing.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n11",
+   "de_src": "Satin",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/samt",
+   "n": 12,
+   "group": "materialien",
+   "de": "Samt",
+   "en": "Velvet",
+   "expl_de": "Weich mit Richtung im Strich.",
+   "expl_en": "Soft with a nap that has direction.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n12",
+   "de_src": "Samt",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/spitze",
+   "n": 13,
+   "group": "materialien",
+   "de": "Spitze",
+   "en": "Lace",
+   "expl_de": "Durchbrochen, verhüllt und zeigt zugleich.",
+   "expl_en": "Openwork that conceals and reveals at once.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n13",
+   "de_src": "Spitze",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/pelzimitat",
+   "n": 14,
+   "group": "materialien",
+   "de": "Pelzimitat",
+   "en": "Faux fur",
+   "expl_de": "Weiche, flauschige Textur.",
+   "expl_en": "Soft, fluffy texture.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n14",
+   "de_src": "Pelzimitat",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/denim",
+   "n": 15,
+   "group": "materialien",
+   "de": "Denim",
+   "en": "Denim",
+   "expl_de": "Robuster Alltagsstoff als Fetisch.",
+   "expl_en": "A rugged everyday fabric as a fetish.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n15",
+   "de_src": "Denim",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/wolle",
+   "n": 16,
+   "group": "materialien",
+   "de": "Wolle",
+   "en": "Wool",
+   "expl_de": "Warm, schwer, teils kratzig.",
+   "expl_en": "Warm, heavy, sometimes scratchy.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n16",
+   "de_src": "Wolle",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/uniformen",
+   "n": 17,
+   "group": "kleidungsstuecke",
+   "de": "Uniformen",
+   "en": "Uniforms",
+   "expl_de": "Uniform als Zeichen von Rang und Rolle.",
+   "expl_en": "The uniform as a sign of rank and role.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n17",
+   "de_src": "Uniformen",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/anzuege",
+   "n": 18,
+   "group": "kleidungsstuecke",
+   "de": "Anzüge",
+   "en": "Suits",
+   "expl_de": "Formelle Kleidung als Reiz.",
+   "expl_en": "Formal clothing as an appeal.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n18",
+   "de_src": "Anzüge",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/abendkleidung",
+   "n": 19,
+   "group": "kleidungsstuecke",
+   "de": "Abendkleidung",
+   "en": "Evening wear",
+   "expl_de": "Festliche Kleidung als Reiz.",
+   "expl_en": "Formal evening clothing as an appeal.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n19",
+   "de_src": "Abendkleidung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/dessous",
+   "n": 20,
+   "group": "kleidungsstuecke",
+   "de": "Dessous",
+   "en": "Lingerie",
+   "expl_de": "Unterwäsche, die zum Zeigen gemacht ist.",
+   "expl_en": "Underwear made to be seen.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n20",
+   "de_src": "Dessous",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/korsett",
+   "n": 21,
+   "group": "kleidungsstuecke",
+   "de": "Korsett",
+   "en": "Corset",
+   "expl_de": "Schnürung verändert Form und Atmung; nicht zu eng und nicht zu lang.",
+   "expl_en": "Lacing changes shape and breathing; not too tight and not too long.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n21",
+   "de_src": "Korsett",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/strapse",
+   "n": 22,
+   "group": "kleidungsstuecke",
+   "de": "Strapse",
+   "en": "Suspenders",
+   "expl_de": "Strumpfhalter als Anblick und Ritual.",
+   "expl_en": "Suspender belts as a sight and a ritual.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n22",
+   "de_src": "Strapse",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/struempfe",
+   "n": 23,
+   "group": "kleidungsstuecke",
+   "de": "Strümpfe",
+   "en": "Stockings",
+   "expl_de": "Strümpfe als Material und Form.",
+   "expl_en": "Stockings as material and shape.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n23",
+   "de_src": "Strümpfe",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/bodysuit",
+   "n": 24,
+   "group": "kleidungsstuecke",
+   "de": "Bodysuit",
+   "en": "Bodysuit",
+   "expl_de": "Einteiler, der den Rumpf umschließt.",
+   "expl_en": "A one-piece enclosing the torso.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n24",
+   "de_src": "Bodysuit",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/catsuit",
+   "n": 25,
+   "group": "kleidungsstuecke",
+   "de": "Catsuit",
+   "en": "Catsuit",
+   "expl_de": "Ganzkörperanzug, meist aus Latex oder Lycra.",
+   "expl_en": "A full-body suit, usually latex or lycra.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n25",
+   "de_src": "Catsuit",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/zentai",
+   "n": 26,
+   "group": "kleidungsstuecke",
+   "de": "Zentai",
+   "en": "Zentai",
+   "expl_de": "Vollständige Ganzkörperhülle inklusive Kopf.",
+   "expl_en": "A complete full-body covering including the head.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n26",
+   "de_src": "Zentai",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/masken",
+   "n": 27,
+   "group": "masken-handschuhe",
+   "de": "Masken",
+   "en": "Masks",
+   "expl_de": "Verdecken des Gesichts als Verwandlung.",
+   "expl_en": "Covering the face as transformation.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n27",
+   "de_src": "Masken",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/hoods",
+   "n": 28,
+   "group": "masken-handschuhe",
+   "de": "Hoods",
+   "en": "Hoods",
+   "expl_de": "Kopfhaube. Die Atemöffnungen müssen jederzeit frei bleiben.",
+   "expl_en": "A hood. Breathing openings must stay clear at all times.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n28",
+   "de_src": "Hoods mit sicherer Atmung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/handschuhe",
+   "n": 29,
+   "group": "masken-handschuhe",
+   "de": "Handschuhe",
+   "en": "Gloves",
+   "expl_de": "Handschuhe als Material und als Distanz.",
+   "expl_en": "Gloves as material and as distance.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n29",
+   "de_src": "Handschuhe",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/lange-handschuhe",
+   "n": 30,
+   "group": "masken-handschuhe",
+   "de": "Lange Handschuhe",
+   "en": "Opera gloves",
+   "expl_de": "Handschuhe bis über den Ellenbogen.",
+   "expl_en": "Gloves reaching above the elbow.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n30",
+   "de_src": "Lange Handschuhe",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/stiefel",
+   "n": 31,
+   "group": "schuhe",
+   "de": "Stiefel",
+   "en": "Boots",
+   "expl_de": "Stiefel als zentrales Kleidungsstück.",
+   "expl_en": "Boots as a central garment.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n31",
+   "de_src": "Stiefel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/overknee-stiefel",
+   "n": 32,
+   "group": "schuhe",
+   "de": "Overknee-Stiefel",
+   "en": "Thigh-high boots",
+   "expl_de": "Stiefel über das Knie hinaus.",
+   "expl_en": "Boots above the knee.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n32",
+   "de_src": "Overknee-Stiefel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/high-heels",
+   "n": 33,
+   "group": "schuhe",
+   "de": "High Heels",
+   "en": "High heels",
+   "expl_de": "Absatzhöhe als Reiz und als Einschränkung.",
+   "expl_en": "Heel height as appeal and as restriction.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n33",
+   "de_src": "High Heels",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/plateauschuhe",
+   "n": 34,
+   "group": "schuhe",
+   "de": "Plateauschuhe",
+   "en": "Platform shoes",
+   "expl_de": "Extreme Höhe mit dicker Sohle.",
+   "expl_en": "Extreme height on a thick sole.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n34",
+   "de_src": "Plateauschuhe",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/sneaker",
+   "n": 35,
+   "group": "schuhe",
+   "de": "Sneaker",
+   "en": "Sneakers",
+   "expl_de": "Sportschuhe als Fetischobjekt.",
+   "expl_en": "Trainers as a fetish object.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n35",
+   "de_src": "Sneaker",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/arbeitskleidung",
+   "n": 36,
+   "group": "uniformen",
+   "de": "Arbeitskleidung",
+   "en": "Workwear",
+   "expl_de": "Berufskleidung als Rollenzeichen.",
+   "expl_en": "Work clothing as a role marker.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n36",
+   "de_src": "Arbeitskleidung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/sportkleidung",
+   "n": 37,
+   "group": "uniformen",
+   "de": "Sportkleidung",
+   "en": "Sportswear",
+   "expl_de": "Sportkleidung als Material und Anblick.",
+   "expl_en": "Sportswear as material and sight.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": true,
+   "lockkey": "kleidung-material|n37",
+   "de_src": "Sportkleidung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/reitkleidung",
+   "n": 38,
+   "group": "uniformen",
+   "de": "Reitkleidung",
+   "en": "Riding clothes",
+   "expl_de": "Reitkleidung mit Stiefeln und Gerte.",
+   "expl_en": "Riding clothes with boots and crop.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n38",
+   "de_src": "Reitkleidung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/motorradkleidung",
+   "n": 39,
+   "group": "uniformen",
+   "de": "Motorradkleidung",
+   "en": "Motorcycle gear",
+   "expl_de": "Leder und Protektoren als Ästhetik.",
+   "expl_en": "Leather and armour as an aesthetic.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n39",
+   "de_src": "Motorradkleidung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/militaerisch-inspirierte-fantasieuniform-ohne-amtsanmassung",
+   "n": 40,
+   "group": "uniformen",
+   "de": "Militärisch inspirierte Fantasieuniform ohne Amtsanmaßung",
+   "en": "Military-inspired fantasy uniform, without impersonating office",
+   "expl_de": "Fantasieuniform; echte Dienstabzeichen bleiben außen vor.",
+   "expl_en": "A fantasy uniform; real insignia of office stay out of it.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n40",
+   "de_src": "Militärisch inspirierte Fantasieuniform ohne Amtsanmaßung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/schuluniform-stil",
+   "n": 41,
+   "group": "uniformen",
+   "de": "Schuluniform-Stil",
+   "en": "School uniform style",
+   "expl_de": "Ein Kleidungsstil, kein Alter. Ausschließlich an Erwachsenen.",
+   "expl_en": "A clothing style, not an age. On adults only.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n41",
+   "de_src": "Schuluniform-Stil ausschließlich an eindeutig Erwachsenen",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/dienstmaedchen-maid-outfit",
+   "n": 42,
+   "group": "uniformen",
+   "de": "Dienstmädchen-/Maid-Outfit",
+   "en": "Maid outfit",
+   "expl_de": "Das Outfit als Rollenzeichen für Dienst.",
+   "expl_en": "The outfit as a role marker for service.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n42",
+   "de_src": "Dienstmädchen-/Maid-Outfit",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/butler-outfit",
+   "n": 43,
+   "group": "uniformen",
+   "de": "Butler-Outfit",
+   "en": "Butler outfit",
+   "expl_de": "Formelles Dienstoutfit.",
+   "expl_en": "A formal service outfit.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n43",
+   "de_src": "Butler-Outfit",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/arzt-pflegekostuem-als-rollenspiel",
+   "n": 44,
+   "group": "uniformen",
+   "de": "Arzt-/Pflegekostüm als Rollenspiel",
+   "en": "Doctor or nurse costume as role play",
+   "expl_de": "Kittel und Kulisse als Rollenzeichen.",
+   "expl_en": "Coat and setting as role markers.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n44",
+   "de_src": "Arzt-/Pflegekostüm als Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/fetisch-unterwaesche",
+   "n": 45,
+   "group": "transformation",
+   "de": "Fetisch-Unterwäsche",
+   "en": "Fetish underwear",
+   "expl_de": "Unterwäsche mit ausdrücklichem Fetischbezug.",
+   "expl_en": "Underwear with an explicit fetish reference.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n45",
+   "de_src": "Fetisch-Unterwäsche",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/kleidung-des-partners-tragen",
+   "n": 46,
+   "group": "transformation",
+   "de": "Kleidung des Partners tragen",
+   "en": "Wearing your partner's clothes",
+   "expl_de": "Die Kleidung der anderen Person als Nähe.",
+   "expl_en": "The other person's clothing as closeness.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n46",
+   "de_src": "Kleidung des Partners tragen",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/crossdressing",
+   "n": 47,
+   "group": "transformation",
+   "de": "Crossdressing",
+   "en": "Crossdressing",
+   "expl_de": "Kleidung, die einem anderen Geschlecht zugeordnet wird.",
+   "expl_en": "Clothing associated with another gender.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n47",
+   "de_src": "Crossdressing",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/androgyne-praesentation",
+   "n": 48,
+   "group": "transformation",
+   "de": "Androgyne Präsentation",
+   "en": "Androgynous presentation",
+   "expl_de": "Ein Erscheinungsbild zwischen den Zuschreibungen.",
+   "expl_en": "An appearance between the usual ascriptions.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n48",
+   "de_src": "Androgyne Präsentation",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/drag",
+   "n": 49,
+   "group": "transformation",
+   "de": "Drag",
+   "en": "Drag",
+   "expl_de": "Überzeichnete Geschlechterdarstellung als Kunstform.",
+   "expl_en": "Exaggerated gender performance as an art form.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n49",
+   "de_src": "Drag",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/feminisierung",
+   "n": 50,
+   "group": "transformation",
+   "de": "Feminisierung",
+   "en": "Feminisation",
+   "expl_de": "Entscheidend ist, ob sie als Aufwertung oder als Erniedrigung gemeint ist.",
+   "expl_en": "What matters is whether it is meant as elevation or as degradation.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n50",
+   "de_src": "Feminisierung als einvernehmliches Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/maskulinisierung",
+   "n": 51,
+   "group": "transformation",
+   "de": "Maskulinisierung",
+   "en": "Masculinisation",
+   "expl_de": "Entscheidend ist, ob sie als Aufwertung oder als Erniedrigung gemeint ist.",
+   "expl_en": "What matters is whether it is meant as elevation or as degradation.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n51",
+   "de_src": "Maskulinisierung als einvernehmliches Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/bimbo-himbo-transformation-als-rollenspiel",
+   "n": 52,
+   "group": "transformation",
+   "de": "Bimbo-/Himbo-Transformation als Rollenspiel",
+   "en": "Bimbo / himbo transformation as role play",
+   "expl_de": "Überzeichnete Verwandlung als Spiel.",
+   "expl_en": "An exaggerated transformation as play.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n52",
+   "de_src": "Bimbo-/Himbo-Transformation als Rollenspiel",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/dollification",
+   "n": 53,
+   "group": "transformation",
+   "de": "Dollification",
+   "en": "Dollification",
+   "expl_de": "Verwandlung in eine Puppe, meist mit Maske und glatter Hülle.",
+   "expl_en": "Being turned into a doll, usually with a mask and smooth covering.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n53",
+   "de_src": "Dollification",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/mannequin-oder-puppenrolle",
+   "n": 54,
+   "group": "transformation",
+   "de": "Mannequin- oder Puppenrolle",
+   "en": "Mannequin or doll role",
+   "expl_de": "Regungslosigkeit als Rolle.",
+   "expl_en": "Stillness as a role.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n54",
+   "de_src": "Mannequin- oder Puppenrolle",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/vollverhuellung",
+   "n": 55,
+   "group": "transformation",
+   "de": "Vollverhüllung",
+   "en": "Full covering",
+   "expl_de": "Der ganze Körper wird verhüllt.",
+   "expl_en": "The whole body is covered.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n55",
+   "de_src": "Vollverhüllung",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/strategische-nacktheit",
+   "n": 56,
+   "group": "transformation",
+   "de": "Strategische Nacktheit",
+   "en": "Strategic nudity",
+   "expl_de": "Teilweise Bedeckung, die gezielt zeigt.",
+   "expl_en": "Partial covering that reveals deliberately.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n56",
+   "de_src": "Strategische Nacktheit",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/kleidungswahl",
+   "n": 57,
+   "group": "inszenierung",
+   "de": "Kleidungswahl",
+   "en": "Choosing the clothing",
+   "expl_de": "Wer bestimmt, was getragen wird.",
+   "expl_en": "Who decides what gets worn.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n57",
+   "de_src": "Kleidung auswählen lassen",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/kleidung-vorfuehren",
+   "n": 58,
+   "group": "inszenierung",
+   "de": "Kleidung vorführen",
+   "en": "Modelling clothing",
+   "expl_de": "Kleidung wird gezeigt und begutachtet.",
+   "expl_en": "Clothing is shown and assessed.",
+   "ap": true,
+   "level": "s",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n58",
+   "de_src": "Kleidung vorführen",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/wetlook",
+   "n": 59,
+   "group": "inszenierung",
+   "de": "Wetlook",
+   "en": "Wetlook",
+   "expl_de": "Nasse oder nass wirkende Kleidung.",
+   "expl_en": "Wet or wet-looking clothing.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n59",
+   "de_src": "Wetlook",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  },
+  {
+   "id": "kleidung-material/zerrissene-kleidung-als-vorbereitete-requisite",
+   "n": 60,
+   "group": "inszenierung",
+   "de": "Zerrissene Kleidung als vorbereitete Requisite",
+   "en": "Torn clothing, prepared as a prop",
+   "expl_de": "Vorher präparierte Kleidung, damit nichts Wertvolles zerstört wird.",
+   "expl_en": "Clothing prepared in advance so nothing valuable is destroyed.",
+   "ap": true,
+   "level": "v",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "kleidung-material|n60",
+   "de_src": "Zerrissene Kleidung als vorbereitete Requisite",
+   "roles": {
+    "a": {
+     "de": "trägt es selbst",
+     "en": "wears it"
+    },
+    "p": {
+     "de": "beim Gegenüber",
+     "en": "on the other person"
+    }
+   }
+  }
+ ],
+ "dropped": []
+}

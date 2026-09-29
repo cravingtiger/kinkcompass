@@ -1,0 +1,49 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Protocols and rituals |
+#GRP | anrede | Address and greeting
+#GRP | haltungen | Postures
+#GRP | service-protokoll | Service protocols
+#GRP | halsband | Collar and leash
+#GRP | signale | Signal protocols
+#GRP | berichte | Reports and tasks
+#GRP | zeremonien | Ceremonies and codes
+#GRP | kommandos | Commands and formulas
+titel-und-anredeformen | Titles and forms of address | Eine feste Anrede, die die Rolle jedes Mal aufruft. | A fixed form of address that invokes the role each time.
+begruessungsritual | Greeting ritual | Ein fester Ablauf beim Ankommen, der die Dynamik einschaltet. | A set sequence on arrival that switches the dynamic on.
+abschiedsritual | Parting ritual | Ein fester Ablauf beim Gehen, der die Dynamik wieder ausschaltet. | A set sequence on leaving that switches the dynamic off again.
+knien | Kneeling | Knien als Haltung der Aufmerksamkeit oder Hingabe. | Kneeling as a posture of attention or devotion.
+praesentationshaltung | Presentation posture | Eine festgelegte Haltung, in der man sich zeigt. | A defined posture in which you present yourself.
+inspektionshaltung | Inspection posture | Eine Haltung, die eine Begutachtung ermöglicht. | A posture that allows you to be looked over.
+wartestellung | Waiting posture | Eine Haltung, die eingenommen und gehalten wird, bis etwas folgt. | A posture taken and held until something follows.
+bestimmte-sitzhaltung | A prescribed way of sitting | Wie gesessen wird, ist festgelegt. | How you sit is prescribed.
+bestimmte-schlafposition | A prescribed sleeping position | Wo und wie geschlafen wird, ist festgelegt. | Where and how you sleep is prescribed.
+gehen-hinter-der-fuehrenden-person | Walking behind the leading person | Ein räumliches Zeichen der Rangordnung im Alltag. | A spatial sign of rank in everyday life.
+tuer-aufhalten | Holding the door | Kleine Dienstgeste, unauffällig auch in der Öffentlichkeit. | A small act of service, unobtrusive even in public.
+mantel-oder-garderobenservice | Coat and cloakroom service | Mantel abnehmen, aufhängen und wieder anreichen. | Taking, hanging and handing back a coat.
+getraenke-servieren | Serving drinks | Getränke bringen und reichen, oft mit fester Form. Ausführend heißt: du servierst. | Bringing and presenting drinks, often in a set form. Doing means: you serve.
+tischservice | Table service | Decken, servieren und abräumen als Dienst. | Laying, serving and clearing as service.
+tee-oder-kaffeeritual | Tea or coffee ritual | Ein zeremoniell ausgeführtes Getränkeritual. | A drink ritual performed ceremonially.
+schuhservice | Shoe service | Schuhe ausziehen, reinigen, bereitstellen. | Removing, cleaning and setting out shoes.
+an-und-auskleideritual | Dressing and undressing ritual | Das An- und Ausziehen wird zur Handlung mit fester Form. | Getting dressed and undressed becomes an act with a set form.
+halsband-anlegen | Putting on the collar | Das Anlegen als Moment, in dem die Dynamik beginnt. | Putting it on as the moment the dynamic begins.
+halsband-abnehmen | Taking off the collar | Das Abnehmen als Moment, in dem die Dynamik endet. | Taking it off as the moment the dynamic ends.
+tageshalsband-diskretes-symbol | Day collar / discreet symbol | Ein unauffälliges Schmuckstück, das nur die Beteiligten deuten. | An unobtrusive piece of jewellery only those involved can read.
+szenenhalsband | Scene collar | Ein Halsband, das nur in der Szene getragen wird. | A collar worn only within a scene.
+dauerhalsband-als-beziehungssymbol | Permanent collar as a relationship symbol | Ein dauerhaft getragenes Halsband mit Bedeutung wie ein Ring. | A permanently worn collar with a meaning like a ring.
+leine-als-szenensymbol | Leash as a scene symbol | Die Leine als sichtbares Zeichen der Führung. | The leash as a visible sign of being led.
+handsignal-protokoll | Hand signal protocol | Feste Handzeichen statt Worte. | Fixed hand signs instead of words.
+blicksignal-protokoll | Eye signal protocol | Verständigung über Blicke, ohne zu sprechen. | Communicating by glances without speaking.
+schriftliches-tagesprotokoll | Written daily log | Ein festes Formular oder Schema, das täglich ausgefüllt wird. | A fixed form or template filled in every day.
+tagebuch-oder-reflexionsbericht | Journal or reflection report | Freieres Schreiben über Erlebtes und Gedanken. | Freer writing about experiences and thoughts.
+regelmaessiger-check-in | Regular check-in | Ein wiederkehrendes Gespräch über den Stand der Dinge. | A recurring conversation about how things stand.
+tages-oder-wochenaufgaben | Daily or weekly tasks | Aufgaben mit festem Rhythmus. | Tasks on a fixed rhythm.
+punkte-token-oder-belohnungssystem | Points, tokens or reward system | Gesammelte Punkte, die gegen etwas eingelöst werden. | Points collected and redeemed for something.
+zeremonielle-versprechen | Ceremonial vows | Ein förmlich gesprochenes Versprechen mit Gewicht. | A formally spoken promise carrying weight.
+vertrag-als-unverbindliche-beziehungsvereinbarung | A contract as a non-binding relationship agreement | Ein schriftliches Dokument als Verständigung; rechtlich nicht durchsetzbar. | A written document as a shared understanding; not legally enforceable.
+jahrestags-oder-erneuerungsritual | Anniversary or renewal ritual | Die Vereinbarung wird zu einem festen Termin erneuert. | The agreement is renewed at a fixed date.
+oeffentliche-aber-unauffaellige-codes | Public but unobtrusive codes | Zeichen, die in der Öffentlichkeit funktionieren, ohne aufzufallen. | Signs that work in public without being noticed.
+privates-codewort-zur-aktivierung-der-dynamik | A private code word to activate the dynamic | Ein Wort, das die Dynamik ein- oder ausschaltet. | A word that switches the dynamic on or off.
+positionen-auf-kommando | Positions on command | Benannte Haltungen, die auf ein Stichwort eingenommen werden. | Named postures taken on a cue.
+bitte-und-dankesformeln | Formulas of please and thank you | Feste Höflichkeitsformeln als Teil des Protokolls. | Fixed polite formulas as part of the protocol.
+erlaubnisrituale | Rituals of permission | Ein festgelegter Weg, um etwas zu erbitten. | A set way of asking for something.
+beicht-oder-gestaendnisritual-als-rollenspiel | Confession ritual as role play | Ein inszeniertes Geständnis, klar als Rollenspiel gerahmt. | A staged confession, clearly framed as role play.

@@ -1,0 +1,15 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Gender and everyday equality |
+#GRP | rollenbilder | Gender roles in play
+#GRP | arbeitsteilung | Division of labour
+#GRP | reflexion | Reflection
+genderrollen-im-spiel | Gender roles in play | Ob die Dynamik gängige Geschlechterbilder aufgreift, umdreht oder ganz ohne sie auskommt. | Whether the dynamic picks up common gender images, inverts them, or does without them.
+feminisierung-ist-fuer-mich | Feminisation means, for me | Entscheidend ist nicht die Handlung, sondern ob sie als Aufwertung oder als Erniedrigung gemeint ist. | What matters is not the act but whether it is meant as elevation or as degradation.
+maskulinisierung-ist-fuer-mich | Masculinisation means, for me | Entscheidend ist nicht die Handlung, sondern ob sie als Aufwertung oder als Erniedrigung gemeint ist. | What matters is not the act but whether it is meant as elevation or as degradation.
+unterschied-zwischen-spiel-und-alltag | A difference between play and everyday life | Das Machtgefälle im Spiel ist gerade deshalb reizvoll, weil der Alltag anders aussieht. | The power imbalance in play appeals precisely because everyday life looks different. | Unterschied zwischen Spiel und Alltag
+gleichberechtigter-alltag | Everyday life on equal terms | Was im Spiel gilt, gilt außerhalb ausdrücklich nicht. | What applies in play expressly does not apply outside it. | Gleichberechtigter Alltag
+planung-und-organisation-der-szenen | Planning and organising scenes | Wer sucht Termine, besorgt Material und denkt den Ablauf durch. | Who finds the dates, gets the gear and thinks the scene through.
+aftercare-und-emotionale-nacharbeit | Aftercare and emotional follow-up | Wer trägt die emotionale Arbeit danach; sie verteilt sich oft unbemerkt ungleich. | Who carries the emotional work afterwards; it is often unevenly distributed without anyone noticing.
+verhandlung-und-initiative | Negotiation and initiative | Wer spricht Themen an und bringt Wünsche zur Sprache. | Who raises topics and puts wishes into words.
+bildung-und-recherche | Learning and research | Wer liest sich ein, besucht Workshops und bringt Wissen mit. | Who reads up, attends workshops and brings in knowledge.
+rollenbilder-die-ich-nicht-reproduzieren-will | Role images I do not want to reproduce | Freitext für das, was im Spiel nicht vorkommen soll, auch wenn es technisch möglich wäre. | Free text for what should not appear in play even though it would technically be possible. | Rollenbilder, die ich nicht reproduzieren will

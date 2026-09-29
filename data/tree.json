@@ -1,0 +1,2610 @@
+{
+ "themes": [
+  {
+   "id": "rahmen-sicherheit",
+   "title_de": "Rahmen und Sicherheit",
+   "title_en": "Framework and safety",
+   "order": 1,
+   "sections": [
+    {
+     "id": "risikomodell",
+     "title_de": "Risikomodell und Haltung",
+     "title_en": "Risk model and stance",
+     "type": "vereinbarung",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "leitbild",
+       "title_de": "Leitmodell",
+       "title_en": "Guiding framework"
+      },
+      {
+       "id": "voraussetzungen",
+       "title_de": "Voraussetzungen und Haltung",
+       "title_en": "Prerequisites and stance"
+      },
+      {
+       "id": "spuren",
+       "title_de": "Spuren",
+       "title_en": "Marks"
+      }
+     ],
+     "n": 9,
+     "noinherit": null
+    },
+    {
+     "id": "reale-machtverhaeltnisse",
+     "title_de": "Absicherung bei starker Machtabgabe",
+     "title_en": "Safeguards for far-reaching power exchange",
+     "type": "vereinbarung",
+     "note_de": "Diese Punkte sind persönliche Bedingungen, keine Angaben über eine bestimmte Beziehung: Was brauchst du, bevor du dich auf eine weitreichende Machtabgabe einlässt? Sie gelten unabhängig davon, mit wem.",
+     "note_en": "These are personal conditions, not statements about one particular relationship: what do you need before you enter into a far-reaching transfer of power? They apply regardless of who with.",
+     "groups": [
+      {
+       "id": "absicherung",
+       "title_de": "Absicherungen",
+       "title_en": "Safeguards"
+      }
+     ],
+     "n": 7,
+     "noinherit": null
+    },
+    {
+     "id": "sprache-wortliste",
+     "title_de": "Sprache und Wort-Whitelist",
+     "title_en": "Language and word whitelist",
+     "type": "vereinbarung",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "listen",
+       "title_de": "Wortlisten",
+       "title_en": "Word lists"
+      },
+      {
+       "id": "kategorien",
+       "title_de": "Kategorien der Herabsetzung",
+       "title_en": "Categories of degradation"
+      },
+      {
+       "id": "geltung",
+       "title_de": "Geltung",
+       "title_en": "Scope"
+      }
+     ],
+     "n": 15,
+     "noinherit": null
+    },
+    {
+     "id": "gender-alltag",
+     "title_de": "Gender und Alltagsverhältnis",
+     "title_en": "Gender and everyday equality",
+     "type": "vereinbarung",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "rollenbilder",
+       "title_de": "Rollenbilder im Spiel",
+       "title_en": "Gender roles in play"
+      },
+      {
+       "id": "arbeitsteilung",
+       "title_de": "Verteilung der Arbeit",
+       "title_en": "Division of labour"
+      },
+      {
+       "id": "reflexion",
+       "title_de": "Reflexion",
+       "title_en": "Reflection"
+      }
+     ],
+     "n": 10,
+     "noinherit": null
+    },
+    {
+     "id": "gesundheit-selbstbestimmung",
+     "title_de": "Gesundheit, Daten und Selbstbestimmung",
+     "title_en": "Health, data and self-determination",
+     "type": "vereinbarung",
+     "note_de": "Die Gegenstücke zu **Lifecoaching, Überwachung und Gesundheit**. Diese Punkte sind Vereinbarungen, keine Vorlieben: sie werden in keinem Modus gekürzt, nicht vererbt und lassen sich nicht überspringen.",
+     "note_en": "The counterparts to **Life coaching, monitoring and health**. These points are agreements, not preferences: they are never shortened in any mode, never inherited and cannot be skipped.",
+     "groups": [
+      {
+       "id": "medizin",
+       "title_de": "Medizinische Zuständigkeit",
+       "title_en": "Medical responsibility"
+      },
+      {
+       "id": "grenzwerte",
+       "title_de": "Grenzwerte und Vorgeschichte",
+       "title_en": "Limits and history"
+      },
+      {
+       "id": "messwerte",
+       "title_de": "Umgang mit Messwerten",
+       "title_en": "Handling measurements"
+      },
+      {
+       "id": "ueberwachungsgrenzen",
+       "title_de": "Grenzen der Überwachung",
+       "title_en": "Limits of monitoring"
+      },
+      {
+       "id": "auszeit",
+       "title_de": "Auszeit",
+       "title_en": "Time out"
+      }
+     ],
+     "n": 13,
+     "noinherit": null
+    },
+    {
+     "id": "sicherheit-verhandlung",
+     "title_de": "Sicherheit, Verhandlung und Grenzen",
+     "title_en": "Safety, negotiation and limits",
+     "type": "vereinbarung",
+     "note_de": "SSC, RACK und PRICK sind verbreitete Modelle, die sichere beziehungsweise risikobewusste, informierte und einvernehmliche Praxis betonen. Sie ersetzen weder Fachkunde noch individuelle Risikoabwägung oder das Recht.[^16][^17][^18]",
+     "note_en": "SSC, RACK and PRICK are common frameworks stressing safe, or risk-aware, informed and consensual practice. They replace neither expertise nor your own risk assessment nor the law.[^16][^17][^18]",
+     "groups": [
+      {
+       "id": "verhandlung",
+       "title_de": "Vorbesprechung und Grenzen",
+       "title_en": "Negotiation and limits"
+      },
+      {
+       "id": "gesundheit",
+       "title_de": "Gesundheit offenlegen",
+       "title_en": "Disclosing health"
+      },
+      {
+       "id": "stoppsignale",
+       "title_de": "Stoppsignale und Check-ins",
+       "title_en": "Stop signals and check-ins"
+      },
+      {
+       "id": "notfall",
+       "title_de": "Notfall und Ausrüstung",
+       "title_en": "Emergency and equipment"
+      },
+      {
+       "id": "rahmen-grenzen",
+       "title_de": "Rahmen, Spuren und Daten",
+       "title_en": "Setting, marks and data"
+      },
+      {
+       "id": "sexuelle-gesundheit",
+       "title_de": "Sexuelle Gesundheit",
+       "title_en": "Sexual health"
+      },
+      {
+       "id": "nachbereitung",
+       "title_de": "Nachbereitung und Widerruf",
+       "title_en": "Debrief and withdrawal"
+      },
+      {
+       "id": "neue-kontakte",
+       "title_de": "Neue Kontakte",
+       "title_en": "New contacts"
+      }
+     ],
+     "n": 33,
+     "noinherit": null
+    },
+    {
+     "id": "grenzen-gesundheit",
+     "title_de": "Grenzen, Gesundheit und Notizen",
+     "title_en": "Limits, health and notes",
+     "type": "text",
+     "note_de": "Freitext. Dieser Teil ist der wichtigste Teil des Fragebogens.",
+     "note_en": "Free text. This is the most important part of the questionnaire.",
+     "groups": [
+      {
+       "id": "grenzen",
+       "title_de": "Grenzen",
+       "title_en": "Limits"
+      },
+      {
+       "id": "risiken",
+       "title_de": "Risiken und Vorgeschichte",
+       "title_en": "Risks and history"
+      },
+      {
+       "id": "wuensche",
+       "title_de": "Bedingungen und Wünsche",
+       "title_en": "Conditions and wishes"
+      }
+     ],
+     "n": 12,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "grundlagen",
+   "title_de": "Grundlagen und Selbstbild",
+   "title_en": "Basics and self-image",
+   "order": 2,
+   "sections": [
+    {
+     "id": "orientierung-sexuell",
+     "title_de": "Sexuelle Orientierung",
+     "title_en": "Sexual orientation",
+     "type": "multi",
+     "note_de": "Mehrfachauswahl möglich, nichts ist verpflichtend. Begriffe überschneiden sich; wähle nur, was für dich passt.",
+     "note_en": "Pick as many as you like, or none. The terms overlap; choose only what fits you.",
+     "groups": [
+      {
+       "id": "haeufig",
+       "title_de": "Häufige Begriffe",
+       "title_en": "Common terms"
+      },
+      {
+       "id": "ace-spektrum",
+       "title_de": "Asexuelles Spektrum",
+       "title_en": "Asexual spectrum"
+      },
+      {
+       "id": "geschlechtsbezogen",
+       "title_de": "Geschlechtsbezogen",
+       "title_en": "Gender-related"
+      },
+      {
+       "id": "weitere",
+       "title_de": "Weitere Begriffe",
+       "title_en": "Further terms"
+      },
+      {
+       "id": "offen",
+       "title_de": "Offen",
+       "title_en": "Open"
+      }
+     ],
+     "n": 26,
+     "noinherit": null
+    },
+    {
+     "id": "orientierung-romantisch",
+     "title_de": "Romantische Orientierung",
+     "title_en": "Romantic orientation",
+     "type": "multi",
+     "note_de": "Romantische und sexuelle Anziehung können auseinanderfallen; deshalb hier getrennt.",
+     "note_en": "Romantic and sexual attraction can diverge, which is why they are asked separately.",
+     "groups": [
+      {
+       "id": "haeufig",
+       "title_de": "Häufige Begriffe",
+       "title_en": "Common terms"
+      },
+      {
+       "id": "aro-spektrum",
+       "title_de": "Aromantisches Spektrum",
+       "title_en": "Aromantic spectrum"
+      },
+      {
+       "id": "weitere",
+       "title_de": "Weitere Begriffe",
+       "title_en": "Further terms"
+      },
+      {
+       "id": "offen",
+       "title_de": "Offen",
+       "title_en": "Open"
+      }
+     ],
+     "n": 16,
+     "noinherit": null
+    },
+    {
+     "id": "geschlechterpraeferenzen",
+     "title_de": "Geschlechterbezogene Präferenzen",
+     "title_en": "Gender-related preferences",
+     "type": "multi",
+     "note_de": "Wen findest du anziehend? Mehrfachauswahl möglich.",
+     "note_en": "Who are you drawn to? Pick as many as apply.",
+     "groups": [
+      {
+       "id": "konkret",
+       "title_de": "Konkrete Anziehung",
+       "title_en": "Specific attraction"
+      },
+      {
+       "id": "uebergreifend",
+       "title_de": "Übergreifend",
+       "title_en": "Across genders"
+      },
+      {
+       "id": "keine",
+       "title_de": "Keine oder situationsabhängig",
+       "title_en": "None or situational"
+      }
+     ],
+     "n": 11,
+     "noinherit": null
+    },
+    {
+     "id": "grundorientierung",
+     "title_de": "Grundorientierung und Beziehung",
+     "title_en": "Basic orientation and relationship",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "stellenwert",
+       "title_de": "Stellenwert von Kink",
+       "title_en": "How much space kink takes"
+      },
+      {
+       "id": "reichweite",
+       "title_de": "Reichweite der Dynamik",
+       "title_en": "Reach of the dynamic"
+      },
+      {
+       "id": "beziehungsform",
+       "title_de": "Beziehungsform",
+       "title_en": "Relationship form"
+      },
+      {
+       "id": "szene-community",
+       "title_de": "Szene und Community",
+       "title_en": "Scene and community"
+      },
+      {
+       "id": "sichtbarkeit",
+       "title_de": "Sichtbarkeit",
+       "title_en": "Visibility"
+      }
+     ],
+     "n": 33,
+     "noinherit": "die Punkte sind Alternativen, keine gleichartige Menge — eine Bewertung für alle auf einmal wäre sinnlos"
+    },
+    {
+     "id": "rollen-identitaeten",
+     "title_de": "Rollen und Identitäten",
+     "title_en": "Roles and identities",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "kernrollen",
+       "title_de": "Kernrollen",
+       "title_en": "Core roles"
+      },
+      {
+       "id": "besitz",
+       "title_de": "Besitz- und Eigentumsrollen",
+       "title_en": "Ownership roles"
+      },
+      {
+       "id": "betreuung",
+       "title_de": "Betreuung, Training und Führung",
+       "title_en": "Care, training and guidance"
+      },
+      {
+       "id": "brat-primal",
+       "title_de": "Brat und Primal",
+       "title_en": "Brat and primal"
+      },
+      {
+       "id": "seil-keuschheit",
+       "title_de": "Seil und Keuschheit",
+       "title_en": "Rope and chastity"
+      },
+      {
+       "id": "material",
+       "title_de": "Materialrollen",
+       "title_en": "Material roles"
+      },
+      {
+       "id": "gender",
+       "title_de": "Genderbezogene Dominanz",
+       "title_en": "Gendered dominance"
+      },
+      {
+       "id": "weitere-rollen",
+       "title_de": "Weitere Rollenformen",
+       "title_en": "Further role forms"
+      },
+      {
+       "id": "begleitung",
+       "title_de": "Begleitende Rollen",
+       "title_en": "Coaching roles"
+      }
+     ],
+     "n": 45,
+     "noinherit": "Rollen sind Identitäten, keine abstufbare Menge — man ist eine Rolle oder nicht"
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "macht-kontrolle",
+   "title_de": "Macht und Kontrolle",
+   "title_en": "Power and control",
+   "order": 3,
+   "sections": [
+    {
+     "id": "machtgefaelle",
+     "title_de": "Machtgefälle und Kontrolle",
+     "title_en": "Power imbalance and control",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "befehle",
+       "title_de": "Befehle und Erlaubnis",
+       "title_en": "Orders and permission"
+      },
+      {
+       "id": "alltagskontrolle",
+       "title_de": "Kontrolle im Alltag",
+       "title_en": "Control in everyday life"
+      },
+      {
+       "id": "koerper-erlaubnis",
+       "title_de": "Körper, Sprache und Erlaubnis",
+       "title_en": "Body, speech and permission"
+      },
+      {
+       "id": "aufgaben",
+       "title_de": "Aufgaben und Konsequenzen",
+       "title_en": "Tasks and consequences"
+      },
+      {
+       "id": "umfang",
+       "title_de": "Umfang der Machtabgabe",
+       "title_en": "Extent of power exchange"
+      },
+      {
+       "id": "aktivierung",
+       "title_de": "Aktivierung und Begrenzung",
+       "title_en": "Activation and boundaries"
+      }
+     ],
+     "n": 35,
+     "noinherit": null
+    },
+    {
+     "id": "protokolle-rituale",
+     "title_de": "Protokolle und Rituale",
+     "title_en": "Protocols and rituals",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "anrede",
+       "title_de": "Anrede und Begrüßung",
+       "title_en": "Address and greeting"
+      },
+      {
+       "id": "haltungen",
+       "title_de": "Haltungen",
+       "title_en": "Postures"
+      },
+      {
+       "id": "service-protokoll",
+       "title_de": "Service-Protokolle",
+       "title_en": "Service protocols"
+      },
+      {
+       "id": "halsband",
+       "title_de": "Halsband und Leine",
+       "title_en": "Collar and leash"
+      },
+      {
+       "id": "signale",
+       "title_de": "Signalprotokolle",
+       "title_en": "Signal protocols"
+      },
+      {
+       "id": "berichte",
+       "title_de": "Berichte und Aufgaben",
+       "title_en": "Reports and tasks"
+      },
+      {
+       "id": "zeremonien",
+       "title_de": "Zeremonien und Codes",
+       "title_en": "Ceremonies and codes"
+      },
+      {
+       "id": "kommandos",
+       "title_de": "Kommandos und Formeln",
+       "title_en": "Commands and formulas"
+      }
+     ],
+     "n": 39,
+     "noinherit": null
+    },
+    {
+     "id": "service-hingabe",
+     "title_de": "Service und Hingabe",
+     "title_en": "Service and devotion",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "haushalt",
+       "title_de": "Haushalt und Versorgung",
+       "title_en": "Household and care"
+      },
+      {
+       "id": "koerperpflege",
+       "title_de": "Körperpflege und Ankleiden",
+       "title_en": "Grooming and dressing"
+      },
+      {
+       "id": "assistenz",
+       "title_de": "Assistenz und Rollenservice",
+       "title_en": "Assistance and service roles"
+      },
+      {
+       "id": "praesentation",
+       "title_de": "Präsentation und Möbelrollen",
+       "title_en": "Display and furniture roles"
+      },
+      {
+       "id": "verehrung",
+       "title_de": "Verehrung und Nachsorge",
+       "title_en": "Worship and aftercare"
+      },
+      {
+       "id": "gehorsam",
+       "title_de": "Gehorsam",
+       "title_en": "Obedience"
+      }
+     ],
+     "n": 38,
+     "noinherit": null
+    },
+    {
+     "id": "disziplin-training",
+     "title_de": "Disziplin und Training",
+     "title_en": "Discipline and training",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "training",
+       "title_de": "Training und Übung",
+       "title_en": "Training and practice"
+      },
+      {
+       "id": "schreibaufgaben",
+       "title_de": "Schreib- und Wiederholungsaufgaben",
+       "title_en": "Writing and repetition tasks"
+      },
+      {
+       "id": "konsequenzen",
+       "title_de": "Konsequenzen ohne Körperlichkeit",
+       "title_en": "Non-physical consequences"
+      },
+      {
+       "id": "koerperlich",
+       "title_de": "Körperliche und ernste Konsequenzen",
+       "title_en": "Physical and serious consequences"
+      },
+      {
+       "id": "rahmen-stufen",
+       "title_de": "Rollenspielrahmen und Stufen",
+       "title_en": "Role play settings and levels"
+      }
+     ],
+     "n": 28,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "lifecoaching",
+   "title_de": "Lifecoaching, Überwachung und Gesundheit",
+   "title_en": "Life coaching, monitoring and health",
+   "order": 4,
+   "sections": [
+    {
+     "id": "lifecoaching-accountability",
+     "title_de": "Lifecoaching und Accountability",
+     "title_en": "Life coaching and accountability",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "rahmen-begleitung",
+       "title_de": "Rahmen der Begleitung",
+       "title_en": "Scope of the coaching"
+      },
+      {
+       "id": "meldung",
+       "title_de": "Meldung und Rückblick",
+       "title_en": "Reporting and review"
+      },
+      {
+       "id": "ziele",
+       "title_de": "Ziele und Fortschritt",
+       "title_en": "Goals and progress"
+      },
+      {
+       "id": "rueckfall",
+       "title_de": "Rückfall und Konsequenz",
+       "title_en": "Slips and consequences"
+      }
+     ],
+     "n": 18,
+     "noinherit": null
+    },
+    {
+     "id": "ueberwachung-nachweis",
+     "title_de": "Überwachung und Nachweis",
+     "title_en": "Monitoring and proof",
+     "type": "scale",
+     "note_de": "Laufende Überwachung ist etwas anderes als eine Szene: sie endet nicht von selbst. Aufzeichnung, Speicherung, Weitergabe und Löschung brauchen getrennte, konkrete Vereinbarungen; unbefugte Intimaufnahmen können strafbar sein.[^7][^8] Die Grenzen dazu stehen in **Rahmen und Sicherheit**.",
+     "note_en": "Ongoing monitoring is not the same as a scene: it does not end by itself. Recording, storage, sharing and deletion each need their own concrete agreement; unauthorised intimate recordings can be a criminal offence.[^7][^8] The limits for this are in **Framework and safety**.",
+     "groups": [
+      {
+       "id": "laufend",
+       "title_de": "Laufende Überwachung",
+       "title_en": "Ongoing monitoring"
+      },
+      {
+       "id": "nachweise",
+       "title_de": "Nachweise",
+       "title_en": "Proof"
+      },
+      {
+       "id": "ortdaten",
+       "title_de": "Ort und Gerätedaten",
+       "title_en": "Location and device data"
+      },
+      {
+       "id": "grenzen-ueberwachung",
+       "title_de": "Grenzen der Überwachung",
+       "title_en": "Limits of monitoring"
+      }
+     ],
+     "n": 19,
+     "noinherit": null
+    },
+    {
+     "id": "ernaehrung-sport-koerperdaten",
+     "title_de": "Ernährung, Sport und Körperdaten",
+     "title_en": "Food, exercise and body data",
+     "type": "scale",
+     "note_de": "Gesundheitsbezogene Kontrolle wirkt langsam und ist von außen schwer zu erkennen. Ernährungs- und Gewichtskontrolle kann eine Essstörung verstärken oder verdecken, und die Dynamik liefert die Rechtfertigung gleich mit. Gemeldete Werte wie Blutdruck oder Blutzucker ersetzen keine ärztliche Behandlung und können sie verzögern. Die Gegenstücke dazu stehen in **Rahmen und Sicherheit** unter *Gesundheit, Daten und Selbstbestimmung* und werden in keinem Modus gekürzt.",
+     "note_en": "Health-related control works slowly and is hard to see from outside. Control over food and weight can reinforce or conceal an eating disorder, and the dynamic supplies the justification along with it. Reported values such as blood pressure or blood sugar do not replace medical treatment and can delay it. The counterparts are in **Framework and safety** under *Health, data and self-determination*, and they are never shortened.",
+     "groups": [
+      {
+       "id": "ernaehrung",
+       "title_de": "Ernährung",
+       "title_en": "Food"
+      },
+      {
+       "id": "bewegung",
+       "title_de": "Bewegung und Schlaf",
+       "title_en": "Exercise and sleep"
+      },
+      {
+       "id": "messwerte-melden",
+       "title_de": "Messwerte melden",
+       "title_en": "Reporting measurements"
+      },
+      {
+       "id": "rahmen-gesundheit",
+       "title_de": "Rahmen",
+       "title_en": "Framing"
+      }
+     ],
+     "n": 20,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Begleitung im Alltag: tägliche Meldung, Aufgaben mit Nachweis, Kamera zu vereinbarten Zeiten, Absprachen über Ernährung, Sport und Gewicht.",
+   "ekat_en": "Guidance in everyday life: daily check-ins, tasks with proof, a camera during agreed hours, agreements about food, exercise and weight."
+  },
+  {
+   "id": "bondage",
+   "title_de": "Bondage und Bewegungseinschränkung",
+   "title_en": "Bondage and restriction of movement",
+   "order": 5,
+   "sections": [
+    {
+     "id": "bondage-allgemein",
+     "title_de": "Bondage allgemein",
+     "title_en": "Bondage in general",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "positionen",
+       "title_de": "Fesselpositionen",
+       "title_en": "Tie positions"
+      },
+      {
+       "id": "fixierungsorte",
+       "title_de": "Fixierungsorte und Möbelpunkte",
+       "title_en": "Anchor points and furniture"
+      },
+      {
+       "id": "manschetten",
+       "title_de": "Manschetten, Ketten und Armbinder",
+       "title_en": "Cuffs, chains and armbinders"
+      },
+      {
+       "id": "material-ganzkoerper",
+       "title_de": "Material und Ganzkörper",
+       "title_en": "Materials and full body"
+      },
+      {
+       "id": "vorrichtungen",
+       "title_de": "Möbel und Vorrichtungen",
+       "title_en": "Furniture and frames"
+      },
+      {
+       "id": "spielarten",
+       "title_de": "Spielarten und Rahmen",
+       "title_en": "Variants and framing"
+      }
+     ],
+     "n": 44,
+     "noinherit": null
+    },
+    {
+     "id": "seil-shibari",
+     "title_de": "Seil und Shibari",
+     "title_en": "Rope and shibari",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "harness",
+       "title_de": "Seilfesselung und Harness",
+       "title_en": "Rope ties and harnesses"
+      },
+      {
+       "id": "suspension",
+       "title_de": "Bodenszene und Suspension",
+       "title_en": "Floor work and suspension"
+      },
+      {
+       "id": "predicament",
+       "title_de": "Predicament und Aufnahmen",
+       "title_en": "Predicament and photography"
+      },
+      {
+       "id": "stil",
+       "title_de": "Stil und Bedeutung des Seils",
+       "title_en": "Style and meaning of rope"
+      },
+      {
+       "id": "spezialformen",
+       "title_de": "Selbstbondage und Performance",
+       "title_en": "Self-bondage and performance"
+      }
+     ],
+     "n": 24,
+     "noinherit": null
+    },
+    {
+     "id": "bewegung-immobilisierung",
+     "title_de": "Bewegung und Immobilisierung",
+     "title_en": "Movement and immobilisation",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "koerperlich",
+       "title_de": "Mit dem eigenen Körper festhalten",
+       "title_en": "Holding with your own body"
+      },
+      {
+       "id": "einwickeln",
+       "title_de": "Einwickeln und Cocooning",
+       "title_en": "Wrapping and cocooning"
+      },
+      {
+       "id": "posen",
+       "title_de": "Posen halten",
+       "title_en": "Holding poses"
+      },
+      {
+       "id": "verbote",
+       "title_de": "Bewegungs- und Sprechverbote",
+       "title_en": "Movement and speech bans"
+      },
+      {
+       "id": "fuehrung",
+       "title_de": "Geführt und getragen werden",
+       "title_en": "Being led and carried"
+      },
+      {
+       "id": "kampf",
+       "title_de": "Ringen, Fangen und Capture",
+       "title_en": "Wrestling, chasing and capture"
+      }
+     ],
+     "n": 23,
+     "noinherit": null
+    },
+    {
+     "id": "sinnesentzug",
+     "title_de": "Sinnesentzug",
+     "title_en": "Sensory deprivation",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "sicht",
+       "title_de": "Sicht",
+       "title_en": "Sight"
+      },
+      {
+       "id": "gehoer",
+       "title_de": "Gehör",
+       "title_en": "Hearing"
+      },
+      {
+       "id": "weitere-sinne",
+       "title_de": "Weitere Sinne",
+       "title_en": "Other senses"
+      },
+      {
+       "id": "kombination",
+       "title_de": "Kombination und Ungewissheit",
+       "title_en": "Combination and uncertainty"
+      }
+     ],
+     "n": 14,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "sinne",
+   "title_de": "Sinne und Empfindung",
+   "title_en": "Senses and sensation",
+   "order": 6,
+   "sections": [
+    {
+     "id": "sanftes-sensation-play",
+     "title_de": "Sanftes Sensation Play",
+     "title_en": "Gentle sensation play",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "haut",
+       "title_de": "Hände, Nägel und leichte Reize",
+       "title_en": "Hands, nails and light touch"
+      },
+      {
+       "id": "materialien",
+       "title_de": "Materialien auf der Haut",
+       "title_en": "Materials on the skin"
+      },
+      {
+       "id": "oel-massage",
+       "title_de": "Öl und Massage",
+       "title_en": "Oil and massage"
+      },
+      {
+       "id": "temperatur",
+       "title_de": "Leichte Temperaturreize",
+       "title_en": "Light temperature play"
+      },
+      {
+       "id": "rhythmus",
+       "title_de": "Erwartung und Wechsel",
+       "title_en": "Anticipation and contrast"
+      },
+      {
+       "id": "stimme-duft",
+       "title_de": "Stimme, Geräusch und Duft",
+       "title_en": "Voice, sound and scent"
+      },
+      {
+       "id": "bemalung",
+       "title_de": "Textur und Bemalung",
+       "title_en": "Texture and body paint"
+      }
+     ],
+     "n": 34,
+     "noinherit": null
+    },
+    {
+     "id": "temperatur-wachs",
+     "title_de": "Temperatur, Wachs und Materialien",
+     "title_en": "Temperature, wax and materials",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "warm-kalt",
+       "title_de": "Warm-kalt-Wechsel",
+       "title_en": "Hot and cold contrast"
+      },
+      {
+       "id": "wachs",
+       "title_de": "Kerzenwachs",
+       "title_en": "Candle wax"
+      },
+      {
+       "id": "gel-wasser",
+       "title_de": "Gel, Wärme und Wasser",
+       "title_en": "Gel, warmth and water"
+      },
+      {
+       "id": "messy-material",
+       "title_de": "Schlamm, Farbe und Texturen",
+       "title_en": "Mud, paint and textures"
+      },
+      {
+       "id": "nass",
+       "title_de": "Wasser und nasse Stoffe",
+       "title_en": "Water and wet fabric"
+      }
+     ],
+     "n": 19,
+     "noinherit": null
+    },
+    {
+     "id": "druck-klemmen",
+     "title_de": "Druck, Klemmen und körpernahe Reize",
+     "title_en": "Pressure, clamps and close contact",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "hand",
+       "title_de": "Kneifen, Beißen und Ziehen",
+       "title_en": "Pinching, biting and pulling"
+      },
+      {
+       "id": "griff-druck",
+       "title_de": "Griff, Gewicht und Druck",
+       "title_en": "Grip, weight and pressure"
+      },
+      {
+       "id": "klemmen",
+       "title_de": "Klemmen und Gewichte",
+       "title_en": "Clamps and weights"
+      },
+      {
+       "id": "werkzeuge",
+       "title_de": "Werkzeuge mit Nervenreiz",
+       "title_en": "Nerve-stimulating tools"
+      },
+      {
+       "id": "fuss-impact",
+       "title_de": "Fußsohlen und Trampling",
+       "title_en": "Soles and trampling"
+      }
+     ],
+     "n": 25,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Was auf der Haut passiert: Streicheln, Kitzeln, Feder und Seide, Eis und warmes Wachs, Kneifen, Beißen, Haarziehen, Klemmen. Nicht gemeint ist Sinnesentzug — Augenbinde und Kapuze stehen unter Fesseln.",
+   "ekat_en": "What happens on the skin: stroking, tickling, feather and silk, ice and warm wax, pinching, biting, hair pulling, clamps. This is not sensory deprivation — blindfold and hood are under Bondage."
+  },
+  {
+   "id": "schmerz-impact",
+   "title_de": "Schmerz und Impact",
+   "title_en": "Pain and impact",
+   "order": 7,
+   "sections": [
+    {
+     "id": "impact-play",
+     "title_de": "Impact Play",
+     "title_en": "Impact play",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "spanking",
+       "title_de": "Spanking",
+       "title_en": "Spanking"
+      },
+      {
+       "id": "paddel-strap",
+       "title_de": "Paddel, Strap und Gürtel",
+       "title_en": "Paddles, straps and belts"
+      },
+      {
+       "id": "flogger-gerte",
+       "title_de": "Flogger, Gerte und Peitsche",
+       "title_en": "Floggers, crops and whips"
+      },
+      {
+       "id": "dramaturgie",
+       "title_de": "Ablauf und Dramaturgie",
+       "title_en": "Pacing and structure"
+      },
+      {
+       "id": "spuren-zonen",
+       "title_de": "Spuren und Körperzonen",
+       "title_en": "Marks and body areas"
+      }
+     ],
+     "n": 36,
+     "noinherit": null
+    },
+    {
+     "id": "schmerz-masochismus",
+     "title_de": "Schmerz und Masochismus",
+     "title_en": "Pain and masochism",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "intensitaet",
+       "title_de": "Intensität",
+       "title_en": "Intensity"
+      },
+      {
+       "id": "qualitaet",
+       "title_de": "Qualität des Reizes",
+       "title_en": "Quality of sensation"
+      },
+      {
+       "id": "funktion",
+       "title_de": "Funktion des Schmerzes",
+       "title_en": "What pain is for"
+      },
+      {
+       "id": "verknuepfung",
+       "title_de": "Verknüpfung mit Emotion",
+       "title_en": "Linked to emotion"
+      },
+      {
+       "id": "richtung",
+       "title_de": "Richtung",
+       "title_en": "Direction"
+      },
+      {
+       "id": "reaktion",
+       "title_de": "Reaktion und Ausdruck",
+       "title_en": "Reaction and expression"
+      },
+      {
+       "id": "steuerung",
+       "title_de": "Steuerung der Intensität",
+       "title_en": "Controlling intensity"
+      }
+     ],
+     "n": 28,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "psyche-sprache",
+   "title_de": "Psyche, Sprache und Bewusstsein",
+   "title_en": "Mind, language and altered states",
+   "order": 8,
+   "sections": [
+    {
+     "id": "verbale-dominanz",
+     "title_de": "Verbale Dominanz und Demütigung",
+     "title_en": "Verbal dominance and humiliation",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "ton",
+       "title_de": "Ton und Ansprache",
+       "title_en": "Tone and address"
+      },
+      {
+       "id": "lob",
+       "title_de": "Lob und Anerkennung",
+       "title_en": "Praise and recognition"
+      },
+      {
+       "id": "sprache",
+       "title_de": "Dirty Talk und Besitzsprache",
+       "title_en": "Dirty talk and possessive language"
+      },
+      {
+       "id": "neckerei",
+       "title_de": "Necknamen, Spott und Teasing",
+       "title_en": "Pet names, mockery and teasing"
+      },
+      {
+       "id": "koerper-leistung",
+       "title_de": "Körper- und leistungsbezogene Demütigung",
+       "title_en": "Body- and performance-based humiliation"
+      },
+      {
+       "id": "blossstellung",
+       "title_de": "Bloßstellung und Bewertung",
+       "title_en": "Exposure and grading"
+      },
+      {
+       "id": "ignorieren-bitte",
+       "title_de": "Ignorieren und Bittrituale",
+       "title_en": "Ignoring and rituals of asking"
+      },
+      {
+       "id": "rahmen-demuetigung",
+       "title_de": "Rahmen und Grenzen der Demütigung",
+       "title_en": "Framing and limits of humiliation"
+      }
+     ],
+     "n": 35,
+     "noinherit": null
+    },
+    {
+     "id": "psychologisches-fear",
+     "title_de": "Psychologisches und Fear Play",
+     "title_en": "Psychological and fear play",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "spannung",
+       "title_de": "Erwartung und Ungewissheit",
+       "title_en": "Anticipation and uncertainty"
+      },
+      {
+       "id": "gefangenschaft",
+       "title_de": "Gefangenschaft und Erpressung",
+       "title_en": "Captivity and blackmail"
+      },
+      {
+       "id": "bedrohung-horror",
+       "title_de": "Bedrohung, Jagd und Horror",
+       "title_en": "Threat, hunt and horror"
+      },
+      {
+       "id": "autoritaet",
+       "title_de": "Autorität und Mindfuck",
+       "title_en": "Authority and mindfuck"
+      },
+      {
+       "id": "hypnose-kontrolle",
+       "title_de": "Hypnose und Kontrollverlust",
+       "title_en": "Hypnosis and loss of control"
+      },
+      {
+       "id": "mutproben",
+       "title_de": "Mutproben und peinliche Aufgaben",
+       "title_en": "Dares and embarrassing tasks"
+      }
+     ],
+     "n": 30,
+     "noinherit": null
+    },
+    {
+     "id": "manipulation-spielmittel",
+     "title_de": "Manipulation als Spielmittel",
+     "title_en": "Manipulation as a means of play",
+     "type": "scale",
+     "note_de": "Diese Techniken stammen aus der Forschung zu Zwangskontrolle, narzisstischem Missbrauch und Hochkontroll-Gruppen. Als Spielmittel sind sie verhandelbar — sie unterscheiden sich aber grundsätzlich von anderen Praktiken: **sie richten sich gegen die Fähigkeit, die eigene Lage zu beurteilen.** Wer nicht bemerkt, dass etwas geschieht, kann kein Safeword sagen. Ein Safeword allein reicht hier also nicht; es braucht Nachbesprechung, zeitlichen Abstand und möglichst jemanden außerhalb. Die Grenzen dazu stehen am Ende dieser Sektion und werden im Einstiegsmodus immer gezeigt. Sie hier zu benennen hat zwei Zwecke: sie verhandelbar zu machen — und sie beim Namen zu kennen, falls sie einem außerhalb einer Szene begegnen.",
+     "note_en": "These techniques come from research on coercive control, narcissistic abuse and high-control groups. As a means of play they are negotiable, but they differ from other practices in kind: **they are aimed at your ability to judge your own situation.** Someone who does not notice that something is happening cannot use a safeword. A safeword alone is therefore not enough here; it takes a debrief, time, and ideally someone outside. The limits are at the end of this section and are always shown in getting-started mode. Naming them here serves two purposes: to make them negotiable, and to know them by name should you meet them outside a scene.",
+     "groups": [
+      {
+       "id": "wahrnehmung",
+       "title_de": "Wahrnehmung und Erinnerung",
+       "title_en": "Perception and memory"
+      },
+      {
+       "id": "bindung",
+       "title_de": "Bindung durch Unberechenbarkeit",
+       "title_en": "Attachment through unpredictability"
+      },
+      {
+       "id": "massstaebe",
+       "title_de": "Unerreichbare Maßstäbe",
+       "title_en": "Unreachable standards"
+      },
+      {
+       "id": "dritte",
+       "title_de": "Dritte Personen",
+       "title_en": "Third parties"
+      },
+      {
+       "id": "gruppe",
+       "title_de": "Gruppe, Sprache und Zugehörigkeit",
+       "title_en": "Group, language and belonging"
+      },
+      {
+       "id": "verpflichtung",
+       "title_de": "Verpflichtung und Eskalation",
+       "title_en": "Commitment and escalation"
+      },
+      {
+       "id": "grenzen-manipulation",
+       "title_de": "Grenzen",
+       "title_en": "Limits"
+      }
+     ],
+     "n": 39,
+     "noinherit": null
+    },
+    {
+     "id": "blackmail-blossstellung",
+     "title_de": "Blackmail und Bloßstellung",
+     "title_en": "Blackmail and exposure",
+     "type": "scale",
+     "note_de": "Einvernehmliches Blackmail-Spiel lebt von einer Drohung. Das macht es zu einem Sonderfall: **die Drohung richtet sich gegen die Möglichkeit, das Spiel zu beenden.** Wer erpresst wird, kann schlecht abbrechen — genau darin liegt der Reiz, und genau darin liegt die Gefahr. Ein Safeword allein trägt hier nicht; es braucht Regeln darüber, was überhaupt gehalten wird, und jemanden außerhalb. Die Grenzen dazu stehen am Ende der Sektion. Rechtlich: eine vorher erteilte Zustimmung macht eine später ernst gemeinte Drohung nicht zulässig (Erpressung § 253 StGB, Nötigung § 240 StGB), und intime Aufnahmen weiterzugeben ist auch dann strafbar, wenn ihre Entstehung einvernehmlich war (§ 201a StGB). Keine Rechtsberatung.",
+     "note_en": "Consensual blackmail play lives off a threat. That makes it a special case: **the threat is aimed at your ability to end the game.** Someone being blackmailed can hardly call it off — that is exactly the appeal, and exactly the danger. A safeword alone does not carry it here; it needs rules about what is held at all, and someone outside. The limits are at the end of this section. Legally: consent given beforehand does not make a threat meant in earnest lawful (extortion § 253, coercion § 240 German Criminal Code), and passing on intimate recordings is punishable even when they were made consensually (§ 201a). Not legal advice.",
+     "groups": [
+      {
+       "id": "material",
+       "title_de": "Was gehalten wird",
+       "title_en": "What is held"
+      },
+      {
+       "id": "drohung",
+       "title_de": "Womit gedroht wird",
+       "title_en": "What is threatened"
+      },
+      {
+       "id": "spielformen",
+       "title_de": "Spielformen",
+       "title_en": "Forms of play"
+      },
+      {
+       "id": "reichweite",
+       "title_de": "Reichweite",
+       "title_en": "Reach"
+      },
+      {
+       "id": "grenzen-blackmail",
+       "title_de": "Grenzen",
+       "title_en": "Limits"
+      }
+     ],
+     "n": 31,
+     "noinherit": null
+    },
+    {
+     "id": "objektifizierung",
+     "title_de": "Objektifizierung und Besitzsymbolik",
+     "title_en": "Objectification and ownership symbols",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "symbole",
+       "title_de": "Besitzsymbole und Markierungen",
+       "title_en": "Ownership symbols and marks"
+      },
+      {
+       "id": "praesentation",
+       "title_de": "Präsentation und Möbelrollen",
+       "title_en": "Display and furniture roles"
+      },
+      {
+       "id": "verleih",
+       "title_de": "Verpackung, Geschenk und Verleih",
+       "title_en": "Wrapping, gifting and lending"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    },
+    {
+     "id": "schlaf-bewusstsein",
+     "title_de": "Schlaf, Bewusstsein und Subspace",
+     "title_en": "Sleep, consciousness and subspace",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "schlaf",
+       "title_de": "Schlafbezogene Themen",
+       "title_en": "Sleep-related themes"
+      },
+      {
+       "id": "hypnose",
+       "title_de": "Hypnose und Trance",
+       "title_en": "Hypnosis and trance"
+      },
+      {
+       "id": "meditation",
+       "title_de": "Meditation",
+       "title_en": "Meditation"
+      },
+      {
+       "id": "spaces",
+       "title_de": "Subspace, Domspace, Check-in",
+       "title_en": "Subspace, domspace, check-in"
+      }
+     ],
+     "n": 16,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "sexualitaet",
+   "title_de": "Sexualität",
+   "title_en": "Sexuality",
+   "order": 9,
+   "sections": [
+    {
+     "id": "orgasmus-lustkontrolle",
+     "title_de": "Orgasmus- und Lustkontrolle",
+     "title_en": "Orgasm and pleasure control",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "erlaubnis",
+       "title_de": "Masturbation und Erlaubnis",
+       "title_en": "Masturbation and permission"
+      },
+      {
+       "id": "edging",
+       "title_de": "Edging und Orgasmussteuerung",
+       "title_en": "Edging and orgasm control"
+      },
+      {
+       "id": "keuschheit",
+       "title_de": "Abstinenz und Keuschheit",
+       "title_en": "Abstinence and chastity"
+      },
+      {
+       "id": "tease",
+       "title_de": "Tease, Denial und Belohnung",
+       "title_en": "Tease, denial and reward"
+      },
+      {
+       "id": "konsumkontrolle",
+       "title_de": "Kontrolle über Konsum und Zeigen",
+       "title_en": "Control over consumption and display"
+      },
+      {
+       "id": "pensum",
+       "title_de": "Pensum und Dauerzustände",
+       "title_en": "Quotas and sustained states"
+      }
+     ],
+     "n": 38,
+     "noinherit": null
+    },
+    {
+     "id": "sexuelle-praktiken",
+     "title_de": "Allgemeine sexuelle Praktiken",
+     "title_en": "General sexual practices",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "kuessen",
+       "title_de": "Küssen",
+       "title_en": "Kissing"
+      },
+      {
+       "id": "manuell-oral",
+       "title_de": "Manuelle und orale Stimulation",
+       "title_en": "Manual and oral stimulation"
+      },
+      {
+       "id": "penetration",
+       "title_de": "Penetration und Reiben",
+       "title_en": "Penetration and rubbing"
+      },
+      {
+       "id": "toys",
+       "title_de": "Toys",
+       "title_en": "Toys"
+      },
+      {
+       "id": "spezialgeraete",
+       "title_de": "Spezialinteressen und Geräte",
+       "title_en": "Specialist interests and machines"
+      },
+      {
+       "id": "rahmen-nackt",
+       "title_de": "Rahmen, Bekleidung und Nacktheit",
+       "title_en": "Framing, clothing and nudity"
+      }
+     ],
+     "n": 53,
+     "noinherit": null
+    },
+    {
+     "id": "genital-intimfokus",
+     "title_de": "Genital- und Intimfokus",
+     "title_en": "Genital and intimate focus",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "verehrung",
+       "title_de": "Genital- und Brustverehrung",
+       "title_en": "Genital and breast worship"
+      },
+      {
+       "id": "genital-play",
+       "title_de": "Genital- und Brustspiel",
+       "title_en": "Genital and breast play"
+      },
+      {
+       "id": "koerperpflege",
+       "title_de": "Inspektion, Rasur und Piercings",
+       "title_en": "Inspection, shaving and piercings"
+      },
+      {
+       "id": "fortpflanzung",
+       "title_de": "Flüssigkeits- und Breeding-Fantasien",
+       "title_en": "Fluid and breeding fantasies"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "fetische",
+   "title_de": "Fetische",
+   "title_en": "Fetishes",
+   "order": 10,
+   "sections": [
+    {
+     "id": "koerperverehrung",
+     "title_de": "Körperverehrung und Körperteilfetische",
+     "title_en": "Body worship and body part fetishes",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "ganzkoerper",
+       "title_de": "Ganzkörper",
+       "title_en": "Whole body"
+      },
+      {
+       "id": "fuesse",
+       "title_de": "Füße und Schuhwerk",
+       "title_en": "Feet and footwear"
+      },
+      {
+       "id": "beine-rumpf",
+       "title_de": "Beine, Gesäß und Bauch",
+       "title_en": "Legs, buttocks and belly"
+      },
+      {
+       "id": "oberkoerper",
+       "title_de": "Brust und Rücken",
+       "title_en": "Chest and back"
+      },
+      {
+       "id": "arme-haende",
+       "title_de": "Achseln, Arme und Hände",
+       "title_en": "Armpits, arms and hands"
+      },
+      {
+       "id": "kopf",
+       "title_de": "Haare, Gesicht und Mund",
+       "title_en": "Hair, face and mouth"
+      },
+      {
+       "id": "stimme-geruch",
+       "title_de": "Stimme, Duft und Schweiß",
+       "title_en": "Voice, scent and sweat"
+      },
+      {
+       "id": "koerperbild",
+       "title_de": "Körperbau und Körperbild",
+       "title_en": "Build and body image"
+      }
+     ],
+     "n": 49,
+     "noinherit": null
+    },
+    {
+     "id": "kleidung-material",
+     "title_de": "Kleidung und Materialfetische",
+     "title_en": "Clothing and material fetishes",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "materialien",
+       "title_de": "Materialien",
+       "title_en": "Materials"
+      },
+      {
+       "id": "kleidungsstuecke",
+       "title_de": "Kleidungsstücke und Ganzkörper",
+       "title_en": "Garments and full-body wear"
+      },
+      {
+       "id": "masken-handschuhe",
+       "title_de": "Masken und Handschuhe",
+       "title_en": "Masks and gloves"
+      },
+      {
+       "id": "schuhe",
+       "title_de": "Schuhe",
+       "title_en": "Shoes"
+      },
+      {
+       "id": "uniformen",
+       "title_de": "Uniformen und Kostüme",
+       "title_en": "Uniforms and costumes"
+      },
+      {
+       "id": "transformation",
+       "title_de": "Präsentation und Transformation",
+       "title_en": "Presentation and transformation"
+      },
+      {
+       "id": "inszenierung",
+       "title_de": "Rahmen und Inszenierung",
+       "title_en": "Framing and staging"
+      }
+     ],
+     "n": 60,
+     "noinherit": null
+    },
+    {
+     "id": "objekt-ausruestung",
+     "title_de": "Objekt- und Ausrüstungsfetische",
+     "title_en": "Object and equipment fetishes",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "bondage-objekte",
+       "title_de": "Seile, Ketten und Fesselwerk",
+       "title_en": "Rope, chain and restraints"
+      },
+      {
+       "id": "moebel",
+       "title_de": "Möbel und Vorrichtungen",
+       "title_en": "Furniture and frames"
+      },
+      {
+       "id": "spiegel-kamera",
+       "title_de": "Spiegel, Kamera und Licht",
+       "title_en": "Mirrors, cameras and light"
+      },
+      {
+       "id": "kleidungsobjekte",
+       "title_de": "Schuhwerk, Masken und Uniformen",
+       "title_en": "Footwear, masks and uniforms"
+      },
+      {
+       "id": "requisiten",
+       "title_de": "Requisiten und Ästhetik",
+       "title_en": "Props and aesthetics"
+      },
+      {
+       "id": "attrappen-zeit",
+       "title_de": "Attrappen, Messerästhetik, Zeit",
+       "title_en": "Replicas, blade aesthetics, time"
+      }
+     ],
+     "n": 32,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Dinge und Körperteile, die für sich erregend sind: Leder, Latex, Dessous, Schuhe und Stiefel, Füße, Seile, Halsbänder.",
+   "ekat_en": "Objects and body parts that are arousing in themselves: leather, latex, lingerie, shoes and boots, feet, rope, collars."
+  },
+  {
+   "id": "rollenspiel",
+   "title_de": "Rollenspiel und Identitätswechsel",
+   "title_en": "Role play and changing identity",
+   "order": 11,
+   "sections": [
+    {
+     "id": "rollenspiele",
+     "title_de": "Rollenspiele allgemein",
+     "title_en": "Role play in general",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "beruf-bildung",
+       "title_de": "Beruf und Ausbildung",
+       "title_en": "Work and education"
+      },
+      {
+       "id": "medizinisch",
+       "title_de": "Medizinisch und forschend",
+       "title_en": "Medical and research"
+      },
+      {
+       "id": "autoritaet-staat",
+       "title_de": "Autorität, Recht und Militär",
+       "title_en": "Authority, law and military"
+      },
+      {
+       "id": "historisch-macht",
+       "title_de": "Historische Machtverhältnisse",
+       "title_en": "Historical power relations"
+      },
+      {
+       "id": "mythisch",
+       "title_de": "Gottheiten, Kult und Kreaturen",
+       "title_en": "Deities, cults and creatures"
+      },
+      {
+       "id": "maschine-kunst",
+       "title_de": "Maschine, Puppe und Modell",
+       "title_en": "Machine, doll and model"
+      },
+      {
+       "id": "begegnung",
+       "title_de": "Begegnungen und Dienstrollen",
+       "title_en": "Encounters and service roles"
+      },
+      {
+       "id": "inszenierung",
+       "title_de": "Auktion, Initiation und Bund",
+       "title_en": "Auction, initiation and secret orders"
+      },
+      {
+       "id": "genre",
+       "title_de": "Genre und Szenario",
+       "title_en": "Genre and setting"
+      }
+     ],
+     "n": 51,
+     "noinherit": null
+    },
+    {
+     "id": "ageplay-caregiver",
+     "title_de": "Adult Ageplay und Caregiver-Dynamiken",
+     "title_en": "Adult age play and caregiver dynamics",
+     "type": "scale",
+     "note_de": "Alle Beteiligten und dargestellten Personen müssen eindeutig Erwachsene sein. Der Abschnitt beschreibt erwachsene Rollen, Fürsorge, Regression oder Fantasie und keine reale Beteiligung Minderjähriger.",
+     "note_en": "Everyone involved and everyone portrayed must unmistakably be an adult. This section describes adult roles, caregiving, regression or fantasy, and never any real involvement of minors.",
+     "groups": [
+      {
+       "id": "rollen-ageplay",
+       "title_de": "Rollen",
+       "title_en": "Roles"
+      },
+      {
+       "id": "rituale",
+       "title_de": "Rituale und Routinen",
+       "title_en": "Rituals and routines"
+      },
+      {
+       "id": "requisiten",
+       "title_de": "Requisiten",
+       "title_en": "Props"
+      },
+      {
+       "id": "betreuung",
+       "title_de": "Betreuungsstil",
+       "title_en": "Caregiving style"
+      },
+      {
+       "id": "fantasien",
+       "title_de": "Altersdifferenz-Fantasien",
+       "title_en": "Age-difference fantasies"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    },
+    {
+     "id": "pet-play",
+     "title_de": "Pet Play und Tierrollen",
+     "title_en": "Pet play and animal roles",
+     "type": "scale",
+     "note_de": "Pet Play bezeichnet menschliches Rollenspiel zwischen Erwachsenen; reale Tiere werden nicht sexuell einbezogen.",
+     "note_en": "Pet play means human role play between adults; real animals are never sexually involved.",
+     "groups": [
+      {
+       "id": "tierarten",
+       "title_de": "Tierarten",
+       "title_en": "Animal types"
+      },
+      {
+       "id": "dynamik",
+       "title_de": "Handler-, Owner- und Trainerrolle",
+       "title_en": "Handler, owner and trainer"
+      },
+      {
+       "id": "ausstattung",
+       "title_de": "Halsband, Geschirr und Namen",
+       "title_en": "Collar, harness and names"
+      },
+      {
+       "id": "verhalten",
+       "title_de": "Verhalten, Tricks und Pflege",
+       "title_en": "Behaviour, tricks and grooming"
+      },
+      {
+       "id": "kulisse",
+       "title_de": "Kulisse und Vorführung",
+       "title_en": "Setting and showing"
+      },
+      {
+       "id": "pony-gear",
+       "title_de": "Pony Gear und Dressur",
+       "title_en": "Pony gear and dressage"
+      }
+     ],
+     "n": 30,
+     "noinherit": null
+    },
+    {
+     "id": "primal-kampf",
+     "title_de": "Primal, Kampf und Jagd",
+     "title_en": "Primal, fighting and hunting",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "primal",
+       "title_de": "Primal und Raufen",
+       "title_en": "Primal and roughhousing"
+      },
+      {
+       "id": "dominieren",
+       "title_de": "Körperlich dominieren",
+       "title_en": "Physically dominating"
+      },
+      {
+       "id": "jagd",
+       "title_de": "Jagd und Beute",
+       "title_en": "Hunt and prey"
+      },
+      {
+       "id": "tierisch",
+       "title_de": "Knurren, Beißen und Geruch",
+       "title_en": "Growling, biting and scent"
+      },
+      {
+       "id": "kampf-technik",
+       "title_de": "Capture, Widerstand und Technik",
+       "title_en": "Capture, resistance and technique"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    },
+    {
+     "id": "cnc",
+     "title_de": "Consensual Non-Consent und Widerstandsrollen",
+     "title_en": "Consensual non-consent and resistance roles",
+     "type": "scale",
+     "note_de": "Dieser Abschnitt meint ausschließlich **vorher detailliert verhandeltes Rollenspiel zwischen Erwachsenen**. Ein Safeword oder eindeutiges nonverbales Signal muss die Szene sofort beenden; tatsächlicher erkennbarer entgegenstehender Wille ist keine Spielhandlung.[^3]",
+     "note_en": "This section means **role play between adults, negotiated in detail beforehand**, and nothing else. A safeword or unambiguous non-verbal signal must end the scene at once; a genuine, recognisable unwillingness is not part of the play.[^3]",
+     "groups": [
+      {
+       "id": "widerstand",
+       "title_de": "Gespielter Widerstand",
+       "title_en": "Played resistance"
+      },
+      {
+       "id": "inszenierungen",
+       "title_de": "Inszenierte Szenarien",
+       "title_en": "Staged scenarios"
+      },
+      {
+       "id": "rahmen-cnc",
+       "title_de": "Rahmen und Aktivierung",
+       "title_en": "Framing and activation"
+      },
+      {
+       "id": "sleep-free-use",
+       "title_de": "Sleep-Play und Free Use",
+       "title_en": "Sleep play and free use"
+      }
+     ],
+     "n": 20,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "In eine Rolle schlüpfen: Chef und Angestellte, Lehrer und erwachsener Schüler, Pet Play wie Puppy oder Kitten, fürsorgliche Caregiver-Dynamiken, Raufen und Jagdspiele.",
+   "ekat_en": "Slipping into a role: boss and employee, teacher and adult student, pet play such as puppy or kitten, caring caregiver dynamics, wrestling and chase games."
+  },
+  {
+   "id": "oeffentlichkeit-medien",
+   "title_de": "Öffentlichkeit, Medien und Gruppe",
+   "title_en": "Visibility, media and groups",
+   "order": 12,
+   "sections": [
+    {
+     "id": "voyeurismus-oeffentlichkeit",
+     "title_de": "Voyeurismus, Exhibition und Öffentlichkeit",
+     "title_en": "Voyeurism, exhibition and visibility",
+     "type": "scale",
+     "note_de": "Zulässig gemeint sind nur private oder zugelassene Konstellationen, in denen **alle anwesenden oder wahrnehmenden Personen** zugestimmt haben. Öffentlicher Raum, Fenster, Webcam, Nachbarn und zufällige Passanten sind keine zustimmenden Mitspielenden.[^6]",
+     "note_en": "What is meant here are private or licensed settings in which **everyone present or able to perceive it** has consented. Public space, windows, webcams, neighbours and passers-by are not consenting participants.[^6]",
+     "groups": [
+      {
+       "id": "beobachten",
+       "title_de": "Beobachten und beobachtet werden",
+       "title_en": "Watching and being watched"
+      },
+      {
+       "id": "zeigen",
+       "title_de": "Sich zeigen",
+       "title_en": "Showing yourself"
+      },
+      {
+       "id": "veranstaltung",
+       "title_de": "Veranstaltungen und Playpartys",
+       "title_en": "Events and play parties"
+      },
+      {
+       "id": "kulisse",
+       "title_de": "Öffentlichkeitsfantasie in privater Kulisse",
+       "title_en": "Public fantasy in a private setting"
+      },
+      {
+       "id": "alltag-diskret",
+       "title_de": "Diskretes im Alltag",
+       "title_en": "Discreet in everyday life"
+      },
+      {
+       "id": "buehne",
+       "title_de": "Clubs, Bühne und Modeling",
+       "title_en": "Clubs, stage and modelling"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    },
+    {
+     "id": "foto-video-audio",
+     "title_de": "Foto, Video und Audio",
+     "title_en": "Photo, video and audio",
+     "type": "scale",
+     "note_de": "Aufnahme, Speicherung, Cloud-Upload, Bearbeitung, Vorführung und Veröffentlichung benötigen getrennte, konkrete Vereinbarungen. Unbefugte Intimaufnahmen oder Weitergaben können strafbar sein, während die Veröffentlichung von Bildnissen grundsätzlich die Einwilligung der abgebildeten Person erfordert.[^8][^7]",
+     "note_en": "Recording, storage, cloud upload, editing, showing and publishing each need their own concrete agreement. Unauthorised intimate recordings or sharing can be a criminal offence, and publishing someone's likeness generally requires their consent.[^8][^7]",
+     "groups": [
+      {
+       "id": "aufnahmen",
+       "title_de": "Arten von Aufnahmen",
+       "title_en": "Kinds of recording"
+      },
+      {
+       "id": "live-text",
+       "title_de": "Live, Text und Audio",
+       "title_en": "Live, text and audio"
+      },
+      {
+       "id": "sichtbarkeit",
+       "title_de": "Sichtbarkeit und Anonymität",
+       "title_en": "Visibility and anonymity"
+      },
+      {
+       "id": "datenschutz",
+       "title_de": "Aufbewahrung und Freigabe",
+       "title_en": "Storage and release"
+      },
+      {
+       "id": "professionell",
+       "title_de": "Professionelle Produktion",
+       "title_en": "Professional production"
+      }
+     ],
+     "n": 25,
+     "noinherit": null
+    },
+    {
+     "id": "gruppen-konstellationen",
+     "title_de": "Gruppen- und Community-Konstellationen",
+     "title_en": "Group and community constellations",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "konstellationen",
+       "title_de": "Konstellationen",
+       "title_en": "Constellations"
+      },
+      {
+       "id": "mehrpersonenhaushalt",
+       "title_de": "Harem und Mehrpersonenhaushalt",
+       "title_en": "Harem and multi-person households"
+      },
+      {
+       "id": "teilnahme",
+       "title_de": "Zusehen und Mitmachen",
+       "title_en": "Watching and joining in"
+      },
+      {
+       "id": "lehren",
+       "title_de": "Demo, Workshop und Mentoring",
+       "title_en": "Demos, workshops and mentoring"
+      },
+      {
+       "id": "orte",
+       "title_de": "Partys, Clubs und Dungeon Monitor",
+       "title_en": "Parties, clubs and dungeon monitors"
+      },
+      {
+       "id": "gruppennachsorge",
+       "title_de": "Gruppennachsorge und Ritual",
+       "title_en": "Group aftercare and ritual"
+      }
+     ],
+     "n": 25,
+     "noinherit": null
+    },
+    {
+     "id": "digital-fernsteuerung",
+     "title_de": "Digital, Fernsteuerung und Kommunikation",
+     "title_en": "Digital, remote control and communication",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "fern-ds",
+       "title_de": "D/s über Distanz",
+       "title_en": "D/s at a distance"
+      },
+      {
+       "id": "remote-toys",
+       "title_de": "Remote Toys und Keuschheit",
+       "title_en": "Remote toys and chastity"
+      },
+      {
+       "id": "gemeinsam-digital",
+       "title_de": "Tagebuch, Wunschliste, Check-ins",
+       "title_en": "Journal, wish list, check-ins"
+      },
+      {
+       "id": "standortdaten",
+       "title_de": "Standort- und Aktivitätsdaten",
+       "title_en": "Location and activity data"
+      },
+      {
+       "id": "virtuell",
+       "title_de": "Online, VR und Games",
+       "title_en": "Online, VR and games"
+      },
+      {
+       "id": "digitale-sicherheit",
+       "title_de": "Digitale Sicherheit",
+       "title_en": "Digital safety"
+      }
+     ],
+     "n": 29,
+     "noinherit": null
+    },
+    {
+     "id": "geld-findom",
+     "title_de": "Geld, Geschenke und FinDom",
+     "title_en": "Money, gifts and findom",
+     "type": "scale",
+     "note_de": "Zulässig gemeint sind transparente, freiwillige und finanziell tragbare Vereinbarungen. Reale Täuschung, Drohung, Erpressung, Ausnutzung von Abhängigkeit oder Zugriff ohne aktuelle Erlaubnis sind keine legitimen BDSM-Praktiken.",
+     "note_en": "What is meant here are transparent, voluntary and financially bearable arrangements. Real deception, threats, extortion, exploiting dependency, or access without current permission are not legitimate BDSM practices.",
+     "groups": [
+      {
+       "id": "geschenke",
+       "title_de": "Geschenke und Tribute",
+       "title_en": "Gifts and tributes"
+      },
+      {
+       "id": "findom",
+       "title_de": "FinDom und Budgetspiele",
+       "title_en": "Findom and budget play"
+      },
+      {
+       "id": "bezahlt",
+       "title_de": "Bezahlte Angebote",
+       "title_en": "Paid services"
+      },
+      {
+       "id": "schutzgrenzen",
+       "title_de": "Finanzielle Schutzgrenzen",
+       "title_en": "Financial safeguards"
+      }
+     ],
+     "n": 22,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Wer noch dabei ist und was festgehalten wird: beobachten und beobachtet werden, Fotos und Videos, Sexting, mehr als zwei Personen, D/s über Distanz, Geschenke und Geld.",
+   "ekat_en": "Who else is present and what gets recorded: watching and being watched, photos and video, sexting, more than two people, D/s at a distance, gifts and money."
+  },
+  {
+   "id": "koerper-medizin",
+   "title_de": "Körper, Nahrung und Medizinisches",
+   "title_en": "Body, food and medical",
+   "order": 13,
+   "sections": [
+    {
+     "id": "food-wet-messy",
+     "title_de": "Food, Wet and Messy",
+     "title_en": "Food, wet and messy",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "fuettern",
+       "title_de": "Essen und Füttern",
+       "title_en": "Eating and feeding"
+      },
+      {
+       "id": "lebensmittel",
+       "title_de": "Lebensmittel auf der Haut",
+       "title_en": "Food on the skin"
+      },
+      {
+       "id": "messy",
+       "title_de": "Wasser, Schaum und Schlamm",
+       "title_en": "Water, foam and mud"
+      },
+      {
+       "id": "nass",
+       "title_de": "Nasse Kleidung und Bad",
+       "title_en": "Wet clothing and bathing"
+      },
+      {
+       "id": "rahmen-food",
+       "title_de": "Rahmen und Verträglichkeit",
+       "title_en": "Framing and tolerance"
+      }
+     ],
+     "n": 29,
+     "noinherit": null
+    },
+    {
+     "id": "koerperfluessigkeiten",
+     "title_de": "Körperflüssigkeiten und Ausscheidungen",
+     "title_en": "Body fluids and excretion",
+     "type": "scale",
+     "note_de": "Dieser Bereich ist hygienisch und medizinisch besonders kontextabhängig. Die Aufnahme in die Liste ist keine Aussage, dass jede Variante sicher oder rechtlich unproblematisch wäre.",
+     "note_en": "This area is especially dependent on context, both hygienically and medically. Its inclusion in the list is not a statement that every variant is safe or legally unproblematic.",
+     "groups": [
+      {
+       "id": "koerpereigen",
+       "title_de": "Speichel, Schweiß und Tränen",
+       "title_en": "Saliva, sweat and tears"
+      },
+      {
+       "id": "sekrete",
+       "title_de": "Ejakulat und Sekret",
+       "title_en": "Ejaculate and secretions"
+      },
+      {
+       "id": "urin-windel",
+       "title_de": "Urin und Windeln",
+       "title_en": "Urine and diapers"
+      },
+      {
+       "id": "invasiv-blut",
+       "title_de": "Einlauf, Scat und Blut",
+       "title_en": "Enemas, scat and blood"
+      },
+      {
+       "id": "barriere",
+       "title_de": "Barriere und sterile Ästhetik",
+       "title_en": "Barriers and sterile aesthetics"
+      }
+     ],
+     "n": 19,
+     "noinherit": null
+    },
+    {
+     "id": "medizinisches",
+     "title_de": "Medizinisches und klinisches Rollenspiel",
+     "title_en": "Medical and clinical role play",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "untersuchung",
+       "title_de": "Untersuchungssituation",
+       "title_en": "Examination"
+      },
+      {
+       "id": "ausstattung",
+       "title_de": "Ausstattung und Kulisse",
+       "title_en": "Equipment and setting"
+      },
+      {
+       "id": "invasiv-med",
+       "title_de": "Invasive Spezialinteressen",
+       "title_en": "Invasive specialist interests"
+      },
+      {
+       "id": "rollenspiel-med",
+       "title_de": "Rollenspielrahmen",
+       "title_en": "Role play settings"
+      },
+      {
+       "id": "fantasien-med",
+       "title_de": "Intim- und Hilflosigkeitsfantasien",
+       "title_en": "Intimate and helplessness fantasies"
+      }
+     ],
+     "n": 27,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Essen, Körperflüssigkeiten und Arztspiel: füttern und gefüttert werden, Essen vom Körper, Speichel, Untersuchungssituationen.",
+   "ekat_en": "Food, body fluids and doctor play: feeding and being fed, food off the body, saliva, examination scenarios."
+  },
+  {
+   "id": "hochrisiko",
+   "title_de": "Hochrisiko",
+   "title_en": "High risk",
+   "order": 14,
+   "sections": [
+    {
+     "id": "nadeln-blut",
+     "title_de": "Nadeln, Blut und Markierungen",
+     "title_en": "Needles, blood and marking",
+     "type": "scale",
+     "note_de": "Diese Punkte sind **Hochrisiko-Interessen** und keine Anleitungen. Infektion, Gefäß- oder Nervenschaden, Narbenbildung und die rechtlichen Grenzen der Einwilligung erfordern besondere Fachkunde; konkrete Lebensgefahr ist nicht durch Einwilligung legitimiert.[^4][^5]",
+     "note_en": "These points are **high-risk interests**, not instructions. Infection, damage to vessels or nerves, scarring and the legal limits of consent all call for particular expertise; a concrete danger to life is not legitimised by consent.[^4][^5]",
+     "groups": [
+      {
+       "id": "nadeln",
+       "title_de": "Nadeln und Blut",
+       "title_en": "Needles and blood"
+      },
+      {
+       "id": "schneiden",
+       "title_de": "Schneiden und Kratzen",
+       "title_en": "Cutting and scratching"
+      },
+      {
+       "id": "markierung",
+       "title_de": "Temporäre Markierungen",
+       "title_en": "Temporary marks"
+      },
+      {
+       "id": "dauerhaft",
+       "title_de": "Dauerhafte Eingriffe",
+       "title_en": "Permanent modification"
+      }
+     ],
+     "n": 23,
+     "noinherit": null
+    },
+    {
+     "id": "elektro-feuer-atem",
+     "title_de": "Elektro, Feuer und Atemkontrolle",
+     "title_en": "Electricity, fire and breath control",
+     "type": "scale",
+     "note_de": "Diese Interessen haben ein überdurchschnittliches Verletzungs- oder Todesrisiko. Atemkontrolle, Halskompression, Strom, Flammen und starke Hitze sind rechtlich nicht pauschal durch Zustimmung gedeckt; insbesondere eine objektiv konkrete Todesgefahr überschreitet nach der BGH-Rechtsprechung jedenfalls die Grenze.[^5]",
+     "note_en": "These interests carry an above-average risk of injury or death. Breath control, neck compression, electricity, flames and strong heat are not covered by consent across the board; in particular, an objectively concrete danger to life crosses the line under German case law.[^5]",
+     "groups": [
+      {
+       "id": "elektro",
+       "title_de": "Elektro",
+       "title_en": "Electricity"
+      },
+      {
+       "id": "feuer",
+       "title_de": "Feuer und Hitze",
+       "title_en": "Fire and heat"
+      },
+      {
+       "id": "rauch",
+       "title_de": "Rauch und Zigarrenästhetik",
+       "title_en": "Smoke and cigar aesthetics"
+      },
+      {
+       "id": "atem",
+       "title_de": "Atemkontrolle",
+       "title_en": "Breath control"
+      }
+     ],
+     "n": 21,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  },
+  {
+   "id": "fantasie",
+   "title_de": "Fantasie und Imagination",
+   "title_en": "Fantasy and imagination",
+   "order": 15,
+   "sections": [
+    {
+     "id": "reine-fantasie",
+     "title_de": "Reine Fantasie ohne Umsetzung",
+     "title_en": "Pure fantasy, not to be enacted",
+     "type": "scale",
+     "note_de": "Diese Rubrik ermöglicht, erregende Gedanken von realen Wünschen zu trennen. Auch bei legalen Fantasien kann die reale Umsetzung ungewollt, unsicher oder rechtswidrig sein; `F` ist daher eine eigenständige und sinnvolle Präferenz.",
+     "note_en": "This section lets you separate arousing thoughts from real wishes. Even with lawful fantasies, acting them out can be unwanted, unsafe or unlawful; treating fantasy as its own category is therefore a meaningful preference in its own right.",
+     "groups": [
+      {
+       "id": "medien",
+       "title_de": "Fantasie in Medien",
+       "title_en": "Fantasy in media"
+      },
+      {
+       "id": "macht-fantasie",
+       "title_de": "Macht und Kontrollverlust",
+       "title_en": "Power and loss of control"
+      },
+      {
+       "id": "szenarien",
+       "title_de": "Imaginierte Szenarien",
+       "title_en": "Imagined scenarios"
+      },
+      {
+       "id": "genre-fantasie",
+       "title_de": "Transformation und Genre",
+       "title_en": "Transformation and genre"
+      },
+      {
+       "id": "grenze",
+       "title_de": "Grenze zur Umsetzung",
+       "title_en": "The line to enactment"
+      }
+     ],
+     "n": 25,
+     "noinherit": null
+    }
+   ],
+   "ekat": true,
+   "ekat_de": "Was nur im Kopf oder in Worten stattfindet: Geschichten lesen und erzählen, Audio-Erotik, Fantasien, die bewusst nicht umgesetzt werden.",
+   "ekat_en": "What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised."
+  },
+  {
+   "id": "atmosphaere-aftercare",
+   "title_de": "Atmosphäre, Aftercare und Ausrüstung",
+   "title_en": "Atmosphere, aftercare and gear",
+   "order": 16,
+   "sections": [
+    {
+     "id": "aftercare",
+     "title_de": "Aftercare und Recovery",
+     "title_en": "Aftercare and recovery",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "naehe",
+       "title_de": "Nähe und Distanz",
+       "title_en": "Closeness and distance"
+      },
+      {
+       "id": "versorgung",
+       "title_de": "Wärme, Trinken und Essen",
+       "title_en": "Warmth, drink and food"
+      },
+      {
+       "id": "pflege-after",
+       "title_de": "Körperpflege und Wundversorgung",
+       "title_en": "Body care and wound care"
+      },
+      {
+       "id": "beruhigung",
+       "title_de": "Musik, Humor und Zuspruch",
+       "title_en": "Music, humour and reassurance"
+      },
+      {
+       "id": "rueckkehr",
+       "title_de": "Rückkehr in den Alltag",
+       "title_en": "Returning to everyday life"
+      },
+      {
+       "id": "nachkontakt",
+       "title_de": "Nachkontakt und Debrief",
+       "title_en": "Follow-up and debrief"
+      },
+      {
+       "id": "drop",
+       "title_de": "Drop-Prävention und Hilfe",
+       "title_en": "Drop prevention and help"
+      }
+     ],
+     "n": 32,
+     "noinherit": null
+    },
+    {
+     "id": "rahmen-atmosphaere",
+     "title_de": "Rahmen- und Atmosphärenvorlieben",
+     "title_en": "Setting and atmosphere preferences",
+     "type": "scale",
+     "note_de": "",
+     "note_en": "",
+     "groups": [
+      {
+       "id": "stimmung",
+       "title_de": "Stimmung",
+       "title_en": "Mood"
+      },
+      {
+       "id": "aesthetik",
+       "title_de": "Ästhetik und Stil",
+       "title_en": "Aesthetics and style"
+      },
+      {
+       "id": "orte",
+       "title_de": "Orte",
+       "title_en": "Places"
+      },
+      {
+       "id": "sinnesrahmen",
+       "title_de": "Licht, Ton, Duft und Kamera",
+       "title_en": "Light, sound, scent and camera"
+      },
+      {
+       "id": "ablauf",
+       "title_de": "Ablauf und Dramaturgie",
+       "title_en": "Pacing and structure"
+      }
+     ],
+     "n": 43,
+     "noinherit": null
+    },
+    {
+     "id": "toys",
+     "title_de": "Toys und Ausrüstung",
+     "title_en": "Toys and gear",
+     "type": "toys",
+     "note_de": "Freie Liste. Mit Plus hinzufügen, Einträge werden strukturiert in JSON und Markdown exportiert.",
+     "note_en": "A free list. Add entries with the plus button; they are exported in structured form in both JSON and Markdown.",
+     "groups": [],
+     "n": 0,
+     "noinherit": null
+    }
+   ],
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": ""
+  }
+ ],
+ "choices": {
+  "leitmodell": [
+   {
+    "v": "ssc",
+    "label_de": "Safe, Sane, Consensual (SSC)",
+    "label_en": "Safe, Sane, Consensual (SSC)",
+    "desc_de": "Die älteste der Formeln, aus der US-Szene der 1980er. Eine Praktik soll sicher, bei klarem Verstand und einvernehmlich sein. Kritisiert wird, dass „sicher\" und „vernünftig\" Urteile von außen sind — viele etablierte Praktiken sind nie vollständig sicher.",
+    "desc_en": "The oldest of the formulas, from the US scene of the 1980s. A practice should be safe, undertaken with a clear mind, and consensual. The criticism is that „safe\" and „sane\" are judgements made from outside — many established practices are never entirely safe."
+   },
+   {
+    "v": "rack",
+    "label_de": "Risk-Aware Consensual Kink (RACK)",
+    "label_en": "Risk-Aware Consensual Kink (RACK)",
+    "desc_de": "Die Antwort auf diese Kritik. Nicht „sicher\", sondern: das konkrete Risiko ist bekannt, benannt und bewusst getragen. Verlangt, sich vorher kundig zu machen, statt Risiko wegzudefinieren.",
+    "desc_en": "The answer to that criticism. Not „safe\", but: the specific risk is known, named and knowingly carried. It asks you to inform yourself beforehand rather than define the risk away."
+   },
+   {
+    "v": "prick",
+    "label_de": "Personal Responsibility, Informed, Consensual Kink (PRICK)",
+    "label_en": "Personal Responsibility, Informed, Consensual Kink (PRICK)",
+    "desc_de": "Wie RACK, betont zusätzlich die Eigenverantwortung jeder beteiligten Person. Niemand gibt die Verantwortung für sich vollständig ab, auch nicht die folgende Seite.",
+    "desc_en": "Like RACK, but additionally stressing each person's own responsibility. Nobody hands responsibility for themselves over entirely, including the following side."
+   },
+   {
+    "v": "ccc",
+    "label_de": "Committed, Compassionate, Consensual (CCC)",
+    "label_en": "Committed, Compassionate, Consensual (CCC)",
+    "desc_de": "Stellt die Beziehung über die einzelne Szene: Verbindlichkeit und Fürsorge gelten auch danach. Weniger Risikoformel als Haltung zum Miteinander.",
+    "desc_en": "Puts the relationship above the single scene: commitment and care apply afterwards too. Less a risk formula than a stance on how you treat each other."
+   },
+   {
+    "v": "eigen",
+    "label_de": "eigenes Modell",
+    "label_en": "my own framework",
+    "desc_de": "Keines der Modelle trifft es — du beschreibst deine Haltung selbst.",
+    "desc_en": "None of the models fits — you describe your own stance."
+   },
+   {
+    "v": "unklar",
+    "label_de": "noch nicht festgelegt",
+    "label_en": "not settled yet",
+    "desc_de": "Du hast dich noch nicht entschieden — eine ehrliche und im Gespräch brauchbare Angabe.",
+    "desc_en": "You have not decided — an honest answer, and a usable one in conversation."
+   }
+  ],
+  "spuren": [
+   {
+    "v": "nie",
+    "label_de": "nie",
+    "label_en": "never",
+    "desc_de": "Nichts, was jemand sehen könnte — auch nicht unter Kleidung.",
+    "desc_en": "Nothing anyone could see, not even under clothing."
+   },
+   {
+    "v": "vereinbart",
+    "label_de": "nur ausdrücklich vereinbart",
+    "label_en": "only when expressly agreed",
+    "desc_de": "Spuren sind möglich, aber jedes Mal vorher abgesprochen.",
+    "desc_en": "Marks are possible, but agreed each time beforehand."
+   },
+   {
+    "v": "egal",
+    "label_de": "unproblematisch",
+    "label_en": "not a problem",
+    "desc_de": "Sichtbare Spuren sind für dich kein Thema.",
+    "desc_en": "Visible marks are not an issue for you."
+   }
+  ],
+  "spuren-bleibend": [
+   {
+    "v": "nie",
+    "label_de": "nie",
+    "label_en": "never",
+    "desc_de": "Nichts, was dauerhaft bleibt: keine Narben, keine Brandzeichen.",
+    "desc_en": "Nothing that stays: no scars, no brands."
+   },
+   {
+    "v": "vereinbart",
+    "label_de": "nur ausdrücklich vereinbart",
+    "label_en": "only when expressly agreed",
+    "desc_de": "Dauerhafte Spuren sind denkbar, aber nur nach eigener, ausdrücklicher Vereinbarung.",
+    "desc_en": "Permanent marks are conceivable, but only under their own express agreement."
+   }
+  ],
+  "herabsetzung": [
+   {
+    "v": "nie",
+    "label_de": "nie",
+    "label_en": "never",
+    "desc_de": "Diese Kategorie kommt nicht vor, in keiner Form und in keinem Wort.",
+    "desc_en": "This category does not come up, in any form and in no word."
+   },
+   {
+    "v": "whitelist",
+    "label_de": "nur nach Wort-Whitelist",
+    "label_en": "only from the agreed word list",
+    "desc_de": "Nur die Worte, die du oben ausdrücklich freigegeben hast.",
+    "desc_en": "Only the words you expressly released above."
+   },
+   {
+    "v": "offen",
+    "label_de": "offen",
+    "label_en": "open",
+    "desc_de": "Du setzt hier keine Kategoriegrenze — die Wortlisten oben gelten trotzdem.",
+    "desc_en": "You set no category boundary here — the word lists above still apply."
+   }
+  ],
+  "genderrollen": [
+   {
+    "v": "verstaerken",
+    "label_de": "verstärken",
+    "label_en": "reinforce them",
+    "desc_de": "Die Dynamik greift gängige Geschlechterbilder auf und spitzt sie zu.",
+    "desc_en": "The dynamic picks up common gender images and sharpens them."
+   },
+   {
+    "v": "umkehren",
+    "label_de": "spielerisch umkehren",
+    "label_en": "playfully invert them",
+    "desc_de": "Der Reiz liegt darin, die erwartete Verteilung umzudrehen.",
+    "desc_en": "The appeal lies in reversing the expected distribution."
+   },
+   {
+    "v": "irrelevant",
+    "label_de": "irrelevant",
+    "label_en": "irrelevant",
+    "desc_de": "Geschlechterbilder spielen in deinem Spiel keine Rolle.",
+    "desc_en": "Gender images play no part in your play."
+   },
+   {
+    "v": "unklar",
+    "label_de": "weiß ich nicht",
+    "label_en": "I don't know",
+    "desc_de": "Du hast dazu noch keine Haltung — auch das ist eine Antwort.",
+    "desc_en": "You have no position on this yet — that is an answer too."
+   }
+  ],
+  "aufwertung": [
+   {
+    "v": "aufwertung",
+    "label_de": "als Aufwertung",
+    "label_en": "as elevation",
+    "desc_de": "Gemeint als etwas Schönes, Begehrtes, Erhebendes.",
+    "desc_en": "Meant as something beautiful, desired, elevating."
+   },
+   {
+    "v": "herabsetzung",
+    "label_de": "als Herabsetzung",
+    "label_en": "as degradation",
+    "desc_de": "Gemeint als Erniedrigung — der Reiz liegt genau darin.",
+    "desc_en": "Meant as degradation — that is exactly where the appeal lies."
+   },
+   {
+    "v": "beides",
+    "label_de": "je nach Rahmen",
+    "label_en": "depends on the framing",
+    "desc_de": "Beides möglich — die Bedeutung entsteht erst in der Szene.",
+    "desc_en": "Either is possible — the meaning arises in the scene."
+   },
+   {
+    "v": "nicht",
+    "label_de": "nicht Teil des Spiels",
+    "label_en": "not part of my play",
+    "desc_de": "Kommt bei dir nicht vor.",
+    "desc_en": "It does not come up for you."
+   }
+  ],
+  "wer": [
+   {
+    "v": "ich",
+    "label_de": "ich",
+    "label_en": "me",
+    "desc_de": "Diese Arbeit liegt bei dir.",
+    "desc_en": "This work sits with you."
+   },
+   {
+    "v": "gegenueber",
+    "label_de": "Gegenüber",
+    "label_en": "my counterpart",
+    "desc_de": "Diese Arbeit liegt bei der anderen Person.",
+    "desc_en": "This work sits with the other person."
+   },
+   {
+    "v": "geteilt",
+    "label_de": "geteilt",
+    "label_en": "shared",
+    "desc_de": "Ihr teilt euch die Arbeit.",
+    "desc_en": "You share the work."
+   },
+   {
+    "v": "offen",
+    "label_de": "noch offen",
+    "label_en": "still open",
+    "desc_de": "Ungeklärt — und damit ein Gesprächspunkt.",
+    "desc_en": "Unsettled — and therefore something to talk about."
+   }
+  ]
+ }
+}

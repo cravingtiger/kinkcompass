@@ -1,0 +1,74 @@
+<body data-view="form">
+<div class="printbar">
+  <button id="pB1" onclick="window.print()">Drucken</button>
+  <button id="pB2" onclick="togglePrint(false)">Zurück</button>
+  <label><input type="checkbox" id="pOnlyRated" checked onchange="renderPrint()"> <span id="pL1">nur bewertete Punkte</span></label>
+  <label><input type="checkbox" id="pExpl" onchange="renderPrint()"> <span id="pL2">Erklärungen mitdrucken</span></label>
+</div>
+
+<header class="top">
+ <div class="topin">
+  <div class="titlerow">
+    <h1>KinkCompass</h1>
+    <span class="sub" id="subline">läuft vollständig lokal · Speicherung nur in diesem Browser</span>
+  </div>
+  <div class="bar">
+    <select id="mode" onchange="setMode(this.value)" title="Umfang"></select>
+    <select id="lang" onchange="setLang(this.value)"><option value="de">Deutsch</option><option value="en">English</option></select>
+    <input type="text" id="q" placeholder="Suchen …" oninput="doSearch()">
+    <button class="btn" id="bGuide" onclick="setView('guide')">Geführt</button>
+    <button class="btn" id="bList" onclick="setView('form')">Liste</button>
+    <button class="btn" id="bPrio" onclick="setView('prio')">Prioritäten</button>
+    <button class="btn" id="bEval" onclick="setView('eval')">Auswertung</button>
+    <button class="btn" id="bCmp" onclick="setView('cmp')">Vergleich</button>
+    <button class="btn" id="bPrint" onclick="togglePrint(true)">Druck</button>
+    <button class="btn" id="bExpl" onclick="toggleAllExpl()">Erklärungen</button>
+    <button class="btn" id="bLegend" onclick="toggleLegend()">Skala</button>
+    <button class="btn pri" onclick="exportMD()">Markdown</button>
+    <button class="btn pri" onclick="exportJSON()">JSON</button>
+    <button class="btn" id="bLoad" onclick="document.getElementById('imp').click()">Laden</button>
+    <input type="file" id="imp" accept=".json,.md,.markdown,.txt" style="display:none" onchange="importFile(this)">
+    <button class="btn" id="bReset" onclick="resetAll()">Zurücksetzen</button>
+  </div>
+  <div class="progwrap">
+    <div class="prog"><b id="lblProgKink">Neigungen</b>
+      <div class="pbar"><i class="clar" id="pbKinkC"></i><i class="set" id="pbKinkS"></i></div>
+      <div class="pinfo" id="piKink"></div></div>
+    <div class="prog"><b id="lblProgSafe">Rahmen und Sicherheit</b>
+      <div class="pbar"><i class="clar" id="pbSafeC"></i><i class="set" id="pbSafeS"></i></div>
+      <div class="pinfo" id="piSafe"></div></div>
+  </div>
+ </div>
+</header>
+
+<div class="wrap">
+  <div class="intro" id="storagewarn" style="display:none;border-left-color:var(--gold)"></div>
+  <div class="intro" id="versionwarn" style="display:none;border-left-color:var(--c-sehnsucht)"></div>
+  <div class="intro" id="intro"></div>
+
+  <div class="meta">
+    <h2 id="lblMeta">Angaben zur Person</h2>
+    <div class="grid2">
+      <div class="f"><label id="lblAlias">Pseudonym oder Name</label><input type="text" data-meta="alias"></div>
+      <div class="f"><label id="lblDate">Datum</label><input type="date" data-meta="date"></div>
+      <div class="f"><label id="lblSelf">Rolle / Selbstbeschreibung</label><input type="text" data-meta="self" placeholder="z. B. Switch, eher submissiv, unerfahren"></div>
+      <div class="f"><label id="lblVer">Version / Kontext</label><input type="text" data-meta="version" placeholder="z. B. Fassung 1, für Gespräch am …"></div>
+    </div>
+    <div class="f" style="margin-top:10px"><label id="lblFree">Freie Notiz</label><textarea data-meta="note"></textarea></div>
+  </div>
+
+  <div id="vLegend" style="display:none"></div>
+  <div class="view" id="vGuide"></div>
+  <div class="view" id="vForm"></div>
+  <div class="view" id="vSearch"></div>
+  <div class="view" id="vPrio"></div>
+  <div class="view" id="vEval"></div>
+  <div class="view" id="vCmp"></div>
+  <input type="file" id="cmpa" accept=".json,.md,.markdown,.txt" style="display:none" onchange="loadProfile('a',this)">
+  <input type="file" id="cmpb" accept=".json,.md,.markdown,.txt" style="display:none" onchange="loadProfile('b',this)">
+
+  <div class="card" id="refs" style="margin-top:28px"></div>
+  <div class="foot" id="foot"></div>
+</div>
+
+<div id="printview"></div>

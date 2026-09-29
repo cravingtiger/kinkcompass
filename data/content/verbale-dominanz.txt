@@ -1,0 +1,45 @@
+#! EN-Titel für Sektion und Gruppen
+#SEC | Verbal dominance and humiliation |
+#GRP | ton | Tone and address
+#GRP | lob | Praise and recognition
+#GRP | sprache | Dirty talk and possessive language
+#GRP | neckerei | Pet names, mockery and teasing
+#GRP | koerper-leistung | Body- and performance-based humiliation
+#GRP | blossstellung | Exposure and grading
+#GRP | ignorieren-bitte | Ignoring and rituals of asking
+#GRP | rahmen-demuetigung | Framing and limits of humiliation
+strenger-ton| Stern tone | Der Tonfall trägt die Dynamik, nicht die Worte. | The tone carries the dynamic rather than the words.
+autoritaere-ansprache| Authoritative address | Knapp, bestimmt und ohne Verhandlungsspielraum. | Curt, firm and leaving no room to negotiate.
+befehle| Commands | Klare Anweisungen statt Bitten. | Clear instructions rather than requests.
+lob| Praise | Anerkennung als Belohnung. | Recognition as a reward.
+praise-kink| Praise kink | Lob wirkt unmittelbar erregend, nicht nur bestätigend. | Praise works as immediate arousal, not merely reassurance.
+anerkennung-fuer-gehorsam| Recognition for obedience | Lob, das sich ausdrücklich auf das Folgen bezieht. | Praise that refers explicitly to compliance.
+betteln | Begging | Etwas muss erbettelt werden, oft wiederholt. | Something has to be begged for, often repeatedly. | Betteln
+bitten | Asking | Höflich fragen statt nehmen. | Asking politely rather than taking. | Bitten
+dirty-talk| Dirty talk | Explizite Sprache als eigener Reiz. | Explicit language as a stimulus in itself.
+besitzsprache| Possessive language | Formulierungen, die Zugehörigkeit ausdrücken. | Phrasings that express belonging.
+objektifizierende-sprache-als-vereinbartes-rollenspiel| Objectifying language, as agreed role play | Ansprache als Sache statt als Person, ausdrücklich vereinbart. | Being addressed as a thing rather than a person, expressly agreed.
+necknamen| Pet names | Spielerische Namen, zärtlich oder spöttisch. | Playful names, affectionate or mocking.
+degradierende-anrede-nach-wort-whitelist| Degrading address from the agreed word list | Nur Worte, die vorher ausdrücklich freigegeben wurden. | Only words expressly released beforehand.
+beschimpfung-nach-wort-whitelist| Insults from the agreed word list | Nur Worte von der Liste; alles andere beendet die Szene. | Only words from the list; anything else ends the scene.
+spott| Mockery | Über jemanden lachen, im vereinbarten Rahmen. | Laughing at someone, within the agreed frame.
+teasing| Teasing | Necken, das Spannung aufbaut statt herabsetzt. | Teasing that builds tension rather than putting down.
+koerperbezogene-komplimente| Compliments about the body | Anerkennung für das Aussehen. | Recognition for how someone looks.
+koerperbezogene-demuetigung | Body-based humiliation | Trifft besonders tief und wirkt oft über die Szene hinaus. Gehört genau vereinbart. | This lands especially deep and often carries beyond the scene. It needs precise agreement. | Körperbezogene Demütigung
+leistungsbezogene-demuetigung-als-rollenspiel| Performance-based humiliation as role play | Herabsetzung für Können oder Versagen, klar gerahmt. | Degradation about ability or failure, clearly framed.
+sexuelle-unerfahrenheit-als-rollenspielthema| Sexual inexperience as a role play theme | Unwissenheit als Motiv der Szene. | Not knowing as the scene's motif.
+sexuelle-unersaettlichkeit-als-rollenspielthema| Insatiability as a role play theme | Zu viel Verlangen als Motiv der Szene. | Too much desire as the scene's motif.
+kontrollverlust-kommentieren| Commenting on loss of control | Die eigene Reaktion wird benannt. | Your own reaction gets named out loud.
+erroeten-oder-verlegenheit-provozieren| Provoking blushing or embarrassment | Verlegenheit als gewünschte Wirkung. | Embarrassment as the wanted effect.
+vorlesen-peinlicher-selbst-formulierter-texte| Reading out embarrassing texts you wrote yourself | Eigene Worte werden zur Bloßstellung. | Your own words become the exposure.
+gestaendnisse-im-rollenspiel| Confessions in role play | Inszeniertes Beichten, nicht echtes Offenlegen. | Staged confession rather than real disclosure.
+bewertung-oder-benotung| Grading or scoring | Leistung wird bewertet, oft mit Zahl oder Note. | Performance is graded, often with a score.
+objektstatus-im-rollenspiel| Being treated as an object in role play | Wie ein Gegenstand behandelt werden. | Being treated like a thing.
+ignorieren-als-kurzes-szenenelement| Being ignored, as a brief scene element | Kurzes Nichtbeachten, klar begrenzt. | Being briefly disregarded, clearly limited.
+silent-treatment | Silent treatment | Schweigen als Mittel, klar begrenzt. Außerhalb der Szene ein Beziehungsproblem, kein Spiel. | Silence as a device, clearly limited. Outside the scene it is a relationship problem, not play. | Silent Treatment
+dankbarkeit-verlangen| Demanding gratitude | Danken als vorgeschriebene Reaktion. | Thanking as a prescribed response.
+um-vergebung-bitten | Asking forgiveness | Entschuldigung als Teil des Ablaufs. | Apology as part of the sequence. | Um Vergebung bitten
+entschuldigung-ritualisieren| Ritualised apology | Eine feste Form für das Entschuldigen. | A set form for apologising.
+oeffentlich-wirkende-demuetigung | Publicly framed humiliation | Es soll öffentlich wirken, findet aber privat statt. | It is meant to feel public but happens in private. | Öffentlich wirkende Demütigung
+demuetigung-vor-eingeweihten-zustimmenden-erwachsenen| Humiliation in front of consenting adults who are in on it | Alle Anwesenden haben zugestimmt. | Everyone present has agreed.
+demuetigung-endet-mit-der-szene | Humiliation ends with the scene | Was in der Szene gesagt wird, gilt danach ausdrücklich nicht. | What is said in the scene expressly does not apply afterwards. | Demütigung endet mit der Szene

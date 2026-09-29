@@ -1,0 +1,16 @@
+# macOS-Metadaten: verraten Ordnerstruktur und Fensterzustand
+.DS_Store
+._*
+
+# Zwischenstufen aus tools/extract.py — werden aus den Quelldateien erzeugt
+build/
+
+# Verteilkopie wird gebaut, nicht versioniert (tools/dist.sh)
+dist/
+
+# Ausgangsmaterial: bleibt lokal. Es wird zum Benutzen nicht gebraucht, stammt
+# von einem Dritten, und die kuratierten Daten in data/ liegen ohnehin bei.
+# Ohne diese Dateien überspringen extract.py und curate.py sich selbst.
+Neigungs- und Grenzenliste*.html
+Umfassende BDSM- und Kink-Checkliste*.md
+

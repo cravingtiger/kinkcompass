@@ -66,10 +66,10 @@ function legendBlock(){
   part(en?'Desire scale':'Wunsch-Skala', wunschOpts(),
     en?'One step per item. In getting-started mode a subset of the same codes is shown.'
       :'Eine Stufe pro Punkt. Im Einstiegsmodus wird eine Teilmenge derselben Codes gezeigt.');
-  part(en?'Punishment axis — receiving':'Strafe-Achse — empfangend', strafeOpts('#p'),
+  part(en?'Punishment axis — bottom':'Strafe-Achse — Bottom', strafeOpts('#p'),
     en?'Separate from the desire scale, because a punishment that arouses is not a punishment. A hard limit rules out real punishment.'
       :'Getrennt von der Wunsch-Skala, weil eine Strafe, die erregt, keine Strafe ist. Hard Limit schließt „echte Strafe" aus.');
-  part(en?'Punishment axis — doing':'Strafe-Achse — ausführend', strafeOpts('#a'),
+  part(en?'Punishment axis — top':'Strafe-Achse — Top', strafeOpts('#a'),
     en?'On this side the question is different: are you willing to impose it?'
       :'Auf dieser Seite lautet die Frage anders: bist du bereit, es zu verhängen?');
   part(en?'Experience':'Erfahrung', SC.erfahrung,

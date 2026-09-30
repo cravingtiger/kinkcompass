@@ -189,7 +189,7 @@ ok('Prioritaeten stehen vor den Sektionen',
 const prioBlock=md.split('## Prioritäten')[1].split('##')[0];
 ok('Prioritaetenliste enthaelt echte Eintraege', /^1\. \S/m.test(prioBlock.trim()),
    JSON.stringify(prioBlock.slice(0,160)));
-ok('Prioritaeteneintrag nennt die Rolle', /\*\((ausführend|empfangend)\)\*/.test(prioBlock),
+ok('Prioritaeteneintrag nennt die Rolle', /\*\((Top|Bottom)\)\*/.test(prioBlock),
    JSON.stringify(prioBlock.slice(0,160)));
 ok('Umfangshinweis „offen, nicht abgelehnt"', md.indexOf('offen, nicht abgelehnt')>0,'x');
 ok('Gesprächsanlass-Vorspann', md.indexOf('Gesprächsanlass, keine Erlaubnis')>0,'x');

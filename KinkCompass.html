@@ -354,7 +354,14 @@ const ORD=['must','neigung','sehnsucht','interessant','neutral','soft','hard','n
 const MODES={e:['e'],s:['e','s'],v:['e','s','v']};
 const MODELBL={e:{de:'Einstieg',en:'Getting started'},s:{de:'Standard',en:'Standard'},
                v:{de:'Vollständig',en:'Complete'}};
-const ROLE={a:{de:'ausführend',en:'doing'},p:{de:'empfangend',en:'receiving'}};
+/* Top und Bottom statt „ausfuehrend/empfangend": das ist die in der Szene
+   uebliche Bezeichnung fuer genau diese Achse, und sie liest sich auch dort
+   richtig, wo die alte Wendung kippte. Bei „Knien" ist die kniende Person der
+   Bottom — „ausfuehrend" stand dort fuer dieselbe Person und las sich verkehrt
+   herum, weil sie die Bewegung ja ausfuehrt.
+   Nicht zu verwechseln mit Dom/Sub: das ist eine andere Achse (wer fuehrt).
+   Dass beide unabhaengig sind, zeigt der Service Top — er fuehrt aus und dient. */
+const ROLE={a:{de:'Top',en:'top'},p:{de:'Bottom',en:'bottom'}};
 /* „ausführend/empfangend" ist präzise, solange ein Punkt eine Handlung von A an
    B ist. Bei einer Haltung wie „Knien" führt die kniende Person aus — das liest
    sich verkehrt herum. Deshalb darf ein Item seine beiden Seiten selbst benennen
@@ -370,8 +377,9 @@ const T={
  intro:{de:'Teilnahme freiwillig. Jeder Punkt kann übersprungen werden, und jede Bewertung darf sich '+
   'jederzeit ändern. Alle real umgesetzten Praktiken setzen freiwillige, informierte und jederzeit '+
   'widerrufbare Zustimmung aller Beteiligten voraus, sowie klare Stoppsignale.<br>'+
-  '<b>ausführend</b> = du führst die Handlung aus · <b>empfangend</b> = die Handlung richtet sich '+
-  'an dich. Das sagt nichts über Macht: wer dient, führt aus und folgt zugleich.<br>Bewertungen auf '+
+  '<b>Top</b> = du führst die Handlung aus · <b>Bottom</b> = die Handlung richtet sich an dich. '+
+  'Das ist nicht dasselbe wie Dom und Sub: ein <i>Service Top</i> führt aus und dient zugleich.'+
+  '<br>Bewertungen auf '+
   'Themen-, Sektions- oder Gruppenebene gelten als Vorgabe nach unten und werden <i>gestrichelt</i> '+
   'dargestellt. <b>Rahmen und Sicherheit</b> erbt nie — dort zählt nur, was du selbst '+
   'gesetzt hast. Im Einstieg steht davon ein Kern; die übrigen Vereinbarungen kommen '+
@@ -1185,10 +1193,10 @@ function legendBlock(){
   part(en?'Desire scale':'Wunsch-Skala', wunschOpts(),
     en?'One step per item. In getting-started mode a subset of the same codes is shown.'
       :'Eine Stufe pro Punkt. Im Einstiegsmodus wird eine Teilmenge derselben Codes gezeigt.');
-  part(en?'Punishment axis — receiving':'Strafe-Achse — empfangend', strafeOpts('#p'),
+  part(en?'Punishment axis — bottom':'Strafe-Achse — Bottom', strafeOpts('#p'),
     en?'Separate from the desire scale, because a punishment that arouses is not a punishment. A hard limit rules out real punishment.'
       :'Getrennt von der Wunsch-Skala, weil eine Strafe, die erregt, keine Strafe ist. Hard Limit schließt „echte Strafe" aus.');
-  part(en?'Punishment axis — doing':'Strafe-Achse — ausführend', strafeOpts('#a'),
+  part(en?'Punishment axis — top':'Strafe-Achse — Top', strafeOpts('#a'),
     en?'On this side the question is different: are you willing to impose it?'
       :'Auf dieser Seite lautet die Frage anders: bist du bereit, es zu verhängen?');
   part(en?'Experience':'Erfahrung', SC.erfahrung,
@@ -2205,7 +2213,7 @@ function bundle(){
       strafe:SC.strafe.map(s=>({value:s.v,label_de:s.de,label_en:s.en,desc_de:s.dde})),
       erfahrung:SC.erfahrung,vereinbarung:SC.vereinbarung,angabe:SC.angabe,
       choices:DATA.tree.choices},
-    roles:{a:'ausfuehrend',p:'empfangend'},
+    roles:{a:'top',p:'bottom'},
     meta:ST.meta, priorities:ST.rank.slice(),
     orphans:ST.orphans&&Object.keys(ST.orphans).length?ST.orphans:undefined,
     answers:snapshot(), toys:ST.toys.filter(t=>t&&t.trim()),
@@ -2330,8 +2338,8 @@ function exportMD(){
   SC.wunsch.forEach(s=>S.push('- **'+s.de+'** — '+s.dde));
   S.push('');
   SC.strafe.forEach(s=>S.push('- **'+s.de+'** — '+s.dde));
-  S.push('','Rollen: *ausführend* = die Handlung ausführen · *empfangend* = die Handlung erfahren. '+
-    'Das sagt nichts über Macht — wer dient, führt aus und folgt zugleich.',
+  S.push('','Rollen: *Top* = die Handlung ausführen · *Bottom* = die Handlung erfahren. '+
+    'Nicht dasselbe wie Dom und Sub — ein Service Top führt aus und dient zugleich.',
     '','*Geerbt* bedeutet: der Wert stammt aus einer Bewertung auf Themen-, Sektions- oder '+
     'Gruppenebene und ist keine ausdrückliche Einzelentscheidung.','');
   S.push('---','',

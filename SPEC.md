@@ -372,8 +372,13 @@ außerhalb einer Szene begegnen.**
 Rollenrelevante Items bekommen **zwei Bewertungen**, nicht-rollenrelevante eine.
 Das Flag wird pro Item in der Datendatei gepflegt (`ap`).
 
-- **ausführend** = du führst die Handlung aus
-- **empfangend** = die Handlung richtet sich an dich
+- **Top** = du führst die Handlung aus
+- **Bottom** = die Handlung richtet sich an dich
+
+Das ist **nicht** dasselbe wie Dom und Sub. Top/Bottom sagt, wer handelt; Dom/Sub
+sagt, wer führt. Dass beide unabhängig sind, zeigt der **Service Top**: er führt
+aus und dient zugleich. Deshalb enthält die Rollenachse kein Machtwort — Macht
+steht in den Machtsektionen. Eine Prüfung hält das fest.
 
 **Korrektur vom 2026-09-28.** Die Rollen hießen *aktiv* und *passiv*, definiert als
 „ausführend, gebend, **führend**" gegen „empfangend, erlebend, **geführt**". Diese
@@ -406,15 +411,33 @@ vom 2026-09-28 beseitigt hat. Außerdem zwänge es eine D/s-Deutung auf Punkte, 
 keine haben: für Leder, Wasser oder gedimmtes Licht gibt es kein Top und kein Sub,
 und für die 28 rollengetrennten Punkte in § 3 wäre es schlicht falsch.
 
+**Korrektur vom 2026-09-30: Top und Bottom.** Die Vorgabe hieß bis dahin
+*ausführend* / *empfangend*. Sie war logisch korrekt und wurde trotzdem zweimal
+als unklar gemeldet — zu Recht, denn sie kippt bei Haltungen: **wer kniet, führt
+die Bewegung aus** und stand damit unter *ausführend*, obwohl es die folgende
+Seite ist. Als *Bottom* liest sich dieselbe Zeile richtig herum.
+
+Der frühere Einwand gegen „Top/**Sub**" bleibt gültig — der mischt zwei Achsen.
+Auf „Top/**Bottom**" trifft er nicht zu: das ist eine Achse, es ist die in der
+Szene übliche Bezeichnung dafür, und der Bogen benutzt sie ohnehin schon als
+Items (*Top*, *Bottom* unter Rollen und Identitäten).
+
+Erkauft wird das mit Fachsprache: einer Anfängerin sagen *Top* und *Bottom*
+zunächst nichts. Das Hinweisband erklärt beide in einem Satz und grenzt sie gegen
+Dom/Sub ab; die Skalenlegende wiederholt es.
+
+Die Änderung berührt **keine gespeicherten Daten**: die Schlüssel sind `#a` und
+`#p`, die Bezeichnung ist reine Anzeige. Ältere Exporte bleiben lesbar.
+
 Statt umzubenennen darf ein Item **seine beiden Seiten selbst benennen**:
 `data/rollen.txt`, wahlweise für eine ganze Sektion oder ein einzelnes Item.
 Ohne Eintrag gilt die Vorgabe; 219 Items haben heute ein eigenes Paar.
 
 ```
-Knien                    kniet selbst  │ lässt knien
-Hausarbeit als Service   leistet es    │ empfängt es
+Knien                    kniet selbst    │ lässt knien
+Hausarbeit als Service   leistet es      │ empfängt es
 Leder                    trägt es selbst │ beim Gegenüber
-Handspanking             ausführend    │ empfangend      (Vorgabe)
+Handspanking             Top             │ Bottom          (Vorgabe)
 ```
 
 **Die Wortwahl ist festgelegt: dritte Person, ohne Subjekt.** Dieselbe Bezeichnung

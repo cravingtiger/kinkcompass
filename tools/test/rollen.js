@@ -42,14 +42,21 @@ const R=A.buildReport(P1,P2);
 const ve=R.sections.find(s=>s.id==='vereinbarungen').rows.map(r=>r.t+' || '+r.s);
 ok('rollengetrennter Konflikt wird ueber Kreuz erkannt',
    ve.some(t=>/Orts- und Zeitgrenzen/.test(t)), ve);
-ok('und nennt die Rollen', ve.some(t=>/ausführend|empfangend/.test(t)), ve);
+ok('und nennt die Rollen', ve.some(t=>/Top|Bottom/.test(t)), ve);
 ok('als No-Go markiert',
    R.sections.find(s=>s.id==='vereinbarungen').rows.some(r=>r.tone==='no'),
    R.sections.find(s=>s.id==='vereinbarungen').rows.map(r=>r.tone));
 
 console.log('\n== Eigene Rollenbezeichnungen ==');
-/* „ausführend/empfangend" trifft nur transitive Punkte. Bei „Knien" führt die
-   kniende Person aus — das liest sich verkehrt herum. */
+/* Top/Bottom sagt, wer handelt. Dom/Sub sagt, wer führt. Dass der Bogen beides
+   trennt, haengt daran, dass die Rollenachse keine Machtwoerter benutzt. */
+ok('Rollenachse benutzt keine Machtwörter',
+   !/dom|sub|herr|sklav/i.test(A.roleOf(null,'#a').de+A.roleOf(null,'#p').de),
+   [A.roleOf(null,'#a').de,A.roleOf(null,'#p').de]);
+/* Top/Bottom ist die Vorgabe. Sie trägt weiter als „ausführend/empfangend",
+   das bei „Knien" kippte: die kniende Person führt die Bewegung aus, ist aber
+   der Bottom. Wo auch Top/Bottom nichts sagt — Leder, Wasser, Decke —, benennt
+   das Item seine Seiten selbst (data/rollen.txt). */
 const knien=A.IDX.byId['protokolle-rituale/knien'];
 ok('Knien hat ein eigenes Rollenpaar', !!(knien&&knien.roles), knien&&knien.roles);
 ok('und nennt beide Seiten konkret',
@@ -57,10 +64,10 @@ ok('und nennt beide Seiten konkret',
    [A.roleOf(knien,'#a'),A.roleOf(knien,'#p')]);
 const hand=A.IDX.byId['impact-play/handspanking'];
 ok('transitive Punkte behalten die Vorgabe',
-   A.roleOf(hand,'#a').de==='ausführend'&&A.roleOf(hand,'#p').de==='empfangend',
+   A.roleOf(hand,'#a').de==='Top'&&A.roleOf(hand,'#p').de==='Bottom',
    A.roleOf(hand,'#a'));
 ok('ohne Item gilt die Vorgabe (Knoten- und Bereichsebene)',
-   A.roleOf(null,'#p').de==='empfangend', A.roleOf(null,'#p'));
+   A.roleOf(null,'#p').de==='Bottom', A.roleOf(null,'#p'));
 const mitPaar=A.IDX.items.filter(i=>i.roles);
 ok('nur rollengetrennte Punkte tragen ein Paar', mitPaar.every(i=>i.ap),
    mitPaar.filter(i=>!i.ap).slice(0,3).map(i=>i.id));

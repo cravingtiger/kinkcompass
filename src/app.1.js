@@ -75,7 +75,14 @@ const ORD=['must','neigung','sehnsucht','interessant','neutral','soft','hard','n
 const MODES={e:['e'],s:['e','s'],v:['e','s','v']};
 const MODELBL={e:{de:'Einstieg',en:'Getting started'},s:{de:'Standard',en:'Standard'},
                v:{de:'Vollständig',en:'Complete'}};
-const ROLE={a:{de:'ausführend',en:'doing'},p:{de:'empfangend',en:'receiving'}};
+/* Top und Bottom statt „ausfuehrend/empfangend": das ist die in der Szene
+   uebliche Bezeichnung fuer genau diese Achse, und sie liest sich auch dort
+   richtig, wo die alte Wendung kippte. Bei „Knien" ist die kniende Person der
+   Bottom — „ausfuehrend" stand dort fuer dieselbe Person und las sich verkehrt
+   herum, weil sie die Bewegung ja ausfuehrt.
+   Nicht zu verwechseln mit Dom/Sub: das ist eine andere Achse (wer fuehrt).
+   Dass beide unabhaengig sind, zeigt der Service Top — er fuehrt aus und dient. */
+const ROLE={a:{de:'Top',en:'top'},p:{de:'Bottom',en:'bottom'}};
 /* „ausführend/empfangend" ist präzise, solange ein Punkt eine Handlung von A an
    B ist. Bei einer Haltung wie „Knien" führt die kniende Person aus — das liest
    sich verkehrt herum. Deshalb darf ein Item seine beiden Seiten selbst benennen
@@ -91,8 +98,9 @@ const T={
  intro:{de:'Teilnahme freiwillig. Jeder Punkt kann übersprungen werden, und jede Bewertung darf sich '+
   'jederzeit ändern. Alle real umgesetzten Praktiken setzen freiwillige, informierte und jederzeit '+
   'widerrufbare Zustimmung aller Beteiligten voraus, sowie klare Stoppsignale.<br>'+
-  '<b>ausführend</b> = du führst die Handlung aus · <b>empfangend</b> = die Handlung richtet sich '+
-  'an dich. Das sagt nichts über Macht: wer dient, führt aus und folgt zugleich.<br>Bewertungen auf '+
+  '<b>Top</b> = du führst die Handlung aus · <b>Bottom</b> = die Handlung richtet sich an dich. '+
+  'Das ist nicht dasselbe wie Dom und Sub: ein <i>Service Top</i> führt aus und dient zugleich.'+
+  '<br>Bewertungen auf '+
   'Themen-, Sektions- oder Gruppenebene gelten als Vorgabe nach unten und werden <i>gestrichelt</i> '+
   'dargestellt. <b>Rahmen und Sicherheit</b> erbt nie — dort zählt nur, was du selbst '+
   'gesetzt hast. Im Einstieg steht davon ein Kern; die übrigen Vereinbarungen kommen '+

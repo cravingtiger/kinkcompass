@@ -1,21 +1,25 @@
 #! KinkCompass — Rollenbezeichnungen je Item
 #!
-#! Vorgabe ist „ausführend" / „empfangend": wer die Handlung ausführt, wer sie
-#! erfährt. Das ist präzise, solange ein Item eine Handlung von A an B ist.
-#! Es gibt aber vier Klassen von Items, und nur bei einer trifft es:
+#! Vorgabe ist „Top" / „Bottom": wer die Handlung ausfuehrt, wer sie erfaehrt.
+#! Das ist die in der Szene uebliche Bezeichnung fuer genau diese Achse.
+#!
+#! Nicht zu verwechseln mit Dom/Sub — das ist eine ANDERE Achse (wer fuehrt).
+#! Dass beide unabhaengig sind, zeigt der Service Top: er fuehrt aus und dient.
+#! Deshalb steht in der Rollenachse kein Machtwort; Macht steht in den
+#! Machtsektionen.
+#!
+#! Frueher hiess die Vorgabe „ausfuehrend/empfangend". Das kippte bei Haltungen:
+#! wer kniet, FUEHRT die Bewegung AUS und stand damit unter „ausfuehrend" —
+#! obwohl es die folgende Seite ist. Als Bottom liest sich dieselbe Zeile richtig.
+#!
+#! Auch Top/Bottom trifft aber nicht alles. Es gibt vier Klassen von Items:
 #!
 #!   transitiv        Handspanking, Fesseln        -> Vorgabe passt
-#!   Haltung/Zustand  Knien, Pose halten           -> es gibt nur eine Seite
-#!   wechselseitig    Küssen, Kuscheln             -> beide tun dasselbe
+#!   Haltung/Zustand  Knien, Pose halten           -> Vorgabe passt seit Top/Bottom
+#!   wechselseitig    Kuessen, Kuscheln            -> beide tun dasselbe
 #!   Gegenstand       Leder, Seile, Decke          -> es gibt gar keine Handlung
 #!
-#! „Knien" ist der Fall, an dem es auffällt: die kniende Person FÜHRT AUS, also
-#! steht die submissive Seite unter „ausführend". Das liest sich verkehrt herum.
-#!
-#! Kein anderes Wortpaar repariert das — Top/Bottom meint dasselbe wie
-#! ausführend/empfangend (deshalb gibt es den „Service Top"), und Dom/Sub wäre
-#! eine andere Achse und bei Leder, Wasser oder Küssen schlicht sinnlos.
-#! Deshalb: wo die Vorgabe in die Irre führt, benennt das Item seine Seiten selbst.
+#! Bei den letzten beiden benennt das Item seine Seiten selbst.
 #!
 #! Wortwahl: dritte Person, ohne Subjekt („kniet selbst", „wird verehrt").
 #! Grund: dieselbe Bezeichnung erscheint als Beschriftung im Bogen UND in der
@@ -25,7 +29,7 @@
 #! Format (deutsch und englisch zusammen, weil ein Paar nur als Paar stimmt):
 #!   SEKTION | <sektion-id>        | <DE a> | <DE p> | <EN a> | <EN p>
 #!   ITEM    | <sektion>/<slug>    | <DE a> | <DE p> | <EN a> | <EN p>
-#! ITEM schlägt SEKTION. Ohne Eintrag gilt die Vorgabe.
+#! ITEM schlaegt SEKTION. Ohne Eintrag gilt die Vorgabe.
 
 #! ------------------------------------------------------------------
 #! Gegenstaende und Material: es gibt keine Handlung, nur „wer hat oder traegt es"

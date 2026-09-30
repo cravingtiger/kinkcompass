@@ -72,7 +72,7 @@ function bundle(){
       strafe:SC.strafe.map(s=>({value:s.v,label_de:s.de,label_en:s.en,desc_de:s.dde})),
       erfahrung:SC.erfahrung,vereinbarung:SC.vereinbarung,angabe:SC.angabe,
       choices:DATA.tree.choices},
-    roles:{a:'ausfuehrend',p:'empfangend'},
+    roles:{a:'top',p:'bottom'},
     meta:ST.meta, priorities:ST.rank.slice(),
     orphans:ST.orphans&&Object.keys(ST.orphans).length?ST.orphans:undefined,
     answers:snapshot(), toys:ST.toys.filter(t=>t&&t.trim()),
@@ -197,8 +197,8 @@ function exportMD(){
   SC.wunsch.forEach(s=>S.push('- **'+s.de+'** — '+s.dde));
   S.push('');
   SC.strafe.forEach(s=>S.push('- **'+s.de+'** — '+s.dde));
-  S.push('','Rollen: *ausführend* = die Handlung ausführen · *empfangend* = die Handlung erfahren. '+
-    'Das sagt nichts über Macht — wer dient, führt aus und folgt zugleich.',
+  S.push('','Rollen: *Top* = die Handlung ausführen · *Bottom* = die Handlung erfahren. '+
+    'Nicht dasselbe wie Dom und Sub — ein Service Top führt aus und dient zugleich.',
     '','*Geerbt* bedeutet: der Wert stammt aus einer Bewertung auf Themen-, Sektions- oder '+
     'Gruppenebene und ist keine ausdrückliche Einzelentscheidung.','');
   S.push('---','',

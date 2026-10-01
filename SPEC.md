@@ -739,9 +739,31 @@ stilles Verschwinden — nur keine Selbsteinschätzung ohne Grundlage.
 
 ### 6.5 Geführter Ablauf
 
-Der Einstieg ist ein Schritt-für-Schritt-Ablauf, keine Scrollseite: ein
-Themenbereich pro Schritt, mit Fortschritt, Zurück und Weiter, jederzeit
-unterbrechbar und fortsetzbar.
+Der geführte Ablauf zeigt **eine Frage pro Karte**, in jedem Modus; die Liste
+bleibt die Gesamtansicht. Eine Seite mit zwanzig Zeilen und einem
+Inhaltsverzeichnis darüber sah für jemanden, der die Datei zum ersten Mal
+öffnet, nach Formular aus — eine Karte nach einer Frage, die man beantworten
+kann.
+
+- **Automatisch weiter.** Nach einer Antwort bleibt die Karte kurz stehen
+  (450 ms), damit man die Wahl sieht, dann kommt die nächste. Bei Top und Bottom
+  auf einer Karte erst nach der zweiten Antwort; Freitext und eingeblendete
+  Zusatzachsen springen nie von selbst. Zurück und Weiter (bzw. „Überspringen",
+  solange nichts gewählt ist), Wischen und die Pfeiltasten blättern.
+- **Karten mit zwei Rollen** zeigen die Antworten kompakt, zweispaltig und ohne
+  Beschreibungszeile — sonst stünden zehn große Knöpfe untereinander.
+- **Rahmen:** eine Begrüßungskarte vorn (wie es funktioniert, Top/Bottom,
+  Pseudonym), eine Speichern-Karte hinten.
+- **Inhaltsverzeichnis** am Rechner als Seitenleiste links, auf dem Handy hinter
+  „Übersicht". Ohne Zähler „0/12 gesetzt" — das las sich wie eine Aufforderung;
+  ein Haken markiert, was erledigt ist.
+- **Handy zuerst.** Unter 760 px liegen Ansicht, Modus, Sprache, Suche und Export
+  hinter ☰; im geführten Ablauf entfällt dort auch die Fortschrittsleiste im
+  Kopf, die Karte hat ihre eigene. Angaben zur Person, Einleitung und
+  Quellenliste stehen im geführten Ablauf nicht unter der Karte.
+- **Die zuletzt benutzte Ansicht wird gemerkt.** Im Einstieg ist der geführte
+  Ablauf die Vorgabe, auch wenn schon etwas beantwortet ist — vorher öffnete die
+  Datei nach der ersten Antwort in der Liste.
 
 **Erst das, was Spaß macht, zuletzt die Limits.** Die Reihenfolge ist: Neigungen
 → Prioritäten („welche fünf sind dir die wichtigsten?") → Rahmen und Sicherheit →

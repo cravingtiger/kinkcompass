@@ -115,96 +115,338 @@ function stepList(){
 }
 const stepItems=(s)=>s.secs?[].concat.apply([],s.secs.map(visItems)):visOfTheme(s.t);
 const limitStep=()=>stepList().findIndex(s=>s.limits);
+/* ---------- Karteikarten ----------
+   Der gefuehrte Ablauf zeigt eine Frage pro Bildschirm. Eine Seite mit zwanzig
+   Zeilen und einem Inhaltsverzeichnis darueber sieht fuer jemanden, der die
+   Datei zum ersten Mal oeffnet, nach Formular aus; eine Karte nach einer
+   Frage, die man beantworten kann. Die Schritte aus stepList bleiben das
+   Inhaltsverzeichnis — am Rechner links daneben, auf dem Handy hinter einem
+   Knopf, damit es nicht ueber der ersten Frage steht. */
+const ADV_MS=450;
+let advT=null;
+function orderedItems(s){
+  /* dieselbe Reihenfolge wie in der Liste: Gruppen, dann Ungruppiertes */
+  const its=visItems(s), out=[];
+  s.groups.forEach(g=>its.forEach(it=>{if(it.group===g.id)out.push(it);}));
+  its.forEach(it=>{if(!it.group)out.push(it);});
+  return out;
+}
+function cardList(){
+  const steps=stepList(), cards=[{key:'w',welcome:true,step:-1}];
+  steps.forEach((s,si)=>{
+    if(s.prio){cards.push({key:'p',prio:true,step:si}); return;}
+    const t=s.t;
+    if(isEkat(t)){cards.push({key:'k:'+t.id,ekat:t,step:si}); return;}
+    const secs=s.secs||t.sections;
+    let first=true;
+    secs.forEach(sec=>{
+      const lead=first&&s.limits;
+      if(sec.type==='toys'){ if(ST.mode!=='e') cards.push({key:'y:'+sec.id,toys:sec,step:si}); return; }
+      const its=orderedItems(sec);
+      if(!its.length) return;
+      if(sec.type==='multi'){cards.push({key:'m:'+sec.id,multi:sec,step:si}); first=false; return;}
+      its.forEach((it,i)=>cards.push({key:'i:'+it.id,it:it,step:si,lead:lead&&i===0}));
+      first=false;
+    });
+  });
+  cards.push({key:'d',done:true,step:steps.length});
+  return cards;
+}
+function cardIndex(cards){
+  const i=cards.findIndex(c=>c.key===ST.card);
+  return i<0?0:i;
+}
+function goCard(i){
+  clearTimeout(advT); advT=null;
+  const cards=cardList();
+  i=Math.max(0,Math.min(cards.length-1,i));
+  ST.card=cards[i].key; save(); rerender(); window.scrollTo(0,0);
+}
+function goStep(si){
+  const cards=cardList(), i=cards.findIndex(c=>c.step===si);
+  if(i>=0) goCard(i);
+}
+const nextCard=()=>goCard(cardIndex(cardList())+1);
+const prevCard=()=>goCard(cardIndex(cardList())-1);
+/* Nach einer Antwort kurz stehen lassen, damit man sieht, was gewaehlt ist,
+   dann weiter. Wer in der Pause selbst blaettert, hebt den Sprung auf. */
+function advanceSoon(){
+  clearTimeout(advT);
+  const from=ST.card;
+  advT=setTimeout(()=>{advT=null; if(ST.card===from&&document.body.dataset.view==='guide') nextCard();},ADV_MS);
+}
+
+/* Antwortknoepfe der Karte: gross, mit Beschreibung, eine Zeile pro Option
+   auf dem Handy. Dieselben Codes und Farben wie in der Liste. */
+function fcChips(opts,cur,onPick,inherited,compact){
+  /* Zwei Fragen auf einer Karte (Top und Bottom) waeren mit Beschreibung zehn
+     grosse Knoepfe untereinander. Dort kompakt: die Beschreibung steht als
+     Tooltip und in der Legende. */
+  const wrap=el('div','fcopts'+(compact?' two':''));
+  opts.forEach(o=>{
+    const c=el('button','chip fcopt'); c.type='button'; c.dataset.v=o.v;
+    c.appendChild(el('span','fcl',LB(o)));
+    const d=LB({de:o.dde,en:o.den});
+    if(d){ if(compact) c.title=d; else c.appendChild(el('span','fcd',d)); }
+    if(cur===o.v){c.classList.add('sel'); if(inherited)c.classList.add('inh');}
+    c.onclick=()=>onPick(cur===o.v&&!inherited?null:o.v);
+    wrap.appendChild(c);
+  });
+  styleSel(wrap,'');
+  return wrap;
+}
+function roleHead(txt){ return el('div','fcrole',txt); }
+
+function cardItem(c,box){
+  const it=c.it, en=ST.lang==='en';
+  if(c.lead) box.appendChild(limitsIntro());
+  const h=el('h2','fq',LB({de:it.de,en:it.en}));
+  if(it.risk){const b=el('span','badge '+it.risk,LB(it.risk==='hoch'
+    ?{de:'Risiko hoch',en:'high risk'}:{de:'Risiko mittel',en:'moderate risk'}));
+    b.style.marginLeft='8px'; h.appendChild(b);}
+  box.appendChild(h);
+  const expl=LB({de:it.expl_de,en:it.expl_en});
+  if(expl) box.appendChild(el('p','fcexpl',expl));
+
+  if(it.kind==='text'){
+    const ta=el('textarea','fctext'); ta.value=ST.tx[it.id]||'';
+    ta.placeholder=en?'Keywords are enough …':'Stichworte reichen …';
+    ta.oninput=()=>{ST.tx[it.id]=ta.value; save(); updateProgress();};
+    box.appendChild(ta);
+    return;
+  }
+  /* Weitere Achsen (Strafe, Erfahrung) stehen nur auf der Karte, wenn sie
+     eingeschaltet sind — dann springt die Karte nicht von selbst weiter,
+     sonst waere sie weg, bevor die zweite Achse beantwortet ist. */
+  const extra=it.kind==='wunsch'&&it.units.some(()=>showAx('showP',it)||(showAx('showX',it)&&!ST.noExp));
+  const answered=()=>it.units.every(u=>it.kind==='wunsch'?effW(it,u).src==='set':!!agOf(it,u));
+  const picked=(v)=>{save(); rerender(); if(v&&!extra&&answered()) advanceSoon();};
+  it.units.forEach(u=>{
+    if(u) box.appendChild(roleHead(LB(roleOf(it,u))));
+    if(it.kind==='wunsch'){
+      const e=effW(it,u);
+      box.appendChild(fcChips(wunschOpts(),e.v,(v)=>{
+        if(v)ST.w[it.id+u]=v; else delete ST.w[it.id+u];
+        if(v==='hard'&&ST.p[it.id+u]==='echt') delete ST.p[it.id+u];
+        picked(v);
+      },e.src==='inh',it.units.length>1));
+      if(showAx('showP',it)){
+        const ep=effP(it,u);
+        const pr=chipRow(strafeOpts(u),ep.v,(v)=>{
+          if(v)ST.p[it.id+u]=v; else delete ST.p[it.id+u]; save(); rerender();
+        },L(u==='#a'?T.strafeGeben:u==='#p'?T.strafeNehmen:T.strafeAx),
+          ep.src==='inh',e.v==='hard'?['echt']:null);
+        styleSel(pr,'strafe'); box.appendChild(pr);
+      }
+      if(showAx('showX',it)&&!ST.noExp){
+        const xr=chipRow(SC.erfahrung,ST.x[it.id+u]||'',(v)=>{
+          if(v)ST.x[it.id+u]=v; else delete ST.x[it.id+u]; save(); rerender();
+        },L(T.expAx),false,null);
+        styleSel(xr,'erfahrung'); box.appendChild(xr);
+      }
+    } else {
+      box.appendChild(fcChips(optsOf(it.kind),agOf(it,u),(v)=>{agSet(it,u,v); picked(v);},false,it.units.length>1));
+    }
+  });
+
+  /* Nebensachen klein darunter: Stern, Fantasie, Notiz */
+  const tail=el('div','fctail');
+  if(it.kind==='wunsch'){
+    if(showAx('showSt',it)) it.units.forEach(u=>{
+      const on=!!ST.star[it.id+u];
+      const sb=el('button','chip star'+(on?' sel':''),'★ '+(en?'matters most':'besonders wichtig')+
+        (it.ap?' · '+LB(roleOf(it,u)):''));
+      sb.type='button';
+      sb.onclick=()=>{if(on)delete ST.star[it.id+u];
+        else{ST.star[it.id+u]=1; if(ST.rank.indexOf(it.id+u)<0)ST.rank.push(it.id+u);}
+        save(); rerender();};
+      tail.appendChild(sb);
+    });
+    const ef=effF(it);
+    const fb=el('button','chip'+(ef.v?' sel':'')+(ef.src==='inh'?' inh':''),L(T.fantasy));
+    fb.type='button'; if(ef.v)fb.style.background='var(--c-sehnsucht)';
+    fb.onclick=()=>{if(ST.f[it.id])delete ST.f[it.id]; else ST.f[it.id]=1; save(); rerender();};
+    tail.appendChild(fb);
+  }
+  const hasN=!!(ST.notes[it.id]&&ST.notes[it.id].t);
+  const nb=el('button','chip'+(hasN?' sel':''),L(T.note)); nb.type='button';
+  const cmt=el('div','fccmt'+(hasN?'':' hidden'));
+  nb.onclick=()=>cmt.classList.toggle('hidden');
+  tail.appendChild(nb); box.appendChild(tail);
+  const ta=el('textarea'); ta.value=(ST.notes[it.id]||{}).t||''; ta.placeholder=L(T.note);
+  ta.oninput=()=>{ST.notes[it.id]=ST.notes[it.id]||{}; ST.notes[it.id].t=ta.value; save();};
+  cmt.appendChild(ta);
+  const lb=el('label','cmtbar'); const cb=el('input'); cb.type='checkbox';
+  cb.checked=!!(ST.notes[it.id]||{}).sh;
+  cb.onchange=()=>{ST.notes[it.id]=ST.notes[it.id]||{}; ST.notes[it.id].sh=cb.checked; save();};
+  lb.appendChild(cb); lb.appendChild(el('span',null,L(T.shared))); cmt.appendChild(lb);
+  box.appendChild(cmt);
+}
+function cardEkat(t,box){
+  box.appendChild(el('h2','fq',LB({de:t.title_de,en:t.title_en})));
+  const was=LB({de:t.ekat_de,en:t.ekat_en});
+  if(was) box.appendChild(el('p','fcexpl',was));
+  box.appendChild(el('div','fcask',ST.lang==='en'?'How much does this area interest you?'
+    :'Wie sehr interessiert dich dieser Bereich?'));
+  const all=allItems(t), ap=nodeIsAp(all), roles=ap?['#a','#p']:[''];
+  roles.forEach(r=>{
+    if(r) box.appendChild(roleHead(LB(ROLE[r.slice(1)]))); 
+    box.appendChild(fcChips(wunschOpts(),ST.nodeW['T:'+t.id+r]||'',(v)=>{
+      if(v)ST.nodeW['T:'+t.id+r]=v; else delete ST.nodeW['T:'+t.id+r];
+      save(); rerender();
+      if(v&&roles.every(x=>ST.nodeW['T:'+t.id+x])) advanceSoon();
+    },false,roles.length>1));
+  });
+  box.appendChild(noteEl(L(T.ekatWhy)));
+}
+function cardWelcome(box){
+  const en=ST.lang==='en';
+  box.appendChild(el('h2','fq',en?'Welcome':'Willkommen'));
+  const p=el('div','fcexpl');
+  p.innerHTML=(en
+    ?'<p>One question at a time. Tap an answer and the next card follows by itself; '+
+     '<b>‹ ›</b> or swiping takes you back and forth.</p>'+
+     '<p>You can skip anything — <b>open does not mean no</b>. Everything you enter stays in '+
+     'this browser on this device.</p>'+
+     '<p>Some cards ask twice: <b>Top</b> means you do it, <b>Bottom</b> means it is done to you.</p>'
+    :'<p>Eine Frage nach der anderen. Tipp eine Antwort an, dann kommt die nächste Karte von '+
+     'selbst; mit <b>‹ ›</b> oder Wischen geht es vor und zurück.</p>'+
+     '<p>Du kannst alles überspringen — <b>offen heißt nicht nein</b>. Was du eingibst, bleibt '+
+     'in diesem Browser auf diesem Gerät.</p>'+
+     '<p>Manche Karten fragen zweimal: <b>Top</b> heißt, du machst es, <b>Bottom</b> heißt, '+
+     'es wird mit dir gemacht.</p>');
+  box.appendChild(p);
+  /* Im Einstieg sagt die Begruessung schon alles; einstiegBlock waere dieselbe
+     Einleitung ein zweites Mal. In Standard und Vollstaendig stehen hier die
+     Achsenschalter. */
+  if(ST.mode!=='e'){const sw=switchBlock(); if(sw) box.appendChild(sw);}
+  const f=el('div','f'); f.style.marginTop='12px';
+  f.appendChild(el('label',null,en?'Pseudonym (optional, shows up in the export)'
+    :'Pseudonym (freiwillig, steht im Export)'));
+  const inp=el('input'); inp.type='text'; inp.value=ST.meta.alias||'';
+  inp.oninput=()=>{ST.meta.alias=inp.value; save(); bindMeta();};
+  f.appendChild(inp); box.appendChild(f);
+}
+function cardDone(box){
+  const en=ST.lang==='en';
+  box.appendChild(el('h2','fq',en?'Done!':'Geschafft!'));
+  box.appendChild(el('p','fcexpl',en
+    ?'Save your answers as a file. Markdown is easy to read and to send; JSON can be loaded back in later. '+
+     'Nothing is uploaded anywhere.'
+    :'Speichere deine Antworten als Datei. Markdown lässt sich gut lesen und verschicken, JSON später '+
+     'wieder laden. Hochgeladen wird nichts.'));
+  const row=el('div','fcdone');
+  [[en?'Save as Markdown':'Als Markdown speichern','btn pri',()=>saveMD()],
+   [en?'Save as JSON':'Als JSON speichern','btn',()=>saveJSON()],
+   [en?'See summary':'Auswertung ansehen','btn',()=>setView('eval')],
+   [en?'Compare with someone':'Mit jemandem vergleichen','btn',()=>setView('cmp')]]
+   .forEach(([t,cls,fn])=>{const b=el('button',cls,t); b.type='button'; b.onclick=fn; row.appendChild(b);});
+  box.appendChild(row);
+}
+
+/* Inhaltsverzeichnis: am Rechner als Seitenleiste, auf dem Handy als
+   Einblendung. Ohne Zaehler „0/12 gesetzt" — das las sich wie eine
+   Aufforderung. Ein Haken genuegt fuer das, was erledigt ist. */
+function tocList(cur){
+  const steps=stepList(), ul=el('ul','steps');
+  const add=(label,si,done,onclick)=>{
+    const li=el('li',si===cur?'cur':'');
+    li.appendChild(el('span','sn',done?'✓':''));
+    li.appendChild(el('span','sd',label));
+    li.onclick=onclick; ul.appendChild(li);
+  };
+  add(ST.lang==='en'?'Welcome':'Willkommen',-1,false,()=>{closeToc(); goCard(0);});
+  steps.forEach((s,si)=>{
+    let label,done=false;
+    if(s.prio) label=ST.lang==='en'?'Priorities':'Prioritäten';
+    else if(s.limits) label=ST.lang==='en'?'Your limits':'Deine Limits';
+    else label=LB({de:s.t.title_de,en:s.t.title_en});
+    if(!s.prio){
+      if(isEkat(s.t)) done=['','#a','#p'].some(r=>ST.nodeW['T:'+s.t.id+r]);
+      else{const c=countUnits(stepItems(s)); done=c.tot>0&&c.clar>=c.tot;}
+    }
+    add(label,si,done,()=>{closeToc(); goStep(si);});
+  });
+  add(ST.lang==='en'?'Save':'Speichern',steps.length,false,()=>{closeToc(); goStep(steps.length);});
+  return ul;
+}
+let tocBg=null;
+function closeToc(){ if(tocBg){tocBg.remove(); tocBg=null;} }
+function openToc(cur){
+  closeToc();
+  tocBg=el('div','modalbg'); const m=el('div','modal');
+  m.appendChild(el('h3',null,ST.lang==='en'?'Overview':'Übersicht'));
+  m.appendChild(tocList(cur));
+  tocBg.appendChild(m); tocBg.onclick=(e)=>{if(e.target===tocBg) closeToc();};
+  document.body.appendChild(tocBg);
+}
+
 function renderGuide(){
   const v=document.getElementById('vGuide'); v.innerHTML='';
-  const steps=stepList();
-  if(ST.step>=steps.length) ST.step=steps.length-1;
-  if(ST.step<0) ST.step=0;
-  const sw=switchBlock(); if(sw) v.appendChild(sw);
+  const cards=cardList(), i=cardIndex(cards), c=cards[i];
+  ST.card=c.key;
+  const en=ST.lang==='en', steps=stepList();
+  const lay=el('div','guide');
+  const side=el('nav','gside'); side.appendChild(tocList(c.step)); lay.appendChild(side);
+  const main=el('div','gmain');
+  const card=el('div','fcard');
 
-  const nav=el('div','card');
-  nav.appendChild(el('h3',null,(ST.lang==='en'?'Step ':'Schritt ')+(ST.step+1)+
-    (ST.lang==='en'?' of ':' von ')+steps.length));
-  const ul=el('ul','steps');
-  steps.forEach((s,i)=>{
-    const li=el('li',i===ST.step?'cur':'');
-    li.appendChild(el('span','sn',String(i+1)));
-    const d=el('div','sd');
-    if(s.prio){ d.appendChild(el('div',null,ST.lang==='en'
-        ?'Priorities — what matters most?':'Prioritäten — was ist dir am wichtigsten?')); }
-    else{
-      d.appendChild(el('div',null,s.limits?(ST.lang==='en'?'Your limits':'Deine Limits')
-        :LB({de:s.t.title_de,en:s.t.title_en})));
-      if(isEkat(s.t)){
-        d.appendChild(el('div','ss',ST.nodeW['T:'+s.t.id]||ST.nodeW['T:'+s.t.id+'#a']
-          ||ST.nodeW['T:'+s.t.id+'#p']?'1/1 '+L(T.setCount):'0/1 '+L(T.setCount)));
-      }else{
-        const c=countUnits(stepItems(s));
-        d.appendChild(el('div','ss',c.set+'/'+c.tot+' '+L(T.setCount)+
-          (c.clar>c.set?' · '+c.clar+' '+L(T.clarCount):'')));
-      }
-    }
-    li.appendChild(d);
-    li.onclick=()=>{ST.step=i; save(); rerender();};
-    ul.appendChild(li);
-  });
-  nav.appendChild(ul); v.appendChild(nav);
+  const top=el('div','fctop');
+  const st=c.step>=0&&c.step<steps.length?steps[c.step]:null;
+  top.appendChild(el('span','fcwhere',c.welcome?'KinkCompass':c.done?(en?'Save':'Speichern')
+    :st.prio?(en?'Priorities':'Prioritäten'):st.limits?(en?'Your limits':'Deine Limits')
+    :LB({de:st.t.title_de,en:st.t.title_en})));
+  const right=el('span','fcpos');
+  right.appendChild(el('span',null,(i+1)+' / '+cards.length));
+  const tb=el('button','btn sm gtocbtn',en?'Overview':'Übersicht'); tb.type='button';
+  tb.onclick=()=>openToc(c.step); right.appendChild(tb);
+  top.appendChild(right); card.appendChild(top);
+  const pb=el('div','fcbar'); const pi=el('i'); pi.style.width=(100*i/(cards.length-1))+'%';
+  pb.appendChild(pi); card.appendChild(pb);
 
-  const cur=steps[ST.step];
-  if(cur.prio) v.appendChild(prioBlock());
-  else{
-    const t=cur.t;
-    const box=el('div');
-    if(isEkat(t)){
-      const n=el('div','node open');
-      /* Ohne Kopf liest man „Wie sehr interessiert dich dieser Bereich?" und
-         erfaehrt nirgends, welcher gemeint ist — die Schrittliste steht weit oben. */
-      const h=el('div','nhead');
-      const ti=el('div','ntitle');
-      ti.appendChild(el('h4',null,t.order+'. '+LB({de:t.title_de,en:t.title_en})));
-      h.appendChild(ti); n.appendChild(h);
-      const b=el('div','nbody');
-      const was=LB({de:t.ekat_de,en:t.ekat_en});
-      if(was){const d=el('div','ekatwas'); d.textContent=was; b.appendChild(d);}
-      b.appendChild(noteEl(L(T.ekatWhy)));
-      const nc=nodeControls('T:'+t.id,allItems(t),null,L(T.ekatShort));
-      if(nc) b.appendChild(nc);
-      n.appendChild(b); box.appendChild(n); v.appendChild(box);
-    }else{
-      const zeig=cur.secs?cur.secs
-        :ST.mode==='e'?t.sections.filter(s=>visItems(s).length):t.sections;
-      if(cur.limits) box.appendChild(limitsIntro());
-      zeig.forEach(s=>{
-        const n=el('div','node'+(s.exempt?' exempt':'')+' open');
-        const h=el('div','nhead');
-        const ti=el('div','ntitle');
-        ti.appendChild(el('h4',null,LB({de:s.title_de,en:s.title_en})));
-        h.appendChild(ti); n.appendChild(h);
-        n.appendChild(secBody(s));
-        box.appendChild(n);
-      });
-      /* Nur der eigene Teil zaehlt: die Limits sind kein „weiterer Abschnitt"
-         des Rahmens, sondern ein eigener Schritt. */
-      const weg=cur.limits?0:t.sections.filter(s=>
-        (!cur.secs||s.id!==LIMSEC)&&zeig.indexOf(s)<0).length;
-      if(weg>0) box.appendChild(el('div','secnote',
-        weg+' '+L(weg===1?T.moreSec1:T.moreSecs)));
-      v.appendChild(box);
-    }
-  }
+  const box=el('div','fcbody');
+  if(c.welcome) cardWelcome(box);
+  else if(c.done) cardDone(box);
+  else if(c.prio) box.appendChild(prioBlock());
+  else if(c.ekat) cardEkat(c.ekat,box);
+  else if(c.multi){box.appendChild(el('h2','fq',LB({de:c.multi.title_de,en:c.multi.title_en})));
+    box.appendChild(multiBlock(c.multi,orderedItems(c.multi)));}
+  else if(c.toys){box.appendChild(el('h2','fq',LB({de:c.toys.title_de,en:c.toys.title_en})));
+    const n=LB({de:c.toys.note_de,en:c.toys.note_en}); if(n) box.appendChild(noteEl(n));
+    box.appendChild(toysBlock());}
+  else cardItem(c,box);
+  card.appendChild(box);
+
   const gn=el('div','gnav');
-  const b1=el('button','btn',ST.lang==='en'?'‹ Back':'‹ Zurück');
-  b1.onclick=()=>{ST.step=Math.max(0,ST.step-1); save(); rerender();
-    window.scrollTo(0,0);};
-  const last=ST.step===steps.length-1;
-  /* Am Ende steht kein totes „Weiter", sondern das, wofuer man den Bogen
-     ausfuellt: ihn mitnehmen. Die Limit-Pruefung sitzt in saveMD. */
-  const b2=el('button','btn pri',last?(ST.lang==='en'?'Done — save as Markdown':'Fertig — als Markdown speichern')
-    :(ST.lang==='en'?'Next ›':'Weiter ›'));
-  b2.onclick=last?()=>saveMD():()=>{ST.step=Math.min(steps.length-1,ST.step+1); save(); rerender();
-    window.scrollTo(0,0);};
-  gn.appendChild(b1); gn.appendChild(b2); v.appendChild(gn);
+  const b1=el('button','btn',en?'‹ Back':'‹ Zurück'); b1.type='button';
+  if(i===0) b1.disabled=true;
+  b1.onclick=prevCard;
+  const open=c.it&&(c.it.kind==='text'?!(ST.tx[c.it.id]||'').trim()
+    :c.it.units.some(u=>c.it.kind==='wunsch'?!effW(c.it,u).v:!agOf(c.it,u)));
+  const lbl2=c.welcome?(en?'Let’s go ›':'Los geht’s ›'):open?(en?'Skip ›':'Überspringen ›'):(en?'Next ›':'Weiter ›');
+  if(!c.done){
+    const b2=el('button','btn pri',lbl2); b2.type='button'; b2.onclick=nextCard;
+    gn.appendChild(b1); gn.appendChild(b2);
+  } else gn.appendChild(b1);
+  card.appendChild(gn);
+
+  /* Wischen: waagerecht und deutlich, sonst ist es Scrollen */
+  let x0=null,y0=null;
+  card.ontouchstart=(e)=>{const t=e.touches&&e.touches[0]; if(t){x0=t.clientX;y0=t.clientY;}};
+  card.ontouchend=(e)=>{const t=e.changedTouches&&e.changedTouches[0]; if(!t||x0==null) return;
+    const dx=t.clientX-x0, dy=t.clientY-y0; x0=null;
+    if(/^(TEXTAREA|INPUT)$/.test((e.target&&e.target.tagName)||'')) return;
+    if(Math.abs(dx)>60&&Math.abs(dx)>2*Math.abs(dy)) (dx<0?nextCard:prevCard)();};
+
+  main.appendChild(card); lay.appendChild(main); v.appendChild(lay);
 }
+document.addEventListener('keydown',(e)=>{
+  if(document.body.dataset.view!=='guide'||e.altKey||e.ctrlKey||e.metaKey) return;
+  if(/^(TEXTAREA|INPUT|SELECT)$/.test((e.target&&e.target.tagName)||'')) return;
+  if(document.querySelector('.modalbg')) return;
+  if(e.key==='ArrowRight'){e.preventDefault(); nextCard();}
+  else if(e.key==='ArrowLeft'){e.preventDefault(); prevCard();}
+});
 
 function limitsIntro(){
   const en=ST.lang==='en', c=el('div','intro');

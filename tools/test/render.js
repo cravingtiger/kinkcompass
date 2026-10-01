@@ -48,13 +48,40 @@ try{ A.setView('form'); ok('Einstieg mit allen Schaltern an', true);}
 catch(e){ ok('Einstieg mit allen Schaltern an', false, e.message);}
 A.setMode('s');
 
-console.log('\n== gefuehrter Ablauf, jeder Schritt ==');
-bad=[];
-for(let i=0;i<=A.THEMES.length;i++){
-  ST().step=i;
-  try{ A.setView('guide'); }catch(e){ bad.push('Schritt '+i+': '+e.message); }
+console.log('\n== gefuehrter Ablauf, jede Karte ==');
+['e','s','v'].forEach(m=>{
+  ST().mode=m; bad=[];
+  const cards=A.cardList();
+  cards.forEach(c=>{ ST().card=c.key;
+    try{ A.setView('guide'); }catch(e){ bad.push(c.key+': '+e.message); } });
+  ok('Modus '+m+': alle '+cards.length+' Karten fehlerfrei', bad.length===0, bad.slice(0,3).join(' | '));
+});
+ST().mode='e';
+{
+  const cards=A.cardList();
+  ok('erste Karte ist die Begruessung', cards[0].welcome, cards[0].key);
+  ok('letzte Karte ist Speichern', cards[cards.length-1].done, cards[cards.length-1].key);
+  const lim=cards.filter(c=>c.it&&c.it.sec==='grenzen-gesundheit');
+  ok('Limits sind die letzten Fragen', lim.length&&cards.indexOf(lim[lim.length-1])===cards.length-2,
+     lim.length);
+  ok('eine Frage pro Karte', cards.filter(c=>c.it).length===A.IDX.items.filter(i=>i.level==='e').length,
+     cards.filter(c=>c.it).length);
+  /* Automatisch weiter: die Pause ist im Testlauf synchron. */
+  const iS=cards.findIndex(c=>c.it&&!c.it.ap&&c.it.kind==='wunsch');
+  A.goCard(iS); A.setView('guide');
+  const deep=(n)=>[n].concat((n.children||[]).flatMap(deep));
+  const pick=(v)=>deep(document.getElementById('vGuide')).find(n=>n.dataset&&n.dataset.v===v&&n.onclick);
+  pick('neigung').onclick();
+  ok('nach einer Antwort kommt die naechste Karte', A.cardList().findIndex(c=>c.key===ST().card)===iS+1, ST().card);
+  const iA=cards.findIndex(c=>c.it&&c.it.ap&&c.it.kind==='wunsch'&&!ST().w[c.it.id+'#a']);
+  A.goCard(iA); A.setView('guide');
+  pick('interessant').onclick();
+  ok('bei Top und Bottom erst nach der zweiten Antwort', ST().card===cards[iA].key, ST().card);
+  const zweite=deep(document.getElementById('vGuide')).filter(n=>n.dataset&&n.dataset.v==='hard'&&n.onclick);
+  zweite[1].onclick();
+  ok('dann weiter', ST().card===cards[iA+1].key, ST().card);
+  ST().w={};
 }
-ok('alle '+(A.THEMES.length+1)+' Schritte fehlerfrei', bad.length===0, bad.slice(0,3).join(' | '));
 
 console.log('\n== Feinsortierung ==');
 const imp=A.IDX.byId['impact-play/flogger'];

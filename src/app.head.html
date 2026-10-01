@@ -174,6 +174,46 @@ body[data-view=guide] #vGuide,body[data-view=cmp] #vCmp{display:block}
 .steps li .sd{flex:1}
 .steps li .ss{font-size:11px;color:var(--muted)}
 .gnav{display:flex;gap:8px;justify-content:space-between;margin:16px 0 0}
+.gnav .btn{padding:10px 16px;font-size:15px}
+.btn:disabled{opacity:.35;cursor:default}
+
+/* ---------- Gefuehrter Ablauf: Karteikarten ---------- */
+body[data-view=guide] .meta,body[data-view=guide] #intro,body[data-view=guide] #refs{display:none}
+.guide{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;align-items:start;margin-top:18px}
+.gside .steps li{padding:5px 8px;font-size:13px;color:var(--muted)}
+.gside .steps li.cur{color:var(--txt)}
+.gside .steps li .sn{width:14px;color:var(--c-neigung)}
+.gmain{min-width:0}
+.fcard{max-width:620px;margin:0 auto;background:var(--panel);border:1px solid var(--line);
+  border-radius:14px;padding:16px 18px 18px}
+.fctop{display:flex;justify-content:space-between;align-items:center;gap:8px;
+  font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.fcwhere{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fcpos{display:flex;gap:8px;align-items:center;white-space:nowrap;font-variant-numeric:tabular-nums}
+.gtocbtn{display:none;text-transform:none;letter-spacing:0}
+.fcbar{height:3px;background:#22262f;border-radius:2px;margin:8px 0 14px;overflow:hidden}
+.fcbar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));transition:width .3s}
+.fq{font-size:24px;line-height:1.25;margin:4px 0 8px}
+.fcexpl{color:#cfd3da;font-size:15px;margin:0 0 14px}
+.fcexpl p{margin:0 0 9px}
+.fcask{font-size:15px;margin:0 0 8px}
+.fcrole{font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin:14px 0 6px;font-weight:600}
+.fcopts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.chip.fcopt{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;
+  white-space:normal;border-radius:10px;padding:10px 12px;font-size:15px;color:var(--txt);min-height:48px}
+.fcopts.two{grid-template-columns:repeat(auto-fit,minmax(110px,1fr))}
+.fcopts.two .chip.fcopt{min-height:42px;padding:8px 10px;justify-content:center}
+.fcopt .fcd{font-size:12px;color:var(--muted);font-weight:400;line-height:1.35}
+.fcopt.sel .fcd{color:rgba(255,255,255,.85)}
+.fctext{width:100%;min-height:120px;resize:vertical;font-size:15px}
+.fctail{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.fctail .chip{padding:5px 10px;font-size:12.5px}
+.fccmt{margin-top:8px}
+.fccmt textarea{width:100%;min-height:54px;resize:vertical}
+.fcdone{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.fcdone .btn{padding:11px 14px;font-size:15px;text-align:left}
+.fcbody .card{margin:0;border:none;padding:0;background:none}
+.menubtn{display:none;margin-left:auto;font-size:18px;line-height:1;padding:6px 12px}
 .hidden{display:none!important}
 .foot{color:var(--muted);font-size:12px;margin-top:36px;border-top:1px solid var(--line);padding-top:12px}
 
@@ -203,6 +243,25 @@ body.printmode .printbar{display:flex}
 }
 @media (max-width:760px){
   .grid2{grid-template-columns:1fr}
+  /* Handy: Kopf zusammengefaltet, Menue hinter ☰ */
+  .titlerow{flex-wrap:nowrap;align-items:center}
+  .sub{display:none}
+  .menubtn{display:inline-block}
+  header.top .bar{display:none}
+  header.top.menu .bar{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding-bottom:6px}
+  header.top.menu .bar>*{width:100%;padding:9px 10px;font-size:14px}
+  header.top.menu #q{grid-column:1/-1}
+  body[data-view=guide] .progwrap{display:none}
+  header.top.menu .progwrap{display:flex}
+  /* Karte statt Seitenleiste */
+  .guide{grid-template-columns:1fr;margin-top:10px}
+  .gside{display:none}
+  .gtocbtn{display:inline-block}
+  .fcard{padding:14px 14px 16px;border-radius:12px}
+  .fq{font-size:22px}
+  .fcopts{grid-template-columns:1fr}
+  .fcopts.two{grid-template-columns:1fr 1fr}
+  .wrap{padding-bottom:60px}
   .rlbl{width:70px;flex:0 0 70px}
   .lbl{min-width:100%}
 }

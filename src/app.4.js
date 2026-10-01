@@ -126,8 +126,7 @@ function limitsOK(){
   const esc_=(e)=>{if(e.key==='Escape') close();};
   const b1=el('button','btn',en?'Later':'Später'); b1.onclick=close;
   const b2=el('button','btn pri',en?'Take me to my limits':'Zu meinen Limits');
-  b2.onclick=()=>{close(); const i=limitStep(); if(i>=0) ST.step=i;
-    save(); setView('guide');};
+  b2.onclick=()=>{close(); ST.view='guide'; document.body.dataset.view='guide'; goStep(limitStep());};
   row.appendChild(b1); row.appendChild(b2); m.appendChild(row);
   bg.appendChild(m);
   bg.onclick=(e)=>{if(e.target===bg) close();};
@@ -375,8 +374,19 @@ function renderPrint(){
 }
 
 /* ==================== Steuerung ==================== */
-function setView(v){ document.body.dataset.view=v; rerender(); window.scrollTo(0,0); }
-function setMode(m){ ST.mode=m; save(); rerender(); }
+function setView(v){ closeMenu(); document.body.dataset.view=v; ST.view=v; save(); rerender(); window.scrollTo(0,0); }
+/* Auf dem Handy liegen Ansicht, Modus, Sprache und Export hinter ☰ — der Kopf
+   nahm dort sonst den halben Bildschirm ein, bevor die erste Frage kam. */
+function toggleMenu(){
+  const h=document.querySelector('header.top'); if(!h) return;
+  const on=h.classList.toggle('menu');
+  document.getElementById('bMenu').setAttribute('aria-expanded',on?'true':'false');
+}
+function closeMenu(){
+  const h=document.querySelector&&document.querySelector('header.top');
+  if(h&&h.classList.contains('menu')) toggleMenu();
+}
+function setMode(m){ closeMenu(); ST.mode=m; save(); rerender(); }
 function setLang(l){ ST.lang=l; document.documentElement.lang=l; save(); bindLabels(); rerender(); }
 function toggleAllExpl(){ document.body.classList.toggle('allexpl');
   document.getElementById('bExpl').classList.toggle('on',document.body.classList.contains('allexpl')); }
@@ -460,8 +470,12 @@ function rerender(){
   migrateState(ST); versionNote(null);
   if(!ST.meta.date) { const d=new Date(),p=n=>String(n).padStart(2,'0');
     ST.meta.date=d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate()); bindMeta(); }
-  if(ST.mode==='e'&&!Object.keys(ST.w).length&&!Object.keys(ST.ag).length)
-    document.body.dataset.view='guide';
+  /* Wer zurueckkommt, landet dort, wo er war. Frueher galt der gefuehrte Ablauf
+     nur fuer einen leeren Bogen — nach der ersten Antwort oeffnete die Datei in
+     der Liste, mit dem langen Einleitungstext obenauf. Im Einstieg ist der
+     gefuehrte Ablauf deshalb die Vorgabe, auch wenn schon etwas beantwortet ist. */
+  const VIEWS=['form','guide','prio','eval','cmp'];
+  document.body.dataset.view=VIEWS.indexOf(ST.view)>=0?ST.view:ST.mode==='e'?'guide':'form';
   rerender();
 })();
 </script>

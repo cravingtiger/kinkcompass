@@ -578,20 +578,22 @@ ausgefüllt wird. Drei Stufen, jederzeit wechselbar.
 
 | Modus | Umfang | Besonderheiten |
 |---|---|---|
-| **Einstieg** | 47 Items + 7 Oberkategorien | siehe § 6.2.1 |
+| **Einstieg** | 54 Items + 5 Oberkategorien | siehe § 6.2.1 |
 | **Standard** | 891 Items | alle Achsen, Hochrisiko sichtbar, freie Liste |
 | **Vollständig** | 1557 Items | gesamter Bestand inklusive Spezialinteressen |
 
 #### 6.2.1 Was der Einstieg ist
 
 Der Einstieg richtet sich an Menschen, die sich zum **ersten Mal** mit dem Thema
-befassen. Er soll eine grobe Karte geben, nicht einen Vertrag vorbereiten. Ein
+befassen — oft vor einem ersten Treffen mit jemandem, den sie noch nicht kennen.
+Er soll eine grobe Karte geben und genau das enthalten, was das Gegenüber vorher
+wissen muss, nicht einen Vertrag vorbereiten. Ein
 verkleinerter Vollbogen leistet das nicht — deshalb ist er ein eigener Zuschnitt,
 festgelegt in **`data/einstieg.txt`**: ein Item steht genau dann im Einstieg, wenn
 seine ID dort steht. Eine Datei, die man ganz lesen kann; vorher war die
 Entscheidung über 264 `GRP`-Zeilen verstreut und damit von niemandem beurteilbar.
 
-Drei Regeln, zwei davon maschinell geprüft:
+Vier Regeln, zwei davon maschinell geprüft:
 
 1. **Kein Item mit Risikoflagge.** Wer anfängt, soll nicht zuerst lesen, wogegen
    man sich absichern muss. (`tools/audit.py`)
@@ -600,14 +602,27 @@ Drei Regeln, zwei davon maschinell geprüft:
    strenger Ton, Lob. Spezialisierungen beginnen im Standardmodus.
 3. **Sicherheit konkret statt abstrakt.** Alkohol und Drogen, Safeword, Grenzen,
    Nachbesprechung — keine Ausstiegspläne, keine Löschfristen. (§ 6.1)
+4. **Nur Beantwortbares.** Gefragt wird, was man ohne Erfahrung ehrlich sagen
+   kann: No-Gos, Gesundheit, Rolle, Neugier. Nicht gefragt wird, was Fachwissen
+   oder Erfahrung voraussetzt — Risikomodelle, Top/Bottom neben Dom/Sub, Kink als
+   Lebensstil. Diese Punkte standen bis 2026-10 im Einstieg und wurden entfernt.
 
-Der Umfang: 47 Items, davon 15 Sicherheit, 8 Rolle und Stellenwert, 24 Neigungen.
-Mit Rollentrennung rund 65 Entscheidungen. Zum Vergleich: vorher 304 Items und 435
-Entscheidungen, von denen 127 auf Sicherheitsvereinbarungen entfielen.
+Der Umfang: 54 Items, davon 22 Sicherheit und Limits, 3 Rolle, 29 Neigungen.
 
-**Oberkategorien.** Neun Themenbereiche haben im Einstieg keine eigenen Items.
-Sieben davon — Lifecoaching, Sinne, Fetische, Rollenspiel, Öffentlichkeit, Körper,
-Fantasie — bekommen stattdessen **eine** Frage für den ganzen Bereich: *Wie sehr
+**Was ein fremdes Gegenüber vorher wissen muss.** Der Einstieg geht davon aus, dass
+sich beide womöglich noch nicht kennen. Deshalb gehören dazu: die Limits als
+Freitext (No-Gos, Gesundheit, Körper, emotionale Grenzen samt früherer schlechter
+Erfahrungen, ohne Details), Identitätsprüfung, erstes Treffen in der
+Öffentlichkeit, Orts- und Zeitgrenzen, keine Aufnahmen, STI-Status, sichtbare
+Spuren, Kontakt danach — und **einzeln**, nie als Sammelhaken, ob und wie weit es
+sexuell wird. Ein Haken an „Sexualität" wäre gegenüber einer unbekannten Person zu
+viel Zustimmung auf einmal. Hard und Soft Limits „benennen" stehen nicht mehr im
+Einstieg: die Limits selbst stehen dort, die Vereinbarung, sie zu benennen, war
+dieselbe Frage ein zweites Mal. Einen Safe Call gibt es weiterhin nicht (§ 6b,
+`data/entfernte-items.md`).
+
+**Oberkategorien.** Elf Themenbereiche haben im Einstieg keine eigenen Items.
+Fünf davon — Sinne, Fetische, Rollenspiel, Öffentlichkeit, Körper — bekommen stattdessen **eine** Frage für den ganzen Bereich: *Wie sehr
 interessiert dich dieser Bereich?* Die Antwort ist eine Knotenbewertung aus § 5 und
 vererbt sich auf jedes Item darin. Ein Einstiegsprofil ist damit ohne Umrechnung
 gegen ein Vollprofil vergleichbar: wer „Fetische — mag ich" angibt, hat 141 Items
@@ -724,19 +739,32 @@ stilles Verschwinden — nur keine Selbsteinschätzung ohne Grundlage.
 
 ### 6.5 Geführter Ablauf
 
-Der Einstieg ist ein Schritt-für-Schritt-Ablauf, keine Scrollseite:
-Sicherheitsteil zuerst, dann ein Themenbereich pro Schritt, mit Fortschritt,
-Zurück und Weiter, jederzeit unterbrechbar und fortsetzbar. **Letzter Schritt ist
-immer die Prioritätenansicht:** „welche fünf sind dir die wichtigsten?" — für
-Anfänger*innen die wertvollste Frage des ganzen Bogens und mit fünf gesternten
-Einträgen auch ohne Vorerfahrung beantwortbar. Standard und Vollständig bleiben
-die freie Liste.
+Der Einstieg ist ein Schritt-für-Schritt-Ablauf, keine Scrollseite: ein
+Themenbereich pro Schritt, mit Fortschritt, Zurück und Weiter, jederzeit
+unterbrechbar und fortsetzbar.
+
+**Erst das, was Spaß macht, zuletzt die Limits.** Die Reihenfolge ist: Neigungen
+→ Prioritäten („welche fünf sind dir die wichtigsten?") → Rahmen und Sicherheit →
+**Deine Limits** als eigener, letzter Schritt. Früher stand der Sicherheitsteil
+vorn; wer aber als Erstes liest, wogegen man sich absichern muss, hört auf, bevor
+er weiß, was er eigentlich will. Die Prioritäten stehen direkt nach den Neigungen,
+um die es dort geht. Am Ende steht statt „Weiter" der Knopf zum Speichern.
+
+**Ohne Limits kein Export.** Markdown und JSON lassen sich erst speichern, wenn
+mindestens ein Limit angegeben ist: ein Eintrag in No-Gos, körperlichen,
+emotionalen, gesundheits- oder beziehungsbezogenen Grenzen, oder ein `hard` bzw.
+`soft` irgendwo auf der Wunsch-Skala. Ein Bogen ohne ein einziges Limit liest sich
+in der Hand einer fremden Person wie „alles erlaubt". Statt eines Downloads kommt
+ein Hinweis — bewusst mit Humor, weil er niemanden belehren soll, der schlicht noch
+nicht fertig ist — und ein Knopf, der direkt zum Limit-Schritt führt. Der
+Zwischenstand im Browser bleibt unberührt; gesperrt ist nur, was das Gerät
+verlässt. Das gilt in allen Modi.
 
 ### 6.6 Modus im Vergleich
 
 Das Vergleichsdokument nennt Modus und Abdeckung jeder Seite:
 
-> A hat im Einstiegsmodus ausgefüllt, 47 Items und 7 Oberkategorien von 1557.
+> A hat im Einstiegsmodus ausgefüllt, 54 Items und 5 Oberkategorien von 1588.
 > Alles übrige ist **offen, nicht abgelehnt.**
 
 Bei ungleichen Modi werden Bereiche, die nur eine Seite ausgefüllt hat, als

@@ -7,7 +7,7 @@ Erzeugt aus `data/curation.txt`. Reihenfolge = Reihenfolge im Fragebogen.
 
 | | Items |
 |---|---|
-| Einstieg | 47 |
+| Einstieg | 54 |
 | Standard (inkl. Einstieg) | 908 |
 | Vollständig | 1588 |
 | Risiko hoch | 66 |
@@ -21,14 +21,14 @@ Keine strukturellen Probleme gefunden.
 
 ## 1. Rahmen und Sicherheit
 
-99 Items — E 15 · S 84 · V 0
+99 Items — E 22 · S 77 · V 0
 
 ### Risikomodell und Haltung  `vereinbarung`
 
 9 Items · 1 rollengetrennt
 
-- **Leitmodell** (2) · — · E1 S1
-- **Voraussetzungen und Haltung** (5) · — · E2 S3
+- **Leitmodell** (2) · — · S2
+- **Voraussetzungen und Haltung** (5) · — · E1 S4
 - **Spuren** (2) · — · S2
 
 ### Absicherung bei starker Machtabgabe  `vereinbarung`
@@ -67,14 +67,14 @@ Keine strukturellen Probleme gefunden.
 
 33 Items · 9 rollengetrennt
 
-- **Vorbesprechung und Grenzen** (5) · — · E3 S2
+- **Vorbesprechung und Grenzen** (5) · — · E1 S4
 - **Gesundheit offenlegen** (5) · — · S5
 - **Stoppsignale und Check-ins** (4) · — · E3 S1
 - **Notfall und Ausrüstung** (5) · — · E2 S3
-- **Rahmen, Spuren und Daten** (4) · ap · S4
-- **Sexuelle Gesundheit** (2) · — · S2
-- **Nachbereitung und Widerruf** (5) · — · E3 S2
-- **Neue Kontakte** (3) · ap · S3
+- **Rahmen, Spuren und Daten** (4) · ap · E3 S1
+- **Sexuelle Gesundheit** (2) · — · E1 S1
+- **Nachbereitung und Widerruf** (5) · — · E4 S1
+- **Neue Kontakte** (3) · ap · E2 S1
 - *ausgelassen:* Keine berauschenden Substanzen — deckungsgleich mit risikomodell/nuechternheit („Nüchtern bleiben") — dieselbe Zusage zweimal abzufragen erzeugt Scheinübereinstimmung
 - *ausgelassen:* Zustimmung am Folgetag erneut prüfen — als Dauerbedingung überzogen und doppelt abgedeckt: die fürsorgliche Seite steht in aftercare/check-in-am-naechsten-tag, die fortlaufende Zustimmung in „Neuverhandlung langfristiger Regeln"
 - *ausgelassen:* Safe Call bei neuen Kontakten — entfernt: ein Safe Call wirkt nur, solange die andere Person Zeitpunkt und Ablauf nicht kennt — in einem Dokument, das man ihr gibt, hebt er sich selbst auf
@@ -83,13 +83,13 @@ Keine strukturellen Probleme gefunden.
 
 12 Items · 0 rollengetrennt
 
-- **Grenzen** (5) · — · E1 S4
+- **Grenzen** (5) · — · E4 S1
 - **Risiken und Vorgeschichte** (4) · — · S4
-- **Bedingungen und Wünsche** (3) · — · S3
+- **Bedingungen und Wünsche** (3) · — · E1 S2
 
 ## 2. Grundlagen und Selbstbild
 
-131 Items — E 8 · S 72 · V 51
+131 Items — E 3 · S 77 · V 51
 
 ### Sexuelle Orientierung  `multi`
 
@@ -122,7 +122,7 @@ Keine strukturellen Probleme gefunden.
 
 33 Items · 0 rollengetrennt
 
-- **Stellenwert von Kink** (6) · — · E3 S1 V2
+- **Stellenwert von Kink** (6) · — · S4 V2
 - **Reichweite der Dynamik** (5) · — · S4 V1
 - **Beziehungsform** (12) · — · S7 V5
 - **Szene und Community** (7) · — · S3 V4
@@ -132,7 +132,7 @@ Keine strukturellen Probleme gefunden.
 
 45 Items · 0 rollengetrennt
 
-- **Kernrollen** (10) · — · E5 S5
+- **Kernrollen** (10) · — · E3 S7
 - **Besitz- und Eigentumsrollen** (4) · — · S2 V2
 - **Betreuung, Training und Führung** (8) · — · S3 V5
 - **Brat und Primal** (4) · — · S1 V3
@@ -144,14 +144,14 @@ Keine strukturellen Probleme gefunden.
 
 ## 3. Macht und Kontrolle
 
-140 Items — E 9 · S 70 · V 61
+140 Items — E 6 · S 73 · V 61
 
 ### Machtgefälle und Kontrolle  `scale`
 
 35 Items · 26 rollengetrennt
 
 - **Befehle und Erlaubnis** (5) · — · E3 S2
-- **Kontrolle im Alltag** (8) · ap · E1 S3 V4
+- **Kontrolle im Alltag** (8) · ap · S4 V4
 - **Körper, Sprache und Erlaubnis** (8) · ap · S5 V3
 - **Aufgaben und Konsequenzen** (5) · ap · S5
 - **Umfang der Machtabgabe** (5) · ap · S4 V1
@@ -174,8 +174,8 @@ Keine strukturellen Probleme gefunden.
 
 38 Items · 38 rollengetrennt
 
-- **Haushalt und Versorgung** (14) · ap · E1 S7 V6
-- **Körperpflege und Ankleiden** (7) · ap · E1 S4 V2
+- **Haushalt und Versorgung** (14) · ap · S8 V6
+- **Körperpflege und Ankleiden** (7) · ap · S5 V2
 - **Assistenz und Rollenservice** (5) · ap · S3 V2
 - **Präsentation und Möbelrollen** (6) · ap · V6
 - **Verehrung und Nachsorge** (4) · ap · S4
@@ -400,7 +400,7 @@ Keine strukturellen Probleme gefunden.
 
 ## 9. Sexualität
 
-113 Items — E 2 · S 63 · V 48
+113 Items — E 10 · S 55 · V 48
 
 ### Orgasmus- und Lustkontrolle  `scale`
 
@@ -417,12 +417,12 @@ Keine strukturellen Probleme gefunden.
 
 53 Items · 39 rollengetrennt · **3 Risiko**
 
-- **Küssen** (4) · ap · S4
-- **Manuelle und orale Stimulation** (5) · — · S5
-- **Penetration und Reiben** (9) · — · S7 V2
+- **Küssen** (4) · ap · E1 S3
+- **Manuelle und orale Stimulation** (5) · — · E3 S2
+- **Penetration und Reiben** (9) · — · E2 S5 V2
 - **Toys** (15) · ap · S9 V6
 - **Spezialinteressen und Geräte** (12) · ap · V12 · 3!
-- **Rahmen, Bekleidung und Nacktheit** (8) · ap · S6 V2
+- **Rahmen, Bekleidung und Nacktheit** (8) · ap · E2 S4 V2
 
 ### Genital- und Intimfokus  `scale`
 

@@ -24,8 +24,8 @@
     <button class="btn" id="bPrint" onclick="togglePrint(true)">Druck</button>
     <button class="btn" id="bExpl" onclick="toggleAllExpl()">Erklärungen</button>
     <button class="btn" id="bLegend" onclick="toggleLegend()">Skala</button>
-    <button class="btn pri" onclick="exportMD()">Markdown</button>
-    <button class="btn pri" onclick="exportJSON()">JSON</button>
+    <button class="btn pri" onclick="saveMD()">Markdown</button>
+    <button class="btn pri" onclick="saveJSON()">JSON</button>
     <button class="btn" id="bLoad" onclick="document.getElementById('imp').click()">Laden</button>
     <input type="file" id="imp" accept=".json,.md,.markdown,.txt" style="display:none" onchange="importFile(this)">
     <button class="btn" id="bReset" onclick="resetAll()">Zurücksetzen</button>

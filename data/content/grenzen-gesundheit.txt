@@ -5,7 +5,7 @@
 #GRP | wuensche | Conditions and wishes
 absolute-no-gos | Absolute no-gos | | What is out of the question under any circumstances.
 koerperliche-grenzen | Physical limits | | Body areas, resilience, mobility, pain tolerance.
-emotionale-grenzen | Emotional limits | | Themes, words or dynamics that would cause real harm.
+emotionale-grenzen | Emotional limits | Themen, Worte oder Dynamiken, die verletzen würden, auch wegen früherer schlechter Erfahrungen. Details musst du nicht erklären. | Themes, words or dynamics that would cause real harm, including because of bad past experiences. You do not have to explain the details.
 gesundheitsbezogene-grenzen | Health-related limits | | Conditions, medication, allergies, latex, circulation, heart.
 beziehungsbezogene-grenzen | Relationship-related limits | | What the relationship framework allows and what it does not.
 datenschutz-und-diskretion | Privacy and discretion | | Photos, names, platforms, storage, deletion.
@@ -14,4 +14,4 @@ schwangerschafts-und-sti-risiken | Pregnancy and STI risks | | Contraception, te
 fruehere-negative-erfahrungen | Earlier bad experiences | | What should be taken into account, without having to explain the details.
 gewuenschte-form-von-aftercare | The kind of aftercare you want | | What helps afterwards: closeness, quiet, food, talking, a blanket, being alone.
 bedingungen-fuer-ein-ja | Conditions for a yes | | Under what circumstances a maybe turns into a yes.
-individuelle-wuensche | Your own wishes | | Anything the list is missing.
+individuelle-wuensche | Your own wishes | Alles, was in der Liste fehlt, auch was du dir für das erste Mal wünschst. | Anything the list is missing, including what you would like for the first time.

@@ -69,20 +69,29 @@ ok('CNC ohne Einstiegs-Items',
    gemeint und falsch — 99 Vereinbarungen am Anfang werden durchgeklickt, nicht
    gelesen. Jetzt gilt: ein kleiner Kern steht immer, der Rest folgt dem Risiko
    (data/einstieg-kopplung.txt, geprueft in tools/audit.py). */
-const KERN=['sicherheit-verhandlung/hard-limits-benennen','sicherheit-verhandlung/soft-limits-benennen',
-  'sicherheit-verhandlung/safeword-vereinbaren','sicherheit-verhandlung/nonverbales-abbruchsignal-vereinbaren',
+/* Hard und Soft Limits „benennen" und der Abbruch bei eingeschraenkter
+   Einwilligungsfaehigkeit stehen nicht mehr im Kern: die Limits selbst stehen
+   als Freitext darin (eine Vereinbarung, sie zu benennen, war dieselbe Frage
+   ein zweites Mal), der Abbruch steckt in Nuechternheit und Widerruf. Dazu
+   kommt, was ein womoeglich fremdes Gegenueber vor dem ersten Treffen wissen
+   muss. */
+const KERN=['sicherheit-verhandlung/safeword-vereinbaren','sicherheit-verhandlung/nonverbales-abbruchsignal-vereinbaren',
   'sicherheit-verhandlung/vorbesprechung-fuehren',
   'sicherheit-verhandlung/nachbesprechung-fuehren',
   'sicherheit-verhandlung/widerruf-ohne-rechtfertigung',
   'sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch',
-  'risikomodell/nuechtern-bleiben','risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit',
-  'grenzen-gesundheit/absolute-no-gos'];
+  'risikomodell/nuechtern-bleiben',
+  'grenzen-gesundheit/absolute-no-gos','grenzen-gesundheit/gesundheitsbezogene-grenzen',
+  'grenzen-gesundheit/koerperliche-grenzen','grenzen-gesundheit/emotionale-grenzen',
+  'sicherheit-verhandlung/identitaetspruefung-vor-dem-treffen',
+  'sicherheit-verhandlung/erstes-treffen-in-der-oeffentlichkeit',
+  'sicherheit-verhandlung/aufnahmen-ausschliessen',
+  'sicherheit-verhandlung/sti-status-und-schutzbarrieren-besprechen'];
 ok('Sicherheitskern im Einstieg',
    KERN.every(id=>item(id)&&item(id).level==='e'),
    KERN.filter(id=>!item(id)||item(id).level!=='e'));
-ok('Alkohol und Einwilligungsfaehigkeit im Einstieg',
-   item('risikomodell/nuechtern-bleiben').level==='e'
-   &&item('risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit').level==='e','x');
+ok('Nuechternheit im Einstieg',
+   item('risikomodell/nuechtern-bleiben').level==='e','x');
 ok('Sicherheitsteil bleibt von Vererbung ausgenommen',
    A.IDX.items.filter(i=>i.theme==='rahmen-sicherheit').every(i=>i.exempt),'exempt');
 ok('Einstieg ist kurz (hoechstens 60 Items)',

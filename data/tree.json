@@ -713,8 +713,8 @@
      "noinherit": null
     }
    ],
-   "ekat": true,
-   "ekat_de": "Begleitung im Alltag: tägliche Meldung, Aufgaben mit Nachweis, Kamera zu vereinbarten Zeiten, Absprachen über Ernährung, Sport und Gewicht.",
+   "ekat": false,
+   "ekat_de": "",
    "ekat_en": "Guidance in everyday life: daily check-ins, tasks with proof, a camera during agreed hours, agreements about food, exercise and weight."
   },
   {
@@ -2298,8 +2298,8 @@
      "noinherit": null
     }
    ],
-   "ekat": true,
-   "ekat_de": "Was nur im Kopf oder in Worten stattfindet: Geschichten lesen und erzählen, Audio-Erotik, Fantasien, die bewusst nicht umgesetzt werden.",
+   "ekat": false,
+   "ekat_de": "",
    "ekat_en": "What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised."
   },
   {

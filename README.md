@@ -21,9 +21,12 @@ Die Antworten selbst bleiben in beiden Fällen auf dem eigenen Gerät.
 
 | Modus | Umfang | für wen |
 |---|---|---|
-| **Einstieg** | 47 Punkte und 7 Oberkategorien | erster Kontakt mit dem Thema |
+| **Einstieg** | 54 Punkte und 5 Oberkategorien | erster Kontakt, auch vor einem ersten Treffen |
 | **Standard** | 908 Punkte | die meisten |
 | **Vollständig** | 1588 Punkte | mit Spezialinteressen |
+
+Erst kommen die Neigungen, zum Schluss die Limits. Ohne mindestens ein Limit
+lässt sich der Bogen nicht speichern: jeder Mensch hat welche.
 
 Ein Moduswechsel löscht nie. Was nicht abgefragt wurde, gilt als **offen, nicht
 abgelehnt** — eine Lücke ist kein Nein.

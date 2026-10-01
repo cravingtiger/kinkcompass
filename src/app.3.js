@@ -26,15 +26,15 @@ function einstiegBlock(){
   c.appendChild(el('h3',null,en?'Getting started':'Einstieg'));
   const p=el('div','hint');
   p.innerHTML=en
-    ?'A first rough map — about fifty questions, nothing extreme. Rate what you '+
-     'recognise, leave the rest open: <b>not asked is not the same as refused</b>. '+
-     'Areas you only see as a heading are rated as a whole; that is enough to compare '+
-     'with someone else\'s profile. Switch to <b>Standard</b> whenever you want detail.'
-    :'Eine erste grobe Karte — rund fünfzig Fragen, nichts Drastisches. Bewerte, was '+
-     'du wiedererkennst, und lass den Rest offen: <b>nicht gefragt heißt nicht '+
-     'abgelehnt</b>. Bereiche, die du nur als Überschrift siehst, bewertest du im '+
-     'Ganzen — das genügt, um dein Profil mit einem anderen zu vergleichen. '+
-     'In den <b>Standard</b>modus kannst du jederzeit wechseln.';
+    ?'A first rough map — about fifty questions, nothing extreme. The fun part comes first: '+
+     'what appeals to you. Then how a first meeting should go, and last of all your limits. '+
+     '<b>Don\'t know yet? Leave it blank</b> — open does not mean no. Areas you only see as a '+
+     'heading are rated as a whole. Switch to <b>Standard</b> whenever you want detail.'
+    :'Eine erste grobe Karte — rund fünfzig Fragen, nichts Drastisches. Zuerst das Spannende: '+
+     'was dich reizt. Dann, wie ein erstes Treffen ablaufen soll, und zum Schluss deine Limits. '+
+     '<b>Weißt du noch nicht? Lass es leer</b> — offen heißt nicht nein. Bereiche, die du nur '+
+     'als Überschrift siehst, bewertest du im Ganzen. In den <b>Standard</b>modus kannst du '+
+     'jederzeit wechseln.';
   c.appendChild(p);
   return c;
 }
@@ -93,12 +93,28 @@ function toggleLegend(){
 }
 
 /* ==================== Gefuehrter Ablauf ==================== */
+/* Die Limits stehen als eigener, letzter Schritt — getrennt vom uebrigen
+   Rahmen. Freitext, weil niemand seine Grenzen vorher in Kategorien kennt. */
+const LIMSEC='grenzen-gesundheit';
 function stepList(){
-  /* Ein Schritt, der nichts zeigt, ist im gefuehrten Ablauf reine Irritation. */
-  const steps=THEMES.filter(themeShown).map(t=>({t:t}));
+  /* Erst das, was Spass macht, dann der Rahmen, ganz zuletzt die Limits.
+     Wer als Erstes liest, wogegen man sich absichern muss, hoert auf, bevor
+     er weiss, was er eigentlich will. Die Prioritaeten stehen deshalb nicht
+     mehr am Ende, sondern direkt nach den Neigungen, um die es dort geht.
+     Ein Schritt, der nichts zeigt, ist im gefuehrten Ablauf reine Irritation. */
+  const shown=THEMES.filter(themeShown);
+  const steps=shown.filter(t=>!t.exempt).map(t=>({t:t}));
   steps.push({prio:true});
+  shown.filter(t=>t.exempt).forEach(t=>{
+    const rest=t.sections.filter(s=>s.id!==LIMSEC&&visItems(s).length);
+    if(rest.length) steps.push({t:t,secs:rest});
+    const lim=t.sections.filter(s=>s.id===LIMSEC&&visItems(s).length);
+    if(lim.length) steps.push({t:t,secs:lim,limits:true});
+  });
   return steps;
 }
+const stepItems=(s)=>s.secs?[].concat.apply([],s.secs.map(visItems)):visOfTheme(s.t);
+const limitStep=()=>stepList().findIndex(s=>s.limits);
 function renderGuide(){
   const v=document.getElementById('vGuide'); v.innerHTML='';
   const steps=stepList();
@@ -117,12 +133,13 @@ function renderGuide(){
     if(s.prio){ d.appendChild(el('div',null,ST.lang==='en'
         ?'Priorities — what matters most?':'Prioritäten — was ist dir am wichtigsten?')); }
     else{
-      d.appendChild(el('div',null,LB({de:s.t.title_de,en:s.t.title_en})));
+      d.appendChild(el('div',null,s.limits?(ST.lang==='en'?'Your limits':'Deine Limits')
+        :LB({de:s.t.title_de,en:s.t.title_en})));
       if(isEkat(s.t)){
         d.appendChild(el('div','ss',ST.nodeW['T:'+s.t.id]||ST.nodeW['T:'+s.t.id+'#a']
           ||ST.nodeW['T:'+s.t.id+'#p']?'1/1 '+L(T.setCount):'0/1 '+L(T.setCount)));
       }else{
-        const c=countUnits(visOfTheme(s.t));
+        const c=countUnits(stepItems(s));
         d.appendChild(el('div','ss',c.set+'/'+c.tot+' '+L(T.setCount)+
           (c.clar>c.set?' · '+c.clar+' '+L(T.clarCount):'')));
       }
@@ -154,7 +171,9 @@ function renderGuide(){
       if(nc) b.appendChild(nc);
       n.appendChild(b); box.appendChild(n); v.appendChild(box);
     }else{
-      const zeig=ST.mode==='e'?t.sections.filter(s=>visItems(s).length):t.sections;
+      const zeig=cur.secs?cur.secs
+        :ST.mode==='e'?t.sections.filter(s=>visItems(s).length):t.sections;
+      if(cur.limits) box.appendChild(limitsIntro());
       zeig.forEach(s=>{
         const n=el('div','node'+(s.exempt?' exempt':'')+' open');
         const h=el('div','nhead');
@@ -164,7 +183,10 @@ function renderGuide(){
         n.appendChild(secBody(s));
         box.appendChild(n);
       });
-      const weg=t.sections.length-zeig.length;
+      /* Nur der eigene Teil zaehlt: die Limits sind kein „weiterer Abschnitt"
+         des Rahmens, sondern ein eigener Schritt. */
+      const weg=cur.limits?0:t.sections.filter(s=>
+        (!cur.secs||s.id!==LIMSEC)&&zeig.indexOf(s)<0).length;
       if(weg>0) box.appendChild(el('div','secnote',
         weg+' '+L(weg===1?T.moreSec1:T.moreSecs)));
       v.appendChild(box);
@@ -174,10 +196,26 @@ function renderGuide(){
   const b1=el('button','btn',ST.lang==='en'?'‹ Back':'‹ Zurück');
   b1.onclick=()=>{ST.step=Math.max(0,ST.step-1); save(); rerender();
     window.scrollTo(0,0);};
-  const b2=el('button','btn pri',ST.lang==='en'?'Next ›':'Weiter ›');
-  b2.onclick=()=>{ST.step=Math.min(steps.length-1,ST.step+1); save(); rerender();
+  const last=ST.step===steps.length-1;
+  /* Am Ende steht kein totes „Weiter", sondern das, wofuer man den Bogen
+     ausfuellt: ihn mitnehmen. Die Limit-Pruefung sitzt in saveMD. */
+  const b2=el('button','btn pri',last?(ST.lang==='en'?'Done — save as Markdown':'Fertig — als Markdown speichern')
+    :(ST.lang==='en'?'Next ›':'Weiter ›'));
+  b2.onclick=last?()=>saveMD():()=>{ST.step=Math.min(steps.length-1,ST.step+1); save(); rerender();
     window.scrollTo(0,0);};
   gn.appendChild(b1); gn.appendChild(b2); v.appendChild(gn);
+}
+
+function limitsIntro(){
+  const en=ST.lang==='en', c=el('div','intro');
+  c.innerHTML=en
+    ?'<b>Almost done.</b> Now the part your counterpart has to know before you first meet: '+
+     'what is off the table, and what your body and mind need taken into account. '+
+     'Keywords are enough. At least one limit is required before you can save.'
+    :'<b>Fast geschafft.</b> Jetzt das, was dein Gegenüber vor dem ersten Treffen wissen muss: '+
+     'was nicht in Frage kommt und worauf Körper und Kopf Rücksicht brauchen. '+
+     'Stichworte reichen. Ohne mindestens ein Limit lässt sich der Bogen nicht speichern.';
+  return c;
 }
 
 /* ==================== Prioritaeten ==================== */

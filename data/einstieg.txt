@@ -5,8 +5,10 @@
 #! Alles andere landet mindestens im Standardmodus — nichts geht verloren.
 #!
 #! Leitgedanke: Der Einstieg richtet sich an Menschen, die sich zum ersten Mal
-#! mit dem Thema befassen. Er soll eine grobe Orientierung geben, nicht einen
-#! Vertrag vorbereiten. Deshalb gelten drei Regeln:
+#! mit dem Thema befassen — oft vor einem ersten Treffen mit jemandem, den sie
+#! noch nicht kennen. Er soll eine grobe Orientierung geben und genau das
+#! enthalten, was das Gegenueber vorher wissen muss, nicht einen Vertrag
+#! vorbereiten. Deshalb gelten vier Regeln:
 #!
 #!   1. Kein Item mit Risikoflag. Wer anfaengt, soll nicht zuerst lesen,
 #!      wogegen man sich absichern muss. (Geprueft in tools/audit.py)
@@ -17,6 +19,10 @@
 #!      Nachbesprechung. Keine Ausstiegsplaene, keine Loeschfristen,
 #!      keine aerztlichen Untergrenzen — das sind Fragen fuer Menschen,
 #!      die bereits in einer dauerhaften Dynamik leben.
+#!   4. Nur Beantwortbares. Gefragt wird, was man ohne Erfahrung ehrlich
+#!      sagen kann: No-Gos, Gesundheit, Rolle, Neugier. Nicht gefragt wird,
+#!      was Fachwissen oder Erfahrung voraussetzt (Risikomodelle, Top/Bottom
+#!      neben Dom/Sub, Kink als Lebensstil).
 #!
 #! NUR-EINZELN | <sektion-id> | <Begruendung>
 #! Sektionen, die ein Haken auf Themenebene nie erreicht — unabhaengig davon,
@@ -35,35 +41,20 @@
 #! Englische Fassung: data/content/_themes.txt, viertes Feld.
 
 #! ------------------------------------------------------------------
-#! Sicherheit — das Mindeste, bevor irgendetwas passiert
+#! Reihenfolge hier = Reihenfolge der Kopfkommentare, nicht des Bogens.
+#! Im gefuehrten Ablauf kommen erst die Neigungen, dann Sicherheit, ganz
+#! zuletzt die Limits (SPEC § 6.5). Wer zuerst liest, wogegen man sich
+#! schuetzen muss, hoert auf, bevor er weiss, was er eigentlich will.
 #! ------------------------------------------------------------------
-risikomodell/nach-welchem-modell-arbeitest-du
-risikomodell/nuechtern-bleiben
-risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit
-sicherheit-verhandlung/vorbesprechung-fuehren
-sicherheit-verhandlung/hard-limits-benennen
-sicherheit-verhandlung/soft-limits-benennen
-sicherheit-verhandlung/safeword-vereinbaren
-sicherheit-verhandlung/nonverbales-abbruchsignal-vereinbaren
-sicherheit-verhandlung/loesewerkzeug-in-reichweite
-sicherheit-verhandlung/waehrend-der-szene-nachfragen
-sicherheit-verhandlung/aftercare-vorher-besprechen
-sicherheit-verhandlung/nachbesprechung-fuehren
-sicherheit-verhandlung/widerruf-ohne-rechtfertigung
-sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch
-grenzen-gesundheit/absolute-no-gos
 
 #! ------------------------------------------------------------------
-#! Wo stehst du — Rolle und Stellenwert
+#! Wer bist du — nur, was man ohne Vorwissen sagen kann
+#! (Top/Bottom und Kink als Lebensstil stehen im Standard: das eine setzt
+#! eine Unterscheidung voraus, das andere Erfahrung)
 #! ------------------------------------------------------------------
 rollen-identitaeten/dominant-dom-domme
 rollen-identitaeten/submissive-sub
 rollen-identitaeten/switch
-rollen-identitaeten/top
-rollen-identitaeten/bottom
-grundorientierung/kink-als-gelegentliche-paaraktivitaet
-grundorientierung/kink-als-regelmaessiger-teil-der-sexualitaet
-grundorientierung/kink-als-lebensstil
 
 #! ------------------------------------------------------------------
 #! Macht und Kontrolle — die gelaeufigen Formen
@@ -71,12 +62,9 @@ grundorientierung/kink-als-lebensstil
 machtgefaelle/befehle-geben
 machtgefaelle/befehle-befolgen
 machtgefaelle/um-erlaubnis-bitten
-machtgefaelle/kleidungswahl
 protokolle-rituale/titel-und-anredeformen
 protokolle-rituale/knien
 protokolle-rituale/halsband-anlegen
-service-hingabe/hausarbeit-als-service
-service-hingabe/massage
 
 #! ------------------------------------------------------------------
 #! Fesseln und Bewegung
@@ -101,10 +89,21 @@ verbale-dominanz/lob
 verbale-dominanz/dirty-talk
 
 #! ------------------------------------------------------------------
-#! Sexualitaet
+#! Sexualitaet. Ob es beim ersten Treffen ueberhaupt sexuell wird, ist die
+#! Frage, die ein fremdes Gegenueber zuerst wissen muss. Einzeln gefragt,
+#! nie als Sammelhaken: ein Haken an „Sexualitaet" waere gegenueber einer
+#! unbekannten Person zu viel Zustimmung auf einmal.
 #! ------------------------------------------------------------------
 orgasmus-lustkontrolle/orgasmuserlaubnis
 orgasmus-lustkontrolle/orgasmusverzoegerung-edging
+sexuelle-praktiken/kuessen
+sexuelle-praktiken/nacktheit-im-privaten-rahmen
+sexuelle-praktiken/kink-ohne-genitalkontakt
+sexuelle-praktiken/gegenseitige-masturbation
+sexuelle-praktiken/oralverkehr-geben
+sexuelle-praktiken/oralverkehr-empfangen
+sexuelle-praktiken/vaginalverkehr
+sexuelle-praktiken/analverkehr-passiv
 
 #! ------------------------------------------------------------------
 #! Danach
@@ -114,17 +113,55 @@ aftercare/lob-und-bestaetigung
 aftercare/wasser
 
 #! ------------------------------------------------------------------
+#! Das erste Treffen — die Gegenseite ist womoeglich noch fremd
+#! ------------------------------------------------------------------
+sicherheit-verhandlung/identitaetspruefung-vor-dem-treffen
+sicherheit-verhandlung/erstes-treffen-in-der-oeffentlichkeit
+sicherheit-verhandlung/orts-und-zeitgrenzen-festlegen
+sicherheit-verhandlung/aufnahmen-ausschliessen
+sicherheit-verhandlung/sti-status-und-schutzbarrieren-besprechen
+sicherheit-verhandlung/grenze-fuer-sichtbare-spuren-festlegen
+sicherheit-verhandlung/kontakt-nach-der-szene-vereinbaren
+risikomodell/nuechtern-bleiben
+
+#! ------------------------------------------------------------------
+#! Waehrend der Szene. Hard und Soft Limits „benennen" steht nicht mehr
+#! hier: die Limits selbst stehen im Freitext und auf der Skala, die
+#! Vereinbarung, sie zu benennen, war dieselbe Frage ein zweites Mal.
+#! ------------------------------------------------------------------
+sicherheit-verhandlung/vorbesprechung-fuehren
+sicherheit-verhandlung/safeword-vereinbaren
+sicherheit-verhandlung/nonverbales-abbruchsignal-vereinbaren
+sicherheit-verhandlung/waehrend-der-szene-nachfragen
+sicherheit-verhandlung/loesewerkzeug-in-reichweite
+sicherheit-verhandlung/widerruf-ohne-rechtfertigung
+sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch
+sicherheit-verhandlung/aftercare-vorher-besprechen
+sicherheit-verhandlung/nachbesprechung-fuehren
+
+#! ------------------------------------------------------------------
+#! Limits — was das Gegenueber vor dem ersten Treffen wissen MUSS.
+#! Freitext, weil das niemand vorher in Kategorien kennt. Ohne mindestens
+#! ein Limit laesst sich der Bogen nicht exportieren (src/app.4.js).
+#! ------------------------------------------------------------------
+grenzen-gesundheit/absolute-no-gos
+grenzen-gesundheit/gesundheitsbezogene-grenzen
+grenzen-gesundheit/koerperliche-grenzen
+grenzen-gesundheit/emotionale-grenzen
+grenzen-gesundheit/individuelle-wuensche
+
+#! ------------------------------------------------------------------
 #! Nur als Oberkategorie. Thema 14 (Hochrisiko) fehlt hier bewusst:
+#! Lifecoaching und Fantasie fehlen ebenfalls: beides betrifft kein erstes
+#! Treffen, und jede Frage weniger macht den Einstieg leichter.
 #! Nadeln, Blut, Elektro, Feuer und Atemkontrolle gehoeren nicht in den
 #! ersten Kontakt mit dem Thema — auch nicht als Auswahlfeld.
 #! ------------------------------------------------------------------
-KATEGORIE | lifecoaching | Begleitung im Alltag: tägliche Meldung, Aufgaben mit Nachweis, Kamera zu vereinbarten Zeiten, Absprachen über Ernährung, Sport und Gewicht.
 KATEGORIE | sinne | Was auf der Haut passiert: Streicheln, Kitzeln, Feder und Seide, Eis und warmes Wachs, Kneifen, Beißen, Haarziehen, Klemmen. Nicht gemeint ist Sinnesentzug — Augenbinde und Kapuze stehen unter Fesseln.
 KATEGORIE | fetische | Dinge und Körperteile, die für sich erregend sind: Leder, Latex, Dessous, Schuhe und Stiefel, Füße, Seile, Halsbänder.
 KATEGORIE | rollenspiel | In eine Rolle schlüpfen: Chef und Angestellte, Lehrer und erwachsener Schüler, Pet Play wie Puppy oder Kitten, fürsorgliche Caregiver-Dynamiken, Raufen und Jagdspiele.
 KATEGORIE | oeffentlichkeit-medien | Wer noch dabei ist und was festgehalten wird: beobachten und beobachtet werden, Fotos und Videos, Sexting, mehr als zwei Personen, D/s über Distanz, Geschenke und Geld.
 KATEGORIE | koerper-medizin | Essen, Körperflüssigkeiten und Arztspiel: füttern und gefüttert werden, Essen vom Körper, Speichel, Untersuchungssituationen.
-KATEGORIE | fantasie | Was nur im Kopf oder in Worten stattfindet: Geschichten lesen und erzählen, Audio-Erotik, Fantasien, die bewusst nicht umgesetzt werden.
 
 NUR-EINZELN | cnc | Consensual Non-Consent lebt davon, dass die Zustimmung vorher
   ausdruecklich und im Einzelnen gegeben wurde. Ein Haken am Bereichsnamen

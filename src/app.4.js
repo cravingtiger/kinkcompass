@@ -81,6 +81,60 @@ function bundle(){
 function exportJSON(){
   dl('kinkcompass_'+stamp()+'.json',JSON.stringify(bundle(),null,1),'application/json');
 }
+/* ==================== Ohne Limits kein Export ====================
+   Ein Bogen ohne ein einziges Limit ist kein mutiger Bogen, sondern ein
+   unfertiger — und in der Hand einer fremden Person ein gefaehrlicher: er
+   liest sich wie „alles erlaubt". Deshalb sperren die Knoepfe den Export,
+   bis mindestens ein Limit dasteht. Der Zwischenstand im Browser wird davon
+   nicht beruehrt; gesperrt ist nur, was das Geraet verlaesst. */
+const LIMIT_TEXTS=['absolute-no-gos','koerperliche-grenzen','emotionale-grenzen',
+  'gesundheitsbezogene-grenzen','beziehungsbezogene-grenzen'].map(x=>LIMSEC+'/'+x);
+function hasLimits(){
+  if(LIMIT_TEXTS.some(id=>(ST.tx[id]||'').trim())) return true;
+  const lim=(v)=>v==='hard'||v==='soft';
+  return Object.keys(ST.w).some(k=>lim(ST.w[k]))||Object.keys(ST.nodeW).some(k=>lim(ST.nodeW[k]));
+}
+function saveMD(){ if(limitsOK()) exportMD(); }
+function saveJSON(){ if(limitsOK()) exportJSON(); }
+function limitsOK(){
+  if(hasLimits()) return true;
+  const en=ST.lang==='en';
+  const bg=el('div','modalbg'), m=el('div','modal');
+  m.setAttribute('role','dialog'); m.setAttribute('aria-modal','true');
+  m.appendChild(el('h3',null,en?'Hang on — no limits?':'Moment mal — gar keine Limits?'));
+  const p=el('div');
+  p.innerHTML=en
+    ?'<p>Either you are the first person in history without a single limit, or you just have not '+
+     'filled in that part yet. We are betting on the second.</p>'+
+     '<p><b>Everyone has limits.</b> The most hardened domme has them, the most devoted sub has them, '+
+     'and even people who “want to try everything once” tend to draw the line at socks with sandals.</p>'+
+     '<p>Limits do not spoil the game — they are the playing field. Knowing where the edge is makes it '+
+     'easier to go right up to it. And your counterpart can only respect what they know about.</p>'+
+     '<p>Write down at least one no-go, or mark something as a hard or soft limit. Then you can save.</p>'
+    :'<p>Entweder bist du der erste Mensch der Geschichte ohne ein einziges Limit, oder du hast '+
+     'diesen Teil nur noch nicht ausgefüllt. Wir tippen auf Letzteres.</p>'+
+     '<p><b>Jeder Mensch hat Limits.</b> Die abgebrühteste Domina hat welche, der hingebungsvollste Sub '+
+     'auch, und selbst Leute, die „alles mal ausprobieren“ wollen, ziehen spätestens bei Socken in '+
+     'Sandalen eine Linie.</p>'+
+     '<p>Limits verderben nicht das Spiel, sie sind das Spielfeld. Wer weiß, wo der Rand ist, traut '+
+     'sich bis dorthin. Und dein Gegenüber kann nur respektieren, was es kennt.</p>'+
+     '<p>Trag mindestens ein No-Go ein oder markiere einen Punkt als Hard oder Soft Limit. '+
+     'Dann darfst du speichern.</p>';
+  m.appendChild(p);
+  const row=el('div','gnav');
+  const close=()=>{bg.remove(); document.removeEventListener('keydown',esc_);};
+  const esc_=(e)=>{if(e.key==='Escape') close();};
+  const b1=el('button','btn',en?'Later':'Später'); b1.onclick=close;
+  const b2=el('button','btn pri',en?'Take me to my limits':'Zu meinen Limits');
+  b2.onclick=()=>{close(); const i=limitStep(); if(i>=0) ST.step=i;
+    save(); setView('guide');};
+  row.appendChild(b1); row.appendChild(b2); m.appendChild(row);
+  bg.appendChild(m);
+  bg.onclick=(e)=>{if(e.target===bg) close();};
+  document.addEventListener('keydown',esc_);
+  document.body.appendChild(bg); b2.focus();
+  return false;
+}
 function exportMD(){
   const m=ST.meta,S=[];
   S.push('# KinkCompass — Neigungs- und Grenzenliste','');

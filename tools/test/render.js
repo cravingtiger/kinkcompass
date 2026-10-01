@@ -103,7 +103,7 @@ try{
      txt.indexOf('erste grobe Karte')>=0 && txt.indexOf('Standardmäßig aus')<0,
      txt.slice(0,60));
   const ekat=A.THEMES.filter(t=>t.ekat);
-  ok('Oberkategorien vorhanden', ekat.length===7, ekat.length);
+  ok('Oberkategorien vorhanden', ekat.length===5, ekat.length);
   ok('Kategoriefrage erscheint',
      txt.indexOf('Wie sehr interessiert dich dieser Bereich')>=0, 'fehlt');
   /* Ein Themenname allein ist fuer jemanden ohne Vorwissen leer. */
@@ -131,6 +131,45 @@ try{
      geerbt.length===inner.length, inner.length+' vs '+geerbt.length);
   ST().mode='s';
 }catch(e){ ok('Einstiegsmodus', false, e.message); }
+
+console.log('\n== Reihenfolge und Limits ==');
+try{
+  ST().mode='e';
+  const st=A.stepList();
+  const iP=st.findIndex(s=>s.prio), iL=A.limitStep();
+  const iR=st.findIndex(s=>s.t&&s.t.exempt&&!s.limits);
+  ok('erster Schritt sind Neigungen, nicht der Rahmen', !!st[0].t&&!st[0].t.exempt, st[0].t&&st[0].t.id);
+  ok('Prioritaeten vor dem Rahmen', iP>=0&&iP<iR, iP+' / '+iR);
+  ok('Limits sind der letzte Schritt', iL===st.length-1, iL+' von '+st.length);
+  ok('Limit-Schritt zeigt nur die Limits',
+     st[iL].secs.length===1&&st[iL].secs[0].id==='grenzen-gesundheit', st[iL].secs.map(s=>s.id));
+  ok('Rahmen-Schritt ohne die Limits',
+     st[iR].secs.every(s=>s.id!=='grenzen-gesundheit'), st[iR].secs.map(s=>s.id));
+  ST().mode='s';
+  ok('auch im Standardmodus zuletzt', A.limitStep()===A.stepList().length-1, A.limitStep());
+  ST().mode='e';
+
+  /* Ohne Limit kein Export: Knopf druecken, Hinweis statt Download. */
+  const keep={w:ST().w,nodeW:ST().nodeW,tx:ST().tx};
+  ST().w={}; ST().nodeW={}; ST().tx={};
+  const vorher=global.__downloads.length;
+  A.saveMD(); A.saveJSON();
+  ok('ohne Limits kein Download', global.__downloads.length===vorher, global.__downloads.length-vorher);
+  const deep=(n)=>(n._text||'')+' '+(n._html||'').replace(/<[^>]*>/g,' ')+' '+
+    (n.children||[]).map(deep).join(' ');
+  ok('stattdessen der Hinweis', deep(document.body).indexOf('Jeder Mensch hat Limits')>=0, 'fehlt');
+  ok('eine Wunschliste ist kein Limit',
+     (ST().tx['grenzen-gesundheit/individuelle-wuensche']='Kerzenlicht', !A.hasLimits()), 'x');
+  ST().tx['grenzen-gesundheit/absolute-no-gos']='Keine Fotos';
+  ok('ein No-Go genuegt', A.hasLimits(), 'x');
+  A.saveMD();
+  ok('dann wird gespeichert', global.__downloads.length===vorher+1, global.__downloads.length-vorher);
+  ST().tx={}; ST().w={'impact-play/paddel#p':'hard'};
+  ok('ein Hard Limit auf der Skala genuegt ebenso', A.hasLimits(), 'x');
+  ST().w={}; ST().nodeW={'T:fetische':'soft'};
+  ok('ein Soft Limit am Bereich genuegt ebenso', A.hasLimits(), 'x');
+  Object.assign(ST(),keep); ST().mode='s';
+}catch(e){ ok('Reihenfolge und Limits', false, e.message); }
 
 console.log('\n== Suche ==');
 try{

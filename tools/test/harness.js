@@ -36,6 +36,7 @@ global.document={
   body:Object.assign(mkEl('body'),{dataset:{view:'form'}}),
   createElement:mkEl, getElementById:id=>byId[id]||null,
   querySelectorAll:(sel)=>sel==='[data-meta]'?[]:[],
+  addEventListener(){}, removeEventListener(){},
 };
 global.window={scrollY:0,scrollTo(){},print(){}};
 global.alert=(m)=>{global.__alerts=(global.__alerts||[]).concat(m);};
@@ -59,6 +60,7 @@ const patched=code.replace(/function dl\(name,text,mime\)\{[\s\S]*?\n\}/,
  'setMode:setMode,setView:setView,rerender:rerender,starredUnits:starredUnits,'+
  'MIG:MIG,snapshot2:snapshot,legendBlock:legendBlock,toggleLegend:toggleLegend,optsOf:optsOf,DATAchoices:DATA.tree.choices,migrateState:migrateState,migSummary:migSummary,BLANK:BLANK,CMP:CMP,buildReport:buildReport,renderCmp:renderCmp,exportCmpMD:exportCmpMD,'+
  'parseProfile:parseProfile,useOwn:useOwn,'+
+ 'stepList:stepList,limitStep:limitStep,hasLimits:hasLimits,saveMD:saveMD,saveJSON:saveJSON,'+
  'save:save,setST:(o)=>{ST=Object.assign(ST,o);},importText:(t)=>{'+
  'const f=document.createElement("x");f.textContent=t;'+
  'importFile({files:[f],value:""});}};'))();

@@ -1315,9 +1315,11 @@ const limitStep=()=>stepList().findIndex(s=>s.limits);
    Datei zum ersten Mal oeffnet, nach Formular aus; eine Karte nach einer
    Frage, die man beantworten kann. Die Schritte aus stepList bleiben das
    Inhaltsverzeichnis — am Rechner links daneben, auf dem Handy hinter einem
-   Knopf, damit es nicht ueber der ersten Frage steht. */
-const ADV_MS=450;
-let advT=null;
+   Knopf, damit es nicht ueber der ersten Frage steht.
+   Weiter geht es nur von Hand. Ein automatischer Sprung nach der Antwort
+   (bis 2026-10 nach 450 ms) war auf dem Handy zu schnell: wer nach einer
+   Antwort noch Stern, Fantasie oder Notiz setzen wollte, sah die Karte
+   verschwinden, bevor er die Knoepfe darunter erreichte. */
 function orderedItems(s){
   /* dieselbe Reihenfolge wie in der Liste: Gruppen, dann Ungruppiertes */
   const its=visItems(s), out=[];
@@ -1351,7 +1353,6 @@ function cardIndex(cards){
   return i<0?0:i;
 }
 function goCard(i){
-  clearTimeout(advT); advT=null;
   const cards=cardList();
   i=Math.max(0,Math.min(cards.length-1,i));
   ST.card=cards[i].key; save(); rerender(); window.scrollTo(0,0);
@@ -1362,13 +1363,6 @@ function goStep(si){
 }
 const nextCard=()=>goCard(cardIndex(cardList())+1);
 const prevCard=()=>goCard(cardIndex(cardList())-1);
-/* Nach einer Antwort kurz stehen lassen, damit man sieht, was gewaehlt ist,
-   dann weiter. Wer in der Pause selbst blaettert, hebt den Sprung auf. */
-function advanceSoon(){
-  clearTimeout(advT);
-  const from=ST.card;
-  advT=setTimeout(()=>{advT=null; if(ST.card===from&&document.body.dataset.view==='guide') nextCard();},ADV_MS);
-}
 
 /* Antwortknoepfe der Karte: gross, mit Beschreibung, eine Zeile pro Option
    auf dem Handy. Dieselben Codes und Farben wie in der Liste. */
@@ -1409,12 +1403,7 @@ function cardItem(c,box){
     box.appendChild(ta);
     return;
   }
-  /* Weitere Achsen (Strafe, Erfahrung) stehen nur auf der Karte, wenn sie
-     eingeschaltet sind — dann springt die Karte nicht von selbst weiter,
-     sonst waere sie weg, bevor die zweite Achse beantwortet ist. */
-  const extra=it.kind==='wunsch'&&it.units.some(()=>showAx('showP',it)||(showAx('showX',it)&&!ST.noExp));
-  const answered=()=>it.units.every(u=>it.kind==='wunsch'?effW(it,u).src==='set':!!agOf(it,u));
-  const picked=(v)=>{save(); rerender(); if(v&&!extra&&answered()) advanceSoon();};
+  const picked=()=>{save(); rerender();};
   it.units.forEach(u=>{
     if(u) box.appendChild(roleHead(LB(roleOf(it,u))));
     if(it.kind==='wunsch'){
@@ -1488,7 +1477,6 @@ function cardEkat(t,box){
     box.appendChild(fcChips(wunschOpts(),ST.nodeW['T:'+t.id+r]||'',(v)=>{
       if(v)ST.nodeW['T:'+t.id+r]=v; else delete ST.nodeW['T:'+t.id+r];
       save(); rerender();
-      if(v&&roles.every(x=>ST.nodeW['T:'+t.id+x])) advanceSoon();
     },false,roles.length>1));
   });
   box.appendChild(noteEl(L(T.ekatWhy)));
@@ -1498,13 +1486,13 @@ function cardWelcome(box){
   box.appendChild(el('h2','fq',en?'Welcome':'Willkommen'));
   const p=el('div','fcexpl');
   p.innerHTML=(en
-    ?'<p>One question at a time. Tap an answer and the next card follows by itself; '+
-     '<b>‹ ›</b> or swiping takes you back and forth.</p>'+
+    ?'<p>One question at a time. Tap an answer, then <b>Next</b>; swiping or the arrow keys '+
+     'work too.</p>'+
      '<p>You can skip anything — <b>open does not mean no</b>. Everything you enter stays in '+
      'this browser on this device.</p>'+
      '<p>Some cards ask twice: <b>Top</b> means you do it, <b>Bottom</b> means it is done to you.</p>'
-    :'<p>Eine Frage nach der anderen. Tipp eine Antwort an, dann kommt die nächste Karte von '+
-     'selbst; mit <b>‹ ›</b> oder Wischen geht es vor und zurück.</p>'+
+    :'<p>Eine Frage nach der anderen. Tipp eine Antwort an, dann <b>Weiter</b>; Wischen oder '+
+     'die Pfeiltasten gehen auch.</p>'+
      '<p>Du kannst alles überspringen — <b>offen heißt nicht nein</b>. Was du eingibst, bleibt '+
      'in diesem Browser auf diesem Gerät.</p>'+
      '<p>Manche Karten fragen zweimal: <b>Top</b> heißt, du machst es, <b>Bottom</b> heißt, '+

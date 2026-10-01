@@ -745,11 +745,11 @@ Inhaltsverzeichnis darüber sah für jemanden, der die Datei zum ersten Mal
 öffnet, nach Formular aus — eine Karte nach einer Frage, die man beantworten
 kann.
 
-- **Automatisch weiter.** Nach einer Antwort bleibt die Karte kurz stehen
-  (450 ms), damit man die Wahl sieht, dann kommt die nächste. Bei Top und Bottom
-  auf einer Karte erst nach der zweiten Antwort; Freitext und eingeblendete
-  Zusatzachsen springen nie von selbst. Zurück und Weiter (bzw. „Überspringen",
-  solange nichts gewählt ist), Wischen und die Pfeiltasten blättern.
+- **Nur von Hand weiter.** Zurück und Weiter (bzw. „Überspringen", solange
+  nichts gewählt ist), Wischen und die Pfeiltasten blättern. Ein automatischer
+  Sprung 450 ms nach der Antwort war kurz eingebaut und wurde wieder entfernt:
+  auf dem Handy verschwand die Karte, bevor man Stern, Fantasie oder Notiz
+  darunter erreichte.
 - **Karten mit zwei Rollen** zeigen die Antworten kompakt, zweispaltig und ohne
   Beschreibungszeile — sonst stünden zehn große Knöpfe untereinander.
 - **Rahmen:** eine Begrüßungskarte vorn (wie es funktioniert, Top/Bottom,

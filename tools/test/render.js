@@ -66,20 +66,19 @@ ST().mode='e';
      lim.length);
   ok('eine Frage pro Karte', cards.filter(c=>c.it).length===A.IDX.items.filter(i=>i.level==='e').length,
      cards.filter(c=>c.it).length);
-  /* Automatisch weiter: die Pause ist im Testlauf synchron. */
+  /* Nur von Hand weiter: nach einer Antwort bleibt die Karte stehen, damit
+     Stern, Fantasie und Notiz darunter erreichbar bleiben. */
   const iS=cards.findIndex(c=>c.it&&!c.it.ap&&c.it.kind==='wunsch');
   A.goCard(iS); A.setView('guide');
   const deep=(n)=>[n].concat((n.children||[]).flatMap(deep));
   const pick=(v)=>deep(document.getElementById('vGuide')).find(n=>n.dataset&&n.dataset.v===v&&n.onclick);
   pick('neigung').onclick();
-  ok('nach einer Antwort kommt die naechste Karte', A.cardList().findIndex(c=>c.key===ST().card)===iS+1, ST().card);
-  const iA=cards.findIndex(c=>c.it&&c.it.ap&&c.it.kind==='wunsch'&&!ST().w[c.it.id+'#a']);
-  A.goCard(iA); A.setView('guide');
-  pick('interessant').onclick();
-  ok('bei Top und Bottom erst nach der zweiten Antwort', ST().card===cards[iA].key, ST().card);
-  const zweite=deep(document.getElementById('vGuide')).filter(n=>n.dataset&&n.dataset.v==='hard'&&n.onclick);
-  zweite[1].onclick();
-  ok('dann weiter', ST().card===cards[iA+1].key, ST().card);
+  ok('nach einer Antwort bleibt die Karte stehen', ST().card===cards[iS].key, ST().card);
+  ok('und die Antwort ist gesetzt', ST().w[cards[iS].it.id]==='neigung', ST().w[cards[iS].it.id]);
+  const weiter=deep(document.getElementById('vGuide')).find(n=>n._text==='Weiter ›'&&n.onclick);
+  ok('der Knopf heisst jetzt Weiter', !!weiter, 'fehlt');
+  weiter.onclick();
+  ok('Weiter fuehrt zur naechsten Karte', ST().card===cards[iS+1].key, ST().card);
   ST().w={};
 }
 

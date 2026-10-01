@@ -128,7 +128,13 @@ else:
 
 tree=json.load(io.open(os.path.join(ROOT,'data/tree.json'),encoding='utf-8'))
 kat=[t for t in tree['themes'] if t.get('ekat')]
-ohne=[t['id'] for t in kat if not t.get('ekat_de') or not t.get('ekat_en')]
+# Teilfragen (Sektion/Gruppe) pruefen wir mit denselben Regeln
+for t in tree['themes']:
+    for n in t.get('ekat_nodes',[]):
+        kat.append({'id':n['ref'],'ekat_de':n['de'],'ekat_en':n['en'],
+                    'title_en':n['title_en']})
+ohne=[t['id'] for t in kat if not t.get('ekat_de') or not t.get('ekat_en')
+      or ('title_en' in t and not t['title_en'])]
 if ohne:
     FAIL.append(('Oberkategorie ohne Beschreibung', ', '.join(ohne)))
     print('  FEHLER: Oberkategorie ohne Beschreibung: %s'%', '.join(ohne))

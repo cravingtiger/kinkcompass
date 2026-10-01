@@ -298,7 +298,7 @@
    "en": "Safety cutters within reach",
    "expl_de": "Sicherheitsschere oder Rettungsmesser direkt am Ort, bei jeder Fesselung.",
    "expl_en": "Safety shears or a rescue hook right at hand, for any tie.",
-   "ap": true,
+   "ap": false,
    "level": "e",
    "risk": null,
    "scale": null,

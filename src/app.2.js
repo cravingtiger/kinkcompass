@@ -74,7 +74,7 @@ function nodeControls(nk,items,noInherit,capText,reach){
            :nk.indexOf('S:')===0?L(T.allSec):L(T.allGrp);
   const alle=reach||items;
   /* Auf Themenebene bleiben Risiko-Items und NUR-EINZELN-Sektionen aussen vor. */
-  const gesperrt=nk.charAt(0)==='T'?alle.filter(it=>it.risk||it.nosweep):[];
+  const gesperrt=sweeps(nk)?alle.filter(it=>it.risk||it.nosweep):[];
   const trifft=alle.length-gesperrt.length;
   const cap=el('div','nodecap',capText||(what+' ('+trifft+')'));
   cap.title=capText?L(T.ekatWhy):L(T.inheritWhy);
@@ -355,10 +355,11 @@ function themeNode(t){
   const ti=el('div','ntitle');
   ti.appendChild(el('h3',null,t.order+'. '+LB({de:t.title_de,en:t.title_en})));
   const vi=visOfTheme(t);
-  const ekat=isEkat(t);
+  const ekat=isEkat(t), eknodes=ekatNodes(t);
   const cnt=countUnits(vi);
   ti.appendChild(el('div','nmeta',ekat
     ?L(T.ekatCap)
+    :eknodes.length?eknodes.length+' '+(ST.lang==='en'?'questions':'Fragen')
     /* „0 Sektionen · 0 Items · 0/0" ist eine tote Zeile mit sinnlosem Zaehler. */
     :(ST.mode==='e'&&!vi.length)?L(T.notAskedShort)
     :(ST.mode==='e'?t.sections.filter(x=>visItems(x).length).length:t.sections.length)+
@@ -376,6 +377,17 @@ function themeNode(t){
       body.appendChild(noteEl(L(T.ekatWhy)));
       const nc=nodeControls('T:'+t.id,allItems(t),null,L(T.ekatShort));
       if(nc) body.appendChild(nc);
+      n.appendChild(body);
+    }else if(eknodes.length){
+      eknodes.forEach(nd=>{
+        const blk=el('div','grp');
+        blk.appendChild(el('h5',null,LB({de:nd.title_de,en:nd.title_en})));
+        const d=el('div','ekatwas'); d.textContent=LB({de:nd.de,en:nd.en}); blk.appendChild(d);
+        const nc=nodeControls(nd.node,nodeItems(nd.node),null,L(T.ekatShort));
+        if(nc) blk.appendChild(nc);
+        body.appendChild(blk);
+      });
+      body.appendChild(noteEl(L(T.ekatWhy)));
       n.appendChild(body);
     }else if(ST.mode==='e'&&!vi.length){
       const m=el('div','secnote',L(T.notAskedTheme));

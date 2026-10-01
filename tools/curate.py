@@ -279,6 +279,7 @@ def main():
     # ---- Einstiegsmodus aus data/einstieg.txt ----------------------------
     epath = os.path.join(ROOT, 'data/einstieg.txt')
     ewant, ekat, ekat_de, eorder = set(), [], {}, {}
+    enode = []          # (thema, knoten, Beschreibung, Titel) fuer Sektion/Gruppe
     nosweep, nsw_cur = {}, None
     for lno, raw in enumerate(io.open(epath, encoding='utf-8'), 1):
         line = raw.strip()
@@ -302,6 +303,13 @@ def main():
                 die('einstieg.txt Zeile %d: KATEGORIE ohne Beschreibung. Ein '
                     'Themenname allein sagt jemandem ohne Vorwissen nichts.' % lno)
                 continue
+            if '.' in k[1] or k[1] not in {t['id'] for t in themes}:
+                if len(k) < 4 or not k[3]:
+                    die('einstieg.txt Zeile %d: KATEGORIE fuer eine Sektion oder '
+                        'Gruppe braucht einen Titel in Alltagssprache.' % lno)
+                    continue
+                enode.append((k[1], k[2], k[3]))
+                continue
             ekat.append(k[1]); ekat_de[k[1]] = k[2]
             continue
         if line in ewant:
@@ -316,6 +324,21 @@ def main():
         if k not in tids:
             die('einstieg.txt: KATEGORIE kennt den Themenbereich nicht: %s' % k)
     allsec = {s['id'] for t in themes for s in t['sections']}
+    secof = {s['id']: (t, s) for t in themes for s in t['sections']}
+    ekat_nodes = {}
+    for ref, de, title in enode:
+        sid, _, gid = ref.partition('.')
+        if sid not in secof:
+            die('einstieg.txt: KATEGORIE kennt die Sektion nicht: %s' % ref); continue
+        t, s = secof[sid]
+        if gid and gid not in {it.get('group') for it in s['items']}:
+            die('einstieg.txt: KATEGORIE kennt die Gruppe nicht: %s' % ref); continue
+        if t['id'] in ekat:
+            die('einstieg.txt: %s liegt in %s, das schon als Ganzes gefragt wird'
+                % (ref, t['id'])); continue
+        ekat_nodes.setdefault(t['id'], []).append(
+            {'node': ('G:' + ref) if gid else ('S:' + sid), 'ref': ref,
+             'title_de': title, 'title_en': '', 'de': de, 'en': ''})
     for k in nosweep:
         if k not in allsec:
             die('einstieg.txt: NUR-EINZELN kennt die Sektion nicht: %s' % k)
@@ -329,6 +352,13 @@ def main():
                     it['level'] = 'e'
                 elif it['level'] == 'e':
                     it['level'] = 's'
+    for tid, nodes in ekat_nodes.items():
+        for n in nodes:
+            sid, _, gid = n['ref'].partition('.')
+            if any(it['level'] == 'e' and (not gid or it.get('group') == gid)
+                   for it in secof[sid][1]['items']):
+                die('einstieg.txt: KATEGORIE %s, aber dort stehen eigene '
+                    'Einstiegs-Items — dann waere die Frage doppelt.' % n['ref'])
     # Eine Kategoriezeile ist nur dort sinnvoll, wo der Bereich sonst leer bleibt.
     for t in themes:
         if t['id'] not in ekat:
@@ -360,7 +390,8 @@ def main():
         tn = {'id': t['id'], 'title_de': t['title_de'], 'title_en': '',
               'order': t['order'], 'sections': [],
               'ekat': t['id'] in ekat,
-              'ekat_de': ekat_de.get(t['id'], ''), 'ekat_en': ''}
+              'ekat_de': ekat_de.get(t['id'], ''), 'ekat_en': '',
+              'ekat_nodes': ekat_nodes.get(t['id'], [])}
         for s in t['sections']:
             tn['sections'].append({'id': s['id'], 'title_de': s['title_de'],
                 'title_en': '', 'type': s['type'], 'note_de': s['note_de'],
@@ -380,7 +411,8 @@ def main():
     print('OK  %d Themenbereiche, %d Sektionen, %d Items' % (
         len(themes), sum(len(t['sections']) for t in themes), n))
     print('    Einstieg %d (+%d Oberkategorien)  |  Standard(+E) %d  |  Vollstaendig %d'
-          % (tot['e'], len(ekat), tot['e'] + tot['s'], n))
+          % (tot['e'], len(ekat) + sum(len(v) for v in ekat_nodes.values()),
+             tot['e'] + tot['s'], n))
     ndrop = sum(len(s.get('dropped', [])) for t in themes for s in t['sections'])
     if ndrop: print('    bewusst ausgelassen: %d (siehe data/items/*.json)' % ndrop)
     withexpl = sum(1 for t in themes for s in t['sections'] for it in s['items'] if it['expl_de'])

@@ -138,7 +138,12 @@ function cardList(){
   steps.forEach((s,si)=>{
     if(s.prio){cards.push({key:'p',prio:true,step:si}); return;}
     const t=s.t;
-    if(isEkat(t)){cards.push({key:'k:'+t.id,ekat:t,step:si}); return;}
+    if(isEkat(t)){cards.push({key:'k:T:'+t.id,ekat:{node:'T:'+t.id,title_de:t.title_de,
+      title_en:t.title_en,de:t.ekat_de,en:t.ekat_en},step:si}); return;}
+    if(ekatNodes(t).length){
+      ekatNodes(t).forEach(nd=>cards.push({key:'k:'+nd.node,ekat:nd,step:si}));
+      return;
+    }
     const secs=s.secs||t.sections;
     let first=true;
     secs.forEach(sec=>{
@@ -271,17 +276,19 @@ function cardItem(c,box){
   lb.appendChild(cb); lb.appendChild(el('span',null,L(T.shared))); cmt.appendChild(lb);
   box.appendChild(cmt);
 }
-function cardEkat(t,box){
-  box.appendChild(el('h2','fq',LB({de:t.title_de,en:t.title_en})));
-  const was=LB({de:t.ekat_de,en:t.ekat_en});
+function cardEkat(nd,box){
+  /* nd: Thema als Ganzes oder eine Teilfrage — {node,title_*,de,en} */
+  box.appendChild(el('h2','fq',LB({de:nd.title_de,en:nd.title_en})));
+  const was=LB({de:nd.de,en:nd.en});
   if(was) box.appendChild(el('p','fcexpl',was));
-  box.appendChild(el('div','fcask',ST.lang==='en'?'How much does this area interest you?'
-    :'Wie sehr interessiert dich dieser Bereich?'));
-  const all=allItems(t), ap=nodeIsAp(all), roles=ap?['#a','#p']:[''];
+  box.appendChild(el('div','fcask',nd.node.charAt(0)==='T'
+    ?(ST.lang==='en'?'How much does this area interest you?':'Wie sehr interessiert dich dieser Bereich?')
+    :(ST.lang==='en'?'How much does this interest you?':'Wie sehr interessiert dich das?')));
+  const all=nodeItems(nd.node), ap=nodeIsAp(all), roles=ap?['#a','#p']:[''];
   roles.forEach(r=>{
-    if(r) box.appendChild(roleHead(LB(ROLE[r.slice(1)]))); 
-    box.appendChild(fcChips(wunschOpts(),ST.nodeW['T:'+t.id+r]||'',(v)=>{
-      if(v)ST.nodeW['T:'+t.id+r]=v; else delete ST.nodeW['T:'+t.id+r];
+    if(r) box.appendChild(roleHead(LB(ROLE[r.slice(1)])));
+    box.appendChild(fcChips(wunschOpts(),ST.nodeW[nd.node+r]||'',(v)=>{
+      if(v)ST.nodeW[nd.node+r]=v; else delete ST.nodeW[nd.node+r];
       save(); rerender();
     },false,roles.length>1));
   });
@@ -350,7 +357,8 @@ function tocList(cur){
     else if(s.limits) label=ST.lang==='en'?'Your limits':'Deine Limits';
     else label=LB({de:s.t.title_de,en:s.t.title_en});
     if(!s.prio){
-      if(isEkat(s.t)) done=['','#a','#p'].some(r=>ST.nodeW['T:'+s.t.id+r]);
+      const nodes=isEkat(s.t)?['T:'+s.t.id]:ekatNodes(s.t).map(n=>n.node);
+      if(nodes.length) done=nodes.every(nk=>['','#a','#p'].some(r=>ST.nodeW[nk+r]));
       else{const c=countUnits(stepItems(s)); done=c.tot>0&&c.clar>=c.tot;}
     }
     add(label,si,done,()=>{closeToc(); goStep(si);});
@@ -600,17 +608,22 @@ function renderEval(){
      genau dort wieder ueberfrachten, wo er kurz sein soll — und der Hinweis
      auf den „Anker" laese sich wie ein Vorwurf. Beides wird zusammengefasst. */
   const alle=ratedUnits();
-  const ausKat=(r)=>r.src==='inh'&&r.from&&r.from.charAt(0)==='T'
-    &&isEkat(IDX.theme[r.it.theme]);
+  const ausKat=(r)=>r.src==='inh'&&r.from&&(EKN[r.from]
+    ||(r.from.charAt(0)==='T'&&isEkat(IDX.theme[r.it.theme])));
   const R=ST.mode==='e'?alle.filter(r=>!ausKat(r)):alle;
   const kat=[];
   if(ST.mode==='e'){
-    THEMES.filter(isEkat).forEach(t=>{
+    const nodes=[];
+    THEMES.forEach(t=>{
+      if(isEkat(t)) nodes.push({nk:'T:'+t.id,name:LB({de:t.title_de,en:t.title_en})});
+      ekatNodes(t).forEach(nd=>nodes.push({nk:nd.node,name:LB({de:nd.title_de,en:nd.title_en})}));
+    });
+    nodes.forEach(nd=>{
       ['','#a','#p'].forEach(u=>{
-        const val=ST.nodeW['T:'+t.id+u];
+        const val=ST.nodeW[nd.nk+u];
         if(!val) return;
-        kat.push({t:t,role:u,v:val,
-          n:alle.filter(r=>r.it.theme===t.id&&r.role===(u||r.role)&&ausKat(r)).length});
+        kat.push({name:nd.name,role:u,v:val,
+          n:alle.filter(r=>r.from===nd.nk&&r.role===(u||r.role)&&ausKat(r)).length});
       });
     });
   }
@@ -629,7 +642,7 @@ function renderEval(){
     const kl=el('ul');
     kat.forEach(k=>{
       const li=el('li');
-      li.appendChild(el('span',null,LB({de:k.t.title_de,en:k.t.title_en})+
+      li.appendChild(el('span',null,k.name+
         (k.role?' — '+LB(ROLE[k.role.slice(1)]):'')+' — '+scLbl('wunsch',k.v)));
       li.appendChild(el('small',null,' — '+L(T.evalKatGilt)+' '+k.n+' '+L(T.evalPunkte)));
       kl.appendChild(li);
@@ -646,39 +659,54 @@ function renderEval(){
       :'\u2009% deines Profils sind eigene, ausdrückliche Entscheidungen. Eine Gruppenbewertung wirkt nach unten und ist ein starker Anker — je niedriger dieser Anteil, desto mehr des Profils stammt aus wenigen Klicks.')));
   }
   v.appendChild(c);
-  ORD.forEach(b=>{
-    const rows=R.filter(r=>r.v===b);
-    if(!rows.length) return;
-    rows.sort((a,b2)=>{
-      const ra=a.rank<0?9999:a.rank, rb=b2.rank<0?9999:b2.rank;
-      if(ra!==rb) return ra-rb;
-      if(a.star!==b2.star) return a.star?-1:1;
-      return a.it.de.localeCompare(b2.it.de);
+  /* Nach Rolle getrennt: „Handspanking — Neigung" sagt nicht, ob man es gibt
+     oder bekommt. Erst die Bottom-Seite, dann die Top-Seite, dann was keine
+     Seite hat (Rollenwahl, Kuscheln, Gegenstaende). Die Rollenbezeichnung je
+     Zeile entfaellt, wo sie nur die Ueberschrift wiederholt. */
+  const en=ST.lang==='en';
+  [['#p',en?'As bottom — what is done to you':'Als Bottom — was mit dir gemacht wird'],
+   ['#a',en?'As top — what you do':'Als Top — was du machst'],
+   ['',en?'Without a side':'Ohne Seite']].forEach(([role,title])=>{
+    const RR=R.filter(r=>r.role===role);
+    if(!RR.length) return;
+    const sh=el('h3','evalrole',title+' ('+RR.length+')');
+    v.appendChild(sh);
+    ORD.forEach(b=>{
+      const rows=RR.filter(r=>r.v===b);
+      if(!rows.length) return;
+      rows.sort((a,b2)=>{
+        const ra=a.rank<0?9999:a.rank, rb=b2.rank<0?9999:b2.rank;
+        if(ra!==rb) return ra-rb;
+        if(a.star!==b2.star) return a.star?-1:1;
+        return a.it.de.localeCompare(b2.it.de);
+      });
+      const g=el('div','egroup');
+      const h=el('h4',null,scLbl('wunsch',b)+' ('+rows.length+')');
+      h.style.background='var(--c-'+b+')';
+      if(b==='must')h.style.color='#1a1a1a';
+      g.appendChild(h);
+      const ul=el('ul');
+      rows.forEach(r=>{
+        const li=el('li');
+        const rl=r.role?roleOf(r.it,r.role):null;
+        const eigen=rl&&rl!==ROLE[r.role.slice(1)];
+        li.appendChild(el('span',null,(r.star?'★ ':'')+LB({de:r.it.de,en:r.it.en})+
+          (eigen?' — '+LB(rl):'')));
+        const bits=[LB({de:IDX.sec[r.it.sec].title_de,en:IDX.sec[r.it.sec].title_en})];
+        /* Die Vererbung kennt keinen Modus, die Liste schon: sonst stuende hier
+           eine Bewertung, die man nirgends findet und nicht aendern kann. */
+        if(!lvOK(r.it)) bits.push(L(T.ausserhalbModus));
+        if(r.src==='inh') bits.push(L(T.inherited));
+        if(r.p) bits.push(L(T.strafeAx)+': '+scLbl('strafe',r.p));
+        if(r.f) bits.push(L(T.fantasy));
+        if(r.x) bits.push(L(T.expAx)+': '+scLbl('erfahrung',r.x));
+        if(r.it.risk) bits.push(ST.lang==='en'
+          ?(r.it.risk==='hoch'?'high risk':'moderate risk'):'Risiko '+r.it.risk);
+        li.appendChild(el('small',null,' — '+bits.join(' · ')));
+        ul.appendChild(li);
+      });
+      g.appendChild(ul); v.appendChild(g);
     });
-    const g=el('div','egroup');
-    const h=el('h4',null,scLbl('wunsch',b)+' ('+rows.length+')');
-    h.style.background='var(--c-'+b+')';
-    if(b==='must')h.style.color='#1a1a1a';
-    g.appendChild(h);
-    const ul=el('ul');
-    rows.forEach(r=>{
-      const li=el('li');
-      li.appendChild(el('span',null,(r.star?'★ ':'')+LB({de:r.it.de,en:r.it.en})+
-        (r.role?' — '+LB(roleOf(r.it,r.role)):'')));
-      const bits=[LB({de:IDX.sec[r.it.sec].title_de,en:IDX.sec[r.it.sec].title_en})];
-      /* Die Vererbung kennt keinen Modus, die Liste schon: sonst stuende hier
-         eine Bewertung, die man nirgends findet und nicht aendern kann. */
-      if(!lvOK(r.it)) bits.push(L(T.ausserhalbModus));
-      if(r.src==='inh') bits.push(L(T.inherited));
-      if(r.p) bits.push(L(T.strafeAx)+': '+scLbl('strafe',r.p));
-      if(r.f) bits.push(L(T.fantasy));
-      if(r.x) bits.push(L(T.expAx)+': '+scLbl('erfahrung',r.x));
-      if(r.it.risk) bits.push(ST.lang==='en'
-        ?(r.it.risk==='hoch'?'high risk':'moderate risk'):'Risiko '+r.it.risk);
-      li.appendChild(el('small',null,' — '+bits.join(' · ')));
-      ul.appendChild(li);
-    });
-    g.appendChild(ul); v.appendChild(g);
   });
   /* Vereinbarungen */
   const ag=IDX.items.filter(it=>it.exempt&&it.units.some(u=>agOf(it,u)));

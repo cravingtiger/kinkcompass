@@ -23,7 +23,8 @@ GRPDEF | leitbild | Leitmodell
 ITEM | leitmodell | Nach welchem Modell arbeitest du? | noap | e | leitbild | leitmodell
 ITEM | leitmodell-eigen | Eigenes Modell, in eigenen Worten | noap | e | leitbild | text
 GRPDEF | voraussetzungen | Voraussetzungen und Haltung
-ITEM | nuechternheit | Vollständige Nüchternheit als Bedingung | noap | e | voraussetzungen
+ITEM | nuechternheit-der-fuehrenden-seite | Nüchternheit der führenden Seite | noap | e | voraussetzungen
+ITEM | nuechternheit-der-folgenden-seite | Nüchternheit der folgenden Seite | noap | e | voraussetzungen
 ITEM | keine-szene-ohne-einwilligungsfaehigkeit | Keine Szene bei eingeschränkter Einwilligungsfähigkeit | noap | e | voraussetzungen
 ITEM | erste-hilfe-kenntnisse | Erste-Hilfe-Kenntnisse vorhanden | noap | e | voraussetzungen
 ITEM | abbruch-bei-unsicherheit | Bereitschaft, bei Unsicherheit sofort abzubrechen | noap | e | voraussetzungen
@@ -116,7 +117,7 @@ GRP | 25-26 | sexuelle-gesundheit| Sexuelle Gesundheit             | noap | e
 GRP | 27,29-32 | nachbereitung   | Nachbereitung und Widerruf      | noap | e
 GRP | 34-36 | neue-kontakte      | Neue Kontakte                   | noap | e
 
-FLAG | orts-und-zeitgrenzen,sichtbare-spuren-grenze,notfallkontakt,erste-hilfe-material,telefon-erreichbar,loesewerkzeug-erreichbar | ap
+FLAG | orts-und-zeitgrenzen,sichtbare-spuren-grenze,notfallkontakt,erste-hilfe-material,telefon-erreichbar | ap
 FLAG | identitaet-und-alter-real-verifizieren,oeffentliche-erstbegegnung,referenzen-oder-community-einbindung | ap
 SEC | old:Grenzen, Gesundheit und Notizen | grenzen-gesundheit | Grenzen, Gesundheit und Notizen | text
 GRP | 1-5   | grenzen   | Grenzen                    | noap | e

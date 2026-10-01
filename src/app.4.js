@@ -14,12 +14,14 @@ function stamp(){const d=new Date(),p=n=>String(n).padStart(2,'0');
 /* Eine Bewertung, die nur auf dem Themenknoten liegt, kommt in keiner
    Item-Tabelle vor — sie wuerde im Export lautlos verschwinden. */
 function ekatAnswers(t){
-  if(!isEkat(t)) return [];
+  /* Bereichsfrage oder Teilfragen; bei Teilfragen nennt `label` den Teil */
+  const nodes=isEkat(t)?[{nk:'T:'+t.id,label:''}]
+    :ekatNodes(t).map(nd=>({nk:nd.node,label:LB({de:nd.title_de,en:nd.title_en})}));
   const out=[];
-  ['','#a','#p'].forEach(u=>{
-    const v=ST.nodeW['T:'+t.id+u];
-    if(v) out.push({role:u,v:v});
-  });
+  nodes.forEach(nd=>['','#a','#p'].forEach(u=>{
+    const v=ST.nodeW[nd.nk+u];
+    if(v) out.push({label:nd.label,role:u,v:v});
+  }));
   return out;
 }
 
@@ -170,7 +172,7 @@ function exportMD(){
       S.push('*'+(ST.lang==='en'
         ?'Rated as a whole in getting-started mode — applies to every item in this area.'
         :'Im Einstieg als Ganzes bewertet — gilt für alle Punkte dieses Bereichs.')+'*','');
-      ek.forEach(e=>S.push('- '+(e.role?LB(ROLE[e.role.slice(1)])+': ':'')+
+      ek.forEach(e=>S.push('- '+(e.label?e.label+' — ':'')+(e.role?LB(ROLE[e.role.slice(1)])+': ':'')+
         scLbl('wunsch',e.v)));
       S.push('');
       return;
@@ -320,7 +322,7 @@ function renderPrint(){
       H.push('<div class="pnote">'+(ST.lang==='en'
         ?'Rated as a whole in getting-started mode — applies to every item in this area.'
         :'Im Einstieg als Ganzes bewertet — gilt für alle Punkte dieses Bereichs.')+'</div>');
-      H.push('<ul>'+ek.map(e=>'<li>'+(e.role?esc(LB(ROLE[e.role.slice(1)]))+': ':'')+
+      H.push('<ul>'+ek.map(e=>'<li>'+(e.label?esc(e.label)+' — ':'')+(e.role?esc(LB(ROLE[e.role.slice(1)]))+': ':'')+
         esc(scLbl('wunsch',e.v))+'</li>').join('')+'</ul>');
       return;
     }

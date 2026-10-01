@@ -11,3 +11,4 @@
 #! data/entfernte-items.md gewandert, weil die Neuvergabe der Ids (tools/lockids.py)
 #! ohnehin jeden älteren Export unbrauchbar gemacht hat — Einträge stehen zu
 #! lassen, die eine Kompatibilität nur noch behaupten, wäre irreführend.
+REMOVE | risikomodell/nuechtern-bleiben | aufgeteilt in „Nüchternheit der führenden Seite“ und „Nüchternheit der folgenden Seite“ — wer folgt, kann auf eine nüchterne führende Seite bestehen und sich selbst einen leichten Rausch wünschen

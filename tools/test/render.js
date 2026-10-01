@@ -129,7 +129,7 @@ try{
      txt.indexOf('erste grobe Karte')>=0 && txt.indexOf('Standardmäßig aus')<0,
      txt.slice(0,60));
   const ekat=A.THEMES.filter(t=>t.ekat);
-  ok('Oberkategorien vorhanden', ekat.length===5, ekat.length);
+  ok('Oberkategorien vorhanden', ekat.length===3, ekat.length);
   ok('Kategoriefrage erscheint',
      txt.indexOf('Wie sehr interessiert dich dieser Bereich')>=0, 'fehlt');
   /* Ein Themenname allein ist fuer jemanden ohne Vorwissen leer. */
@@ -196,6 +196,55 @@ try{
   ok('ein Soft Limit am Bereich genuegt ebenso', A.hasLimits(), 'x');
   Object.assign(ST(),keep); ST().mode='s';
 }catch(e){ ok('Reihenfolge und Limits', false, e.message); }
+
+console.log('\n== Teilfragen im Einstieg ==');
+try{
+  ST().mode='e'; ST().nodeW={}; ST().w={};
+  const oe=A.THEMES.find(t=>t.id==='oeffentlichkeit-medien');
+  const nodes=(oe.ekat_nodes||[]).map(n=>n.node);
+  ok('Oeffentlichkeit ist in Teilfragen zerlegt', nodes.length===6&&!oe.ekat, nodes.join(','));
+  ok('FinDom ist eine eigene Frage', nodes.indexOf('G:geld-findom.findom')>=0, 'fehlt');
+  ok('Geschenke getrennt von FinDom', nodes.indexOf('G:geld-findom.geschenke')>=0, 'fehlt');
+  const cards=A.cardList();
+  ok('jede Teilfrage hat eine Karte', nodes.every(nk=>cards.some(c=>c.key==='k:'+nk)), 'x');
+  /* Geschenke: mag ich — FinDom bleibt davon unberuehrt */
+  ST().nodeW['G:geld-findom.geschenke#p']='neigung';
+  const fd=A.IDX.items.find(i=>i.id.indexOf('geld-findom/')===0&&i.group==='findom');
+  ok('Geschenke-Antwort erreicht FinDom nicht', !A.effW(fd,'#p').v, A.effW(fd,'#p').v);
+  ST().nodeW['G:geld-findom.findom#p']='hard';
+  ok('FinDom: Hard Limit erreicht die FinDom-Punkte', A.effW(fd,'#p').v==='hard', A.effW(fd,'#p').v);
+  const bez=A.IDX.items.find(i=>i.id.indexOf('geld-findom/')===0&&i.group==='bezahlt'&&!i.risk);
+  ok('bezahlte Angebote bleiben offen', !A.effW(bez,bez.units[0]).v, A.effW(bez,bez.units[0]).v);
+  /* Risiko-Items erben auch von einer Teilfrage nicht */
+  ST().nodeW['S:digital-fernsteuerung']='neigung';
+  const rk=A.IDX.items.filter(i=>i.sec==='digital-fernsteuerung'&&i.risk);
+  ok('Teilfrage erreicht keine Risiko-Items', rk.length>0&&rk.every(i=>!A.effW(i,i.units[0]).v), rk.length);
+  const km=A.THEMES.find(t=>t.id==='koerper-medizin');
+  ok('Koerperfluessigkeiten werden im Einstieg nicht gefragt',
+     !(km.ekat_nodes||[]).some(n=>n.node==='S:koerperfluessigkeiten')&&!km.ekat, 'x');
+  ST().card='k:G:geld-findom.findom'; A.setView('guide');
+  const deep=(n)=>(n._text||'')+' '+(n._html||'').replace(/<[^>]*>/g,' ')+' '+(n.children||[]).map(deep).join(' ');
+  ok('FinDom-Karte nennt das Limit', deep(document.getElementById('vGuide')).indexOf('Für viele ein klares Limit')>=0, 'fehlt');
+  A.setView('form'); A.THEMES.forEach(t=>{ST().open['T:'+t.id]=1;}); A.setView('form');
+  ok('Liste zeigt die Teilfragen', deep(document.getElementById('vForm')).indexOf('FinDom: Geld als Machtmittel')>=0, 'fehlt');
+  ST().nodeW={}; ST().mode='s';
+}catch(e){ ok('Teilfragen im Einstieg', false, e.message+' '+e.stack.split('\n')[1]); }
+
+console.log('\n== Auswertung nach Seite ==');
+try{
+  ST().mode='e'; ST().nodeW={};
+  ST().w={'impact-play/handspanking#p':'neigung','impact-play/paddel#a':'interessant',
+          'rollen-identitaeten/switch':'neigung'};
+  A.setView('eval');
+  const flat=(n)=>[n].concat((n.children||[]).flatMap(flat));
+  const heads=flat(document.getElementById('vEval')).filter(n=>n._cls&&n._cls.has('evalrole')).map(n=>n._text);
+  ok('drei Abschnitte: Bottom, Top, ohne Seite',
+     heads.length===3&&/Bottom/.test(heads[0])&&/Top/.test(heads[1])&&/Ohne Seite/.test(heads[2]), heads.join(' | '));
+  ST().w={'impact-play/paddel#a':'interessant'}; A.setView('eval');
+  const h2=flat(document.getElementById('vEval')).filter(n=>n._cls&&n._cls.has('evalrole')).map(n=>n._text);
+  ok('leere Abschnitte entfallen', h2.length===1&&/Top/.test(h2[0]), h2.join(' | '));
+  ST().w={}; ST().mode='s';
+}catch(e){ ok('Auswertung nach Seite', false, e.message); }
 
 console.log('\n== Suche ==');
 try{

@@ -30,7 +30,7 @@
        "title_en": "Marks"
       }
      ],
-     "n": 9,
+     "n": 10,
      "noinherit": null
     },
     {
@@ -223,7 +223,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "grundlagen",
@@ -424,7 +425,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "macht-kontrolle",
@@ -608,7 +610,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "lifecoaching",
@@ -715,7 +718,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": "Guidance in everyday life: daily check-ins, tasks with proof, a camera during agreed hours, agreements about food, exercise and weight."
+   "ekat_en": "Guidance in everyday life: daily check-ins, tasks with proof, a camera during agreed hours, agreements about food, exercise and weight.",
+   "ekat_nodes": []
   },
   {
    "id": "bondage",
@@ -879,7 +883,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "sinne",
@@ -1011,7 +1016,8 @@
    ],
    "ekat": true,
    "ekat_de": "Was auf der Haut passiert: Streicheln, Kitzeln, Feder und Seide, Eis und warmes Wachs, Kneifen, Beißen, Haarziehen, Klemmen. Nicht gemeint ist Sinnesentzug — Augenbinde und Kapuze stehen unter Fesseln.",
-   "ekat_en": "What happens on the skin: stroking, tickling, feather and silk, ice and warm wax, pinching, biting, hair pulling, clamps. This is not sensory deprivation — blindfold and hood are under Bondage."
+   "ekat_en": "What happens on the skin: stroking, tickling, feather and silk, ice and warm wax, pinching, biting, hair pulling, clamps. This is not sensory deprivation — blindfold and hood are under Bondage.",
+   "ekat_nodes": []
   },
   {
    "id": "schmerz-impact",
@@ -1106,7 +1112,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "psyche-sprache",
@@ -1354,7 +1361,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "sexualitaet",
@@ -1481,7 +1489,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "fetische",
@@ -1633,7 +1642,8 @@
    ],
    "ekat": true,
    "ekat_de": "Dinge und Körperteile, die für sich erregend sind: Leder, Latex, Dessous, Schuhe und Stiefel, Füße, Seile, Halsbänder.",
-   "ekat_en": "Objects and body parts that are arousing in themselves: leather, latex, lingerie, shoes and boots, feet, rope, collars."
+   "ekat_en": "Objects and body parts that are arousing in themselves: leather, latex, lingerie, shoes and boots, feet, rope, collars.",
+   "ekat_nodes": []
   },
   {
    "id": "rollenspiel",
@@ -1849,7 +1859,8 @@
    ],
    "ekat": true,
    "ekat_de": "In eine Rolle schlüpfen: Chef und Angestellte, Lehrer und erwachsener Schüler, Pet Play wie Puppy oder Kitten, fürsorgliche Caregiver-Dynamiken, Raufen und Jagdspiele.",
-   "ekat_en": "Slipping into a role: boss and employee, teacher and adult student, pet play such as puppy or kitten, caring caregiver dynamics, wrestling and chase games."
+   "ekat_en": "Slipping into a role: boss and employee, teacher and adult student, pet play such as puppy or kitten, caring caregiver dynamics, wrestling and chase games.",
+   "ekat_nodes": []
   },
   {
    "id": "oeffentlichkeit-medien",
@@ -2053,9 +2064,59 @@
      "noinherit": null
     }
    ],
-   "ekat": true,
-   "ekat_de": "Wer noch dabei ist und was festgehalten wird: beobachten und beobachtet werden, Fotos und Videos, Sexting, mehr als zwei Personen, D/s über Distanz, Geschenke und Geld.",
-   "ekat_en": "Who else is present and what gets recorded: watching and being watched, photos and video, sexting, more than two people, D/s at a distance, gifts and money."
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": "Who else is present and what gets recorded: watching and being watched, photos and video, sexting, more than two people, D/s at a distance, gifts and money.",
+   "ekat_nodes": [
+    {
+     "node": "S:voyeurismus-oeffentlichkeit",
+     "ref": "voyeurismus-oeffentlichkeit",
+     "title_de": "Zusehen und gesehen werden",
+     "title_en": "Watching and being seen",
+     "de": "Zusehen und sich zeigen: dem Gegenüber zuschauen, beobachtet werden, sich vor anderen zeigen, Playpartys, ein unauffälliges Zeichen im Alltag.",
+     "en": "Watching and showing: watching your counterpart, being watched, showing yourself to others, play parties, a discreet sign in everyday life."
+    },
+    {
+     "node": "S:foto-video-audio",
+     "ref": "foto-video-audio",
+     "title_de": "Fotos, Videos und Sexting",
+     "title_en": "Photos, videos and sexting",
+     "de": "Was festgehalten wird: Fotos, Videos, Sprachnachrichten, Sexting, Videocall — und wer es später sehen darf.",
+     "en": "What gets recorded: photos, videos, voice messages, sexting, video calls — and who may see it later."
+    },
+    {
+     "node": "S:gruppen-konstellationen",
+     "ref": "gruppen-konstellationen",
+     "title_de": "Mehr als zwei Personen",
+     "title_en": "More than two people",
+     "de": "Wenn mehr als zwei Menschen beteiligt sind: zu dritt, zu viert, Partys, Workshops, anderen zusehen oder mitmachen.",
+     "en": "When more than two people are involved: threesomes, foursomes, parties, workshops, watching others or joining in."
+    },
+    {
+     "node": "S:digital-fernsteuerung",
+     "ref": "digital-fernsteuerung",
+     "title_de": "Über Distanz",
+     "title_en": "At a distance",
+     "de": "Wenn ihr nicht im selben Raum seid: Aufgaben per Chat, Videocalls, ferngesteuerte Toys, gemeinsame Online-Spiele.",
+     "en": "When you are not in the same room: tasks by chat, video calls, remote-controlled toys, playing online together."
+    },
+    {
+     "node": "G:geld-findom.geschenke",
+     "ref": "geld-findom.geschenke",
+     "title_de": "Geschenke",
+     "title_en": "Gifts",
+     "de": "Kleine Gaben als Teil der Dynamik: Geschenke machen oder bekommen, eine Wunschliste, ein Tribut als Geste.",
+     "en": "Small gifts as part of the dynamic: giving or receiving presents, a wish list, a tribute as a gesture."
+    },
+    {
+     "node": "G:geld-findom.findom",
+     "ref": "geld-findom.findom",
+     "title_de": "FinDom: Geld als Machtmittel",
+     "title_en": "FinDom: money as power",
+     "de": "Geld als Machtmittel: ein Budget, über das dein Gegenüber bestimmt, Geldübergaben als Ritual, Käufe freigeben lassen. Für viele ein klares Limit — sag es ruhig.",
+     "en": "Money as a means of control: a budget your counterpart decides over, handing over money as a ritual, getting purchases approved. A clear limit for many — feel free to say so."
+    }
+   ]
   },
   {
    "id": "koerper-medizin",
@@ -2175,9 +2236,27 @@
      "noinherit": null
     }
    ],
-   "ekat": true,
-   "ekat_de": "Essen, Körperflüssigkeiten und Arztspiel: füttern und gefüttert werden, Essen vom Körper, Speichel, Untersuchungssituationen.",
-   "ekat_en": "Food, body fluids and doctor play: feeding and being fed, food off the body, saliva, examination scenarios."
+   "ekat": false,
+   "ekat_de": "",
+   "ekat_en": "Food, body fluids and doctor play: feeding and being fed, food off the body, saliva, examination scenarios.",
+   "ekat_nodes": [
+    {
+     "node": "S:food-wet-messy",
+     "ref": "food-wet-messy",
+     "title_de": "Essen und Nasses",
+     "title_en": "Food and getting wet",
+     "de": "Spielen mit Essen und Wasser: füttern und gefüttert werden, Sahne oder Schokolade auf der Haut, nasse Kleidung, Dusche oder Bad als Szene.",
+     "en": "Playing with food and water: feeding and being fed, cream or chocolate on the skin, wet clothes, shower or bath as a scene."
+    },
+    {
+     "node": "S:medizinisches",
+     "ref": "medizinisches",
+     "title_de": "Doktorspiele",
+     "title_en": "Doctor play",
+     "de": "Doktorspiele unter Erwachsenen: Untersuchung als Rollenspiel, Kittel und Handschuhe, Stethoskop, Fieber messen. Nichts davon greift in den Körper ein.",
+     "en": "Doctor games between adults: an examination as role play, gown and gloves, stethoscope, taking a temperature. None of it goes inside the body."
+    }
+   ]
   },
   {
    "id": "hochrisiko",
@@ -2252,7 +2331,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   },
   {
    "id": "fantasie",
@@ -2300,7 +2380,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": "What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised."
+   "ekat_en": "What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised.",
+   "ekat_nodes": []
   },
   {
    "id": "atmosphaere-aftercare",
@@ -2406,7 +2487,8 @@
    ],
    "ekat": false,
    "ekat_de": "",
-   "ekat_en": ""
+   "ekat_en": "",
+   "ekat_nodes": []
   }
  ],
  "choices": {

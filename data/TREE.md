@@ -8,12 +8,12 @@ Erzeugt aus `data/curation.txt`. Reihenfolge = Reihenfolge im Fragebogen.
 | | Items |
 |---|---|
 | Einstieg | 54 |
-| Standard (inkl. Einstieg) | 908 |
-| Vollständig | 1588 |
+| Standard (inkl. Einstieg) | 909 |
+| Vollständig | 1589 |
 | Risiko hoch | 66 |
 | Risiko mittel | 61 |
-| rollengetrennt | 1247 |
-| Erklärung vorhanden | 1588 |
+| rollengetrennt | 1246 |
+| Erklärung vorhanden | 1589 |
 | Labels, die in mehreren Sektionen vorkommen | 38 |
 
 Keine strukturellen Probleme gefunden.
@@ -21,14 +21,14 @@ Keine strukturellen Probleme gefunden.
 
 ## 1. Rahmen und Sicherheit
 
-99 Items — E 22 · S 77 · V 0
+100 Items — E 23 · S 77 · V 0
 
 ### Risikomodell und Haltung  `vereinbarung`
 
-9 Items · 1 rollengetrennt
+10 Items · 1 rollengetrennt
 
 - **Leitmodell** (2) · — · S2
-- **Voraussetzungen und Haltung** (5) · — · E1 S4
+- **Voraussetzungen und Haltung** (6) · — · E2 S4
 - **Spuren** (2) · — · S2
 
 ### Absicherung bei starker Machtabgabe  `vereinbarung`
@@ -65,7 +65,7 @@ Keine strukturellen Probleme gefunden.
 
 ### Sicherheit, Verhandlung und Grenzen  `vereinbarung`
 
-33 Items · 9 rollengetrennt
+33 Items · 8 rollengetrennt
 
 - **Vorbesprechung und Grenzen** (5) · — · E1 S4
 - **Gesundheit offenlegen** (5) · — · S5
@@ -659,14 +659,14 @@ Keine strukturellen Probleme gefunden.
 
 ## 16. Atmosphäre, Aftercare und Ausrüstung
 
-75 Items — E 3 · S 63 · V 9
+75 Items — E 2 · S 64 · V 9
 
 ### Aftercare und Recovery  `scale`
 
 32 Items · 28 rollengetrennt
 
 - **Nähe und Distanz** (3) · ap · E1 S2
-- **Wärme, Trinken und Essen** (5) · ap · E1 S4
+- **Wärme, Trinken und Essen** (5) · ap · S5
 - **Körperpflege und Wundversorgung** (5) · ap · S5
 - **Musik, Humor und Zuspruch** (5) · ap · E1 S4
 - **Rückkehr in den Alltag** (4) · ap · S4

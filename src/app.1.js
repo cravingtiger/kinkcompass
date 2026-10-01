@@ -203,6 +203,12 @@ DATA.tree.themes.sort((a,b)=>a.order-b.order).forEach(t=>{
   });
 });
 const THEMES=DATA.tree.themes;
+/* Einstiegsfragen auf Sektion oder Gruppe (data/einstieg.txt): wo ein
+   Themenbereich zu Verschiedenes buendelt, steht statt einer Frage je Teil
+   eine eigene. Sie wirken wie die Bereichsfrage — auch hier erbt keine
+   Praktik mit Risikohinweis, denn es ist dieselbe grobe Geste. */
+const EKN={};
+THEMES.forEach(t=>(t.ekat_nodes||[]).forEach(n=>{n.theme=t.id; EKN[n.node]=n;}));
 
 /* ---------- Zustand ---------- */
 const KEY='kinkcompass_v2';
@@ -374,7 +380,7 @@ function effOf(store,nodeStore,it,role){
        hinweis erbt man nicht von der Themenebene, die muessen benannt werden.
        Gruppen- und Sektionsebene bleiben moeglich — dort sieht man, worauf
        man den Haken setzt. */
-    if((it.risk||it.nosweep)&&nk.charAt(0)==='T') continue;
+    if((it.risk||it.nosweep)&&sweeps(nk)) continue;
     if(role&&nodeStore[nk+role]) return {v:nodeStore[nk+role],src:'inh',from:nk};
     if(nodeStore[nk]) return {v:nodeStore[nk],src:'inh',from:nk};
   }
@@ -404,7 +410,16 @@ const visOfTheme=(t)=>[].concat.apply([],t.sections.map(visItems));
    Die Bewertung vererbt sich trotzdem auf alle Items — ein Einstiegsprofil bleibt
    deshalb mit einem ausfuehrlich ausgefuellten vergleichbar. */
 const isEkat=(t)=>ST.mode==='e'&&!!t.ekat;
-const themeShown=(t)=>visOfTheme(t).length>0||isEkat(t);
+const ekatNodes=(t)=>ST.mode==='e'?(t.ekat_nodes||[]):[];
+const themeShown=(t)=>visOfTheme(t).length>0||isEkat(t)||ekatNodes(t).length>0;
+/* Knoten, deren Bewertung als grobe Geste gilt: Themen und Einstiegsfragen */
+const sweeps=(nk)=>nk.charAt(0)==='T'||!!EKN[nk];
+function nodeItems(nk){
+  const k=nk.slice(2);
+  if(nk.charAt(0)==='T') return allItems(IDX.theme[k]);
+  if(nk.charAt(0)==='S') return IDX.sec[k].items;
+  const p=k.split('.'); return IDX.sec[p[0]].items.filter(it=>it.group===p[1]);
+}
 const inProgress=(it)=>['wunsch','vereinbarung','angabe','text'].indexOf(it.kind)>=0
   ||!!DATA.tree.choices[it.kind];
 

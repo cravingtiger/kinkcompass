@@ -1116,7 +1116,6 @@ risikomodell|ifehler-abbruch-debrief                       | risikomodell/abbruc
 risikomodell|ikeine-szene-ohne-einwilligungsfaehigkeit     | risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit
 risikomodell|ileitmodell                                   | risikomodell/nach-welchem-modell-arbeitest-du
 risikomodell|ileitmodell-eigen                             | risikomodell/eigenes-modell-in-eigenen-worten
-risikomodell|inuechternheit                                | risikomodell/nuechtern-bleiben
 risikomodell|isichtbare-spuren                             | risikomodell/sichtbare-spuren
 rollen-identitaeten|iaccountability-partner                | rollen-identitaeten/accountability-partner
 rollen-identitaeten|icoachee                               | rollen-identitaeten/coachee-begleitete-person
@@ -1595,3 +1594,5 @@ blackmail-blossstellung|ikeine-weitergabe-an-dritte        | blackmail-blossstel
 blackmail-blossstellung|iaussenstehende-person-blackmail   | blackmail-blossstellung/aussenstehende-person-blackmail
 blackmail-blossstellung|idebrief-blackmail                 | blackmail-blossstellung/debrief-blackmail
 blackmail-blossstellung|iaussetzen-bei-belastung-blackmail | blackmail-blossstellung/aussetzen-bei-belastung-blackmail
+risikomodell|inuechternheit-der-fuehrenden-seite           | risikomodell/nuechternheit-der-fuehrenden-seite
+risikomodell|inuechternheit-der-folgenden-seite            | risikomodell/nuechternheit-der-folgenden-seite

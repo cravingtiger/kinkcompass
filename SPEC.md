@@ -578,7 +578,7 @@ ausgefüllt wird. Drei Stufen, jederzeit wechselbar.
 
 | Modus | Umfang | Besonderheiten |
 |---|---|---|
-| **Einstieg** | 54 Items + 5 Oberkategorien | siehe § 6.2.1 |
+| **Einstieg** | 54 Items + 11 Bereichsfragen | siehe § 6.2.1 |
 | **Standard** | 891 Items | alle Achsen, Hochrisiko sichtbar, freie Liste |
 | **Vollständig** | 1557 Items | gesamter Bestand inklusive Spezialinteressen |
 
@@ -607,7 +607,12 @@ Vier Regeln, zwei davon maschinell geprüft:
    oder Erfahrung voraussetzt — Risikomodelle, Top/Bottom neben Dom/Sub, Kink als
    Lebensstil. Diese Punkte standen bis 2026-10 im Einstieg und wurden entfernt.
 
-Der Umfang: 54 Items, davon 22 Sicherheit und Limits, 3 Rolle, 29 Neigungen.
+Der Umfang: 54 Items, davon 23 Sicherheit und Limits, 3 Rolle, 28 Neigungen.
+*Nüchternheit* steht getrennt nach Seite da: wer folgt, kann auf eine nüchterne
+führende Seite bestehen und sich selbst trotzdem einen leichten Rausch wünschen
+(„will ich nicht" bei der eigenen Seite). *Wasser* als Aftercare steht nicht im
+Einstieg — auf der Wunsch-Skala gefragt, las sich die Notwendigkeit wie eine
+Vorliebe.
 
 **Was ein fremdes Gegenüber vorher wissen muss.** Der Einstieg geht davon aus, dass
 sich beide womöglich noch nicht kennen. Deshalb gehören dazu: die Limits als
@@ -622,8 +627,28 @@ dieselbe Frage ein zweites Mal. Einen Safe Call gibt es weiterhin nicht (§ 6b,
 `data/entfernte-items.md`).
 
 **Oberkategorien.** Elf Themenbereiche haben im Einstieg keine eigenen Items.
-Fünf davon — Sinne, Fetische, Rollenspiel, Öffentlichkeit, Körper — bekommen stattdessen **eine** Frage für den ganzen Bereich: *Wie sehr
-interessiert dich dieser Bereich?* Die Antwort ist eine Knotenbewertung aus § 5 und
+Drei davon — Sinne, Fetische, Rollenspiel — bekommen stattdessen **eine** Frage
+für den ganzen Bereich: *Wie sehr interessiert dich dieser Bereich?*
+
+Zwei weitere bündelten zu Verschiedenes für eine Frage und sind in
+**Teilfragen** auf Sektion oder Gruppe zerlegt, jede mit eigenem Titel in
+Alltagssprache (`KATEGORIE | <sektion>[.<gruppe>] | <Beschreibung> | <Titel>`):
+
+- *Öffentlichkeit, Medien und Gruppe* → Zusehen und gesehen werden · Fotos,
+  Videos und Sexting · Mehr als zwei Personen · Über Distanz · Geschenke ·
+  **FinDom: Geld als Machtmittel**. Geld ist für viele ein klares Limit; in einer
+  gemeinsamen Frage hätte „Fotos: interessant" FinDom mitbewertet. Bezahlte
+  Angebote und finanzielle Schutzgrenzen bleiben offen.
+- *Körper, Nahrung und Medizinisches* → Essen und Nasses · Doktorspiele.
+  Körperflüssigkeiten werden im Einstieg nicht gefragt: an dieser Stelle war das
+  Wort für Menschen ohne Vorwissen abschreckend und missverständlich.
+
+Teilfragen wirken wie die Bereichsfrage, auch in der Ausnahme: Praktiken mit
+Risikohinweis erben von ihnen nicht. In Standard und Vollständig gilt diese
+Ausnahme für dieselben Knoten weiter — eine Bewertung bleibt eine Bewertung,
+egal in welchem Modus sie gesetzt wurde.
+
+Jede dieser Antworten ist eine Knotenbewertung aus § 5 und
 vererbt sich auf jedes Item darin. Ein Einstiegsprofil ist damit ohne Umrechnung
 gegen ein Vollprofil vergleichbar: wer „Fetische — mag ich" angibt, hat 141 Items
 mit einem geerbten Wert belegt, und der Vergleich weiß, dass sie geerbt sind.
@@ -694,6 +719,16 @@ eine Zeile je Bereich (*Fetische — Interessant — gilt für 140 Punkte*), und
 Anker-Hinweis entfällt: dort **ist** die Bereichsantwort die vorgesehene Antwort.
 Im Standard- und Vollmodus bleibt beides unverändert, denn dort ist eine
 Gruppenbewertung tatsächlich eine Abkürzung.
+
+**Die Auswertung trennt nach Seite.** „Handspanking — Neigung" sagt nicht, ob man
+es gibt oder bekommt; die Rollenbezeichnung hing klein hinter jeder Zeile und
+ging unter. Die Auswertung steht deshalb in drei Abschnitten: *Als Bottom — was
+mit dir gemacht wird*, *Als Top — was du machst*, *Ohne Seite* (Rollenwahl,
+Kuscheln, Gegenstände). Innerhalb eines Abschnitts gelten die Stufen wie bisher.
+Eine Rollenbezeichnung je Zeile steht nur noch, wo das Item eine eigene hat
+(„kniet selbst"), sonst wiederholte sie bloß die Überschrift. Die Abschnitte
+heißen Top und Bottom, nicht Dom und Sub: das ist die Achse, auf der die Items
+geteilt sind (§ Rollen, `data/rollen.txt`).
 
 **Ein frischer Bogen startet im Einstieg** (`BLANK()`), ein gespeicherter behält
 seinen Modus. Wer die Datei zum ersten Mal öffnet, hat sich nicht entschieden, und
@@ -786,7 +821,7 @@ verlässt. Das gilt in allen Modi.
 
 Das Vergleichsdokument nennt Modus und Abdeckung jeder Seite:
 
-> A hat im Einstiegsmodus ausgefüllt, 54 Items und 5 Oberkategorien von 1588.
+> A hat im Einstiegsmodus ausgefüllt, 54 Items und 11 Bereichsfragen von 1589.
 > Alles übrige ist **offen, nicht abgelehnt.**
 
 Bei ungleichen Modi werden Bereiche, die nur eine Seite ausgefüllt hat, als

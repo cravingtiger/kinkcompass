@@ -20,3 +20,4 @@ Dokumentation — die technische Verarbeitung alter Exporte steht in
 - **sicherheit-verhandlung/keine-berauschenden-substanzen** — 2026-09-28 entfernt: deckungsgleich mit risikomodell/nuechtern-bleiben
 - **sicherheit-verhandlung/zustimmung-am-folgetag-erneut-pruefen** — 2026-09-28 entfernt: als Bedingung für jede Szene überzogen, inhaltlich abgedeckt durch aftercare/check-in-am-naechsten-tag und die Neuverhandlung langfristiger Regeln
 - **sicherheit-verhandlung/safe-call-bei-neuen-kontakten** — 2026-09-28 entfernt: ein Safe Call schützt nur, solange die andere Person nichts davon weiß — als Punkt in einem Dokument, das man ihr gibt, hebt er seine eigene Wirkung auf
+- **risikomodell/nuechtern-bleiben** — 2026-10-01 aufgeteilt in „Nüchternheit der führenden Seite“ und „Nüchternheit der folgenden Seite“ — wer folgt, kann auf eine nüchterne führende Seite bestehen und sich selbst einen leichten Rausch wünschen (data/migrations.txt)

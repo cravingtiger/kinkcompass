@@ -29,6 +29,12 @@
 #! ob die einzelnen Items eine Risikoflagge tragen.
 #!
 #! KATEGORIE | <thema-id> | <Beschreibung>
+#! KATEGORIE | <sektion-id> | <Beschreibung> | <Titel>
+#! KATEGORIE | <sektion-id>.<gruppen-id> | <Beschreibung> | <Titel>
+#! Ein Themenbereich, der zu Verschiedenes buendelt, wird in mehrere Fragen
+#! zerlegt: dann steht je Sektion oder Gruppe eine Zeile, mit eigenem Titel
+#! in Alltagssprache. Was keine Zeile bekommt, bleibt im Einstieg offen.
+#! Praktiken mit Risikoflagge erben auch von diesen Fragen nicht.
 #! Themenbereiche, die im Einstieg nur als Ganzes bewertet
 #! werden. Die Bewertung vererbt sich auf die Items des Bereichs, auch auf die
 #! hier ausgeblendeten — ein Einstiegsprofil bleibt damit vergleichbar mit einem
@@ -110,7 +116,8 @@ sexuelle-praktiken/analverkehr-passiv
 #! ------------------------------------------------------------------
 aftercare/kuscheln
 aftercare/lob-und-bestaetigung
-aftercare/wasser
+#! aftercare/wasser steht nicht hier: Trinken ist eine Notwendigkeit, keine
+#! Neigung — auf der Wunsch-Skala gefragt, liest es sich wie „Wasser: Soft Limit".
 
 #! ------------------------------------------------------------------
 #! Das erste Treffen — die Gegenseite ist womoeglich noch fremd
@@ -122,7 +129,11 @@ sicherheit-verhandlung/aufnahmen-ausschliessen
 sicherheit-verhandlung/sti-status-und-schutzbarrieren-besprechen
 sicherheit-verhandlung/grenze-fuer-sichtbare-spuren-festlegen
 sicherheit-verhandlung/kontakt-nach-der-szene-vereinbaren
-risikomodell/nuechtern-bleiben
+#! Nuechternheit getrennt nach Seite: wer folgt, kann darauf bestehen, dass
+#! die fuehrende Seite nuechtern ist, und sich selbst trotzdem einen leichten
+#! Rausch wuenschen. Eine gemeinsame Frage erzwang dort eine falsche Antwort.
+risikomodell/nuechternheit-der-fuehrenden-seite
+risikomodell/nuechternheit-der-folgenden-seite
 
 #! ------------------------------------------------------------------
 #! Waehrend der Szene. Hard und Soft Limits „benennen" steht nicht mehr
@@ -160,8 +171,24 @@ grenzen-gesundheit/individuelle-wuensche
 KATEGORIE | sinne | Was auf der Haut passiert: Streicheln, Kitzeln, Feder und Seide, Eis und warmes Wachs, Kneifen, Beißen, Haarziehen, Klemmen. Nicht gemeint ist Sinnesentzug — Augenbinde und Kapuze stehen unter Fesseln.
 KATEGORIE | fetische | Dinge und Körperteile, die für sich erregend sind: Leder, Latex, Dessous, Schuhe und Stiefel, Füße, Seile, Halsbänder.
 KATEGORIE | rollenspiel | In eine Rolle schlüpfen: Chef und Angestellte, Lehrer und erwachsener Schüler, Pet Play wie Puppy oder Kitten, fürsorgliche Caregiver-Dynamiken, Raufen und Jagdspiele.
-KATEGORIE | oeffentlichkeit-medien | Wer noch dabei ist und was festgehalten wird: beobachten und beobachtet werden, Fotos und Videos, Sexting, mehr als zwei Personen, D/s über Distanz, Geschenke und Geld.
-KATEGORIE | koerper-medizin | Essen, Körperflüssigkeiten und Arztspiel: füttern und gefüttert werden, Essen vom Körper, Speichel, Untersuchungssituationen.
+#! Oeffentlichkeit, Medien und Gruppe war eine Frage fuer fuenf Dinge, die
+#! nichts miteinander zu tun haben — und darunter Geld, fuer viele ein klares
+#! Limit. Eine Antwort fuer alles haette FinDom mit „Fotos: interessant"
+#! mitbewertet. Bezahlte Angebote und finanzielle Schutzgrenzen bleiben im
+#! Einstieg offen.
+KATEGORIE | voyeurismus-oeffentlichkeit | Zusehen und sich zeigen: dem Gegenüber zuschauen, beobachtet werden, sich vor anderen zeigen, Playpartys, ein unauffälliges Zeichen im Alltag. | Zusehen und gesehen werden
+KATEGORIE | foto-video-audio | Was festgehalten wird: Fotos, Videos, Sprachnachrichten, Sexting, Videocall — und wer es später sehen darf. | Fotos, Videos und Sexting
+KATEGORIE | gruppen-konstellationen | Wenn mehr als zwei Menschen beteiligt sind: zu dritt, zu viert, Partys, Workshops, anderen zusehen oder mitmachen. | Mehr als zwei Personen
+KATEGORIE | digital-fernsteuerung | Wenn ihr nicht im selben Raum seid: Aufgaben per Chat, Videocalls, ferngesteuerte Toys, gemeinsame Online-Spiele. | Über Distanz
+KATEGORIE | geld-findom.geschenke | Kleine Gaben als Teil der Dynamik: Geschenke machen oder bekommen, eine Wunschliste, ein Tribut als Geste. | Geschenke
+KATEGORIE | geld-findom.findom | Geld als Machtmittel: ein Budget, über das dein Gegenüber bestimmt, Geldübergaben als Ritual, Käufe freigeben lassen. Für viele ein klares Limit — sag es ruhig. | FinDom: Geld als Machtmittel
+
+#! Koerper, Nahrung und Medizinisches stellte Essen, Speichel und Arztspiel in
+#! eine Frage. Fuer jemanden ohne Vorwissen ist „Koerperfluessigkeiten" an
+#! dieser Stelle abschreckend und missverstaendlich. Die Sektion bleibt im
+#! Einstieg offen; Essen und Doktorspiele werden einzeln gefragt.
+KATEGORIE | food-wet-messy | Spielen mit Essen und Wasser: füttern und gefüttert werden, Sahne oder Schokolade auf der Haut, nasse Kleidung, Dusche oder Bad als Szene. | Essen und Nasses
+KATEGORIE | medizinisches | Doktorspiele unter Erwachsenen: Untersuchung als Rollenspiel, Kittel und Handschuhe, Stethoskop, Fieber messen. Nichts davon greift in den Körper ein. | Doktorspiele
 
 NUR-EINZELN | cnc | Consensual Non-Consent lebt davon, dass die Zustimmung vorher
   ausdruecklich und im Einzelnen gegeben wurde. Ein Haken am Bereichsnamen

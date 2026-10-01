@@ -16,6 +16,16 @@
 #THEME | fantasie | Fantasy and imagination | What happens only in the mind or in words: reading and telling stories, audio erotica, fantasies deliberately left unrealised.
 #THEME | atmosphaere-aftercare | Atmosphere, aftercare and gear
 
+#! Teilfragen im Einstieg (data/einstieg.txt, KATEGORIE auf Sektion oder Gruppe)
+#EKAT | voyeurismus-oeffentlichkeit | Watching and being seen | Watching and showing: watching your counterpart, being watched, showing yourself to others, play parties, a discreet sign in everyday life.
+#EKAT | foto-video-audio | Photos, videos and sexting | What gets recorded: photos, videos, voice messages, sexting, video calls — and who may see it later.
+#EKAT | gruppen-konstellationen | More than two people | When more than two people are involved: threesomes, foursomes, parties, workshops, watching others or joining in.
+#EKAT | digital-fernsteuerung | At a distance | When you are not in the same room: tasks by chat, video calls, remote-controlled toys, playing online together.
+#EKAT | geld-findom.geschenke | Gifts | Small gifts as part of the dynamic: giving or receiving presents, a wish list, a tribute as a gesture.
+#EKAT | geld-findom.findom | FinDom: money as power | Money as a means of control: a budget your counterpart decides over, handing over money as a ritual, getting purchases approved. A clear limit for many — feel free to say so.
+#EKAT | food-wet-messy | Food and getting wet | Playing with food and water: feeding and being fed, cream or chocolate on the skin, wet clothes, shower or bath as a scene.
+#EKAT | medizinisches | Doctor play | Doctor games between adults: an examination as role play, gown and gloves, stethoscope, taking a temperature. None of it goes inside the body.
+
 #CHOICE | leitmodell | ssc=Safe, Sane, Consensual (SSC)::The oldest of the formulas, from the US scene of the 1980s. A practice should be safe, undertaken with a clear mind, and consensual. The criticism is that „safe" and „sane" are judgements made from outside — many established practices are never entirely safe. ; rack=Risk-Aware Consensual Kink (RACK)::The answer to that criticism. Not „safe", but: the specific risk is known, named and knowingly carried. It asks you to inform yourself beforehand rather than define the risk away. ; prick=Personal Responsibility, Informed, Consensual Kink (PRICK)::Like RACK, but additionally stressing each person's own responsibility. Nobody hands responsibility for themselves over entirely, including the following side. ; ccc=Committed, Compassionate, Consensual (CCC)::Puts the relationship above the single scene: commitment and care apply afterwards too. Less a risk formula than a stance on how you treat each other. ; eigen=my own framework::None of the models fits — you describe your own stance. ; unklar=not settled yet::You have not decided — an honest answer, and a usable one in conversation.
 #CHOICE | spuren | nie=never::Nothing anyone could see, not even under clothing. ; vereinbart=only when expressly agreed::Marks are possible, but agreed each time beforehand. ; egal=not a problem::Visible marks are not an issue for you.
 #CHOICE | spuren-bleibend | nie=never::Nothing that stays: no scars, no brands. ; vereinbart=only when expressly agreed::Permanent marks are conceivable, but only under their own express agreement.

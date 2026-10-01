@@ -21,7 +21,7 @@ Die Antworten selbst bleiben in beiden Fällen auf dem eigenen Gerät.
 
 | Modus | Umfang | für wen |
 |---|---|---|
-| **Einstieg** | 54 Punkte und 5 Oberkategorien | erster Kontakt, auch vor einem ersten Treffen |
+| **Einstieg** | 54 Punkte und 11 Bereichsfragen | erster Kontakt, auch vor einem ersten Treffen |
 | **Standard** | 908 Punkte | die meisten |
 | **Vollständig** | 1588 Punkte | mit Spezialinteressen |
 

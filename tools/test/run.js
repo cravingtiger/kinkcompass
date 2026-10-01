@@ -80,7 +80,7 @@ const KERN=['sicherheit-verhandlung/safeword-vereinbaren','sicherheit-verhandlun
   'sicherheit-verhandlung/nachbesprechung-fuehren',
   'sicherheit-verhandlung/widerruf-ohne-rechtfertigung',
   'sicherheit-verhandlung/sanktionsfreiheit-fuer-safeword-und-abbruch',
-  'risikomodell/nuechtern-bleiben',
+  'risikomodell/nuechternheit-der-fuehrenden-seite','risikomodell/nuechternheit-der-folgenden-seite',
   'grenzen-gesundheit/absolute-no-gos','grenzen-gesundheit/gesundheitsbezogene-grenzen',
   'grenzen-gesundheit/koerperliche-grenzen','grenzen-gesundheit/emotionale-grenzen',
   'sicherheit-verhandlung/identitaetspruefung-vor-dem-treffen',
@@ -90,8 +90,13 @@ const KERN=['sicherheit-verhandlung/safeword-vereinbaren','sicherheit-verhandlun
 ok('Sicherheitskern im Einstieg',
    KERN.every(id=>item(id)&&item(id).level==='e'),
    KERN.filter(id=>!item(id)||item(id).level!=='e'));
-ok('Nuechternheit im Einstieg',
-   item('risikomodell/nuechtern-bleiben').level==='e','x');
+ok('Nuechternheit im Einstieg, getrennt nach Seite',
+   ['risikomodell/nuechternheit-der-fuehrenden-seite','risikomodell/nuechternheit-der-folgenden-seite']
+     .every(id=>item(id).level==='e')
+   &&!item('risikomodell/nuechternheit-der-fuehrenden-seite').ap,'x');
+ok('Loesewerkzeug ist nicht nach Rolle getrennt',
+   !item('sicherheit-verhandlung/loesewerkzeug-in-reichweite').ap,'ap');
+ok('Wasser ist keine Neigung im Einstieg', item('aftercare/wasser').level!=='e', 'e');
 ok('Sicherheitsteil bleibt von Vererbung ausgenommen',
    A.IDX.items.filter(i=>i.theme==='rahmen-sicherheit').every(i=>i.exempt),'exempt');
 ok('Einstieg ist kurz (hoechstens 60 Items)',

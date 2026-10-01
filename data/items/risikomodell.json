@@ -35,20 +35,36 @@
    "de_src": "Eigenes Modell, in eigenen Worten"
   },
   {
-   "id": "risikomodell/nuechtern-bleiben",
+   "id": "risikomodell/nuechternheit-der-fuehrenden-seite",
    "n": null,
    "group": "voraussetzungen",
-   "de": "Nüchtern bleiben",
-   "en": "Staying sober",
-   "expl_de": "Kein Alkohol und keine anderen Substanzen bei allen Beteiligten, vor und während einer Szene.",
-   "expl_en": "No alcohol or other substances for anyone involved, before and during a scene.",
+   "de": "Nüchternheit der führenden Seite",
+   "en": "The leading side stays sober",
+   "expl_de": "Wer führt, trägt die Verantwortung für den Ablauf und bleibt deshalb ohne Alkohol und andere Substanzen, vor und während der Szene.",
+   "expl_en": "Whoever leads carries responsibility for what happens and therefore stays off alcohol and other substances, before and during the scene.",
    "ap": false,
    "level": "e",
    "risk": null,
    "scale": null,
    "expl_from_old": false,
-   "lockkey": "risikomodell|inuechternheit",
-   "de_src": "Vollständige Nüchternheit als Bedingung"
+   "lockkey": "risikomodell|inuechternheit-der-fuehrenden-seite",
+   "de_src": "Nüchternheit der führenden Seite"
+  },
+  {
+   "id": "risikomodell/nuechternheit-der-folgenden-seite",
+   "n": null,
+   "group": "voraussetzungen",
+   "de": "Nüchternheit der folgenden Seite",
+   "en": "The following side stays sober",
+   "expl_de": "Wer folgt, bleibt ohne Alkohol, Poppers oder anderes. „Will ich nicht“ heißt hier: ein leichter Rausch ist dir willkommen.",
+   "expl_en": "Whoever follows stays off alcohol, poppers or anything else. “I want the opposite” means here: a light buzz is welcome to you.",
+   "ap": false,
+   "level": "e",
+   "risk": null,
+   "scale": null,
+   "expl_from_old": false,
+   "lockkey": "risikomodell|inuechternheit-der-folgenden-seite",
+   "de_src": "Nüchternheit der folgenden Seite"
   },
   {
    "id": "risikomodell/abbruch-bei-eingeschraenkter-einwilligungsfaehigkeit",

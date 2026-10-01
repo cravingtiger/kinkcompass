@@ -60,7 +60,7 @@ const patched=code.replace(/function dl\(name,text,mime\)\{[\s\S]*?\n\}/,
  'setMode:setMode,setView:setView,rerender:rerender,starredUnits:starredUnits,'+
  'MIG:MIG,snapshot2:snapshot,legendBlock:legendBlock,toggleLegend:toggleLegend,optsOf:optsOf,DATAchoices:DATA.tree.choices,migrateState:migrateState,migSummary:migSummary,BLANK:BLANK,CMP:CMP,buildReport:buildReport,renderCmp:renderCmp,exportCmpMD:exportCmpMD,'+
  'parseProfile:parseProfile,useOwn:useOwn,'+
- 'stepList:stepList,cardList:cardList,goCard:goCard,limitStep:limitStep,hasLimits:hasLimits,saveMD:saveMD,saveJSON:saveJSON,'+
+ 'stepList:stepList,nodeItems:nodeItems,cardList:cardList,goCard:goCard,limitStep:limitStep,hasLimits:hasLimits,saveMD:saveMD,saveJSON:saveJSON,'+
  'save:save,setST:(o)=>{ST=Object.assign(ST,o);},importText:(t)=>{'+
  'const f=document.createElement("x");f.textContent=t;'+
  'importFile({files:[f],value:""});}};'))();

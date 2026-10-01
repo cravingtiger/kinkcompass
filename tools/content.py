@@ -79,6 +79,14 @@ def main():
                     themes[p[1]]['title_en'] = p[2]
                 if len(p) > 3 and p[3]:
                     themes[p[1]]['ekat_en'] = p[3]
+            elif p[0] == '#EKAT':
+                # Teilfrage im Einstieg: Sektion oder Sektion.Gruppe
+                hit = [n for t in tree['themes'] for n in t.get('ekat_nodes', [])
+                       if n['ref'] == p[1]]
+                if not hit:
+                    ERR.append('_themes.txt:%d unbekannte Einstiegsfrage %s' % (lno, p[1])); continue
+                hit[0]['title_en'] = p[2] if len(p) > 2 else ''
+                hit[0]['en'] = p[3] if len(p) > 3 else ''
             elif p[0] == '#CHOICE':
                 opts = tree.get('choices', {}).get(p[1])
                 if opts is None:
